@@ -1,0 +1,809 @@
+Siber Güvenlik
+
+Hedefiniz, şifreleme ve siber saldırılar gibi konular dahil olmak üzere siber güvenlik alanındaki temel terminoloji, kavramlar ve roller hakkında bilgi edinmek.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Siber Güvenlik: Crash Course Bilgisayar Bilimi
+
+https://www.youtube.com/watch?v=bPVaOlJ6ln0
+
+Merhaba, ben Carrie Anne. Crash Course Bilgisayar Bilimi'ne hoş geldiniz!
+
+Son üç bölümde, bilgisayarların nasıl birbiriyle bağlantılı hale geldiğinden ve dünyanın herhangi bir
+yeriyle neredeyse anında iletişim kurmamıza nasıl olanak sağladığından bahsettik. Ancak bu ağları
+kullanan herkes oyunu kurallarına uygun olarak oynamaz veya bizim iyiliğimizi düşünmez.
+
+Tıpkı gerçek dünyada suçu en düşük seviyeye indirmek için sahip olduğumuz kilitlerin, çitlerin ve polis
+memurlarının sağladığı fiziksel güvenlik gibi, sanal dünyada da suçu ve zararı en düşük seviyeye
+indirmek için siber güvenliğe ihtiyacımız vardır. Bilgisayarların etik kuralları olmaz. Onlara usulüne uygun
+bir biçimde belirtilmiş bir problem verdiğinizde, yanıtı mutlu bir şekilde yıldırım hızıyla verirler.
+
+Bilgisayarlar için, istenen fidye ödeninceye kadar bir hastanenin bilgisayar sistemlerini devre dışı bırakan
+bir kodun çalıştırılması, bir hastanın kalbinin atmaya devam etmesini sağlayan bir koddan farksızdır.
+Tıpkı Güç gibi, bilgisayarlar da aydınlık tarafa ya da karanlık tarafa çekilebilir. Siber güvenlik, Yıldız
+Savaşları filmlerindeki Jedi Düzeni'ne benzer, siber evrene barışı ve adaleti getirmeye çalışır
+
+Siber güvenliğin kapsamı, tıpkı bilgi işlem yetenekleri gibi hızla gelişir, ancak bunu bilgisayar
+sistemlerinin ve verilerin gizliliğinin, bütünlüğünün ve kullanılabilirliğinin tehditlere karşı korunmasına
+yönelik bir dizi yöntem olarak düşünebiliriz. Şimdi bu üç hedefi derinlemesine inceleyelim:
+
+Gizlilik, yalnızca yetkili kişilerin belirli bilgisayar sistemlerine ve verilerine erişebileceği veya bunları
+okuyabileceği anlamına gelir. Bilgisayar korsanlarının insanların kredi kartı bilgilerini açığa çıkardığı veri
+ihlalleri, gizliliğe yapılan saldırılardır. Bütünlük, yalnızca yetkili kişilerin sistemleri ve verileri kullanma
+veya değiştirme yeteneğine sahip olması gerektiği anlamına gelir. Parolanızı öğrenen ve sizi taklit ederek
+e-postalar gönderen bilgisayar korsanları, bir bütünlük saldırısı gerçekleştirmiş olurlar. Kullanılabilirlik
+ise, yetkili kişilerin her zaman sistemlerine ve verilerine erişebilmeleri anlamına gelir. Bilgisayar
+korsanlarının, yavaşlaması ya da diğerlerinin erişememesi için bir web sitesini sahte taleplerle aşırı
+yüklediği Hizmet Engelleme Saldırılarını düşünün. Bu, hizmetin kullanılabilirliğine yapılan bir saldırıdır.
+
+Güvenlik uzmanları, bu üç genel hedefe ulaşmak için, işe soyut bir düzeyde "düşmanınızın" kim olduğunu
+belirlemekle başlar ve buna tehdit modeli adı verilir. Bu, saldırganların profilini oluşturur: Yetenekleri,
+hedefleri ve olası saldırı araçları. Bunlara harika bir tanım olan saldırı vektörleri adı verilir. 
+
+Tehdit modelleri, bilgisayar korsanlarının sistemlerinize ve verilerinize ulaşmak için kullanabileceği tüm
+yöntemler karşısında ezilmek yerine belirli tehditlere karşı hazırlanmanıza imkan tanır. Ve çok sayıda
+yöntem bulunur, hem de çok. Diyelim ki, dizüstü bilgisayarınıza fiziksel erişimin "güvenliğini sağlamak"
+istiyorsunuz. Tehdit modeliniz de meraklı bir oda arkadaşı. Gizliliğini, bütünlüğünü ve kullanılabilirliğini
+korumak için dizüstü bilgisayarınızı kirli çamaşır sepetinizde saklayabilirsiniz. Ancak, tehdit modeliniz
+saklama yerlerinizi bilen kötü amaçlı bir küçük kardeşse, o zaman daha fazlasını yapmanız gerekir: Belki
+kasaya kilitleyebilirsiniz. Bir başka deyişle, bir sistemin güvenliğinin nasıl sağlandığı ağırlıklı bir biçimde
+güvenliğin kime karşı sağlandığıyla ilgilidir. 
+
+Tabii ki, tehdit modelleri tipik olarak "meraklı oda arkadaşı" ifadesinden biraz daha usule uygun biçimde
+tanımlanır. Genellikle, tehdit modellerinin teknik yetenekler bakımından belirlendiğini görürsünüz.
+Örneğin, "dizüstü bilgisayarınıza fiziksel erişimi ve sınırsız zamanı olan biri". Güvenlik mimarları, belirli bir tehdit modeliyle, kimsenin saldırgana parolasını açıklamaması gibi belirli varsayımların karşılanması
+kaydıyla, sistemi güvende tutacak bir çözüm belirlemeye gereksinim duyar. 
+
+Bilgisayar sistemlerinin, ağların ve verilerin korunması için pek çok yöntem bulunur. Güvenlik, önemli
+ölçüde iki soruya dayanır: Kimsiniz ve neye erişmeniz gerekiyor? Açık bir biçimde, erişimin doğru kişilere
+verilmesi ve yanlış kişilerin erişmesinin engellenmesi gerekir. Tıpkı yeniden doldurmak için ATM'lere
+benim değil, banka çalışanlarının erişebilmesi gibi... çünkü hepsini... hem de hepsini alabilirim! Ah o
+seramik kedi koleksiyonu, kendi kendini satın almıyor! 
+
+Bu nedenle, doğru ve yanlış insanları birbirinden ayırmak için kimlik doğrulamasını kullanırız. Bu, bir
+bilgisayarın kiminle etkileşim kurduğunu anlamasını sağlayan bir süreçtir. Genel olarak, her biri kendi
+olumlu ve olumsuz yönlerine sahip olan üç türü bulunur:
+• Bildiğiniz bir şey.
+• Sahip olduğunuz bir şey.
+• Ve size ait olan bir şey
+
+Bildiğiniz bir şeye dayalı kimlik doğrulaması, yalnızca gerçek kullanıcının ve bilgisayarın bilmesi gereken
+bir gizli bilginin bilinmesine dayanır. Örneğin, kullanıcı adı ve parola. Bu, uygulanması en kolay
+olduğundan günümüzde en yaygın olarak kullanılan yöntemdir. Ancak, bilgisayar korsanları gizli bilginizi
+tahmin edebilir veya öğrenebilirlerse, bilginiz risk altında kalabilir. 12356 veya q-w-e-r-t-y gibi bazı
+parolaları insanların tahmin etmesi kolaydır. Ancak, bilgisayarlar için kolay olanlar da bulunur. 2580 olan
+PIN kodunu düşünün. Tahmin edilmesi oldukça zor görünüyor ve bir insan için gerçekten tahmin
+edilmesi zor. Ancak, 4 haneli PIN kodları için yalnızca on bin olası kombinasyon bulunur. Bir bilgisayar,
+0000'ı girmeyi, ardından 0001'i ve ardından 0002 deneyebilir ve bir saniyeden kısa sürede 9999'a kadar
+çıkabilir.
+
+Buna kaba kuvvet saldırısı adı verilir, çünkü her şeyi dener. Algoritma için zeki bir şey yoktur. Bazı
+bilgisayar sistemleri, örneğin üç hatalı denemenin ardından sizi engeller veya biraz bekletir. Bu yaygın ve
+makul bir stratejidir ve fazla sofistike olmayan saldırganlar için işleri zorlaştırır. Ancak, bilgisayar
+korsanları on binlerce bilgisayarı ele geçirdiğinde ve bir botnet oluşturduğunda neler olabileceğini
+düşünün. Tüm bu bilgisayarlar kullanılarak, aynı pin kodu (2580) on binlerce banka hesabında aynı anda
+denenebilir. Her hesap için tek denemeyle bile, bu PIN kodunu kullanan bir ya da daha fazla hesaba
+girebilirler. Aslında, muhtemelen şu anda bu videoyu izleyen birinin pin kodunu tahmin ettik!
+
+PIN kodlarının ve parolaların uzunluğunun artırılması yardımcı olabilir, ancak 8 haneli PIN kodları bile
+oldukça kolay bir biçimde kırılabilir. İşte bu nedenle, pek çok web sitesi artık büyük ve küçük harflerin,
+özel simgelerin ve benzeri karakterlerin bir bileşimini kullanmanızı gerektirir; bunlar, olası parola
+kombinasyonlarının sayısını önemli ölçüde artırır. 8 haneli sayısal bir PIN kodu, yalnızca yüz milyon
+kombinasyona sahiptir; bilgisayarlar bunu kahvaltı niyetine yer! Ancak tüm bu garip şeylerin
+birleşiminden oluşan 8 karakterli bir parola, 600 trilyondan fazla kombinasyona sahiptir.
+
+Tabii ki, bu parolaları hatırlamak bizim gibi sıradan insanlar için zordur, bu nedenle web siteleri için daha
+iyi bir yaklaşım, birleştirilmiş sözcükler gibi daha hatırlanabilir bir şey seçmemize izin verilmesidir: “green brothers rock” veya “pizza tasty yum”
+
+İngilizce'de yaklaşık 100.000 sözcük kullanılır, buna bağlı olarak üç sözcüğün bir araya getirilmesi size
+yaklaşık olarak 1 katrilyon olası parola verir. Bunu tahmin etmede iyi şanslar!
+
+Burada ayrıca sözlükte bulunmayan sözcüklerin daha sofistike saldırılara karşı daha da iyi olduğunu
+belirtmem gerekiyor, ancak bu konuya girmek için zamanımız yok. Computerphile'ın parola seçimine
+ilişkin harika bir videosu var; bağlantı dooblydoo'da. Öte yandan, sahip olduğunuz bir şeye dayalı kimlik
+doğrulaması, yalnızca gerçek kullanıcının sahip olduğu gizli bir belirtece sahip olmayı esas alır. Fiziksel
+anahtar ve kilit buna örnek gösterilebilir. Yalnızca anahtara sahipseniz kapının kilidini açabilirsiniz. Bu,
+"tahmin edilebilir" olma sorununu ortadan kaldırır. Ayrıca, bunlar fiziksel olarak hazır bulunmayı
+gerektirir ve uzaktaki saldırganların erişim elde etmesini önemli ölçüde zorlaştırır. Bir başka ülkede
+bulunan bir kişi, öncelikle Florida'ya gelmeden Florida'daki ön kapınıza erişemez. Ancak, bir saldırganın
+fiziksel olarak yakın olması durumunda, sahip olduğunuz bir şeye dayalı kimlik doğrulaması risk altında
+kalabilir. Anahtarlar kopyalanabilir, akıllı telefonlar çalınabilir ve kilitler maymuncukla açılabilir.
+
+Son olarak, size ait olan bir şeye dayalı kimlik doğrulaması sizi esas alır! Kendinizi bilgisayara göstererek
+kimliğinizi doğrularsınız. Parmak izi okuyucular ve iris tarayıcılar gibi biyometrik kimlik doğrulaması
+araçları, klasik örneklerdir. Bunlar çok güvenli olabilir, ancak en iyi teknolojiler halen oldukça pahalıdır.
+Dahası, sensörlerden elde edilen veriler zaman içinde değişkenlik gösterir. Bildiğiniz ve sahip olduğunuz
+bir şeye dayalı kimlik doğrulamasının iyi yanı, belirleyici olmasıdır; ya doğrudur ya da yanlıştır. Gizli
+parolayı biliyorsanız veya anahtara sahipseniz, her zaman erişim elde edersiniz. Sahip değilseniz, hiçbir
+zaman erişim elde edemezsiniz
+
+Biyometrik kimlik doğrulaması ise olasılığa dayalıdır. Sistemin sizi tanımama olasılığı vardır...şapka
+takıyor olabilirsiniz veya aydınlatma kötü olabilir. Daha da kötüsü, sistemin yanlış kişiyi siz olarak
+tanıması olasılığı da bulunur; örneğin kötü niyetli ikiz kardeşinizi!
+
+
+Tabii ki, üretim sistemlerinde bu olasılıklar düşüktür, ancak sıfır değildir. Biyometrik kimlik
+doğrulamasının bir başka sorunu, sıfırlanmasının mümkün olmamasıdır. Sınırlı sayıda parmağınız
+bulunur, peki bir saldırgan parmak izi verilerinizi ele geçirirse ne olur? Bu, hayatınız bakımından önemli
+bir sorun oluşturabilir. Ayrıca araştırmacılar, bundan kısa bir süre önce yalnızca bir fotoğrafınızın
+çekilmesiyle irisinizi taklit etmenin mümkün olduğunu gösterdi, yani bu da umut vermiyor
+
+Temelde, tüm kimlik doğrulaması türlerinin güçlü ve zayıf yönleri bulunur ve hepsi de bir şekilde
+kırılabilir. Buna bağlı olarak, güvenlik uzmanları, önemli hesaplar için iki veya daha fazla kimlik
+doğrulaması türü kullanılmasını önerirler. Bu, iki faktörlü ya da çok faktörlü kimlik doğrulaması olarak
+anılır. Bir saldırgan, parolanızı tahmin edebilir veya telefonunuzu çalabilir, ancak her ikisini aynı anda
+yapması zordur. 
+
+Kimlik doğrulamasının ardından Erişim Kontrolü gelir. Bir sistem kim olduğunuzu bildiğinde, neye
+erişebilmeniz gerektiğini bilmesi gerekir ve bunun için kimin neyi görebileceğine, değiştirebileceğine ve
+kullanabileceğine ilişkin bir spesifikasyon bulunur. Bu, her kullanıcının bir bilgisayardaki her dosya,
+klasör ve program için hangi erişim yetkisine sahip olduğunu açıklayan İzinler veya Erişim Denetim
+Listeleri (ACL) aracılığıyla yapılır. "Okuma" izni, kullanıcının bir dosyanın içeriğini görmesine, "yazma"
+izni, bir kullanıcının içeriği değiştirmesine ve "yürütme" izni, bir kullanıcının bir dosyayı, örneğin bir
+programı çalıştırmasına izin verir. Farklı erişim ayrıcalığı düzeylerinde kullanıcıları bulunan kuruluşlar,
+örneğin bir istihbarat teşkilatı için gizliliğin, bütünlüğün ve kullanılabilirliğin sağlanması amacıyla Erişim
+Denetim Listelerinin doğru şekilde yapılandırılması çok önemlidir.
+
+Üç erişim düzeyimiz olduğunu düşünelim: genel, gizli ve çok gizli. İlk genel kural, insanların "bir üst
+seviyeyi okuma" yeteneğine sahip olmamasıdır. Bir kullanıcı, yalnızca gizli dosyaları okuma yetkisine
+sahipse, çok gizli dosyaları okuyamamalı, yalnızca gizli ve genel olanlara erişebilmelidir. İkinci genel kural, insanların "bir alt seviyeye yazma" yeteneğine sahip olmamasıdır. Bir üye, çok gizli yetkilerine
+sahipse, yalnızca çok gizli dosyaları okuyabilmeli veya bunları değiştirebilmeli, ancak gizli ya da genel
+dosyalarda bu yetkiye sahip olmamalıdır. En yüksek yetki düzeyine sahipken daha az gizli dosyaları
+değiştirememeniz garip gelebilir. Ancak, çok gizli bilgilerin kazara gizli ya da genel dosyalara
+sızmamasını garanti eder
+
+Bu "bir üst seviyeyi okuyamama, bir alt seviyeye yazamama" yaklaşımına Bell-LaPadula modeli adı
+verilir. ABD Savunma Bakanlığının Çok Katmanlı Güvenlik ilkesi için oluşturulmuştur. Erişim kontrolü için
+başka pek çok model bulunur; Çin Seddi modeli ve Biba modeli gibi. Hangi modelin en iyi olduğu, sizin
+kullanım senaryonuza bağlıdır. Kimlik doğrulaması ve erişim kontrolü, bir bilgisayarın kim olduğunuzu ve
+neye erişebileceğinizi belirlemesine yardımcı olur, ancak kimlik doğrulaması ve erişim kontrolü
+programlarını çalıştıran donanıma ve yazılımlara güvenebilmeyi gerektirir. Bu önemli bir koşuldur.
+
+Bir saldırganın anasisteme kötü amaçlı bir yazılım yerleştirmesi ve anabilgisayarın işletim sistemini ele
+geçirmesi durumunda, güvenlik programlarının saldırganların içeri girmesine izin verecek bir arka kapısı
+olmadığından nasıl emin olabiliriz? Kısaca yanıtlamak gerekirse... emin olamayız. Halen bir programın
+veya bilgisayar sisteminin güvenliğini garanti etmenin bir yolu yoktur. Bunun nedeni, güvenlik yazılımları
+teoride "güvenli" olmakla birlikte, uygulama hatalarının yine de güvenlik açıkları ile sonuçlanabilmesidir.
+Ancak hata olasılığını azaltmak, gerçekleştiğinde hataları hızla bulmak ve yama uygulamak ve bir
+program ele geçirildiğinde hasarı azaltmak için yöntemlere sahibiz. 
+
+Çoğu güvenlik hatası, uygulama hatasından kaynaklanır. Uygulama hatalarını azaltmak için uygulamayı
+azaltın. Sistem düzeyinde güvenliğin en önemli unsurlarından biri, bir "güvenlik çekirdeği" ya da bir
+"güvenli bilgi işlem tabanı"dır: kanıtlanabilir ölçüde güvenli olmaya yakın minimum sayıdaki bir dizi
+işletim sistemi yazılımı. Bu güvenlik çekirdeklerinin oluşturulmasındaki zorluklardan biri, neleri
+içereceğinin belirlenmesidir. Unutmayın, ne kadar az kod olursa o kadar iyidir! Kod fazlalığını
+azalttığınızda bile, yazılan kodun güvenli olduğunun garanti edilmesi harika olurdu. Kodun güvenliğinin
+resmi olarak doğrulanması, halen araştırmaların devam ettiği bir alandır. Şu anda sahip olduklarımızın en
+iyisi, Bağımsız Doğrulama ve Geçerleme adı verilen bir süreçtir. Bu süreç, kodun çok sayıda güvenliğe
+odaklı geliştirici tarafından denetlenmesi yoluyla gerçekleştirilir. Bu nedenle, güvenlik kodu neredeyse
+her zaman açık kaynaklıdır. Orijinal kodu yazanların hataları bulmaları genellikle zordur, ancak harici
+geliştiriciler, başka bir gözle ve farklı uzmanlıkla sorunları saptayabilirler. 
+
+Ayrıca, benzer düşünce yapısına sahip bilgisayar korsanlarının ve güvenlik uzmanlarının bir araya
+gelebileceği ve fikirlerini paylaşabileceği konferanslar gerçekleştirilir. Bunların en büyüğü, her yıl Las
+Vegas'ta gerçekleştirilen DEF CON'dur.
+
+Son olarak, kodu azalttıktan ve denetledikten sonra bile, zeki saldırganlar içeri girmelerine izin verecek
+yöntemler bulabilirler. Bu doğrultuda iyi geliştiriciler, programlarının ele geçirilmesinin mümkün olup
+olmadığına değil, ele geçirildiğinde hasarın nasıl sınırlanacağına ve kontrol altına alınacağına ve bunun
+bilgisayarda çalışan diğer şeyleri ele geçirmesine nasıl izin verilmeyeceğine odaklanan bir yaklaşımı
+benimsemelidirler. Bu ilkeye yalıtım adı verilir. Yalıtımın sağlanması için, uygulamaları "kum havuzuna
+alabiliriz". Bu, öfkeli bir çocuğun kum havuzuna sokulmasına benzer; çocuk öfke patlaması yaşadığında,
+yalnızca kendi havuzundaki kumdan kaleyi yıkar, ancak oyun parkındaki diğer çocuklar eğlenmeye
+devam eder. İşletim Sistemleri, her uygulamaya diğer programların dokunamayacağı kendi bellek
+bloklarını vererek uygulamaları kum havuzuna almaya çalışır. Ayrıca, tek bilgisayarın çok sayıda Sanal
+Makine çalıştırması mümkündür. Aslında bunlar simülasyon niteliğinde bilgisayarlardır ve her biri kendi
+kum havuzunda barındırılır. Bir program kontrolden çıkarsa, en kötü senaryo bunun çökmesi veya yalnızca üzerinde çalıştığı sanal makinenin ele geçirilmesine neden olmasıdır. Bilgisayar üzerinde
+çalıştırılan diğer tüm Sanal Makineler yalıtılmıştır ve bundan etkilenmez.
+
+Evet, bazı temel bilgisayar güvenliği konularını genel olarak ele aldık. Ve güvenlik duvarları gibi ağ
+güvenliğine ilişkin konulara girmedim bile. Sonraki bölümde, bilgisayar korsanlarının bilgisayar
+sistemlerine girmek için kullandıkları belirli örnek yöntemleri ele alacağız. Bunun ardından, biraz
+şifrelemeden bahsedeceğiz. O zamana kadar, parolalarınızı güçlendirin, 2 faktörlü kimlik doğrulamasını
+etkinleştirin ve ASLA istemediğiniz e-postalardaki bağlantıları tıklamayın! Gelecek hafta görüşmek üzere.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Bilgisayar korsanları ve siber saldırılar: CrashCourse Bilgisayar Bilimi
+
+https://www.youtube.com/watch?v=_GzE99AmAQU
+
+Merhaba, ben Carrie Anne. CrashCourse Bilgisayar Bilimi'ne hoş geldiniz!
+
+Geçen bölümde, bilgisayar güvenliğine ilişkin temel konulardan, bilgisayar sistemlerinin güvende
+tutulması için kullanılan ilkelerden ve yöntemlerden bahsetmiştik. Ancak, çok çaba harcamamıza karşın
+haberler, teknik bilgilerini kullanarak bilgisayar sistemlerine izinsiz giren insanlar olan bilgisayar
+korsanlarının siber saldırılarına uğrayan kişilerin, şirketlerin ve devletlerin öyküleriyle dolu. 
+
+Geçen bölümde, bilgisayar güvenliğine ilişkin temel konulardan, bilgisayar sistemlerinin güvende
+tutulması için kullanılan ilkelerden ve yöntemlerden bahsetmiştik. Ancak, çok çaba harcamamıza karşın
+haberler, teknik bilgilerini kullanarak bilgisayar sistemlerine izinsiz giren insanlar olan bilgisayar
+korsanlarının siber saldırılarına uğrayan kişilerin, şirketlerin ve devletlerin öyküleriyle dolu.
+
+Yine de her bilgisayar korsanı kötü değildir. Sistemleri daha güvenli ve dayanıklı hale getirmek amacıyla
+hataları arayan ve yazılımlardaki güvenlik açıklarını kapatmaya çalışan bilgisayar korsanları da vardır. Bu
+kişiler genellikle güvenlik değerlendirmeleri gerçekleştirmeleri için şirketler ve devletler tarafından işe
+alınırlar. Bu bilgisayar korsanlarına Beyaz Şapkalı adı verilir ve bunlar iyi adamlardır. Diğer yanda ise,
+bilgisayar güvenlik açıklarını ve verileri çalmak, istismar etmek ve satmak isteyen kötü amaçlı bilgisayar
+korsanları olan Siyah Şapkalılar bulunur.
+
+Bilgisayar korsanlarının gerekçeleri de önemli ölçüde farklılık gösterir. Bazıları eğlence ve merak
+nedeniyle bilgisayar korsanlığı yaparken, siber suçlular ise genellikle maddi kazanç için bilgisayar
+korsanlığı yaparlar. Ayrıca, bir sosyal ya da siyasi amacı duyurmak için becerilerini kullanan aktivist
+bilgisayar korsanları da bulunur. 
+
+Ve bunlar buz dağının yalnızca görünen kısmıdır. Temelde, bir sürü boş pizza kutusuyla dolu karanlık bir
+odada oturan, popüler olmayan bir çocuk olarak tasvir edilen klişeleşmiş bilgisayar korsanı imajı,
+muhtemelen bilgisayar korsanlarından çok üniversite yıllarındaki John Green'i tasvir eder. Bugün, size
+nasıl bilgisayar korsanı olunacağını öğretmeyeceğiz. Bunun yerine, size bunun nasıl yapıldığına ilişkin bir
+fikir vermek amacıyla, bilgisayar korsanlarının bilgisayar sistemlerine nasıl sızdığına ilişkin bazı klasik
+örnekleri ele alacağız.
+
+GİRİŞ
+
+Bilgisayar korsanlarının bilgisayar sistemlerine sızmada en sık kullandıkları yöntem, aslında bilgisayar
+korsanlığını içermez; kullanıcıların onları içeriye almak için kandırılmasını içerir. Buna sosyal mühendislik
+adı verilir. Bir kişi, gizli bilgilerini vermeye ya da bir bilgisayar sistemini saldırganlar tarafından giriş
+yapılmasına izin verecek şekilde yapılandırmaya ikna edilir. En yaygın saldırı türü kimlik avı
+dolandırıcılığıdır. Bununla en sık olarak, örneğin bankanızın web sitesinde bir hesapta oturum açmanızı
+isteyen e-postalarda karşılaşırsınız. 
+
+Sizden e-postadaki bir bağlantıyı tıklamanız istenir ve bu da sizi deneyimsiz bir kişiye yasal gibi görünen,
+oysa gerçekte kötü amaçlı bir kopya olan bir siteye yönlendirir. Kullanıcı adınızı ve parolanızı girdiğinizde,
+bu bilgiler doğrudan bilgisayar korsanlarına ulaşır ve sizin kimliğinizde gerçek web sitesine girebilirler.
+Kötü haber!
+
+Başarı olasılığı yüzde birin onda biri bile olsa, bir milyon kimlik avı dolandırıcılığı e-postası binlerce ele
+geçirilmiş hesap anlamına gelebilir.
+
+Bir başka sosyal mühendislik saldırısı, saldırganların örneğin bir şirketi arayıp kendilerine güvenli bir
+şekilde BT biriminden olduklarını söyledikleri sahte senaryo uydurma yöntemidir. Saldırganlar genellikle
+ilk numarayı arar, ardından ikinciye aktarılmayı talep eder, böylece numara şirketin dahili bir numarası gibi görünür. Saldırgan daha sonra, habersiz kullanıcıya bilgisayarını izinsiz girişe olanak sağlayacak
+biçimde yapılandırma komutu verebilir veya parolalar ya da ağ yapılandırmaları gibi gizli bilgilerini
+açıklamasını sağlayabilir. 
+
+Pardon, bir saniye...
+
+Ah. Merhaba, ben BT bölümünden Susan. Burada bazı ağ sorunları yaşıyoruz; lütfen benim için bir ayarı
+kontrol eder misin?
+
+... ve başlar.
+
+Saldırganlar, önemli çalışanların adları gibi şeyleri bulmak için önceden biraz araştırma yaparak
+fazlasıyla ikna edici olabilirler. Bir kurbanı bulmak on telefon görüşmesi gerektirebilir, ancak içeri girmek
+için yalnızca tek görüşme yeterlidir. 
+
+E-postalar ayrıca, truva atları, bir fotoğraf veya fatura gibi zararsız ek görünümünde olan, ancak aslında
+kötü amaçlı yazılımlar içeren programlar için yaygın bir aktarım yöntemidir. Kötü amaçlı yazılımlar pek
+çok farklı türde olabilir. Bazıları, bankacılık kimlik bilgileriniz gibi verilerinizi çalabilir. Diğerleri,
+dosyalarınızı şifreleyebilir ve bir fidye talep edebilir, bunlar fidye yazılımı olarak anılır.
+
+Kötü amaçlı yazılımı çalıştıramazlarsa veya bir kullanıcının onları içeri almasını sağlayamazlarsa,
+saldırganların başka yöntemlerle içeri zorla girmeleri gerekir. Yöntemlerden biri, öndeki bölümde kısaca
+bahsetmiş olduğumuz, bir parolanın kaba kuvvetle kırılması veya bir başka deyişle giriş sağlayıncaya
+kadar her parola kombinasyonunun denenmesidir. Çoğu modern sistem, her başarısız girişimin ardından
+kademeli olarak artan sürelerle beklemenizi gerektirerek ya da belirli sayıda denemenin ardından sizi
+tamamen engelleyerek bu tür saldırılara karşı kendisini korur.
+
+Bunu atlatmanın son zamanlarda bulunan yöntemlerinden biri NAND Mirroring olarak anılır. Bu
+yöntemle, bilgisayara fiziksel erişiminiz olması halinde, aygıtın bellek çipine kablolar bağlayarak
+içeriğinin mükemmel bir kopyasını oluşturmanız mümkündür. Böyle bir düzenek, aygıt sizi bekletmeye
+başlayıncaya kadar bir dizi parolayı denemenize imkan tanır. Bu gerçekleştiğinde, yalnızca
+oluşturduğunuz orijinal kopyayı belleğe yeniden yüklemeniz, yani temelde belleği sıfırlamanız yeterlidir
+ve bu şekilde beklemeden daha fazla parolayı deneyebilirsiniz. Bu yöntemin bir iPhone 5C'de başarılı
+olduğu gösterilmişti, ancak daha yeni aygıtların çoğu bu tür bir saldırıyı engelleyecek mekanizmalar
+içerir. 
+
+Bir aygıta fiziksel erişiminiz yoksa, uzaktan, örneğin İnternet üzerinden kırmanın bir yolunu bulmanız
+gerekir. Bu, genelde bir saldırganın sistemde bir hata bulmasını ve bundan yararlanmasını gerektirir.
+Hatayı başarıyla kullanarak, yetenekler veya erişim elde edebilir ve buna istismar adı verilir.
+
+Yaygın bir istismar türü, arabellek taşmasıdır. Arabellekler, verilerin depolanması için ayrılmış bir bellek
+bloğu için kullanılan genel bir terimdir. 23. bölümde piksel verilerinin depolanması için video
+arabelleklerinden bahsetmiştik. Basit bir örnek olarak, bir işletim sisteminin kullanıcı adı ve parola için
+alanlar içeren oturum açma istemini düşünebiliriz. 
+
+Bu işletim sistemi, arka planda girilen metin değerlerini depolamak için arabellekler kullanır. Örnek
+olarak, bu arabelleklerin boyutunun on olarak belirlendiğini düşünelim. Bellekte, iki metin arabelleği şu
+şekilde görünecektir:
+
+Elbette, işletim sistemi yalnızca bir kullanıcı adından ve paroladan çok daha fazlasını takip eder, bu
+nedenle bellekte hem daha önce hem de daha sonra depolanmış veriler olacaktır. Bir kullanıcı, kullanıcı
+adı ve parolayı girdiğinde, değerler arabelleklere kopyalanır ve burada doğrulanabilir. 
+
+Bir arabellek taşması saldırısı, tam olarak adından anlaşılan şeyi yapar: arabelleği taşırır. Bu örnekte, on
+karakterden uzun olan her parola, bellekteki bitişik verinin üzerine yazılır. Bazen, bu durum bir
+programın ya da işletim sisteminin çökmesine neden olur, çünkü önemli değerlerin üzerine anlamsız
+şeyler yazılır. Bir sistemin çökmesi kötüdür ve belki de kötü amaçlı bir bilgisayar korsanının yapmak
+istediği tek şey budur, rahatsızlık vermek. Ancak saldırganlar, bir programın belleğine amaca yönelik yeni
+değerler enjekte ederek, örneğin bir "is admin" (sistem yöneticisidir) değişkenini doğru olarak
+değiştirerek bu hatayı daha zekice bir biçimde istismar edebilirler. Bilgisayar korsanları, bir programın
+belleğini arzu ettikleri biçimde yönetme yeteneğiyle, oturum açma istemleri gibi şeyleri atlayabilir, hatta
+bazen bu programı tüm sistemi ele geçirmek için kullanabilirler. 
+
+Arabellek taşması saldırıları ile mücadele etmek için pek çok yöntem bulunur. En kolayı, arabelleğe
+kopyalanmadan önce girişin uzunluğunun her zaman test edilmesidir ve buna sınır denetimi adı verilir.
+Çoğu modern programlama dili, sınır denetimini otomatik olarak uygular. Programlar, hayali "isadmin"
+işaretimiz gibi değişkenleri bellekte rastgele konumlandırabilir, böylece bilgisayar korsanları hangi bellek
+konumunun üzerine yazacağını bilemez ve erişim elde etmek yerine programın çökmesine neden olma
+olasılığı daha fazladır. Programlar aynı zamanda arabelleklerin ardından kullanılmayan alan bırakabilir ve
+herhangi bir değişiklik olup olmadığını saptamak için bu değerleri gözlemler; değişiklik olursa, bir
+saldırganın belleğe müdahale ettiğini anlarlar. Bu bölgelere kanaryalar adı verilir. Bu ad, tehlikeli koşullar
+konusunda kendilerini uyarması için madenciler tarafından yer altına indirilen küçük kuşlardan gelir
+
+Bir başka klasik saldırı yöntemi, kod enjeksiyonudur. En yaygın olarak veritabanı kullanan web sitelerine
+saldırmak için kullanılır ve neredeyse tüm büyük web siteleri veritabanı kullanır. Bu dizide veritabanlarını
+ele almayacağız, bu nedenle bu tür bir saldırıyı açıklamak için şu basit örneği kullandık. Popüler bir
+veritabanı API'si olan ve aynı zamanda sequel olarak anılan Yapılandırılmış Sorgu Dilini yani S-Q-L'yi
+kullanacağız. Oturum açma istemimizin bir web sitesinde çalıştığını düşünelim. Bir kullanıcı "oturum aç"
+düğmesini tıkladığında, metin değerleri bir sunucuya gönderilir ve sunucu, kullanıcı adının mevcut olup
+olmadığını ve mevcutsa, parolanın eşleşip eşleşmediğini kontrol eden kodu çalıştırır. Sunucu, bunu
+yapmak için SQL sorgusu adı verilen ve şuna benzeyen kodu çalıştırır.
+
+Öncelikle, veritabanından hangi verileri aldığımızı belirlemesi gerekir. Bu örnekte, parolayı almak
+istiyoruz. Sunucunun ayrıca, veritabanının değeri nereden alacağını belirlemesi gerekir. Bu örnekte, tüm
+kullanıcı verilerinin "kullanıcılar" olarak etiketlenmiş bir tablodan oluşan bir veri yapısında saklandığını
+düşünelim. Son olarak, sunucu veritabanındaki her kullanıcının parolasını içeren çok büyük bir liste
+almak istemez, bu nedenle yalnızca kullanıcı adı belirli bir değere eşit olan hesabın verilerini istediğini
+belirtir. Bu değer, kullanıcının yaptığı giriş doğrultusunda sunucu tarafından SQL sorgusuna kopyalanır.
+Bu durumda, SQL veritabanına gönderilen asıl komut şu şekilde görünür ve kullanıcı adı philbin'e eşittir.
+SQL komutlarının bir noktalı virgül ile bittiğine dikkat edin.
+
+Peki biri bunu nasıl kırabilir? Yerleşik SQL komutlarıyla bir kötü amaçlı kullanıcı adı göndererek! Tıpkı
+bizim sunucuya bu garip kullanıcı adını gönderdiğimiz gibi: 
+
+Sunucu bu metni SQL Sorgusuna kopyaladığında, şu şekilde görünür:
+
+Daha önce bahsetmiş olduğum gibi, noktalı virgüller komutların ayrılması için kullanılır, buna göre ilk
+yürütülen komut şudur: Adı 'herneyse' olan bir kullanıcı varsa, veritabanı parolayı getirir. Tabii ki,
+'herneyse' adlı kullanıcının parolasının ne olduğunu bilmiyoruz, bu nedenle hatalı parola gireceğiz
+
+ve sunucu bizi reddedecek. Adı 'herneyse' olan herhangi bir kullanıcı yoksa, veritabanı herhangi bir
+parola getirmez veya bir hata bildirir ve sunucu yine bizi reddeder. Her iki şekilde de, bizim için önemli
+değildir, çünkü bizim için önemli olan bir sonraki SQL komutudur: "drop table users" (kullanıcılar
+tablosunu bırak) - kullanıcı adı alanını manipüle ederek enjekte ettiğimiz bir komut.
+
+Bu komut, SQL veritabanına tüm kullanıcı verilerini içeren tabloyu silmesini söyler. Tertemiz! Bu durum,
+banka gibi bir yerde...veya aslında her yerde çok fazla baş ağrısına neden olur. Dikkat ederseniz, daha
+sisteme girmedik bile; bir kullanıcı adını ve parolasını doğru şekilde tahmin etmedik. Resmi erişim
+olmadan bile, bir hatayı istismar ederek karmaşa yaratmayı başardık.
+
+Bu, çok basit bir kod enjeksiyonu örneğidir ve günümüzde neredeyse tüm sunucuların buna karşı
+savunma önlemleri bulunur. Daha sofistike saldırılarda, veritabanına kayıtlar eklenmesi - yeni bir sistem
+yöneticisi hesabı gibi - veya veritabanının verileri açığa çıkarmasının sağlanması mümkündür ve bunlar,
+bilgisayar korsanlarının kredi kartı numaralarını, sosyal güvenlik numaralarını ve her tür kötü şeyi
+çalmasına olanak sağlar. Ancak size bunu nasıl yapacağınızı öğretmeyeceğiz.
+
+Programcılar, arabellek taşmalarında olduğu gibi, her zaman dışarıdan gelen girdilerin potansiyel olarak
+tehlikeli olduğunu varsaymalı ve bunları dikkatle incelemelidir. Web'deki çoğu kullanıcı adı ve parola
+biçimleri, ilk savunma hattı olarak noktalı virgül veya tırnak işareti gibi özel simgeleri girmenize izin
+vermez. İyi sunucular ayrıca, veritabanı sorguları gerçekleştirmeden önce özel karakterleri kaldırarak
+veya değiştirerek girdiyi temizler. Çalışan istismarlar genellikle çevrimiçi olarak satılır veya paylaşılır.
+Hata ne kadar yaygınsa ya da istismar ne kadar fazla hasar veriyorsa, sahip olduğu fiyat veya prestij o
+kadar fazladır.
+
+Devletler bile bazen istismarları satın alır ve bu da casusluk gibi amaçlarla bilgisayarları ele
+geçirmelerine olanak sağlar. Yazılımı yaratanların haberdar olmadığı, istismar edilebilecek yeni bir hata
+keşfedildiğinde, buna sıfır gün güvenlik açığı adı verilir. Siyah Şapkalı Bilgisayar Korsanları, beyaz şapkalı
+programcılar bu hata için bir yama yayınlamadan en yüksek düzeyde avantaj elde etmek amacıyla bu
+istismardan yararlanmak için yarışırlar. Bu nedenle, bilgisayarınızın yazılımını güncel tutmak çok
+önemlidir; indirmelerin büyük kısmı güvenlik yamalarından oluşur. Hatalar yeterince fazla sistemde açık
+kalırsa, bilgisayar korsanlarının bilgisayardan bilgisayara otomatik olarak atlayan bir program
+yazmalarına olanak sağlar ve bunlar solucan olarak anılır
+
+Bir bilgisayar korsanı, çok sayıda bilgisayarı ele geçirebilirse, bunlar birlikte kullanılabilir ve buna botnet
+adı verilir. Bunun çok yüksek miktarda istenmeyen posta gönderilmesi, diğer insanların bilgi işlem gücü
+ve elektriği kullanılarak bitcoin madenciliği yapılması ve sunuculara karşı Dağıtılmış Hizmet Engelleme
+veya DDoS saldırıları gerçekleştirilmesi gibi pek çok amacı olabilir.
+
+DDoS, botnet üzerindeki tüm bilgisayarların sahte mesajlar gönderdiği bir saldırıdır. Bu, sahiplerini fidye
+ödemeye zorlamak ya da yalnızca kötülük yapmış olmak amacıyla hizmetleri çevrimdışı hale getirebilir.
+Sıkı çalışan beyaz şapkalılara, çevrimiçi olarak belgelenmiş istismarlara ve yazılım mühendisliği en iyi
+uygulamalarına karşın, siber saldırılar her gün gerçekleşir. Bunların küresel ekonomiye yıllık maliyeti
+kabaca yarım trilyon dolardır ve bizim bilgisayar sistemlerine olan bağımlılığımız giderek arttıkça bu
+rakam da artmaya devam edecektir. Enerji santralleri, elektrik şebekesi, trafik ışıkları, su işleme tesisleri,
+petrol rafinerileri, hava trafik kontrolü ve diğer pek çok önemli sistem bilgisayarlara giderek daha bağımlı hale geldiğinden, bu durum özellikle devletler bakımından endişe yaratır. Çoğu uzman, bundan sonraki
+büyük savaşın siber uzayda yaşanacağını ve ülkelerin, fiziksel saldırıyla değil, siber savaş taktikleri
+yoluyla ekonomik ve altyapı bakımından felç edilerek diz çökmeye zorlanacağını tahmin etmektedir.
+Ateşlenen mermiler olmasa da can kaybı potansiyeli yine de çok yüksektir...belki de konvansiyonel
+savaştan bile daha yüksektir.
+
+Bu nedenle, hepimiz iyi siber güvenlik uygulamalarını benimsemeliyiz. Ayrıca, İnternet üzerinden
+birbiriyle bağlantılı bir topluluk olarak, bilgisayarlarımızın sahip olduğu yüksek potansiyeli zarar vermek
+için kullanmak isteyenlere karşı bilgisayarlarımızı korumalıyız. Bu yüzden, belki de o güncelleme
+bildirimini göz ardı etmeyi bırakmalısınız. Gelecek hafta görüşmek üzere.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Şifreleme: Crash Course Bilgisayar Bilimi
+
+Bu son videoda, şifreleme adı verilen yaygın bilgisayar güvenliği biçimleri ve simetrik şifreleme, anahtar değişimi ve ortak anahtar şifrelemesi gibi modern şifrelemenin önemli bileşenleri hakkında bilgi edineceksiniz.
+
+https://www.youtube.com/watch?v=jhXCTbFnK8o
+
+Merhaba, ben Carrie Anne. Crash Course Bilgisayar Bilimi'ne hoş geldiniz!
+
+Son iki bölümde, bilgisayar güvenliğinden çok bahsettik. Ancak aslında, mükemmel bir biçimde, %100
+güvenli bir bilgisayar sistemi diye bir şey yoktur. Her zaman hatalar olur ve güvenlik uzmanları da bunu
+bilir.
+
+Bu nedenle, sistem mimarları, saldırganları hayal kırıklığına uğratmak için çeşitli güvenlik
+mekanizmalarının farklı katmanlarını aynı anda kullanan ve derinlemesine savunma olarak anılan bir
+strateji uygular. Bu biraz kalelerin tasarımına benzer - öncelikle okçulardan kaçınmanız, ardından
+hendeği aşmanız, duvarlara tırmanmanız, kızgın yağdan kaçınmanız, surları aşmanız ve ardından taht
+odasına ulaşmadan önce korumaları saf dışı bırakmanız gerekir, ancak biz bu örnekte en yaygın
+bilgisayar güvenliği biçimlerinden birinden, yani Şifrelemeden bahsedeceğiz.
+
+GİRİŞ
+
+İngilizce'de şifreleme anlamına gelen cryptography sözcüğünün kökeni 'crypto' ile 'graphy' sözcüklerine
+dayanır ve bunlar da kabaca "gizli yazı" olarak çevrilebilir. Bilgiyi gizlemek için bir şifre, bir başka deyişle
+düz metni şifreli metne dönüştüren bir algoritma kullanırsınız ve şifreyi çözmenize olanak sağlayan
+anahtara sahip değilseniz, bu şifreli metnin herhangi bir anlamı yoktur. Metnin gizli hale getirilmesi
+sürecine şifreleme ve tersi sürece şifre çözme adı verilir.
+
+Şifreler, bilgisayarlar ortaya çıkmadan çok uzun zaman önceden beri kullanılmaktadır. Jül Sezar, gizli
+yazışmalarını şifrelemek için günümüzde Sezar şifresi adı verilen bir şifre kullanıyordu. Bir mesajdaki
+harfleri üç konum ileriye taşıyordu. Buna göre, A harfi D oluyordu ve "brutus" sözcüğü "euxwxv" haline
+geliyordu.
+
+Mesajı deşifre etmek için alıcıların hem algoritmayı hem de harfleri kaç konum kaydıracaklarını bilmeleri
+gerekiyordu ve bu da anahtar işlevi görüyordu. Sezar şifresi, yeri koyma (substitution) şifreleri adı verilen
+daha büyük bir yöntem sınıfının örneklerinden biridir. Bunlar, bir çeviriye göre mesajdaki her harfin
+yerine başka bir harf koyar.
+
+Harf sıklıklarının korunması, temel yerine koyma şifrelemesinin en önemli eksikliklerinden birini
+oluşturur. Örneğin, E harfi İngilizce'de en sık kullanılan harftir ve şifreniz E harfini X harfine çeviriyorsa X
+harfi, şifreli metinde en sık görülen harf olur. Becerikli bir şifre analisti, mesajın içeriğini açığa çıkarmak
+için bu tür istatistiklerden yola çıkarak geriye doğru çalışabilir. İskoçya Kraliçesi Mary'nin 1587 yılında
+Kraliçe Elizabeth'i öldürmeyi planlama suçundan idam edilmesine yol açan şey bir yerine koyma
+şifresinin kırılmasıydı. 
+
+Permütasyon şifreleri, bir başka temel yöntem sınıfını oluşturur. Şimdi, sütun yer değiştirme (columnar
+transposition) şifresi adı verilen basit bir örneğe bakalım. Burada, bir mesajı alıyoruz ve harfleri bir
+ızgaraya yerleştiriyoruz. Bu örnekte 5'e 5 bir ızgara tercih ettik. Mesajımızı şifrelemek için, karakterleri
+farklı bir sırayla, örneğin alt soldan başlayarak yukarıya doğru, her defasında bir sütun olmak üzere
+okuyoruz. Permütasyon adı verilen yeni harf sıralaması, şifrelenmiş mesajı oluşturuyor. Sıralama yönü ve
+5'e 5 ızgara boyutu, anahtar işlevi görüyor. Daha önce olduğu gibi, şifre ve anahtar bilinirse, alıcı süreci
+tersine doğru takip ederek orijinal mesajı açığa çıkarabilir.
+
+1900'lü yıllarda, şifreleme mekanikleşti ve şifreleme makineleri ortaya çıktı. Bunların en ünlüsü Alman
+Enigma makinesiydi ve Naziler tarafından savaş zamanındaki iletişimlerin şifrelenmesi için
+kullanılıyordu. 15'inci bölümde bahsetmiş olduğumuz gibi, Enigma daktiloya benzer bir makineydi, tüm
+alfabeyi içeren bir klavyesi ve lamba panosu bulunuyordu. Bunun üzerinde, Enigma'nın şifreleme
+yeteneğinin anahtarını oluşturan bir dizi yapılandırılabilir çark bulunuyordu.
+
+Öncelikle, yalnızca tek çarka bakalım. Bir tarafta, 26 harfin tamamı için elektrik kontakları bulunuyordu.
+Bunlar, bir harfi diğeriyle değiştiren çapraz kablolarla çarkın diğer tarafına bağlanıyordu. 'H' girişi
+yapıldığında, diğer taraftan 'K' çıkabilirdi. 'K' girişi yapıldığında, 'F' çıkışı olabilirdi vs. Bu harf değiştirme
+davranışı size tanıdık gelebilir: Bu bir yerine koyma şifresidir! Ancak Enigma daha sofistikeydi, çünkü bir
+sırada üç veya daha fazla çark kullanıyordu ve her biri sıradaki çarkı besliyordu.
+
+Ayrıca, çarkların 26 olası başlangıç konumundan birine çevrilmesi mümkündü ve farklı sıralamalarla
+yerleştirilebiliyordu, bu da çok sayıda farklı yerine koyma eşlemi oluşturuyordu. Çarkları takip eden ve
+reflektör olarak anılan özel bir devre bulunuyordu. Sinyali bir başka çarka aktarmak yerine, tüm pimleri
+birbirine bağlıyordu ve elektrik sinyalini çarkların üzerinden geri gönderiyordu. Son olarak, makinenin
+önünde bir fiş panosu bulunuyordu ve tuşlardan gelen harflerin isteğe bağlı olarak değiştirilmesine
+olanak sağlıyor ve karmaşıklığı biraz daha artırıyordu.
+
+Basitleştirilmiş devremizle, bu örnek enigma yapılandırmasında bir mektubu şifreleyelim. 'H' tuşuna
+bastığımıza, elektrik fiş panosundan geçer, ardından rotorlardan geçer, reflektöre ulaştıktan sonra geri
+döner, yeniden rotorlardan ve fiş panosundan geçer ve lamba panosunda 'L' harfini yakar. Böylece, H
+harfi L olarak şifrelenir. Devrenin her iki yönde akabildiğini göz önünde bulundurun - buna göre, 'L'
+harfine bassaydık 'H' harfi yanacaktı.
+
+Bir başka deyişle, şifreleme ve şifre çözme için aynı süreci kullanır; yalnızca gönderen ve alan
+makinelerin aynı başlangıç yapılandırmasına sahip olmasını sağlamanız gerekir. Bu devreye dikkatle
+bakarsanız, bir harfin kendisi olarak şifrelenmesinin imkansız olduğunu görebilirsiniz ve bu da ölümcül
+bir şifreleme zayıflığıydı.
+
+Son olarak, Enigma'nın basit bir yerine koyma şifresi olmasının önlenmesi için, her harf girişinde, çarklar
+tıpkı bir otomobilin kilometre sayacı gibi bir kademe ilerliyordu.
+
+Buna göre, A-A-A metnini girdiğinizde, B-D-K metni elde edilebiliyordu, yerine koyma eşlemi her tuşa
+basıldığında değişiyordu. Enigma'nın kırılması gerçekten çok zordu. Ancak 15'inci bölümde bahsetmiş
+olduğumuz gibi, Alan Turing ile Bletchley Park'taki meslektaşları, Enigma kodlarını kırmayı ve süreci
+önemli ölçüde otomatikleştirmeyi başardı.
+
+Ancak bilgisayarların gelişmesiyle birlikte, şifreleme de donanımdan yazılıma kaydı. Yaygın bir biçimde
+kullanılan en eski yazılım şifrelerinden biri, IBM ile NSA (National Security Agency – Amerikan Ulusal
+Güvenlik Ajansı) tarafından 1977'de geliştirilen Veri Şifreleme Standardıydı. DES olarak anılan bu
+standart, başlangıçta 56 bit uzunluğunda ikili anahtarlar kullanıyordu ve bu da 2 üssü 56 veya yaklaşık
+72 katrilyon farklı anahtar anlamına geliyordu.
+
+Bu, 1977 yılında, muhtemelen NSA dışında hiç kimsenin kuvvet kullanarak tüm olası anahtarları kırmak
+için yeterli bilgi işlem gücüne sahip olmadığı anlamına geliyordu. Ancak 1999 yılında, çeyrek milyon
+dolar değerinde bir bilgisayar, tüm olası DES anahtarlarını yalnızca iki gün içinde deneyebiliyordu ve bu
+da şifreyi güvensiz hale getirmişti.
+
+Bu nedenle 2001 yılında, Gelişmiş Şifreleme Standardı (AES) son haline getirildi ve yayınlandı. AES, çok
+daha büyük anahtarlar (128, 192 veya 256 bit boyutunda) kullanmak üzere tasarlandı ve bu da siber
+saldırıları çok daha zor hale getiriyordu. 128 bit anahtarlar için, bugün gezegende bulunan tüm
+bilgisayarları kullansanız bile her kombinasyonu denemek için trilyonlarca yıl harcamanız gerekir. Öyle
+ise, hemen başlasanız iyi olur!
+
+AES, verileri 16 baytlık bloklara ayırır ve ardından anahtar değerine bağlı olarak bir dizi yerine koyma ve
+permütasyon ile mesajı anlaşılmaz hale getirmek için bir dizi başka işlem uygular ve bu süreç her blok
+için on veya daha fazla defa tekrarlanır. Merak edebilirsiniz: Neden yalnızca on tur? Veya neden yalnızca
+128 bitlik anahtarlar ve neden on bin bitlik anahtarlar değil? Aslında bu performans için verilen bir
+tavizdir. Bir e-postayı şifrelemek ve göndermek saatler sürseydi veya bir güvenli web sitesine bağlanmak
+dakikalar alsaydı, insanlar bunu kullanmazdı.
+
+AES, pratik şifreleme sunmak için performans ile güvenliği dengeler. AES, günümüzde iPhone'larda
+dosyaların şifrelenmesinden verilerin WIFI üzerinden WPA2 kullanılarak aktarılmasına, HTTPS
+kullanılarak web sitelerine erişilmesine kadar her yerde kullanılır.
+
+Şu ana kadar, bahsettiğimiz şifreleme yöntemleri, hem gönderici hem de alıcı tarafından bilinen
+anahtarlara dayanır. Gönderici, anahtarı kullanarak bir mesajı şifreler ve alıcı, aynı anahtarı kullanarak bu
+mesajın şifresini çözer. Eski günlerde, anahtarlar sesle veya fiziksel olarak paylaşılıyordu; örneğin,
+Almanlar, Enigma makineleri için günlük ayarları içeren kod kitapçıkları dağıtıyordu. Ancak bu strateji,
+İnternet çağında asla işe yaramaz. YouTube'a bağlanmak için bir kod kitapçığını açmanız gerektiğini
+düşünün!
+
+Bir sunucunun, güvenli bir biçimde bağlantı kurmak isteyen bir kullanıcıya genel İnternet üzerinden gizli
+bir anahtarı göndermesi için bir yöntem gereklidir. Bu güvenli değilmiş gibi görünüyor, çünkü anahtarın
+açık olarak gönderilmesi ve bir bilgisayar korsanı tarafından ele geçirilmesi durumunda, alıcı ile gönderici
+arasındaki tüm iletişimin şifresini çözmek için bunu kullanamazlar mı?
+
+Çözüm anahtar değiş tokuşudur! Bu, iki bilgisayarın bir anahtar üzerinde anahtarı göndermeden
+uzlaşmaya varmasına imkan tanıyan bir algoritmadır. Bunu tek yönde yapılması kolay, ancak tersine
+yapılması zor olan matematiksel işlemlerden oluşan tek yönlü fonksiyonları kullanarak yapabiliriz.
+
+Tek yönlü fonksiyonların nasıl işlediğini size göstermek için, boya renklerini örnek alabiliriz. Boya
+renklerini birbirine karıştırmak kolaydır, ancak renk karışımını oluşturmakta kullanılan renkleri
+belirlemek kolay değildir. Bunu bulabilmek için çok fazla sayıda olasılığı test etmeniz gerekir.
+
+Bu benzetmede, gizli anahtarımız benzersiz bir renk tonu. Başlangıçta, herkesin görebildiği ortak bir
+boya rengi bulunuyor. Ardından, John ve ben birer gizli boya rengi seçiyoruz. Anahtar değişimini
+gerçekleştirmek için, kendi gizli boya rengimi ortak boya rengi ile karıştırıyorum. Ardından, bu
+karıştırılmış rengi posta, posta güvercini veya diğer herhangi bir şekilde John'a gönderiyorum. John da
+aynı şeyi yapıyor; gizli boya rengini ortak boya rengiyle karıştırıyor ve bana gönderiyor. John'un rengini
+aldığımda, yalnızca kendi özel rengimi ekleyerek üç boyanın bir karışımını oluşturmam gerekiyor. John
+da aynı şeyi benim karıştırılmış rengimle yapıyor. İşte bu kadar! İkimiz de aynı boya rengini elde
+ediyoruz! 
+
+Hiçbir zaman birbirimize kendi özgün gizli renklerimizi göndermiş olmasak da, bunu bir paylaşılan
+güvenlik dizgisi olarak kullanabiliriz. Dışarıdan gözetleyen bir kişi, bilgilerin bir kısmını öğrenebilir, ancak
+paylaşılan gizli rengimizi belirlemekte çok zorlanacaktır. Tabii ki, renklerin gönderilmesi ve karıştırılması bilgisayar verilerinin iletilmesi için çok iyi işlemez. Neyse ki, matematiksel tek yönlü fonksiyonlar
+mükemmeldir ve Diffie-Hellman Anahtar Değişimi de bunu kullanır. 
+
+Diffie-Hellman'da, tek yönlü fonksiyon olarak modüler üs alma kullanılır. Bu, bir sayının taban olarak
+alınmasını, üs olarak bir başka sayının alınmasını ve modül olarak anılan bir üçüncü sayı ile
+bölünmesinden elde edilen kalanın alınmasını ifade eder. Örneğin, 31 sayısını modül olarak alarak 5
+üssü 3'ü hesaplamak isteseydik, 243'ü 31'e bölmemiz gerekirdi ve kalan 26 olurdu.
+
+Bunun zor kısmı, yalnızca sonuç ve tabandan yola çıkarak üssün bulunmasıdır. 3'ü bir gizli sayıya
+yükselttiğimi, modülün 31 olduğunu ve kalan olarak 7'yi elde ettiğimi söyleseydim, hangisini seçtiğimi
+bulmak için çok sayıda üssü test etmeniz gerekirdi. Bu sayıları yüksek, örneğin yüzlerce basamak
+uzunluğunda tutarsak, gizli üssün bulunması neredeyse imkansız hale gelir.
+
+Şimdi, Diffie-Hellman'ın bir paylaşılan anahtarı hesaplamak için modüler üs almayı nasıl kullandığından
+bahsedelim. Öncelikle, bir dizi ortak değer bulunur (ortak boya rengimiz gibi); kötü adamlar dahil olmak
+üzere herkesin bildiği taban ve modül!
+
+John'a bir mesajı güvenli bir biçimde göndermek için, gizli bir üs seçmem gerekir: X. Ardından, X üssü B,
+modül M'yi hesaplamam gerekir. Bu büyük sayıyı John'a gönderirim. John da aynı işlemi yapar, gizli bir
+üs olarak Y'yi seçer ve Y üssü B, modül M'i gönderir. Bir paylaşılan gizli anahtar oluşturmak için John'un
+bana gönderdiğini alırım ve kendi gizli üssüm olan X'i uygularım. Bu, matematiksel olarak XY üssü B,
+modül M'ye eşittir.
+
+John da aynı işlemi yapar, ona gönderdiğim sayıya Y üssünü uygular ve tam olarak aynı sayıyı elde
+ederiz! Bu, birbirimize gizli sayılarımızı hiç göndermemiş olsak da, paylaşılan bir gizli anahtardır. Bu
+büyük sayıyı, şifreleme için AES gibi bir standardı kullanan şifrelenmiş iletişim için paylaşılan anahtar
+olarak kullanabiliriz.
+
+Diffie-Hellman anahtar değişimi, bir paylaşılan anahtar oluşturulmasında kullanılan yöntemlerden biridir.
+Mesajların şifrelenmesi ve şifrenin çözülmesi için hem gönderici hem de alıcı tarafından kullanılabilen bu
+anahtarlar, anahtarın her iki tarafta aynı olması nedeniyle simetrik anahtar olarak anılır. Sezar Şifresi,
+Enigma ve AES, simetrik şifrelemeye örnektir.
+
+Ayrıca, biri ortak ve diğeri özel olan iki farklı anahtarın kullanıldığı asimetrik şifreleme bulunur. Böylece
+insanlar, bir ortak anahtar kullanarak bir mesajı şifreleyebilir ve bu şifre yalnızca alıcının kendi özel
+anahtarıyla çözülebilir. Bir başka deyişle, ortak anahtarı bilmek, yalnızca şifrelemenize olanak sağlar,
+ancak şifreyi çözemezsiniz; asimetriktir!
+
+Asma kilitleri bulunan ve bir anahtarla açabildiğiniz kutuları düşünün. Güvenli bir mesajı almak için
+göndericiye bir kutu ve asma kilit verebilirim. Mesajı bunun içine koyar ve kilitler. Artık kutuyu bana geri
+gönderebilir ve kutuyu yalnızca ben, sahip olduğum özel anahtarla açabilirim. Kutuyu kilitledikten sonra
+ne gönderici, ne de kutuyu bulan diğer herhangi bir kişi kutuyu kaba kuvvet kullanmadan açamaz. Aynı
+şekilde, bir dijital ortak anahtar da bir şeyi şifreleyebilir ve bu şifre yalnızca bir özel anahtarla çözülebilir.
+
+Bunun tersi de mümkündür: Bir şey özel anahtarla şifrelenebilir ve bir ortak anahtarla şifresi çözülebilir.
+Bu, sunucunun özel anahtarını kullanarak verileri şifrelediği imzalama yöntemi için kullanılır. Sunucunun
+ortak anahtarını kullanan herhangi biri bunun şifresini çözebilir. Bu, taklit edilemeyen bir imza görevi
+görür ve yalnızca sahibi, özel anahtarını kullanarak şifreleyebilir. Bu, bir taklitçiden değil, doğru
+sunucudan veya kişiden veri aldığınızı kanıtlar.
+
+Günümüzde kullanılan en popüler asimetrik şifreleme yöntemi, mucitleri olan Rivest, Shamir ve
+Adleman'ın adıyla anılan RSA'dır. Artık şifrelemenin bütün "önemli" parçalarını öğrendiniz: simetrik
+şifreleme, anahtar değişimi ve ortak anahtar şifrelemesi. Güvenli bir web sitesine, örneğin bankanıza
+bağlandığınızda, küçük asma kilit simgesi bilgisayarınızın sunucuyu doğrulamak için ortak anahtar
+şifrelemesini, gizli bir geçici anahtar oluşturmak için anahtar değişimini ve gidip gelen tüm iletişimi
+meraklı gözlerden korumak için simetrik şifrelemeyi kullandığını ifade eder.
+
+İster çevrimiçi olarak alışveriş yapın, ister arkadaşlarınıza e-postalar gönderin ya da yalnızca kedi
+videolarına göz atın, şifreleme her şeyi güvende ve gizli tutar. Teşekkürler şifreleme!
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Siber güvenlik alanında kariyer
+
+Siber güvenlik, tüm iş rollerini ve sektörleri kapsar ve tüm şirketlerin bir tür güvenlik çözümüne sahip olması gerekir. Güvenlik tehditleri ile mücadele etmek için hangi becerilere sahip olmanız gerektiğini ya da bu alandaki ilginç işlerin neler olduğunu merak ediyor olabilirsiniz. Bu soruların yanıtları ile diğer birkaç bilgi, aşağıdaki infografikte ve makalede yer alıyor.
+
+PDF => https://bundles.yourlearning.ibm.com/skills/learn/assets/XVPQVZGJWWQV54A6/Blog_How%20to%20land%20a%20career%20in%20cybersecurity_tr-TR.pdf
+
+PDF 2 => https://bundles.yourlearning.ibm.com/skills/learn/assets/XVPQVZGJWWQV54PB/Cybersecurity_Infographic_tr.pdf
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
++ sesle etkinleştirilen siber güvenlik yardımcısı Havyn
++ Ardından, kendiniz yapmayı denemek için bir fırsata sahip olacaksınız ve NOVA Cybersecurity Lab ile siber savunma becerilerinizi test edeceksiniz. 
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Havyn Projesi: Siber Güvenliğe Bir Ses Vermek
+
++ Mike Spisak: Tony Stark'ın kim olduğunu biliyor musunuz? Iron Man'in kim olduğunu biliyor musunuz? Bilgisayarınızda Tony Stark benzeri bir deneyim yaşamak ilginizi çeker mi? Ben Mike Spisak, IBM usta mucidiyim.
+Evan gibi çocuklar, gereksinimlerle veya kısıtlamalarla kendilerini sınırlamıyorlar, bir tür yapabilirim
+yaklaşımına sahipler. Evan, bir gün her zaman yaptığı gibi ofisime geldi ve ne üzerinde çalıştığımı görmek
+için omzumun üzerinden bakıyordu. Ben de ona klavyeyi kullanarak Watson ile nasıl sohbet
+edebileceğini gösteriyordum ve bana şöyle dedi, "Baba, neden onunla sesli olarak konuşamıyorsun?"
+Bunun üzerine, biz de bunu nasıl yapabileceğimize ilişkin yollar araştırmaya başladık.
+
++ Evan: Bir Raspberry Pi dokunmaya duyarlı ekranı sipariş etmeye karar verdik. Ve buradan onunla konuşabiliyorsunuz.
+
++ Mike: Watson'u bağladık ve bir saat sonra onunla konuşmaya başlamıştık. Havyn ile konuşma deneyimi, diğer
+sesle etkinleştirilen teknolojilerle olan konuşma deneyimine çok benziyor.
+
++ Evan: Havyn, fidye yazılımlarını anlamama yardımcı ol.
+
++ Mike: Havyn'e daha çok bir uzmanın bakış açısından bakmak istiyorum. Özellikle siber güvenlik olaylarını
+anlamanıza ve bunlar üzerinde çalışmanıza yardımcı oluyor.
+
++ Analist: Havyn, bana bu tehditlerden bahset.
+
++ Watson: En ciddi tehdit bir risk seviyesi 7.7 ve şu başlığı taşıyor: “From where AirWatch enrollment security
+bypass”. Ekrana getireyim mi?
+
++ Analist: Hayır, teşekkür ederim.
+
++ Mike: Bir şirket, günde iki yüz binden fazla güvenlik olayıyla karşılaşabilir. Özel olarak bu soruna kaç kişiyle
+odaklandığımız fark etmiyor; üretilen çok yüksek miktardaki verinin önüne geçmek için hiçbir zaman
+yeterli olmayacak. Kognitif teknolojiler, bu bilgileri daha hızlı ve büyük ölçekte işleyerek bu eğrinin önüne
+geçmemize olanak sağlayacak. 
+
+Saldırıları ve güvenlik açıklarını ele almak için her zaman Watson'u ve kognitif bilişimi kullanmanın yeni
+yollarını düşünmeye çalışıyoruz. Havyn'in en iyi yönlerinin henüz keşfedilmediğini düşünüyorum.
+Watson'un en iyi özelliklerinin halen birileri tarafından icat edilmeyi beklediğini düşünüyorum. Belki bu
+Evan olur.
+
++ Evan:İnsanların yaşama biçimleri üzerinde böyle büyük bir etki yaratmak gerçekten harika olurdu. Halen yeni
+şeyler eklemeye devam ediyoruz ve işimizin bittiğini düşünmüyorum.
+
++ Mike: Bu deneyimleri onunla paylaşabildiğim için gerçekten gurur duyuyorum. Biliyorsunuz, bir Baba olarak,
+daha ne isteyebilirsiniz? Teknolojiye olan tutkunuzu, bu konuda aynı ölçüde tutkulu olan oğlunuzla
+paylaşabilmek gerçekten çok özel.
+
+
+Havyn, gücünü Watson'dan alan ve temel soruları yanıtlayarak siber güvenlik tehditleri ile mücadele etmek üzere tasarlanan konuşmayı metne dönüştürme (STT), metni konuşmaya dönüştürme (TTS) ve sohbet teknolojileriyle yapılan bir deney olarak başladı.
+Hayvn, bir siber tehdidin mevcut olup olmadığını ve belirli bir sistemi doğrudan etkileyip etkilemediğini belirleyebiliyor.
+Siber güvenlik analistleri, çeşitli sistem ve veritabanları arasında gezinirken çok sayıda uzun zaman alan görev gerçekleştirirler. Havyn'in aynı anda birden çok sorguyu gerçekleştirme yeteneği, mevcut siber güvenlik iş akışlarını önemli ölçüde tamamlama potansiyeline sahip.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Raspberry Pi nedir?
+
+Raspberry Pi, neredeyse her şeye eklenmesi mümkün olan çok yönlü bir bilgisayardır!
+
+Bir bilgisayar monitörüne veya televizyona bağlanabilen, düşük maliyetli, kredi kartı boyutunda bir bilgisayardır. Her yaştan insanın bilişimi keşfetmesine ve Scratch ile Python gibi dillerde nasıl programlama yapacağını öğrenmesine yardımcı olur. Linux işletim sisteminin Raspbian adı verilen hafif bir sürümünü içerir.
+
+Kablosuz hoparlör sistemi, televizyonunuz için bir medya merkezi ve hatta bir kişisel web sunucusu yaratmak gibi eğlenceli projelerle bilgisayar programcılığı hakkında daha fazla bilgi edinmenin harika bir yoludur!
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+IBM X-Force Command Center
+
+IBM X-Force Command Center'lar, IBM Security'nin temel yeteneklerindeki büyük bir atılımı temsil ediyor. Merkezler, en yeni kognitif güvenlik çözümleri ve sektörün en yetenekli uzmanları temel alınarak kuruldu. Lider teknolojiyi, sektörde kanıtlanmış süreçleri ve becerikli güvenlik uzmanlarının girdilerini bir araya getiren IBM X-Force Command Center'lar, şirketlerin en gelişmiş tehditlerin bile bir adım önünde kalmasına yardımcı oluyor.
+
+Katılımcılar gerçek araçları kullanır, aktif bulaşmaları soruşturur ve hem dahili hem de harici siber güvenlik olaylarına müdahale ederler. En gelişmiş kognitif teknoloji ile IBM siber savunma uzmanlarının, gelişmiş güvenlik tehditlerini belirlemelerinde ve bunlarla mücadele etmelerinde kuruluşlara yardımcı olmak için güçlerini birleştirdiği bir IBM X-Force Command Center'da eğitim almanın nasıl olduğunu görün.
+
+Bir IBM X-Force Command Center, katılımcıların canlı bir kötü amaçlı yazılımın, dağıtılmış hizmet engelleme (DDoS) ve diğer geleneksel ve gelişmiş saldırıların etkilerini tecrübe edebilecekleri güvenli bir "canlı ateş hattı" ortamında siber güvenlikle ilgili kritik kriz liderliği becerileri sunar.
+
+IBM X-Force Command Center, mevcut ve potansiyel müşterilerin bir Güvenlik Operasyonları Merkezi (SOC) simülasyonunda yer almasına olanak sağlayan, son teknoloji ürünü bir tesistir. Taktikleri ve protokolleri, mevcut ve gelecekteki siber tehditleri öngörmek ve bunlardan korunmak üzere tasarlanmıştır.
+
++ James: Evet efendim, sizi tam olarak anlıyorum efendim, teşekkür ederim. Az önce telefonda FBI ile konuştum. Bir durum var.
+
++ Kadın: Selam çocuklar, güvenlik duvarında bunu görüyor musunuz?
+
++ Baş Analist: Evet takım, az önce doğrulanan bir tehditle karşı karşıyayız. Bu güvenlik duvarına C sınıfı bir blok koyabiliyor musunuz? Test etmek istediğimiz bir şey var. Evet, ben de görüyorum. İşaret veren kaç makine var?
+
++ Kadın: Bekleyin, IP adresini ayrıştırıyoruz.
+
++ Baş Analist: Bu nereden geliyor?
+
++ Televizyon Yorumcusu: Söylediğimiz gibi Amy, çok sofistike bir siber suç örgütü tarafından gerçekleştirilen önemli bir veri ihlalinin kurbanı olmuşlar gibi görünüyor. Bilgisayar korsanların halen ağda olup olmadığını söylemek zor. Şu an itibariyle, saldırının nereden geldiğini ya da arkasında kimin olduğunu bilmiyoruz. Bu nedenle, şu anda finans sektörüne ve Wall Street'e olan etkilerinden bahsediyoruz.
+
++ Baş Analist: Tamam millet, haydi yapalım şunu. Yapalım şunu. Orada bir yerde. Bunu kalıcı bir blok haline getirmemiz gerekiyor. Bu yüzden, yapalım şunu. Yapalım şunu.
+
++ James: Bazı yanıtlara ihtiyacım var. Hemen!
+
++ Stüdyodaki kadın: Haydi James. Haydi, haydi, haydi, altmış saniyemiz var. Yapmaya hazır mısın?
+
++ Konuşmalar: gerçekten çocuklar, bundan daha kötü olamaz. Ayrıca, görebildiğimiz kadarıyla, değişiklikler yapmışlar.
+
++ James: Çok fazla belirsizlikle karşı karşıyayız. Şu an için size şunu söyleyebilirim, ortaya çıkan herhangi bir
+sorunu çözmek için yirmi dört saat çalışan harika bir ekibimiz var. Herhangi bir bilgi elde eder etmez size
+bunu gerçek zamanlı olarak aktarmaktan mutluluk duyacağım.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+NOVA Siber Güvenlik Laboratuvarı
+
+Bu laboratuvarda, giderek daha sofistike hale gelen siber saldırılara hedef olan bir şirketi koruyacaksınız. Göreviniz, siber savunma önlemlerinizi güçlendirmek ve bir dizi siber güvenlik görevini tamamlayarak saldırganları püskürtmek. Parolaları kıracak, kod oluşturacak ve kötü amaçlı bilgisayar korsanlarını yeneceksiniz.
+
+NOVA Siber Güvenlik Laboratuvarında iyi eğlenin ve siber savunma becerilerinizi test edin. Siber bilgisayar korsanlarıyla ve saldırganlarla mücadele etmek için gerekli olan şeye sahip misiniz?,
+
+Bunu, size temel kodlama yetenekleri kazandıracak, gizli bilgilerinizi vermeniz için sizi kandırmaya yönelik olarak tasarlanmış sahtekârlıkları saptamanıza yardımcı olacak ve size parolaların nasıl kırıldığını ve güçlendirildiğini öğretecek görevleri yerine getirerek yapacaksınız.
+
+Not: NOVA tarafından sunulan aşağıdaki içerik, yalnızca İngilizce dilinde mevcuttur.
+
+http://www.khanacademy.org.tr/muzeler-ve-%C4%B0cerik-ortaklarimiz/nova-laboratuvarlari/nova-laboratuvarlari/550
+
+https://www.pbs.org/wgbh/nova/labs/lab/cyber/
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Siber güvenlik terminolojisi el kitabı
+
++ Gelişmiş Sürekli Tehdit (APT) =>  çok sayıda aşamadan oluşan, uzun süreli bir ağ saldırısıdır ve bu saldırı türünde, yetkisiz kullanıcılar değerli kurumsal verilere erişir ve bunları toplar. 2010 yılında yayılan Stuxnet Solucanı, bir APT örneğidir.
++ Botnet => Botnet, dünyanın herhangi bir yerinde bulunan, bir kötü amaçlı yazılım parçasının bulaşmış olduğu bir grup bilgisayar sistemidir. Yazılım, bu bilgisayarların bir bilgisayar korsanı tarafından bir ağ haline getirilmesine olanak sağlar. Bilgisayar korsanı, ağ üzerindeki tüm botların tam kontrolünü elde eder ve kötü amaçlı görevleri yerine getirebilir. Bir botnet örneği, 2017 yılında yayılan “Star Wars” Twitter Botnetidir.
++ İhlal => yetkisiz bir kullanıcının ya da yetkisiz erişen bir kişinin (bilgisayar korsanı) bir bilgisayardaki ya da aygıttaki bir güvenlik açığını başarıyla istismar ettiği ve dosyaları ile ağına erişim elde ettiği andır. Eylül 2016'da gerçekleşen ve 3 milyar kullanıcı hesabının ele geçirildiği Yahoo! veri ihlali, buna örnek gösterilebilir.
++ İstismar => Bir bilgisayarın istismar edilmesi, bir bilgisayarın güvenlik açığından yararlanmak amacıyla bir kötü amaçlı uygulamanın veya komut dosyasının kullanılmasını kapsar. Eylül 2017'de gerçekleşen ve şirketin web uygulaması altyapısındaki bir güvenlik açığından kaynaklanan Equifax veri ihlali, bilgisayar istismarına örnek gösterilebilir.
++ Ortadaki Adam (MitM) => MitM (Man-in the-Middle) saldırısında, saldırgan, işlemleri gözlemek ve kaydetmek amacıyla bir kullanıcı ile web sitesi arasındaki mesajları yakalar.Haziran 2015'te e-posta ödeme taleplerinin yakalanması eylemini gerçekleştirdiklerinden şüphe edilen, farklı ülkelerden 49 Avrupa vatandaşının tutuklanması, bir MitM saldırısına yapılan müdahaleye örnek gösterilebilir.
++ Kimlik Avı Dolandırıcılığı => bilgisayar korsanları tarafından parolalar, banka hesapları veya kredi kartı verileri gibi hassas bilgilerin ele geçirilmesi için kullanılan bir yöntemdir. Çoğunlukla, yasal bir kaynaktan geliyormuş gibi görünen beklenmedik bir e-posta ile başlar. Genellikle iki şekilde gerçekleşir. Alıcının banka bilgileri gibi ele geçirilmeye çalışılan bilgilerle yanıt vermesi için kandırılması veya alıcının kötü amaçlı bir bağlantıya tıklaması veya bir eki çalıştırması için kandırılması. Kimlik avı dolandırıcılığına (phishing) ilişkin bir örnek, beklenmedik şekilde alınan ve bir metin bağlantısına tıklanarak hassas kişisel bilgilerin verilmesi, bir parolanın ya da kredi kartı hesabının güncellenmesi vs. için "acil eylem" talep edilmesi şeklinde gerçekleşir.
++ Sıfır Gün Saldırısı => Sıfır gün saldırısı, genellikle bir kötü amaçlı yazılımdan oluşan belirli bir yazılım istismarı türüdür. Bir sıfır gün istismarı, özgündür ve halk ya da yazılım satıcı firması tarafından önceden bilinmez. Güvenlik açığından yalnızca az sayıda insanın haberi olduğundan, kurbanlar kendilerini bunun kullanımından korumak için "sıfır güne" sahiptir. 2014 yılında Sony Pictures Entertainment firmasına karşı gerçekleştirilen ve kurumsal ağlarının ele geçirilmesine ve hassas kurumsal verilerinin açıklanmasına neden olan sıfır gün saldırısı, buna örnek gösterilebilir.
+
+Aşağıdaki sözlük, eğitiminize devam ederken başvurabileceğiniz çeşitli siber güvenlik terimlerini içerir. PDF İndir: https://bundles.yourlearning.ibm.com/skills/learn/assets/NKVRGWVWNPRR77AZ/Cybersecurity3_Cybersecurity%20GLOSSARY_tr-TR-US.pdf
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Siber saldırı yöntemleri
+
+Bir siber saldırının pek çok nedeni olabilir. Bunlara uluslararası ya da askeri çatışmalarla bağlantılı siyasi, finansal veya kişisel gerekçeler, ticari sırların ele geçirilmesi, siber aktivizm ve hatta intikam ya da kötü şöhret dahil olabilir.
+"Beyaz Şapkalı" kuruluşların veya kişilerin ("iyi adamlar") yasal araştırmalar nedeniyle ya da "Siyah Şapkalı" siber suçluları yenmek amacıyla gerçekleştirdiği siber saldırılar da söz konusu olabilir. Ancak, siber saldırıların büyük kısmı, sistemlerdeki ve teknolojideki zayıflıkların belirlenmesini ve istismar edilmesini amaçlar.
+
+https://bundles.yourlearning.ibm.com/skills/learn/assets/DNDKVQZYXEGQ685B/cybersecurity_cyberattack%402x.png
+
+Yaygın siber saldırı yöntemleri
+
++ Sosyal mühendislik saldırıları => parola veritabanları çalınarak yasal kullanıcı parolalarının elde edilmesi amacıyla kullanılabilir. Sosyal mühendislik saldırısı yöntemleri arasında kimlik avı dolandırıcılığı, su kaynağı saldırıları (watering holes) ve Truva atları yer alır.
++ Sistem ihlalleri ve kötü amaçlı yazılım bulaşmaları => Programlama kodundaki "hatalar", saldırganların bir sistemi ihlal etmesi ve "ele geçirmesi" için fırsatlar sunar. Varsayılan parolalar ve açık dosya paylaşımları gibi yapılandırma hataları da önemli güvenlik sorunları yaratır. Ağ tasarımı ve protokol zayıflıkları, kötü amaçlı yazılım bulaşmaları ve ilk "kenetlenme" saldırıları için giriş noktaları yaratabilir.
++ Ortadaki Adam (MitM) saldırıları =>  ağ trafiğinin arasına girilmesi, trafiğin yakalanması ve ardından serbest bırakılması için kullanılır. MitM saldırılarına yasal web sitelerinin kandırılması için İnternet alan adlarının veya mobil uygulamaların kullanılmasını ya da hassas verilerin yakalanması veya bunların "kopyalanması" için satış noktası (POS) kopyalayıcılar gibi fiziksel aygıtların kullanılmasını kapsayabilir.
+MitM saldırıları, kimlik avı dolandırıcılığı (phishing) ve site trafiğini yönlendirme (pharming) saldırılarının gelişmiş bir türevidir. Bir suçlu, bu saldırılarda, gizli bilgileri görüntülemek ya da işlemleri değiştirmek için bir ara web sitesi kullanır. Böylece, kullanıcılar bir web sitesinde oturum açtığında ve çalışmaya başladığında, kendileri ile web sitesi arasında gönderilip alınan tüm bilgilerin bir suçlu tarafından ele geçirildiğini fark etmez.
++ İnternet protokolü (IP) sahtekârlığı => erişimi bilinen IP ve ortam erişim denetimi (MAC) adresleri ile sınırlayan güvenlik sistemlerinin atlanmasını kapsar. Bu yöntemle, bir saldırgan, sistemlere erişmek için yasal bir uç noktasını taklit eder.
++ Sistem erişimi kimlik bilgilerinin çalınması ve istismar edilmesi => Yetkisiz bir kullanıcı, yasal sistem yöneticisi kimlik bilgilerini çalarak, bir veya daha fazla sisteme erişim elde edebilir. Bu senaryoda, bir saldırgan, A Sistemi için sistem yöneticisi kimlik bilgilerini çalar ve bunları Sistem B'ye erişmek için "akışın aşağısında" kullanır. Sonuçta saldırgan, iki sistem arasındaki "güven ilişkisini" istismar edebilir.
++ Hizmetin Engellenmesi (DoS) saldırıları => Bir saldırgan, anasistemin yasal kullanıcılara hizmet sunmasını önlemek için çok yüksek miktarda ağ trafiğini bir ağ anasistemine yönlendirebilir. Saldırganlar anasistemlerde başarıyla aşırı yüklenme yarattığında, potansiyel olarak sistem erişimini kısıtlayabilir ve diğer kullanıcılara hizmet sağlanmasını engeller. Buna Hizmetin Engellenmesi (DoS) veya Dağıtılmış Hizmetin Engellenmesi (DDoS) adı verilir.
++ Gelişmiş Sürekli Tehditler (APT'ler) => Gelişmiş Sürekli Tehditler (APT'ler)
