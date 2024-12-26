@@ -1,6 +1,64 @@
 Siber Güvenlik
 
+Siber Güvenliğin Temelleri kursuna hoş geldiniz! Bu, giriş niteliğinde bir öğrenme deneyimidir. Dinamik ve sürekli değişen bu alanı anlama konusunda ilginizi çekmek üzere, size siber güvenliğe ilişkin genel bir bakış sağlamak için tasarlanmıştır. Bu dersin amacı, size şunları sağlamaktır:
+
++ Siber güvenlik alanı konusunda temel bilgiler
++ Küresel anlamda revaçta olan siber güvenlik kariyer fırsatlarına ilişkin farkındalık
+
 Hedefiniz, şifreleme ve siber saldırılar gibi konular dahil olmak üzere siber güvenlik alanındaki temel terminoloji, kavramlar ve roller hakkında bilgi edinmek.
+
+İnternet, dünya çapında iletişim kuran milyarlarca cihaz ile şimdiye kadar oluşturulmuş en büyük bilgi paylaşım ağına ev sahipliği yapmaktadır. Gelişmiş ekonomilerde, ortalama bir kişi artık günlük hayatın çoğu yönü için gerekli olan birden fazla cihaza sahiptir. Bu dijital ortamda herkes saldırıya uğramaya açıktır. Siber saldırılar büyük teknoloji şirketlerini, finans kurumlarını, medya kuruluşlarını, arkadaşlık sitelerini, siyasi partileri, küçük şirketleri ve tıpkı bizim gibi bireyleri etkiler. 
+
+Siber güvenlik, bireyler ve kuruluşlar olarak elektronik cihazlarımızda topladığımız, depoladığımız ve işlediğimiz benzeri görülmemiş miktarda veri nedeniyle önemlidir. Siber saldırıların hacmi ve karmaşıklığı arttıkça, hepimiz bu bilgileri korumakla sorumlu hale geliyoruz. Şimdi ve gelecekte neleri korumamız gerektiğini bir düşünün!
+
++ Kişinin ve ailesinin gizliliği, finansal bilgiler, sağlık
++ İş faaliyetleri, ticari sırlar ve işler
++ Yerel ve ulusal devlet hizmetleri
++ Küresel ticaret, güvenlik ve hatta dünya barışı
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+İşte siber güvenlikle ilgili, üzerinde düşünülmesi gereken, ufuk açıcı beş kısa bilgi.
+
+1. Bir veri ihlalinin genel ortalama toplam maliyeti 4,35 milyon dolardır ve bu da şimdiye kadarki en yüksek seviyedir. / Veri İhlal Maliyeti Raporu 2021, IBM Security
+
+2. Siber suçun, 2023'te dünyaya maliyetinin 8 trilyon dolar olacağı öngörülmektedir. Bir ülke olarak ölçülseydi siber suç, ABD ve Çin'den sonra dünyanın üçüncü büyük ekonomisi olurdu. / Cybersecurity Ventures (https://cybersecurityventures.com/cybercrime-to-cost-the-world-8-trillion-annually-in-2023/)
+
+3. Bir işletmenin bir saldırıdan tamamen toparlanması için ortalama 287 gün gerekmektedir. / The State of Ransomware in the US: Report and Statistics 2021, Emsisoft(https://www.emsisoft.com/en/blog/40813/the-state-of-ransomware-in-the-us-report-and-statistics-2021/)
+
+4. Filtrelemeden sonra bile bir kuruluşun aldığı her 3.000  e-posta mesajının 1 tanesinde kötü amaçlı yazılım bulunur. / The State of Email Security in 2020, Fortinet (https://www.fortinet.com/blog/business-and-technology/state-of-email-security-more-spam-malware-phishing-ransomware-ahead)
+
+5. Siber güvenlik iş fırsatları 2021'den 2031'e kadar %35 artacaktır ve bu oran, tüm mesleklerin ortalama büyüme oranından çok daha hızlıdır. / US Bureau of Labor Statistics (https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Siber uzay nedir?
+
+Siber uzay teriminin birbiriyle çelişen iki tanımını ele alarak sizi biraz düşünmeye teşvik edelim. Lütfen her bir tanımı okuyun.
+
+1. Tanım;
+İnternet, telekomünikasyon ağları, bilgisayar sistemleri, internete bağlı cihazlar ve ­yerleşik işlemciler ve denetleyicileri içeren, birbirine bağlı bilgi teknolojisi altyapıları ağı. Deneyimlenen bir olgu veya soyut bir kavram olarak sanal dünyayı veya etki alanını da ifade edebilir.
+
+2. Tanım;
+Her ulustan milyonlarca yasal kullanıcının, matematiksel kavramları öğrenen çocukların her gün yaşadığı, bilinç ve duyguyla ilerleyen istem dışı halüsinasyon… İnsan sistemindeki her bir bilgisayarın kayıtlarından yansıtılan verilerin grafiksel sunumu. Akıl almaz bir karmaşıklık. Zihnin uzaysızlığında, ışık çizgileri; öbekler ve takımyıldızlar şeklinde düzenlenen veriler.
+
+
+Bu tanımları değerlendirelim;
+Bunları değerlendirelim. İlk tanım, bir ders kitabı tanımıdır. İkinci tanım ise Amerikalı-Kanadalı yazar William Gibson'ın Neuromancer adlı bilim kurgu romanından alınmıştır. Roman, Matrix film serisinin ilham kaynaklarından biriydi ve 1990'larda bilgisayar bilimcilerine ilham verdi.
+
+Siber uzayın 35 yıl önce tanımlanmış olması ve her zamankinden daha gerçekçi hale gelmesi hayranlık uyandırıcıdır. Modern teknolojiye ilişkin istatistikler olağanüstüdür. Bunlar tam olarak tahmin edildiği gibidir. Bugün, dünya çapında milyarlarca kullanıcı var, her cihaz birbirine bağlı, insan anlayışının ötesinde bir karmaşıklık ve hayal edilemez bir güzellik var.
+
+Dijital dünya, bilgisayar sistemlerinden oluşan bir ağdan çok daha fazlasıdır. İnsanların iş yaptığı, yaşadığı, sevdiği ve nihayetinde ölümsüzleştiği bir yerdir. 
+
+Siber uzay, siber güvenlik profesyonellerinin çalıştığı çılgın bir dünyadır. Dünyayı ona zarar vermek isteyenlerden korumak için çabalarlar. Hedeflerini gerçekleştirme konusunda uyanık, odaklanmış ve tereddütsüzdürler.
+
+Riskler hiç bu kadar yüksek olmamıştır. Başarısız olmaları halinde, tutunduğumuz değerlerden hayatımızın her alanında güvendiğimiz altyapıya kadar tüm modern yaşam tarzımız tehdit altında olacaktır. Gördüğümüz kabuslar herkesin yeni gerçekliği haline gelecektir.
+
+Siber uzayın bu tanımlarını göz önünde bulundurmak, sizi internet hakkındaki görüşlerinizi gözden geçirmeye ve internetin geleceğiyle ilgilenmeye yönlendirdiğini umuyoruz. 
 
 
 -------------------------------------------------------------------------------------------------------------
@@ -807,3 +865,146 @@ MitM saldırıları, kimlik avı dolandırıcılığı (phishing) ve site trafi�
 + Sistem erişimi kimlik bilgilerinin çalınması ve istismar edilmesi => Yetkisiz bir kullanıcı, yasal sistem yöneticisi kimlik bilgilerini çalarak, bir veya daha fazla sisteme erişim elde edebilir. Bu senaryoda, bir saldırgan, A Sistemi için sistem yöneticisi kimlik bilgilerini çalar ve bunları Sistem B'ye erişmek için "akışın aşağısında" kullanır. Sonuçta saldırgan, iki sistem arasındaki "güven ilişkisini" istismar edebilir.
 + Hizmetin Engellenmesi (DoS) saldırıları => Bir saldırgan, anasistemin yasal kullanıcılara hizmet sunmasını önlemek için çok yüksek miktarda ağ trafiğini bir ağ anasistemine yönlendirebilir. Saldırganlar anasistemlerde başarıyla aşırı yüklenme yarattığında, potansiyel olarak sistem erişimini kısıtlayabilir ve diğer kullanıcılara hizmet sağlanmasını engeller. Buna Hizmetin Engellenmesi (DoS) veya Dağıtılmış Hizmetin Engellenmesi (DDoS) adı verilir.
 + Gelişmiş Sürekli Tehditler (APT'ler) => Gelişmiş Sürekli Tehditler (APT'ler)
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+CIA üçlüsünü kullanarak, bilgi güvenliğinin amaçları
+
+Bilgi güvenliği
+
+Siber güvenliğin ne olduğunu ve neyi başarmaya çalıştığımızı düşünerek başlayalım. Siber güvenlik tanımlarının çoğu, teknolojiye odaklanma eğilimindedir, dolayısıyla tipik bir tanım "dijital sistemlerin güvenliğini" ya da "iletişim güvenliğini" kapsayabilir. Bu tanımlar oldukça hızlı bir şekilde bulanıklaşabilir. Örneğin:
+
++ Bir dolandırıcı, bir kişiye bankasından olduğunu iddia eden ve kişisel kimlik numarasını  isteyen bir e-posta gönderirse ne olur? Bu bir siber güvenlik endişesi midir?
++ Peki ya bir özel dedektif bir şirket çalışanını arayıp ondan bazı gizli bilgileri yazdırmasını ve kağıtları alabilmesi için bunları posta odasına bırakmasını isterse? Bu bir siber güvenlik endişesi midir?
+
+Gerçek dünyada çoğu saldırı, genellikle bazı dijital öğelerin yanı sıra bazı insan faktörlerini, bazen de bir  fiziksel öğeyi içerir. Lütfen bunu unutmayın. Sadece dijital öğelere odaklanmamalıyız, çünkü bu düşünme sürecimizi sınırlar ve potansiyel saldırganlara esneklik tanır.
+
+Bilgi güvenliği  denilen yeni bir kavramı ele alalım. Bilgi güvenliği, nasıl koruduğumuzdan ziyade korumaya çalıştığımız bilginin değerine odaklanır. Aşağıdaki grafik, fiziksel öğelerin ve dijital öğelerin bilgi güvenliğinin kapsamında olduğunu gösterir.
+
+https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/VQGMRKRXDJRVZDGZ/CyberF_InformationSecurity_Eng.png
+
+1. Fiziksel güvenlik; binalar, güvenlik kameraları, ekipman ve mülk gibi varlıkların hırsızlık, vandallık, yangın ve doğal afetler gibi fiziksel tehditlerden fiziksel olarak korunmasıdır.
+
+2. Siber güvenlik ise ağların, cihazların ve programların her türden kötü niyetli siber saldırıdan korunmasıdır.
+
+İyi bir güvenlikte biri olmadan diğeri olamaz ve her ikisi de aynı hedeflere yönelik hareket etmelidir.
+
+örneğin;
+
+Bunu bir müşterinin perspektifinden düşünelim. Bir seyahat şirketine gittiğinizi ve bir yurtdışı seyahati rezervasyonu için pasaport detaylarınızı paylaştığınızı varsayın. Ya şirketin çalışanlarından biri kazara pasaport detaylarınızı yanlış adrese gönderirse ya da pasaport detaylarınızı içeren basılı kağıtları bir trende çantasından düşürürse? Sonuç aynıdır. Özel bilgileriniz tehlikeye girmiş olur. Bilgi güvenliğinde  odak noktası sonuçtur, yöntemin tam olarak nasıl olduğu değil.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Siber güvenlik uzmanları neyi başarmaya çalışıyorlar?
+
+Ulusal Standartlar ve Teknoloji Enstitüsü'ne (NIST) göre, bilgi güvenliği: "Bilgi ve bilgi sistemlerinin gizlilik, bütünlük ve kullanılabilirlik sağlamak adına yetkisiz erişim, kullanım, açıklama, kesinti, değiştirme veya imhadan korunmasıdır."
+
+Bu nedenle bilgi güvenliğinin hedefleri genellikle iyi bir başlangıç noktası olarak CIA üçlüsü kullanılarak tanımlanır. CIA, üç hedefe dair bir hatırlatıcıdır: Gizlilik, Bütünlük ve Kullanılabilirlik.
+
++ Gizlilik/Bilgi özeldir: Bilgilerin onlara erişim yetkisi olmayan kişilerin eline geçmesinin önlenmesini ifade eder.
++ Bütünlük/Bilgi değişikliğe uğramamıştır: Bilginin doğru ve tutarlı kaldığından emin olmak ve yetkisiz kişilerin bilgilerde değişiklik yapamamasını sağlamaktır.
++ Kullanılabilirlik/Bilgi, gerektiğinde erişilebilir olmalıdır: Gerektiğinde bilgilere zamanında ve güvenilir erişim ve kullanımı ifade eder.
+
+CIA üçlüsü, bir kuruluşta bilgi güvenliğine yönelik politikaların yönlendirilmesine yardımcı olmak üzere kullanılan bir modeldir.
+
+https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/YZMQPVPXYNPN4DAM/CyberF_ClAtriad_Eng.png
+
+Farklı kuruluşlar ve senaryolar, bir hedefin diğerlerinden önce geldiğini savunabilir.
+
+Örnek; Bilgi güvenliği hedeflerine sizin için bağlam kazandırmak adına bazı örneklere bakalım. 
+
+1. Gizlilik
+devlet istihbarat teşkilatları için en önemli hedef olabilir. Ismarlama şifreleme, hatta kurşun gömlekli, suya atılınca batan çantaları kullanmak gibi, bilgiyi gizli tutmak için ne kadar ileri gidebildiklerini bir düşünün.
+
+2. Bütünlük 
+bankalar için en önemli hedef olabilir. Bir pizzaya 10 dolar harcadığınızı düşünün. Bu işlemin gizli olması konusuyla özel olarak ilgilenmezsiniz. Ancak işlemin üzerinde oynanırsa ve bunun yerine 10.000 dolar harcamış olursanız, kendinizi ciddi bir mali sorunun içinde bulabilirsiniz. Bu durum bankanızda geniş ölçekte gerçekleşirse, bankanız güven kaybından dolayı faaliyetlerini durdurabilir.
+
+3. Kullanılabilirlik
+bir web sitesi için en önemli hedef olabilir. Bir bloğunuz olduğunu düşünün. Gizli olup olmadığı veya bir editörün yazım hatalarının düzeltilmesine yardım edip etmediği konusuyla özel olarak ilgilenmezsiniz. Orada olmasını ve güncelleyip yayımlamak istediğiniz anda erişilebilir olmasını istersiniz.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Siber güvenlikte varlık, sahibi için değeri olan bir şey olarak tanımlanır. Varlıklar bir program gibi dijital ya da bir sunucu gibi fiziksel olabilir. Veritabanları, araştırmalar veya kayıtlar gibi özel nitelikli bilgiler aynı zamanda bilgi varlıkları olarak adlandırılabilmektedir.
+
+Kişisel banka hesabınızı, fotoğraf kitaplığınızı, sosyal medya hesabınızı ve cep telefonunuzu düşünün. Her bir varlık için Gizlilik, Bütünlük ve Kullanılabilirlik kaybı sizi nasıl etkilerdi? 1-5 arasındaki ölçeği kullanarak derecelendirmenizi sağlanan alanlara yazın.
+
+1) Düşük seviye sonuç: Günlük hayatta fark edebileceğiniz bir etki olmazdı.
+
+3) Orta seviye sonuç: Birkaç saatlik kayıp zamanla sonuçlanan, fazla önemli olmayan bir etki olurdu.
+
+5) Yüksek seviye sonuç: Hayatınızı değiştirebilecek, aylar veya yıllar sürebilecek bir etki olurdu.
+
+
+ÖRNEK;
+Sizin için burada hazır bir örnek var: Çevrimiçi bir münazara sunumu. Bu örnekte:
+
+1. Gizlilik kaybı sinir bozucu olarak görülür, ancak önemsiz bir etkisi olacaktır ve 2 olarak derecelendirilmiştir.
+
+2.Başka birinin sunumu düzenlemesinden kaynaklanan Bütünlük kaybı, bir tartışmaya yol açabilir, bu da güncellemelerle zaman kaybedilmesine neden olabilir. Dolayısıyla Bütünlük 3 olarak derecelendirilmiştir.
+
+3. Son olarak, çevrimiçi yorum tamamen kaybolur ya da ulaşılamaz hale gelirse, bunun hiçbir etkisi olmaz, bu yüzden Kullanılabilirlik kaybı 1 olarak derecelendirilmiştir.
+
+
+Güvenlik perspektifinden bakıldığında, varlıklara yönelik koruma önlemlerinizi sizin için en önemli olanlara göre önceliklendirmek mantıklıdır. Örneğin, parola yöneticinizin parolası 20'den fazla karakter uzunluğunda olup gizli tutulurken, evdeki bir kablosuz ağ parolası ara sıra arkadaşlarla ve aileyle paylaşılabilir! Siber güvenlikte kuruluşlar her zaman bu tür kararlar verirler. 
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Siber güvenliğin temel öğeleri
+
+Bilgi varlıklarını güvence altına almanın birçok yolu vardır ve en iyi yaklaşıma karar vermek, siber güvenlikte önemli bir husustur.
+
+Örnek;
+Korumanız gereken pahalı bir tablonuz olduğunu varsayalım. Seçeneklerden biri, tabloyu sürekli olarak izleyecek birkaç güvenlik görevlisini işe almak olurdu. Bir diğer seçenek ise, tablonuzu görecek olası tüm ziyaretçilerden bir depozito vermelerini talep etmek veya sigorta teyidi istemek olabilirdi. Son olarak, tanınmayan kişileri tespit etmek üzere lazer tuzaklarını, güvenlik kameralarını ve hareket sensörlerini seçebilirdiniz. Bu seçeneklerin her birinin çeşitli avantajları ve dezavantajları vardır. Tüm harika hırsız filmlerinde olduğu gibi, tek bir seçeneğe bağlı kalmak yeterli olmayabilir.
+
+
+Siber güvenliğe dair düşünülmesi gereken üç temel unsur mevcuttur:
+
+https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/DNZRJVJRJPKYZKK5/CyberF_PeopleProcessTech_tkTK.png
+Bunlar, bir saldırganın saldırabileceği ve kuruluşların siber güvenlik çabalarında odaklanması gereken alanlardır. Bu derste bunları derinlemesine inceleyelim.
+
+
+1. İnsanlar
+Oldukça dijital bir sektör için, genel kanının aksine, insanlar siber güvenliğin en önemli parçasıdır. Birincisi, insanlar dijital sistemin son kullanıcılarıdır; ikincisi, insanlar genellikle dijital sistemlerin tasarımı ve bakımından sorumludurlar. İnsan eylemi, açık ara siber güvenlik olaylarının ana sebebidir. Kuruluşlar güvenli bir sistem tasarladıklarında, bunu insanları düşünerek yapmalıdırlar.
+
+Alarm yorgunluğu, bunun aksadığı hallere dair yaygın bir örnektir. İnsanlar çok fazla bildirim veya alarm aldıklarında, nihayetinde bunlara duyarsız hale geleceklerdir. İyi sistemler, insan davranışını öngörecek ve hesaba katacak şekilde tasarlanır.
+
+
+2. süreç
+İş dünyasında çoğu faaliyet, net bir şekilde belirlenmiş bir dizi adımı takip eder. Bu süreçler, her adımda güvenliği dikkate alarak siber güvenliğe yardımcı olabilir ya da son kullanıcı için sinir bozucu olarak siber güvenliğe engel olur.
+
+Bir kullanıcının, şüpheli aktiviteyi bildirmek için 20 soruluk bir anketi doldurmasının istendiği bir süreci düşünün. Faydalı bilgi verebilecek çoğu kullanıcı sıkılıp süreçten vazgeçebilir.
+
+İyi süreçler şu niteliklere sahiptir:
+
++ Olabildiğince net ve kolaydırlar. Süreç sırasında, her aşamada ne yapılacağı açık olmalıdır. Süreçler gereksiz jargon içermemeli ya da belirsiz bir şekilde yazılmamalıdır.
++ Erişilebilir ya da herkesçe bilinirler. Süreci herhangi bir aşamada izleyebilecek olan tüm kullanıcılar, bu sürece nasıl erişeceklerini bilmelidirler. Binalardaki yangın tahliyeleri, genellikle bir yürütülen bir süreç örneğidir. Çoğu kişi, uygun işaretler sayesinde en yakın tahliye noktasının yerini bilir.
++ Tutarlıdırlar. Süreçler mümkün olduğunda birbirleriyle çelişmemelidir. Bir süreçte çok fazla istisna veya sapma varsa, bu karmaşıklığı artırır. Sonraki bölümlerde, siber saldırganların saldırıları sırasında bunu nasıl kötüye kullandıklarını öğreneceksiniz.
+
+
+3. Teknoloji
+Teknoloji, arka plandaki altyapının tamamıdır.
+
+Siber güvenlik dahilinde bu genellikle cihaz şifrelemesi, ağ çevresi savunmaları ve kötü amaçlı yazılıma karşı koruma teknolojileri gibi unsurları kapsar.
+
+İş dünyasında teknolojinin iyi kullanımıyla, sorunlar kullanıcıları için yeni sorunlar yaratmadan çözülür.
+
+Yazılım yama durumlarını izleyebilen ve güncellemeleri uygulayan cihaz yönetimi yazılımları, iyi teknoloji güvenliğine dair bir örnektir. Bu genellikle büyük kuruluşlar için gereklidir. Doğru bir şekilde yapılıyorsa, bu, teknolojinin kesintisiz olduğu ve kullanıcı güvenliğinin pasif bir şekilde sağlandığı anlamına gelir. Yetersiz bir şekilde yapılıyorsa, bu durumda kullanıcılar yazılımı tamamen devre dışı bırakma girişiminde bulunabilirler. Cihaz kullanıcıları olarak siz de bu durumla karşılaşırsınız.
+
+Aşağıdaki tablo; güvenliğe ilişkin bazı teknolojik atılımları, bu atılımların algılanan dezavantajlarını ve kullanıcı yönetimi perspektifinden, devreye alınmalarının olumsuz yanlarını göstermektedir.
+
+|Teknolojik atılım|Teknolojik atılım|Algılanan olumsuz yan|İstenmeyen kullanıcı tepkileri|
+|---|---|---|---|
+|Otomatikleştirilmiş yama yönetimi|Tüm yazılımların güncel olması|Cihaz kullanımında kesintiler|Kullanıcının cihazları kapatmaması|
+|Yüksek karmaşıklıkta zorunlu parolalar|Saldırganların parolaları tahmin etmesinin zor olması|Kullanımın yorucu olması|P@r0l@!|
+|Zorunlu parolaların sürelerinin 30 günden sonra dolması|Parolaların uzun süreler boyunca tehlikeye girmemesi|Tahmin edilebilir şekilde kendini tekrar etmesi|OcakParola, ardından ŞubatParola|
+|Şifrelenmiş e-postalar|Saldırganların iletilen e-postaları okuyamaması|Ek yapılandırma ve karmaşıklık|Şifreleme özelliğinin devre dışı bırakılması|
+
+Kuruluşların, teknolojinin tam olarak neden getirildiği ve algılanan olumsuz yanların neden gerekli olabileceği konusunda kullanıcılara eğitim vermelerinin önemli olduğunu görebilirsiniz.
