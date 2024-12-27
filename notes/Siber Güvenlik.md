@@ -7,7 +7,7 @@ Siber Güvenliğin Temelleri kursuna hoş geldiniz! Bu, giriş niteliğinde bir 
 
 Hedefiniz, şifreleme ve siber saldırılar gibi konular dahil olmak üzere siber güvenlik alanındaki temel terminoloji, kavramlar ve roller hakkında bilgi edinmek.
 
-İnternet, dünya çapında iletişim kuran milyarlarca cihaz ile şimdiye kadar oluşturulmuş en büyük bilgi paylaşım ağına ev sahipliği yapmaktadır. Gelişmiş ekonomilerde, ortalama bir kişi artık günlük hayatın çoğu yönü için gerekli olan birden fazla cihaza sahiptir. Bu dijital ortamda herkes saldırıya uğramaya açıktır. Siber saldırılar büyük teknoloji şirketlerini, finans kurumlarını, medya kuruluşlarını, arkadaşlık sitelerini, siyasi partileri, küçük şirketleri ve tıpkı bizim gibi bireyleri etkiler. 
+İnternet, dünya çapında iletişim kuran milyarlarca cihaz ile şimdiye kadar oluşturulmuş en büyük bilgi paylaşım ağına ev sahipliği yapmaktadır. Gelişmiş ekonomilerde, ortalama bir kişi artık günlük hayatın çoğu yönü için gerekli olan birden fazla cihaza sahiptir. Bu dijital ortamda herkes saldırıya uğramaya açıktır. Siber saldırılar büyük teknoloji şirketlerini, finans kurumlarını, medya kuruluşlarını, arkadaşlık sitelerini, siyasi partileri, küçük şirketleri ve tıpkı bizim gibi bireyleri etkiler.
 
 Siber güvenlik, bireyler ve kuruluşlar olarak elektronik cihazlarımızda topladığımız, depoladığımız ve işlediğimiz benzeri görülmemiş miktarda veri nedeniyle önemlidir. Siber saldırıların hacmi ve karmaşıklığı arttıkça, hepimiz bu bilgileri korumakla sorumlu hale geliyoruz. Şimdi ve gelecekte neleri korumamız gerektiğini bir düşünün!
 
@@ -193,7 +193,7 @@ Temelde, tüm kimlik doğrulaması türlerinin güçlü ve zayıf yönleri bulun
 kırılabilir. Buna bağlı olarak, güvenlik uzmanları, önemli hesaplar için iki veya daha fazla kimlik
 doğrulaması türü kullanılmasını önerirler. Bu, iki faktörlü ya da çok faktörlü kimlik doğrulaması olarak
 anılır. Bir saldırgan, parolanızı tahmin edebilir veya telefonunuzu çalabilir, ancak her ikisini aynı anda
-yapması zordur. 
+yapması zordur.
 
 Kimlik doğrulamasının ardından Erişim Kontrolü gelir. Bir sistem kim olduğunuzu bildiğinde, neye
 erişebilmeniz gerektiğini bilmesi gerekir ve bunun için kimin neyi görebileceğine, değiştirebileceğine ve
@@ -293,7 +293,7 @@ korsanları olan Siyah Şapkalılar bulunur.
 Bilgisayar korsanlarının gerekçeleri de önemli ölçüde farklılık gösterir. Bazıları eğlence ve merak
 nedeniyle bilgisayar korsanlığı yaparken, siber suçlular ise genellikle maddi kazanç için bilgisayar
 korsanlığı yaparlar. Ayrıca, bir sosyal ya da siyasi amacı duyurmak için becerilerini kullanan aktivist
-bilgisayar korsanları da bulunur. 
+bilgisayar korsanları da bulunur.
 
 Ve bunlar buz dağının yalnızca görünen kısmıdır. Temelde, bir sürü boş pizza kutusuyla dolu karanlık bir
 odada oturan, popüler olmayan bir çocuk olarak tasvir edilen klişeleşmiş bilgisayar korsanı imajı,
@@ -309,7 +309,7 @@ korsanlığını içermez; kullanıcıların onları içeriye almak için kandı
 adı verilir. Bir kişi, gizli bilgilerini vermeye ya da bir bilgisayar sistemini saldırganlar tarafından giriş
 yapılmasına izin verecek şekilde yapılandırmaya ikna edilir. En yaygın saldırı türü kimlik avı
 dolandırıcılığıdır. Bununla en sık olarak, örneğin bankanızın web sitesinde bir hesapta oturum açmanızı
-isteyen e-postalarda karşılaşırsınız. 
+isteyen e-postalarda karşılaşırsınız.
 
 Sizden e-postadaki bir bağlantıyı tıklamanız istenir ve bu da sizi deneyimsiz bir kişiye yasal gibi görünen,
 oysa gerçekte kötü amaçlı bir kopya olan bir siteye yönlendirir. Kullanıcı adınızı ve parolanızı girdiğinizde,
@@ -323,7 +323,7 @@ Bir başka sosyal mühendislik saldırısı, saldırganların örneğin bir şir
 şekilde BT biriminden olduklarını söyledikleri sahte senaryo uydurma yöntemidir. Saldırganlar genellikle
 ilk numarayı arar, ardından ikinciye aktarılmayı talep eder, böylece numara şirketin dahili bir numarası gibi görünür. Saldırgan daha sonra, habersiz kullanıcıya bilgisayarını izinsiz girişe olanak sağlayacak
 biçimde yapılandırma komutu verebilir veya parolalar ya da ağ yapılandırmaları gibi gizli bilgilerini
-açıklamasını sağlayabilir. 
+açıklamasını sağlayabilir.
 
 Pardon, bir saniye...
 
@@ -334,7 +334,7 @@ kontrol eder misin?
 
 Saldırganlar, önemli çalışanların adları gibi şeyleri bulmak için önceden biraz araştırma yaparak
 fazlasıyla ikna edici olabilirler. Bir kurbanı bulmak on telefon görüşmesi gerektirebilir, ancak içeri girmek
-için yalnızca tek görüşme yeterlidir. 
+için yalnızca tek görüşme yeterlidir.
 
 E-postalar ayrıca, truva atları, bir fotoğraf veya fatura gibi zararsız ek görünümünde olan, ancak aslında
 kötü amaçlı yazılımlar içeren programlar için yaygın bir aktarım yöntemidir. Kötü amaçlı yazılımlar pek
@@ -355,7 +355,7 @@ başlayıncaya kadar bir dizi parolayı denemenize imkan tanır. Bu gerçekleşt
 oluşturduğunuz orijinal kopyayı belleğe yeniden yüklemeniz, yani temelde belleği sıfırlamanız yeterlidir
 ve bu şekilde beklemeden daha fazla parolayı deneyebilirsiniz. Bu yöntemin bir iPhone 5C'de başarılı
 olduğu gösterilmişti, ancak daha yeni aygıtların çoğu bu tür bir saldırıyı engelleyecek mekanizmalar
-içerir. 
+içerir.
 
 Bir aygıta fiziksel erişiminiz yoksa, uzaktan, örneğin İnternet üzerinden kırmanın bir yolunu bulmanız
 gerekir. Bu, genelde bir saldırganın sistemde bir hata bulmasını ve bundan yararlanmasını gerektirir.
@@ -364,7 +364,7 @@ Hatayı başarıyla kullanarak, yetenekler veya erişim elde edebilir ve buna is
 Yaygın bir istismar türü, arabellek taşmasıdır. Arabellekler, verilerin depolanması için ayrılmış bir bellek
 bloğu için kullanılan genel bir terimdir. 23. bölümde piksel verilerinin depolanması için video
 arabelleklerinden bahsetmiştik. Basit bir örnek olarak, bir işletim sisteminin kullanıcı adı ve parola için
-alanlar içeren oturum açma istemini düşünebiliriz. 
+alanlar içeren oturum açma istemini düşünebiliriz.
 
 Bu işletim sistemi, arka planda girilen metin değerlerini depolamak için arabellekler kullanır. Örnek
 olarak, bu arabelleklerin boyutunun on olarak belirlendiğini düşünelim. Bellekte, iki metin arabelleği şu
@@ -382,7 +382,7 @@ istediği tek şey budur, rahatsızlık vermek. Ancak saldırganlar, bir program
 değerler enjekte ederek, örneğin bir "is admin" (sistem yöneticisidir) değişkenini doğru olarak
 değiştirerek bu hatayı daha zekice bir biçimde istismar edebilirler. Bilgisayar korsanları, bir programın
 belleğini arzu ettikleri biçimde yönetme yeteneğiyle, oturum açma istemleri gibi şeyleri atlayabilir, hatta
-bazen bu programı tüm sistemi ele geçirmek için kullanabilirler. 
+bazen bu programı tüm sistemi ele geçirmek için kullanabilirler.
 
 Arabellek taşması saldırıları ile mücadele etmek için pek çok yöntem bulunur. En kolayı, arabelleğe
 kopyalanmadan önce girişin uzunluğunun her zaman test edilmesidir ve buna sınır denetimi adı verilir.
@@ -413,7 +413,7 @@ Bu durumda, SQL veritabanına gönderilen asıl komut şu şekilde görünür ve
 SQL komutlarının bir noktalı virgül ile bittiğine dikkat edin.
 
 Peki biri bunu nasıl kırabilir? Yerleşik SQL komutlarıyla bir kötü amaçlı kullanıcı adı göndererek! Tıpkı
-bizim sunucuya bu garip kullanıcı adını gönderdiğimiz gibi: 
+bizim sunucuya bu garip kullanıcı adını gönderdiğimiz gibi:
 
 Sunucu bu metni SQL Sorgusuna kopyaladığında, şu şekilde görünür:
 
@@ -522,7 +522,7 @@ oluşturur. Örneğin, E harfi İngilizce'de en sık kullanılan harftir ve şif
 harfi, şifreli metinde en sık görülen harf olur. Becerikli bir şifre analisti, mesajın içeriğini açığa çıkarmak
 için bu tür istatistiklerden yola çıkarak geriye doğru çalışabilir. İskoçya Kraliçesi Mary'nin 1587 yılında
 Kraliçe Elizabeth'i öldürmeyi planlama suçundan idam edilmesine yol açan şey bir yerine koyma
-şifresinin kırılmasıydı. 
+şifresinin kırılmasıydı.
 
 Permütasyon şifreleri, bir başka temel yöntem sınıfını oluşturur. Şimdi, sütun yer değiştirme (columnar
 transposition) şifresi adı verilen basit bir örneğe bakalım. Burada, bir mesajı alıyoruz ve harfleri bir
@@ -625,12 +625,12 @@ karıştırılmış rengi posta, posta güvercini veya diğer herhangi bir şeki
 aynı şeyi yapıyor; gizli boya rengini ortak boya rengiyle karıştırıyor ve bana gönderiyor. John'un rengini
 aldığımda, yalnızca kendi özel rengimi ekleyerek üç boyanın bir karışımını oluşturmam gerekiyor. John
 da aynı şeyi benim karıştırılmış rengimle yapıyor. İşte bu kadar! İkimiz de aynı boya rengini elde
-ediyoruz! 
+ediyoruz!
 
 Hiçbir zaman birbirimize kendi özgün gizli renklerimizi göndermiş olmasak da, bunu bir paylaşılan
 güvenlik dizgisi olarak kullanabiliriz. Dışarıdan gözetleyen bir kişi, bilgilerin bir kısmını öğrenebilir, ancak
 paylaşılan gizli rengimizi belirlemekte çok zorlanacaktır. Tabii ki, renklerin gönderilmesi ve karıştırılması bilgisayar verilerinin iletilmesi için çok iyi işlemez. Neyse ki, matematiksel tek yönlü fonksiyonlar
-mükemmeldir ve Diffie-Hellman Anahtar Değişimi de bunu kullanır. 
+mükemmeldir ve Diffie-Hellman Anahtar Değişimi de bunu kullanır.
 
 Diffie-Hellman'da, tek yönlü fonksiyon olarak modüler üs alma kullanılır. Bu, bir sayının taban olarak
 alınmasını, üs olarak bir başka sayının alınmasını ve modül olarak anılan bir üçüncü sayı ile
@@ -706,7 +706,7 @@ PDF 2 => https://bundles.yourlearning.ibm.com/skills/learn/assets/XVPQVZGJWWQV54
 
 
 + sesle etkinleştirilen siber güvenlik yardımcısı Havyn
-+ Ardından, kendiniz yapmayı denemek için bir fırsata sahip olacaksınız ve NOVA Cybersecurity Lab ile siber savunma becerilerinizi test edeceksiniz. 
++ Ardından, kendiniz yapmayı denemek için bir fırsata sahip olacaksınız ve NOVA Cybersecurity Lab ile siber savunma becerilerinizi test edeceksiniz.
 
 
 -------------------------------------------------------------------------------------------------------------
@@ -741,7 +741,7 @@ bypass”. Ekrana getireyim mi?
 + Mike: Bir şirket, günde iki yüz binden fazla güvenlik olayıyla karşılaşabilir. Özel olarak bu soruna kaç kişiyle
 odaklandığımız fark etmiyor; üretilen çok yüksek miktardaki verinin önüne geçmek için hiçbir zaman
 yeterli olmayacak. Kognitif teknolojiler, bu bilgileri daha hızlı ve büyük ölçekte işleyerek bu eğrinin önüne
-geçmemize olanak sağlayacak. 
+geçmemize olanak sağlayacak.
 
 Saldırıları ve güvenlik açıklarını ele almak için her zaman Watson'u ve kognitif bilişimi kullanmanın yeni
 yollarını düşünmeye çalışıyoruz. Havyn'in en iyi yönlerinin henüz keşfedilmediğini düşünüyorum.
@@ -870,9 +870,11 @@ MitM saldırıları, kimlik avı dolandırıcılığı (phishing) ve site trafi�
 -------------------------------------------------------------------------------------------------------------
 
 
+# Siber Güvenliğe Genel Bakış
+
 CIA üçlüsünü kullanarak, bilgi güvenliğinin amaçları
 
-Bilgi güvenliği
+## Bilgi güvenliği
 
 Siber güvenliğin ne olduğunu ve neyi başarmaya çalıştığımızı düşünerek başlayalım. Siber güvenlik tanımlarının çoğu, teknolojiye odaklanma eğilimindedir, dolayısıyla tipik bir tanım "dijital sistemlerin güvenliğini" ya da "iletişim güvenliğini" kapsayabilir. Bu tanımlar oldukça hızlı bir şekilde bulanıklaşabilir. Örneğin:
 
@@ -920,7 +922,7 @@ Farklı kuruluşlar ve senaryolar, bir hedefin diğerlerinden önce geldiğini s
 1. Gizlilik
 devlet istihbarat teşkilatları için en önemli hedef olabilir. Ismarlama şifreleme, hatta kurşun gömlekli, suya atılınca batan çantaları kullanmak gibi, bilgiyi gizli tutmak için ne kadar ileri gidebildiklerini bir düşünün.
 
-2. Bütünlük 
+2. Bütünlük
 bankalar için en önemli hedef olabilir. Bir pizzaya 10 dolar harcadığınızı düşünün. Bu işlemin gizli olması konusuyla özel olarak ilgilenmezsiniz. Ancak işlemin üzerinde oynanırsa ve bunun yerine 10.000 dolar harcamış olursanız, kendinizi ciddi bir mali sorunun içinde bulabilirsiniz. Bu durum bankanızda geniş ölçekte gerçekleşirse, bankanız güven kaybından dolayı faaliyetlerini durdurabilir.
 
 3. Kullanılabilirlik
@@ -951,7 +953,7 @@ Sizin için burada hazır bir örnek var: Çevrimiçi bir münazara sunumu. Bu �
 3. Son olarak, çevrimiçi yorum tamamen kaybolur ya da ulaşılamaz hale gelirse, bunun hiçbir etkisi olmaz, bu yüzden Kullanılabilirlik kaybı 1 olarak derecelendirilmiştir.
 
 
-Güvenlik perspektifinden bakıldığında, varlıklara yönelik koruma önlemlerinizi sizin için en önemli olanlara göre önceliklendirmek mantıklıdır. Örneğin, parola yöneticinizin parolası 20'den fazla karakter uzunluğunda olup gizli tutulurken, evdeki bir kablosuz ağ parolası ara sıra arkadaşlarla ve aileyle paylaşılabilir! Siber güvenlikte kuruluşlar her zaman bu tür kararlar verirler. 
+Güvenlik perspektifinden bakıldığında, varlıklara yönelik koruma önlemlerinizi sizin için en önemli olanlara göre önceliklendirmek mantıklıdır. Örneğin, parola yöneticinizin parolası 20'den fazla karakter uzunluğunda olup gizli tutulurken, evdeki bir kablosuz ağ parolası ara sıra arkadaşlarla ve aileyle paylaşılabilir! Siber güvenlikte kuruluşlar her zaman bu tür kararlar verirler.
 
 
 -------------------------------------------------------------------------------------------------------------
@@ -977,7 +979,7 @@ Oldukça dijital bir sektör için, genel kanının aksine, insanlar siber güve
 Alarm yorgunluğu, bunun aksadığı hallere dair yaygın bir örnektir. İnsanlar çok fazla bildirim veya alarm aldıklarında, nihayetinde bunlara duyarsız hale geleceklerdir. İyi sistemler, insan davranışını öngörecek ve hesaba katacak şekilde tasarlanır.
 
 
-2. süreç
+2. Süreç
 İş dünyasında çoğu faaliyet, net bir şekilde belirlenmiş bir dizi adımı takip eder. Bu süreçler, her adımda güvenliği dikkate alarak siber güvenliğe yardımcı olabilir ya da son kullanıcı için sinir bozucu olarak siber güvenliğe engel olur.
 
 Bir kullanıcının, şüpheli aktiviteyi bildirmek için 20 soruluk bir anketi doldurmasının istendiği bir süreci düşünün. Faydalı bilgi verebilecek çoğu kullanıcı sıkılıp süreçten vazgeçebilir.
@@ -1008,3 +1010,170 @@ Aşağıdaki tablo; güvenliğe ilişkin bazı teknolojik atılımları, bu atı
 |Şifrelenmiş e-postalar|Saldırganların iletilen e-postaları okuyamaması|Ek yapılandırma ve karmaşıklık|Şifreleme özelliğinin devre dışı bırakılması|
 
 Kuruluşların, teknolojinin tam olarak neden getirildiği ve algılanan olumsuz yanların neden gerekli olabileceği konusunda kullanıcılara eğitim vermelerinin önemli olduğunu görebilirsiniz.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Risk yönetimi
+
+
+Riskler günlük yaşamın bir parçasıdır ve içgüdüsel olarak aşina olduğumuz bir olgudur. Risk, olumsuz sonucu olacak bir şeyin yaşanma olasılığıdır. Risk yönetimi, çoğu işletmenin kalbi ve sigortacılık sektörü gibi çoğu sektörün de merkezidir. İyi işletmeler, kendilerine rekabetçi avantaj sağlamaları adına riskleri etkili bir şekilde anlayıp yönetirler.
+
+Aşağıda riske ilişkin bazı temel kavramları ve bu kavramların siber güvenlik için nasıl geçerli olduğunu keşfedeceğiz.
+
+1. Risk değerlemesi
+
+Tüm riskler eşit öneme sahip değildir. Belirli riskler acil dikkat gerektirirken, bazıları görmezden gelinebilir. Daha önemli olan riskler, yüksek riskler olarak bilinir. Bir riskin değerini hesaplamak için temel bir denklem şu şekildedir: ***Risk değeri = Sonuç x Olasılık***
+
++ Sonuç, etki ve ilişkili zararlardır.
++ Olasılık, riskin etkisinin ne sıklıkta gerçekleştiğidir.
+
+İdeal olarak matematiksel nedenlerden dolayı, her risk için istatistik bilgilere sahip olsak elbette iyi olur. Örneğin belirli bir yılda 10 araçtan birinin lastiğinin patlayacağını bilsek, ilgili riskle kolayca başa çıkılabilir.
+
+
+Bir örnek verelim;
+Önceki patlak lastik senaryosuna risk değer denklemi, örnek olarak şu şekilde uygulanabilir. Bir kişi, işe giderken lastiği patladığından bir günlük verimini kaybedebilir. Bu riskin sonucu, bir günlük iş kaybıdır. Bu sonuç sinir bozucu olsa da, riskin olasılığının düşük  (belirli bir yılda 10 araçta 1 oranında) olduğunu hatırlayalım. Bu da, genel risk değerini düşük olarak değerlendirebiliriz demektir.
+
+
+Teknolojinin sürekli gelişmesi ve dışarıdan saldırganların dahil olması nedeniyle, siber güvenlikte olasılığı ölçmek bir hayli zordur. Temel bir kural olarak, bir kuruluşun saldırıya uğrama ihtimali, kısmen şu üç özelliğe bağlıdır: Olasılık = Düşmanın kabiliyeti x Düşmanın motivasyonu x Güvenlik açığının önem düzeyi
+
+
+1_A . Düşman
+
+Düşman, bir bilgi sistemini ihlal etmek isteyen bir tarafı tanımlamak için kullanılan genel bir terimdir. Düşmanlar farklı şekillerde sınıflandırılabilir. Bu da, onların yeteneklerine ve motivasyonlarına değer biçmenize yardımcı olacak.
+
+
+1_B. Güvenlik Açıkları
+
+Güvenlik açıkları, bir sistem içindeki o sistemi tehlikeye atmak üzere yararlanılabilecek olası zayıf noktalardır. Kullanıcıların kimliklerini uygun şekilde doğrulamayan bir web sitesi, güvenlik açığına bir örnek olabilir.
+
+
+Bir örnek verelim;
+Bu ikinci denkleme dair ikinci bir örnek ise şöyle olabilir. Bir bankanın, kullanıcıların bankacılık sistemine giriş ayrıntılarını ve parolalarını çalmak isteyen bir suç çetesi tarafından hedef alındığını varsayalım.
+
++ Düşmanın kabiliyeti  orta seviye olarak değerlendirilebilir, çünkü suçlular geniş bir araç yelpazesi kullanabilir ve gerekli durumlarda kendi araçlarını geliştirebilirler.
++ Motivasyonları ise yüksek seviye olarak değerlendirilir, çünkü belirli bir süre içerisinde birden fazla saldırı girişiminde bulunabilirler.
++ Tespit edilen bir güvenlik açığı, yüksek seviye olarak değerlendirilir, çünkü yararlanılması oldukça kolaydır. Örneğin belirli güvenlik açıklarına ilişkin olarak, saldırganların saldırıları kolayca kopyalamalarını sağlayacak çevrimiçi açıklamalar yayınlanmıştır.
+
+Not: "Düşük", "orta" ve "yüksek" derecelendirme terimlerinin kullanımı, riskin nitel analizine bir örnektir. İdeal bir dünyada kesin sayılar ve yüzdeler kullanmamız gerekirdi; ancak bunları bulmak zor olduğundan, elimizde genellikle sadece tahminler olur.
+
+
+2. Riske yanıt verme
+
+Bir kuruluş tüm risklerini değerlendirdiğinde, odak noktası risk yönetimine ya da yanıt vermeye çevrilir. Genel anlamda, bir kuruluşun seçebileceği dört tür risk yanıtı mevcuttur. Bu yanıtlar aşağıdaki tabloda açıklanmıştır.
+
+|Kabul etmek|Azaltmak|Aktarmak|Reddetmek|
+|---|---|---|---|
+|Kuruluş, riski olduğu gibi kabul eder. Bu, kuruluş içerisinde "risk sahibi" denilen üst düzey bir kişi tarafından alınacak bir karardır.|Kuruluş, bir riskin kabul edilemeyecek kadar büyük olduğuna karar verebilir ve bu riski bir şekilde azaltmayı amaçlayabilir. Bu, olasılığı veya sonucu azaltma yoluyla gerçekleştirilebilir.|Kuruluş, kendisi yerine üçüncü bir tarafın riski veya riskin bir kısmını kabul etmesini isteyebilir. Bu, sigorta yoluyla yapılır.|Kuruluş, bir riskin çok büyük olduğuna karar verebilir ve riskten etkilenmeden geri çekilebilir. Bu yanıtın, sahaların kapatılması ya da piyasalardan çekilme gibi önemli iş etkileri olacaktır.|
+
+Bir örnek verelim;
+Bu dört risk yanıtı türünü örneklerle açıklayalım. Evden bir pastacılık işi yapmayı düşündüğünüzü varsayalım. Fırında pişirme süreci sırasında mutfağınızın zarar görme riski vardır. Bu riske vereceğiniz yanıtlardan bazıları şu şekilde olabilir.
+
++ Kabullenme: Riske bakabilir ve pişirme yeteneğinize güvenerek, bir şeylerin ters gitme olasılığının düşük olduğuna inanır ve riski göze alırsınız. Pişirme işi yolunda gitmezse, mutfağınızı onarabilirsiniz ve buna hazırlıklı olursunuz.
++ Azaltma: Mutfağınızın ve fırınınızın yüksek risk altında olmamasını tercih eder ve riski azaltmaya karar verirsiniz. Erken uyarı vermesi amacıyla bir duman dedektörü kurarak yangınla alakalı olayların ortaya çıkma olasılığını azaltabilirsiniz. Yangın söndürme sistemi kurdurarak, yangının sonuçlarını azaltabilirsiniz. Her iki seçeneğin küçük bir maliyeti olacaktır, ancak buna değeceğini düşünürsünüz.
++ Aktarma: Sigorta şirketinize gider ve sigortanızı, evde pişirmeyle ilgili yangınları da kapsayacak şekilde yükseltirsiniz. Şirket, riske dair kendi değerlendirmesini yapar. Birlikte, riskin kapsama alınması için ödenecek maliyet konusunda bir karara varırsınız. Fırınınız yanarsa masrafları onlar karşılar. Bu düzenlemede ilk başta bir maliyet söz konusudur, ancak sorumluluğunuz sınırlanmış olur.
++ Reddetme: Fırınla ilgili yangın riskinin çok yüksek olduğuna karar verirsiniz. Tarifleri, pastalarınızı fırın kullanmadan yapacak şekilde değiştirir ya da işe başlamaktan vazgeçersiniz.
+
+Bu örnekte gördüğünüz üzere, basit bir durumda bile düşünülmesi gereken çok şey vardır. Hızla değişen BT teknolojilerine sahip işletmeler, çok sayıda sürekli değişen riskle yüz yüze kalırlar. Risk yönetimi, çoğu şirkette tam zamanlı bir iştir ve birçok stratejik ve taktiksel karar alma durumunu yönlendirir.
+
+
+3. Risk iştahı
+
+Risk iştahı, bir kuruluşun kabul etmeye gönüllü olduğu risk düzeyidir.
+
++ Yüksek seviyede bir riski kabul etmeye gönüllü bir kuruluşun risk iştahı yüksek olarak ifade edilir.
++ Risk kabul etmekten hoşlanmayan bir kuruluşun ise risk iştahı düşük olarak ifade edilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Yaygın yanlış fikirler
+
+Bugün dünyada siber güvenliğe ilişkin birçok yanlış fikir bulunur. Bu yanlış fikirler bir bilgisayar sistemine saldırmayı konu alan gerçek dışı Hollywood klişelerinden sektörde çalışan demode insan stereotiplerine kadar uzanır. Bazı yaygın yanlış fikirleri inceleyip bunları sizin için netleştirelim.
+
+
+1. Siber güvenlik alanında çalışan herkesin bir BT geçmişi vardır.
+Siber güvenlikteki rollerin çoğu kısmen veya tamamen BT'ye dayalı olsa da, rollerin hepsi kesin olarak bu tür bir geçmişe sahip değildir. Çoktan fark etmiş olabileceğiniz üzere, siber güvenliğin kapsamı çok geniş olduğundan, çok sayıda alanda yetenek talebi söz konusudur. Beceriler insan yönetiminden iletişime, matematikten veri bilimine kadar uzanır. Farklı deneyim ve becerilere sahip olmak, ekiplerin sorunlara yeni yollarla yaklaşmalarına da yardımcı olur ve bu çok değerlidir.
+
+
+2. Tüm bilgisayar korsanları suçlulardan oluşur.
+Bilgisayar korsanı terimi, geçmişten bu yana bir şeyleri uyarlamayı ve nasıl çalıştıklarını keşfetmeyi seven kişileri ifade eder. Bu tanım, işlemlerini ele geçirmek niyetiyle yasa dışı olarak bilgisayar sistemlerine erişim sağlamaya çalışan kişilerle karıştırılır. Günümüzde çeşitli BT görevlerinde istihdam edilen ve birçok işin parçası olarak yasal bir şekilde BT sistemlerinin anlaşılmasına katkıda bulunan binlerce bilgisayar korsanı vardır. Bu kişilerin merakları ve azimleri, BT sistemlerinin güvenli bir şekilde inşa edilmesini sağlama açısından çok değerlidir.
+
+
+3. Siber güvenlik benim yapamayacağım bir şey.
+Siber güvenliğin sürekli değişen alanları ve geniş kapsamından dolayı, herkes için bir rol vardır. Rollerin çeşitliliği, becerilerde de büyük bir çeşitlilik gerektirir. Bu beceriler; stratejik analiz ve BT işletmelerinin değişen ortamını öngörmekten sistem izleme rollerinde tetikte ve sabırlı olmaya kadar uzanabilir. Çok fazla eğitim ve öğrenim olanağının olduğunu unutmayın.
+
+
+4. Bu sektörde çalışmak için çok yaşlıyım veya gencim.
+Bir ekibin yapısı dahilinde kaç farklı on yıl olduğuna bakmak ekibin çeşitliliğine yönelik iyi bir turnusol testidir. İyi bir ekip, geniş bir deneyim ve hayat görüşü yelpazesine sahip olmalıdır. Siber güvenliğin, sorunlara hem yeni bir gözle hem de deneyimli bir bakış açısıyla bakması gerekir. Yaklaşımların ister harika ister kötü olduğunu düşünüyor olun, muhtemelen çözümün yarısına ve diyaloğa ekleyeceğiniz harika bir fikre sahipsinizdir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Kanunlar ve etik kurallar
+
+Siber suç, yalnızca 30 yıl içinde oluşmuş, oldukça yeni bir kavramdır. Öncesinde, bilgisayarları kötü niyetli olarak kullanan kişiler, hırsızlık ve telgraf kanunlarının çok da uygulanabilir olmayan bir kombinasyonu kullanılarak yargılanıyordu.
+
+Günümüzde ise programlama teknolojilerinin kullanımını yönetmek ve bunların eşlik ettiği bilgileri korumaya yönelik geniş kapsamlı bir dizi uluslararası kanun oluşturulmuş durumda. Bu kanunlar herkesi ilgilendiriyor ve tüm siber güvenlik uzmanlarının bu kanunlara dair temel bir anlayışa sahip olmaları önem taşıyor.
+
+Aşağıda; yaygın kanun türleri ile birlikte etik kuralların göz önünde bulundurulmasının önemine dair kısa genel bir bakış sağlanacak.
+
+**Öneml Not:** Kanunlar tüm dünyada aynı değildir. Ülkelere göre önemli ölçüde değişiklik gösterebilirler. Yaşadığınız ya da seyahat ettiğiniz ülkenin kanunlarını kontrol etmeniz ve bunlara uymanız gerekir. Bazı devletler, kanunlarını diğerlerinden daha kısıtlayıcı şekilde oluşturmuştur, bu yüzden bir ülkede yasal olan bir şey başka ülkede yasa dışı olabilir. Emin olmadığınız durumlarda yasal tavsiye alın.
+
+
+1. Bilgisayarın kötüye kullanımına ilişkin yaygın kanun türleri
+Bilgisayarların kötüye kullanımına ilişkin kanunlar konusunda dünya çapında kabul gören bazı yaygın özellik veya kavramları inceleyelim.
+
+1_A. Bir bilgisayarın izinsiz kullanımı veya kontrolü
+
++ Çoğu kanun, bir bilgisayara yetkisiz ya da izinsiz olarak erişilmesini ve kullanılmasını yasaklar.
++ Bu genel kısıtlama, teknik malzemeler ya da bir kişinin hesabına zorla erişme yoluyla bilgisayarları ele geçirmenin yasak olduğu anlamına gelir.
++ Bu kanunlar, kimlik doğrulaması gibi kırılan denetimlerin etrafından dolaşan kişileri yakalar.
+
+Bir örnek verelim;
+Bir dizi kullanıcı parolasını çalarak bunları birinin hesabına sızmak için kullanmak amacıyla sahte bir giriş ekranının yerleştirilmesi.
+
+
+1_B. Başkalarının meşru kullanımına engel olma
+
++ Bu kanunlar, ağ yetenekleri gibi bilgisayar kaynaklarının kullanılabilirliğine yönelik saldırıları kapsar.
++ Başkaları için hizmet kalitesini düşüren ya da tamamen engelleyen eylemler genellikle bu kanunların kapsamındadır.
+
+Bir örnek verelim;
+Bir sunucuya ya da ağ anahtarına işlenmek üzere çok fazla bilgi göndererek sunucu ya da ağ anahtarının aşırı yüklenmesine neden olmak.
+
+
+1_C. Başka suçlulara yardım etme ya da kötü amaçlı yazılım geliştirme
+
++ Bu kanunlar, örneğin yataklık yapmak gibi, başkalarının bilgisayarların kötüye kullanımına yönelik suçlar işlemelerine yardımcı olmayı ifade eder.
++ Kötü amaçlı yazılım olarak bilinen zararlı yazılımların üretilmesi, bu şekilde başkalarına yardım etmeye dair bir örnek teşkil edebilir.
++ Bu kanunlar, suç çetelerini çökertmeye yardımcı olmak amacıyla kullanılmak üzere hazırlanmıştır.
+
+Bir örnek verelim;
+Makine sahibinin haberi olmadan bir makineye uzaktan erişmeye olanak tanıyan bir programın üretilmesi.
+
+
+
+Bilgisayarların kötüye kullanımına ilişkin kanunlara ek olarak, bazı siber suçların veri koruma kanunları ve geleneksel mülkiyet kanunlarıyla örtüştüğünü göreceksiniz. Bir siber suçun fikri mülkiyetin çalınmasıyla sonuçlanması halinde, bu suç bir hırsızlık vakası olarak incelenebilir.
+
+BT güvenliğinde bir şey yapmadan önce uyulması gereken altın kural, bir cihaz üzerinde çalışmaya başlamadan önce sahibinden doğru izinlerin alınmasıdır. Ayrıca, istenmeyen yan etkilerden kaçınmak adına ne yaptığınızı tam olarak bilmek de önemlidir.
+
+
+2. Etikle ilgili tartışmalar
+
+Tıpkı kanunlar gibi, etik kurallar da tüm dünyada farklıdır. Siber güvenlik kapsamında etik kuralların farklı yönleri hakkında hararetli bir tartışma yaşanmaktadır. Örneğin, kuruluşların bir saldırganın tetiklemesi için altyapıları içine bubi tuzaklı dosyalar bırakmalarına izin verilmeli mi? Çoğu kişi bu durumun etik açıdan makul olduğunu düşünebilir, ancak yasal çerçeveden bakıldığında, tuzaklı dosyalar kötü amaçlı yazılım olarak görülebileceğinden bu eylemin yasa dışı olduğu ileri sürülebilir. Öte yandan, güvenlik sektöründeki tekniklerin suçluları hedef almak için kullanımı hakkında etik ikilemler de söz konusudur.  Misilleme mazur görülebilir mi ya da savunulabilir mi? Peki ya askeri eylemler ve devletlere ilişkin kurallar ne olacak?
+
+Etik ikilemlerin olduğunu ve bu ikilemlerin sektörün ortaya çıkışından bu yana sürdüğünü görebilirsiniz. Bu tartışmalar, sağlıklı bir sektörün olgunluğa ulaştığını ve katılımcılarının bu önemli konuları düşünerek doğruluktan yana olduklarını gösteren iyi yönde işaretlerdir.
+
+Siber güvenliğe ilişkin kanunların ve etik kuralların karmaşıklığını göstermek amacıyla bu grafik, yasaların ve etik kuralların birbirleriyle nasıl örtüştüğünü ortaya koymaktadır. https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/EKWVDXDXDPQJ6W2R/CyberF_LawsEthics_tkTK.png
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+# Siber Güvenlik: Saldırı Tarafı
+
+## Tehdit aktörü grupları
