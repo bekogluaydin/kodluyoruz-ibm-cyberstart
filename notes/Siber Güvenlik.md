@@ -1177,3 +1177,19 @@ Siber güvenliğe ilişkin kanunların ve etik kuralların karmaşıklığını 
 # Siber Güvenlik: Saldırı Tarafı
 
 ## Tehdit aktörü grupları
+
+Aşağıdaki konular hakkında bilgi edineceksiniz:
++ Siber saldırgan grubu türleri
++ Siber saldırı türleri
++ Lockheed Martin Cyber Kill Chain çerçevesini kullanarak, tipik bir siber saldırı sırasındaki adımlar
++ MITRE ATT&CK matrisini kullanarak, saldırgan taktikler ve teknikleri
++ Siber suç ekonomisi nasıl çalışır?
++ Sosyal mühendislik ve yaygın sosyal mühendislik saldırıları
++ Açık kaynaklı istihbarat (OSINT) ve siber saldırganların kullandığı yaygın kaynaklar
++ Teknik tarama yöntemleri
++ Dünyada nelerin mümkün olduğunu ve yaşandığını anlamak için siber saldırılarla ilgili yüksek profilli vaka çalışmaları
+
+
+1. Tehdit aktörü grupları
+
+Siber güvenlik çalışanları, farklı tehdit aktörü gruplarından veya siber saldırgan gruplarından haberdar olmalıdırlar. Çeşitli gruplar vardır ve bu gruplar sebepler, kaynaklar ve teknikler açısından önemli farklılıklar gösterirler. Beş ana siber saldırgan grubunu inceleyip karşılaştıralım.
