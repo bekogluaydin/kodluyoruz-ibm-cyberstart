@@ -1207,9 +1207,25 @@ Script Kiddie'ler (ya da "script çocuğu"), genellikle siber saldırılar veya 
 + Çoğu durumda mali olarak yeterince desteğe sahip değildirler. Genellikle yalnızca temel yetkili sunuculara erişim sağlama veya geçici/kullan-at hesaplar oluşturma gibi basit yöntemlerle sınırlı kalmaz; bazen aracı rolü üstlenerek daha karmaşık bilgi ve becerilere sahipmiş gibi davranmaya, hatta simsarlık yapmaya çalışabilirler.
 + Savunma açısından kuruluşların, yama uygulama programlarının etkin olarak izlendiğinde emin olmaları gerekir. Kolay bir istismar açığı oluşursa, bir noktada bunun devreye alınması oldukça muhtemeldir. Savunmalar, başka bir hedefin daha kolay görünmesini sağlayacak şekilde olmalıdır, bu da yeterli bir caydırıcı olacaktır.
 
-
 Bir Scrip Kiddie'nin profili;
 |Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
 |---|---|---|---|
 |Kendi kendini eğitmiş kişiler, genelde gençler	|İtibar artırmak isterler veya eğlence için saldırırlar|Çok az finans desteğine sahiptirler, teknik uzmanlık veya yardımları azdır ya da hiç yoktur, başkalarının yazdığı ücretsiz araçları kullanabilirler|Yama uygulama programının etkin ve temel savunmaların güncel olmasını sağlayın|
  
+
+1_B. Grup 2: Hacktivistler
+İkinci gruplar, hacktivistlerdir. Hacktivist, "hacker" ve "aktivist" kelimelerini birleştiren bir terimdir. Hacktivistler, siyasi veya ekonomik bir değişim arayışındadırlar ve buna ulaşmak için bilgisayar korsanlığını kullanırlar.
+
+Özet;
++ Hacktivistlerin temel ayırt edici özelliği, ideolojik hedeflerle hareket etmeleridir.
++ Hacktivist gruplarını oluşturan insanlar geniş bir yelpazeden gelirler. Script Kiddie grubunda olduğu gibi bu gruplar da kolay etkilenen amatörlerle doludur; ancak amaçlar oldukça tartışmalı bir konu üzerinde birleştiğinde, güvenlik topluluğundaki daha deneyimli üyeler de bunlara katılır.
++ Hacktivist grupların motivasyonlarını, fazlasıyla değişen amaçları belirler. Genel olarak bu motivasyonlar, insanların inandıkları bir amacı desteklemeyi kapsar. Bu, Orta Doğu çatışmasında, siyasi faaliyetlerde vb. taraf olmak olabilir.
++ Anonymous adlı bilgisayar korsanlığı topluluğu, bu gruba ilişkin en ünlü örnektir. Anonymous; çeşitli devletler, devlet kurumları ve makamları ile kuruluşlara yönelik siber saldırılarıyla bilinen uluslararası bir hacktivist grubudur.
++ Hacktivistler, uygun ölçekte gerçekleştirildiğinde oldukça etkili olabilen bir dizi araç kullanırlar. Hizmet Engelleme (DoS) programları bu alandaki kayda değer bir örnektir.
++ Tek bir Script Kiddie fazla tehdit oluşturmasa da, paralel saldırılar düzenleyen birkaç yüz tanesiyle ilgilenmek çok daha zor olabilir.
++ Kuruluş olarak dirayetli olmak çok önemlidir. Bir kuruluş hassas bir alanda (örn. hayvanlar üzerinde test, siyasi amaçlar) faaliyet gösteriyorsa, bir noktada hacktivistlerden gelen uzun süreli bir saldırıya maruz kalması mümkündür. İyi savunmalara sahip olmak tüm saldırıları savuşturmaya yetmez, bu yüzden kuruluşlar uzun süreli bir saldırıya dayanmak için yöntemler geliştirmelidirler.
+
+Bir hacktivistin profili;
+|Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
+|---|---|---|---|
+|Gevşek koalisyonlar oluşturan azimli idealistler|Bir değişiklik yaratmak isterler|Çeşitli araçlarla uygun ölçekte hareket ederler ve en büyük özellikleri boyuttur|Savunma sistemlerinizin uzun süreli aksatıcı bir saldırıya dayanabileceğinden emin olun| 
