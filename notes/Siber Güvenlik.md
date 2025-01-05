@@ -1210,6 +1210,7 @@ Bir Scrip Kiddie'nin profili;
 |Kimdirler?|Amaçları Nedir?|
 |---|---|
 |Kendi kendini eğitmiş kişiler, genelde gençler	|İtibar artırmak isterler veya eğlence için saldırırlar|
+
 |Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
 |---|---|
 |Çok az finans desteğine sahiptirler, teknik uzmanlık veya yardımları azdır ya da hiç yoktur, başkalarının yazdığı ücretsiz araçları kullanabilirler|Yama uygulama programının etkin ve temel savunmaların güncel olmasını sağlayın|
