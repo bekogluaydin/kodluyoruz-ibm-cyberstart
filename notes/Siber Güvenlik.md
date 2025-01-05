@@ -1193,3 +1193,24 @@ Aşağıdaki konular hakkında bilgi edineceksiniz:
 1. Tehdit aktörü grupları
 
 Siber güvenlik çalışanları, farklı tehdit aktörü gruplarından veya siber saldırgan gruplarından haberdar olmalıdırlar. Çeşitli gruplar vardır ve bu gruplar sebepler, kaynaklar ve teknikler açısından önemli farklılıklar gösterirler. Beş ana siber saldırgan grubunu inceleyip karşılaştıralım.
+https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/GYDEZGKKMRNXY8DY/CyberF_AttackerGroups_tkTK.png
+
+1_A. Grup 1: Script Kiddie
+İlk grup en az gelişmiş olan Script Kiddie'lerden oluşur. "Script Kiddie" ifadesi, genellikle temel bilgisayar korsanlığı araçları şeklindeki programları, arka planda ne olduğunu anlamadan kullanan kişiler için kullanılır. Ağ oluşturma ve programlamaya dair temel bir anlayışa sahip olsalar da teknik becerilerin yanı sıra sabır veya stratejik niyetten yoksundurlar.
+
+Özet;
++ Pratikte bu demografi, genellikle forumlar, videolar veya deneyler yoluyla kendi kendini eğitmiş gençlerden veya genç yetişkinlerden oluşur.
++ Çoğu kişi için bilgisayar korsanlığı çabalarının ana motivasyon kaynakları; bilgisayar korsanlığı topluluğunun gözünde ün ve statü kazanmak, eğlence veya intikamdır.
++ Kaynak açısından Script Kiddie'ler, kullanıma hazır sızma testi araçlarına ve herkese açık yetkisiz erişim programlarına bel bağlarlar.
++ Çoğu durumda mali olarak yeterince desteğe sahip değildirler. Temel yetkili sunucuların veya kullan-at hesapların ötesinde simsarlık bilgisi göstermeye meyillidirler.
++ Savunma açısından kuruluşların, yama uygulama programlarının etkin olarak izlendiğinde emin olmaları gerekir. Kolay bir istismar açığı oluşursa, bir noktada bunun devreye alınması oldukça muhtemeldir. Savunmalar, başka bir hedefin daha kolay görünmesini sağlayacak şekilde olmalıdır, bu da yeterli bir caydırıcı olacaktır.
+
+
+Bir Scrip Kiddie'nin profili;
+|Kimdirler?|Amaçları Nedir?|
+|---|---|
+|Kendi kendini eğitmiş kişiler, genelde gençler	|İtibar artırmak isterler veya eğlence için saldırırlar|
+|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
+|---|---|
+|Çok az finans desteğine sahiptirler, teknik uzmanlık veya yardımları azdır ya da hiç yoktur, başkalarının yazdığı ücretsiz araçları kullanabilirler|Yama uygulama programının etkin ve temel savunmaların güncel olmasını sağlayın|
+ 
