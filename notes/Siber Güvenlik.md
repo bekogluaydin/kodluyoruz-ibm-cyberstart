@@ -1236,3 +1236,16 @@ Bir hacktivistin profili;
 1_C. Grup 3: Suç çetesi
 
 Kolay para kazanmak mümkün olduğu sürece, suçlular toplum için her zaman bir sorun olacaktır. İnternetin icadı, suçlular için kurbanları eşi görülmemiş bir ölçek, uzaklık ve kolaylık dahilinde avlamaya yönelik yeni bir yöntemi beraberinde getirdi. Kendilerini tehlikeye atmak yerine, hevesli suçlular dünyanın öbür yanından virüslü e-postalar gönderebilir, bir kurbandan fidye alabilir ve geleneksel polislik yöntemlerinden kaçmak için paralarını kripto paraya çevirebilirler. Bu suçluları yakalamak son derece zordur ve uluslararası yasalardan dolayı, bir davayı kazanmak neredeyse imkansızdır. Ne yazık ki çoğu suçlu da bunların farkındadır. 
+
+Özet;
++ Bu en hızlı büyüyen, dolayısıyla en geniş gruptur.
++ Bu grup çeşitli faaliyetleri içerir. Çeteler; fidye yazılım saldırıları (kurban, kaynaklarına erişimini geri almak için ödeme yapmaya zorlanır), şantaj (büyük bir saldırı tehdidi sonucunda koruma parası alınabilir), geleneksel müşteri verilerini veya fikri mülkiyeti çalma gibi faaliyetlerde bulunabilirler.
++ Siber tabanlı bir suçlu olmak, tam zamanlı ve potansiyel anlamda oldukça karlı bir tekliftir. Çeteler, birkaç kişiden yüzlerce üyesi olan çok uluslu gruplara kadar uzanabilir. Her çetede genelde uzmanlar vardır ve karanlık ağ üzerinden bilgi alışverişi yapabilirler. Dolayısıyla, suç çeteleri oldukça gelişmiştir ve iyi organize olurlar.
++ Kaynak açısından, suç çeteleri genelde kendi kötü amaçlı yazılımlarını geliştirip devreye alırlar. Hatta bazı durumlarda, daha az teknik bilgiye sahip diğerlerine erişim kiralarlar. Tıpkı tüm yazılım satışlarında olduğu gibi, reklam yaparlar, değerlendirmeleri barındırırlar ve hatta teknik destekleri bile vardır. Suç çetelerinin, sunucular ve etki alanları gibi hatırı sayılır miktarda altyapı öğesine erişimleri vardır.
++ Bir suç çetesinden korunmak için, kritik varlıklara yönelik etkili savunmalar olmalıdır. Bir çalışanın dizüstü bilgisayarında fidye yazılımının bulunması şirket için sıkıntılı bir durumken, bir üretim sunucusunda fidye yazılımı bulmak yıkıcı olabilir.
++ Mali açıdan suçlular, en hızlı ve en kolay yoldan zengin olma oyununu benimserler.
+
+Bir suç çetesinin profili;
+|Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
+|---|---|---|---|
+|Ulusal ve uluslararası ekiplerden kişilerin bulunduğu gruplar|Mali motivasyonlarla hareket ederler|Karanlık web'den satın alınmış geniş araç ve ekipman yelpazesi|Kritik varlıklar ve yedekler etrafında koruma uygulamalarıyla birlikte tamamen eğitimli bir iş gücüne sahip olunması gerekir|   
