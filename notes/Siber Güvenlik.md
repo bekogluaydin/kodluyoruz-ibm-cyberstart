@@ -1266,3 +1266,8 @@ Bir ulus devlet bilgisayar korsanının profili;
 |Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
 |---|---|---|---|
 |Yüksek eğitimli uzmanlardır|Geniş çeşitlilikteki sorunlara ilişkin birden fazla yıla yayılan stratejik planları izlerler|Çok geniş bütçelere, son teknolojili araçlara ve gelişmiş araştırma olanaklarına sahiptirler|İnanılmaz derecede zordur; kuruluşun her yönüne ilişkin tamamen koordine savunmalar gerekir|
+
+
+1_E. Grup 5: Kötü niyetli köstebek 
+
+Muhtemelen en çok kaygı verici grup, kötü niyetli köstebeklerin oluşturduğu gruptur. Burada köstebek, kasten veya farklı bir şekilde kuruluş aleyhine hareket eden, kuruluşun içinden bir üyeyi ifade eder.
