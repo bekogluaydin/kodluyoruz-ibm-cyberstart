@@ -1231,3 +1231,8 @@ Bir hacktivistin profili;
 |Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
 |---|---|---|---|
 |Gevşek koalisyonlar oluşturan azimli idealistler|Bir değişiklik yaratmak isterler|Çeşitli araçlarla uygun ölçekte hareket ederler ve en büyük özellikleri boyuttur|Savunma sistemlerinizin uzun süreli aksatıcı bir saldırıya dayanabileceğinden emin olun| 
+
+
+1_C. Grup 3: Suç çetesi
+
+Kolay para kazanmak mümkün olduğu sürece, suçlular toplum için her zaman bir sorun olacaktır. İnternetin icadı, suçlular için kurbanları eşi görülmemiş bir ölçek, uzaklık ve kolaylık dahilinde avlamaya yönelik yeni bir yöntemi beraberinde getirdi. Kendilerini tehlikeye atmak yerine, hevesli suçlular dünyanın öbür yanından virüslü e-postalar gönderebilir, bir kurbandan fidye alabilir ve geleneksel polislik yöntemlerinden kaçmak için paralarını kripto paraya çevirebilirler. Bu suçluları yakalamak son derece zordur ve uluslararası yasalardan dolayı, bir davayı kazanmak neredeyse imkansızdır. Ne yazık ki çoğu suçlu da bunların farkındadır. 
