@@ -1248,4 +1248,21 @@ Kolay para kazanmak mümkün olduğu sürece, suçlular toplum için her zaman b
 Bir suç çetesinin profili;
 |Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
 |---|---|---|---|
-|Ulusal ve uluslararası ekiplerden kişilerin bulunduğu gruplar|Mali motivasyonlarla hareket ederler|Karanlık web'den satın alınmış geniş araç ve ekipman yelpazesi|Kritik varlıklar ve yedekler etrafında koruma uygulamalarıyla birlikte tamamen eğitimli bir iş gücüne sahip olunması gerekir|   
+|Ulusal ve uluslararası ekiplerden kişilerin bulunduğu gruplar|Mali motivasyonlarla hareket ederler|Karanlık web'den satın alınmış geniş araç ve ekipman yelpazesi|Kritik varlıklar ve yedekler etrafında koruma uygulamalarıyla birlikte tamamen eğitimli bir iş gücüne sahip olunması gerekir| 
+
+
+1_D. Grup 4: Ulus devlet bilgisayar korsanı ya da gelişmiş kalıcı tehdit (APT)
+
+Sonraki ve belki de haksız yere medyanın en çok dikkatini çeken grup, ulus devlet saldırganlarıdır. Dünya çapındaki çoğu askeri organizasyon, artık siber uzayı deniz, kara, hava ve uzayın yanında beşinci bir çatışma alanı olarak görmektedir. Çoğu ulus, sınırlarının ötesine büyük ve kapsamlı sonuçlar yaratacak şekilde güç yansıtabilme yetisini göstermiştir. 
+
+ÖZET;
++ Ulus devlet bilgisayar korsanlarının rolü, ülkelerine stratejik bir avantaj kazandırmaktır. Bu, keşiften bilgi toplamaya (örn. geleneksel casusluk/sinyal istihbaratı), bilgi tahribinden manipülasyonuna kadar uzanabilir.
++ Bu organizasyonların üyeleri iyi eğitimlidir ve çeşitli altyapılara sahiptirler. Tam zamanlı olarak ve genellikle alanlarında en üst düzeyde çalışırlar.
++ Motivasyonları, genellikle siyasi ve stratejik hedeflerle büyük paralellik gösterir. Buna ilişkin yakın zamanda gerçekleşen bir örnek, 2016 ABD başkanlık seçimlerine yönelik Rus faaliyetleriydi. Amaç, seçime müdahale etmenin yanı sıra siyasi ve sosyal anlaşmazlıkları artırmaktı.
++ Kaynak açısından, ulus devlet bilgisayar korsanları gelişmiş araştırmaya, özel altyapı ekiplerine ve devasa siyasi desteğe sahiptirler.
++ Belirli ulus devlet bilgisayar korsanlarından korunma, kuruluşlar için çok büyük bir zorluktur. Bunu başarmak için, tamamen yetkin ve koordine güvenlik savunmaları gerekir.
+
+Bir ulus devlet bilgisayar korsanının profili;
+|Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
+|---|---|---|---|
+|Yüksek eğitimli uzmanlardır|Geniş çeşitlilikteki sorunlara ilişkin birden fazla yıla yayılan stratejik planları izlerler|Çok geniş bütçelere, son teknolojili araçlara ve gelişmiş araştırma olanaklarına sahiptirler|İnanılmaz derecede zordur; kuruluşun her yönüne ilişkin tamamen koordine savunmalar gerekir|
