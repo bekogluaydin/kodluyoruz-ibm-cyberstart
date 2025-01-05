@@ -1271,3 +1271,7 @@ Bir ulus devlet bilgisayar korsanının profili;
 1_E. Grup 5: Kötü niyetli köstebek 
 
 Muhtemelen en çok kaygı verici grup, kötü niyetli köstebeklerin oluşturduğu gruptur. Burada köstebek, kasten veya farklı bir şekilde kuruluş aleyhine hareket eden, kuruluşun içinden bir üyeyi ifade eder.
+
+ÖZET;
++ Kötü niyetli köstebekler, bir kuruluşta olumsuz bir zihniyetle işe başlayabilir ya da bir süre sonra kinlenmiş hale gelebilirler.
++ Motivasyonları fazlasıyla değişkendir ve en yaygın olarak mali çıkarlardan öfkeye kadar neredeyse her konuyu kapsayabilir. Bir diğer deyişle, kötü ün veya şöhret, tetikleyici etkenler olabilir.
