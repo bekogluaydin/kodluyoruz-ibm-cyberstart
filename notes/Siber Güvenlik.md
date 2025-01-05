@@ -1196,6 +1196,7 @@ Siber güvenlik çalışanları, farklı tehdit aktörü gruplarından veya sibe
 https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/GYDEZGKKMRNXY8DY/CyberF_AttackerGroups_tkTK.png
 
 1_A. Grup 1: Script Kiddie
+
 İlk grup en az gelişmiş olan Script Kiddie'lerden oluşur. "Script Kiddie" ifadesi, genellikle temel bilgisayar korsanlığı araçları şeklindeki programları, arka planda ne olduğunu anlamadan kullanan kişiler için kullanılır. Ağ oluşturma ve programlamaya dair temel bir anlayışa sahip olsalar da teknik becerilerin yanı sıra sabır veya stratejik niyetten yoksundurlar.
 
 Script Kiddie'ler (ya da "script çocuğu"), genellikle siber saldırılar veya hack girişimleri gerçekleştiren, ancak teknik bilgi düzeyleri düşük olan bireylerdir. Çoğunlukla kendi yazdıkları kodlar yerine başkalarının geliştirdiği hazır araçları ve scriptleri kullanırlar. Amaçları genellikle dikkat çekmek, eğlenmek veya basit bir sistemi istismar etmektir.
@@ -1214,6 +1215,7 @@ Bir Scrip Kiddie'nin profili;
  
 
 1_B. Grup 2: Hacktivistler
+
 İkinci gruplar, hacktivistlerdir. Hacktivist, "hacker" ve "aktivist" kelimelerini birleştiren bir terimdir. Hacktivistler, siyasi veya ekonomik bir değişim arayışındadırlar ve buna ulaşmak için bilgisayar korsanlığını kullanırlar.
 
 Özet;
