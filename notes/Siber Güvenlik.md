@@ -1198,11 +1198,13 @@ https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/GY
 1_A. Grup 1: Script Kiddie
 İlk grup en az gelişmiş olan Script Kiddie'lerden oluşur. "Script Kiddie" ifadesi, genellikle temel bilgisayar korsanlığı araçları şeklindeki programları, arka planda ne olduğunu anlamadan kullanan kişiler için kullanılır. Ağ oluşturma ve programlamaya dair temel bir anlayışa sahip olsalar da teknik becerilerin yanı sıra sabır veya stratejik niyetten yoksundurlar.
 
+Script Kiddie'ler (ya da "script çocuğu"), genellikle siber saldırılar veya hack girişimleri gerçekleştiren, ancak teknik bilgi düzeyleri düşük olan bireylerdir. Çoğunlukla kendi yazdıkları kodlar yerine başkalarının geliştirdiği hazır araçları ve scriptleri kullanırlar. Amaçları genellikle dikkat çekmek, eğlenmek veya basit bir sistemi istismar etmektir.
+
 Özet;
 + Pratikte bu demografi, genellikle forumlar, videolar veya deneyler yoluyla kendi kendini eğitmiş gençlerden veya genç yetişkinlerden oluşur.
 + Çoğu kişi için bilgisayar korsanlığı çabalarının ana motivasyon kaynakları; bilgisayar korsanlığı topluluğunun gözünde ün ve statü kazanmak, eğlence veya intikamdır.
 + Kaynak açısından Script Kiddie'ler, kullanıma hazır sızma testi araçlarına ve herkese açık yetkisiz erişim programlarına bel bağlarlar.
-+ Çoğu durumda mali olarak yeterince desteğe sahip değildirler. Temel yetkili sunucuların veya kullan-at hesapların ötesinde simsarlık bilgisi göstermeye meyillidirler.
++ Çoğu durumda mali olarak yeterince desteğe sahip değildirler. Genellikle yalnızca temel yetkili sunuculara erişim sağlama veya geçici/kullan-at hesaplar oluşturma gibi basit yöntemlerle sınırlı kalmaz; bazen aracı rolü üstlenerek daha karmaşık bilgi ve becerilere sahipmiş gibi davranmaya, hatta simsarlık yapmaya çalışabilirler.
 + Savunma açısından kuruluşların, yama uygulama programlarının etkin olarak izlendiğinde emin olmaları gerekir. Kolay bir istismar açığı oluşursa, bir noktada bunun devreye alınması oldukça muhtemeldir. Savunmalar, başka bir hedefin daha kolay görünmesini sağlayacak şekilde olmalıdır, bu da yeterli bir caydırıcı olacaktır.
 
 
