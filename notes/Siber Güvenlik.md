@@ -1291,7 +1291,7 @@ Kötü niyetli bir köstebeğin profili;
 -------------------------------------------------------------------------------------------------------------
 
 
-Saldırgan güvenlik araştırmacısı
+2. Saldırgan güvenlik araştırmacısı
 
 Kişisel amaçları olan veya genellikle yasa dışı motivasyonlarla tehdit edici amaç taşıyan beş siber saldırgan türü hakkında bilgi edindiniz.Ama aynı zamanda  saldırgan güvenlik araştırmacısı olarak değerlendirilen kişiler de var. Saldırgan bir güvenlik araştırmacısı suçlu veya kötüye kullanma amaçlı işlemden ziyade becerilerini iyi amaçlarla kullanmayı ve paraya dönüştürmeyi tercih eder. Adlarından sıklıkla "etik bilgisayar korsanları" olarak bahsedilir ve saldırıda bulunma yöntemleri bakımından gerçek bir bilgisayar korsanının yaklaşımını benimserler fakat müşterilerin ve tüketicilerin gerçek tehditlere daha iyi korunmaları için sistemleri test etme ve güçlendirme amacını taşırlar. 
 
