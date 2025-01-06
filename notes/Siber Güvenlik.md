@@ -1286,3 +1286,23 @@ Kötü niyetli bir köstebeğin profili;
 
 
 ***Dipnot:*** Bu siber saldırgan tipi tanımları her durumda açık ve net olmayabilir. Operasyonlarda hacktivistler Script Kiddie'leri, ulus devlet bilgisayar korsanları ise suç çetelerini işe alabilir. Ayrıca bazı siber saldırganlar, çalışmalarına olduğundan daha az gelişmiş görüntüsü verirler. Bu tür durumlar, tehditleri doğru tarafla ilişkilendirmeyi zorlaştırabilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Saldırgan güvenlik araştırmacısı
+
+Kişisel amaçları olan veya genellikle yasa dışı motivasyonlarla tehdit edici amaç taşıyan beş siber saldırgan türü hakkında bilgi edindiniz.Ama aynı zamanda  saldırgan güvenlik araştırmacısı olarak değerlendirilen kişiler de var. Saldırgan bir güvenlik araştırmacısı suçlu veya kötüye kullanma amaçlı işlemden ziyade becerilerini iyi amaçlarla kullanmayı ve paraya dönüştürmeyi tercih eder. Adlarından sıklıkla "etik bilgisayar korsanları" olarak bahsedilir ve saldırıda bulunma yöntemleri bakımından gerçek bir bilgisayar korsanının yaklaşımını benimserler fakat müşterilerin ve tüketicilerin gerçek tehditlere daha iyi korunmaları için sistemleri test etme ve güçlendirme amacını taşırlar. 
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+3. Günümüzde siber güvenlik alanında çalışmak
+
+Burada, becerilerini dünya genelindeki kuruluşlara değerli ve genellikle yüksek ücretli tavsiye ve bilgiler sunmak için kullanan başlıca iki siber güvenlik uzmanından bahsettik.
+
+|Brian Krebs|Georgia Wiedman|
+|---|---|
+|Brian, siber suçları araştıran ünlü bir gazeteci. Kariyerine, 1995-2009 yılları arasında Security Fix bloğu için yazılar yazdığı ve siber güvenlik haberciliğinin sınırlarını zorladığı The Washington Post'ta muhabir olarak başladı. Bugün ise kendisi oldukça popüler bir blog olan Krebs on Security'nin sahibi ve CISO MAG tarafından 2019’un “Yılın Siber Güvenlik Kişisi” seçildi. ***İlginç bilgi:*** Brian'ın siber güvenliğe yönelik ilgisi, ev ağının tamamı Çinli bir bilgisayar korsanı grubu tarafından esir alınınca başladı.|Siber güvenlik alanında bir seri girişimci olan Georgia, sızma testi görevlisi, güvenlik araştırmacısı, konuşmacı, eğitmen ve yazar olarak çalıştı. Shevirah şirketinin kurucusu ve CTO'su olarak, akıllı telefonlarda yetkisiz erişim kazanmaya ve mobil cihaz güvenliğine yönelik çalışmalarıyla geniş bir takipçi kitlesi topladı. ***İlginç bilgi:*** Georgia aynı zamanda bir melek yatırımcı ve dünya çapında NSA, West Point ve Black Hat gibi yerlerde konuşmalar yaparak izleyicileri eğitti.|
