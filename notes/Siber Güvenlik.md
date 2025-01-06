@@ -1275,3 +1275,14 @@ Muhtemelen en çok kaygı verici grup, kötü niyetli köstebeklerin oluşturdu�
 ÖZET;
 + Kötü niyetli köstebekler, bir kuruluşta olumsuz bir zihniyetle işe başlayabilir ya da bir süre sonra kinlenmiş hale gelebilirler.
 + Motivasyonları fazlasıyla değişkendir ve en yaygın olarak mali çıkarlardan öfkeye kadar neredeyse her konuyu kapsayabilir. Bir diğer deyişle, kötü ün veya şöhret, tetikleyici etkenler olabilir.
++ Köstebeğe dair yaygın bir örnek, başka birine sahip olduğu kurumsal hesaplara erişim vermesi için kendisine şantaj yapılan bir çalışan olabilir. Bir diğer yaygın örnek ise, kovulmadan önce kurumsal sırları çalan hoşnutsuz bir çalışandır. Belki de en ünlü köstebek saldırısı, ABD'den çok sayıda Ulusal Güvenlik Ajansı (NSA) dosyasını çalıp bunları WikiLeaks'e veren Edward Snowden olayıydı.
++ Köstebekler saldırılarını gerçekleştirmek için genelde teknik becerilere bel bağlamazlar. Bazıları başkalarının erişimini elde etmek için sinsice gözetlese de veya sosyal mühendislik kullansa da, genelde kendi kurumsal erişimlerini ve izinlerini kullanırlar.
++ Köstebeklere karşı savunmanın en iyi yolu; çalışanları güvenlik incelemesinden geçirme, etkin yönetim ve ardından teknik kontrollerden geçer. Teknik kontrollere başvurmak, çoğu şirket için sık sık bir "hapisten çıkış kartı" olarak görülür ve genellikle başarısız olur, çünkü ne de olsa sisteme fazlasıyla aşina kullanıcıları durdurmaya çalışıyorsunuzdur. Çoğu durumda, biri bir köstebek saldırısı gerçekleştirmeden önce birçok uyarı işareti söz konusudur. Örneğin bu uyarılar; yalnız çalışmak, küskünlük göstermek, iş kalitesi konusunda başarısız olmak veya açıklanmayan faaliyetlerde bulunmak şeklinde olabilir. Bu işaretleri yakalamak çok önemlidir.
+
+Kötü niyetli bir köstebeğin profili;
+|Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
+|---|---|---|---|
+|Kasten veya kazara kuruluşun kendi çıkarları aleyhine çalışan personel üyeleri|İntikam isterler ya da mali nedenleri vardır|Bütçe veya kaynağa gerek yoktur; kendilerine verilen erişim yetkilerini kullanırlar|Personeli dikkatle izleyin ve kuruluşunuzun kültürünün, sorunları önleme konusunda etkili olmasını sağlayın|
+
+
+***Dipnot:*** Bu siber saldırgan tipi tanımları her durumda açık ve net olmayabilir. Operasyonlarda hacktivistler Script Kiddie'leri, ulus devlet bilgisayar korsanları ise suç çetelerini işe alabilir. Ayrıca bazı siber saldırganlar, çalışmalarına olduğundan daha az gelişmiş görüntüsü verirler. Bu tür durumlar, tehditleri doğru tarafla ilişkilendirmeyi zorlaştırabilir.
