@@ -1420,8 +1420,12 @@ Bir saldırgan, halka açık, popüler bir noktada "ücretsiz" bir kablosuz ağ 
 Birleşik Krallık'ta iki genç, 2015 yılında TalkTalk'ın web sayfasını hedef alarak, uzaktan erişilebilir bir veritabanından binlerce müşteri kaydını çalmayı başardı.
 
 
+-------------------------------------------------------------------------------------------------------------
 
 
+## Bir siber saldırının yapısı
+
+Bilgisayar sistemleri değiştikçe, bu sistemlerin tehlikeye atılma yolları da değişir. Örneğin bir siber saldırı, bir bilgisayarda belirli bir kötü amaçlı yazılıma karşı savunmasız olan eski bir web tarayıcısı sürümünün çalışmasına bel bağlayabilir. Yazılım güncellendiğinde, söz konusu saldırı aynı şekilde tekrarlanamaz. Ancak bireysel teknikler zamanla değişse de, tipik bir siber saldırının genel yapısı incelenebilir. Bu derste, temel bir anlayışa sahip olabilmeniz için bunun yıllar içerisinde yapılma şekillerinden bazılarını inceleyeceğiz.
 
 
 
