@@ -1067,6 +1067,7 @@ Bir kuruluş tüm risklerini değerlendirdiğinde, odak noktası risk yönetimin
 |---|---|---|---|
 |Kuruluş, riski olduğu gibi kabul eder. Bu, kuruluş içerisinde "risk sahibi" denilen üst düzey bir kişi tarafından alınacak bir karardır.|Kuruluş, bir riskin kabul edilemeyecek kadar büyük olduğuna karar verebilir ve bu riski bir şekilde azaltmayı amaçlayabilir. Bu, olasılığı veya sonucu azaltma yoluyla gerçekleştirilebilir.|Kuruluş, kendisi yerine üçüncü bir tarafın riski veya riskin bir kısmını kabul etmesini isteyebilir. Bu, sigorta yoluyla yapılır.|Kuruluş, bir riskin çok büyük olduğuna karar verebilir ve riskten etkilenmeden geri çekilebilir. Bu yanıtın, sahaların kapatılması ya da piyasalardan çekilme gibi önemli iş etkileri olacaktır.|
 
+
 Bir örnek verelim;
 Bu dört risk yanıtı türünü örneklerle açıklayalım. Evden bir pastacılık işi yapmayı düşündüğünüzü varsayalım. Fırında pişirme süreci sırasında mutfağınızın zarar görme riski vardır. Bu riske vereceğiniz yanıtlardan bazıları şu şekilde olabilir.
 
@@ -1133,6 +1134,7 @@ Bilgisayarların kötüye kullanımına ilişkin kanunlar konusunda dünya çap�
 + Bu genel kısıtlama, teknik malzemeler ya da bir kişinin hesabına zorla erişme yoluyla bilgisayarları ele geçirmenin yasak olduğu anlamına gelir.
 + Bu kanunlar, kimlik doğrulaması gibi kırılan denetimlerin etrafından dolaşan kişileri yakalar.
 
+
 Bir örnek verelim;
 Bir dizi kullanıcı parolasını çalarak bunları birinin hesabına sızmak için kullanmak amacıyla sahte bir giriş ekranının yerleştirilmesi.
 
@@ -1141,6 +1143,7 @@ Bir dizi kullanıcı parolasını çalarak bunları birinin hesabına sızmak i�
 
 + Bu kanunlar, ağ yetenekleri gibi bilgisayar kaynaklarının kullanılabilirliğine yönelik saldırıları kapsar.
 + Başkaları için hizmet kalitesini düşüren ya da tamamen engelleyen eylemler genellikle bu kanunların kapsamındadır.
+
 
 Bir örnek verelim;
 Bir sunucuya ya da ağ anahtarına işlenmek üzere çok fazla bilgi göndererek sunucu ya da ağ anahtarının aşırı yüklenmesine neden olmak.
@@ -1151,6 +1154,7 @@ Bir sunucuya ya da ağ anahtarına işlenmek üzere çok fazla bilgi göndererek
 + Bu kanunlar, örneğin yataklık yapmak gibi, başkalarının bilgisayarların kötüye kullanımına yönelik suçlar işlemelerine yardımcı olmayı ifade eder.
 + Kötü amaçlı yazılım olarak bilinen zararlı yazılımların üretilmesi, bu şekilde başkalarına yardım etmeye dair bir örnek teşkil edebilir.
 + Bu kanunlar, suç çetelerini çökertmeye yardımcı olmak amacıyla kullanılmak üzere hazırlanmıştır.
+
 
 Bir örnek verelim;
 Makine sahibinin haberi olmadan bir makineye uzaktan erişmeye olanak tanıyan bir programın üretilmesi.
@@ -1306,3 +1310,39 @@ Burada, becerilerini dünya genelindeki kuruluşlara değerli ve genellikle yük
 |Brian Krebs|Georgia Wiedman|
 |---|---|
 |Brian, siber suçları araştıran ünlü bir gazeteci. Kariyerine, 1995-2009 yılları arasında Security Fix bloğu için yazılar yazdığı ve siber güvenlik haberciliğinin sınırlarını zorladığı The Washington Post'ta muhabir olarak başladı. Bugün ise kendisi oldukça popüler bir blog olan Krebs on Security'nin sahibi ve CISO MAG tarafından 2019’un “Yılın Siber Güvenlik Kişisi” seçildi. ***İlginç bilgi:*** Brian'ın siber güvenliğe yönelik ilgisi, ev ağının tamamı Çinli bir bilgisayar korsanı grubu tarafından esir alınınca başladı.|Siber güvenlik alanında bir seri girişimci olan Georgia, sızma testi görevlisi, güvenlik araştırmacısı, konuşmacı, eğitmen ve yazar olarak çalıştı. Shevirah şirketinin kurucusu ve CTO'su olarak, akıllı telefonlarda yetkisiz erişim kazanmaya ve mobil cihaz güvenliğine yönelik çalışmalarıyla geniş bir takipçi kitlesi topladı. ***İlginç bilgi:*** Georgia aynı zamanda bir melek yatırımcı ve dünya çapında NSA, West Point ve Black Hat gibi yerlerde konuşmalar yaparak izleyicileri eğitti.|
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+## Siber saldırı tipleri
+
+Siber saldırganların bir sisteme girip yetkisiz erişim elde edebilecekleri birçok farklı yöntem bulunur. Genellikle saldırılar hiç de teknik değildir; bunlar daha çok insanların sistem ile hatalı ve savunmasız bir şekilde etkileşim kurmalarından yararlanır. Bu ders için yaygın siber saldırı tiplerini seçtik. Bu; kapsamlı bir liste yerine, size birkaç açıklayıcı örnek sağlamaya yönelik temsili bir listedir. Şimdi bu örnekleri daha detaylı olarak inceleyelim.
+
+1. Hizmet Engelleme (DoS) saldırısı
++ DoS saldırısı, sistemin tamamen veya kısmen kesintiye uğramasına yol açan bir saldırı tipidir.
++ DoS saldırısı gerçekleştirmenin yolları, bir sistemin çökmesine neden olmaktan anormal seviyede yönlendirilmiş ağ trafiği yüzünden sistemi erişilemez veya işe devam edemez kılmaya kadar uzanabilir.
+
+
+Bir örnek verelim;
+Bir saldırgan, bir sunucunun aşırı yüklenmesine yol açacak şekilde kötü niyetli biçimlendirilmiş bir dosya gönderebilir. Bir XML dosyasının kendisine referans verip hatırı sayılır seviyede büyük bir dosya haline geldiği [Billion Laughs](https://en.wikipedia.org/wiki/Billion_laughs_attack) saldırısı buna bir örnektir.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
