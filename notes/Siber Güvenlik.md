@@ -1032,7 +1032,7 @@ Tüm riskler eşit öneme sahip değildir. Belirli riskler acil dikkat gerektiri
 İdeal olarak matematiksel nedenlerden dolayı, her risk için istatistik bilgilere sahip olsak elbette iyi olur. Örneğin belirli bir yılda 10 araçtan birinin lastiğinin patlayacağını bilsek, ilgili riskle kolayca başa çıkılabilir.
 
 
-Bir örnek verelim;
+***Bir örnek verelim;***
 Önceki patlak lastik senaryosuna risk değer denklemi, örnek olarak şu şekilde uygulanabilir. Bir kişi, işe giderken lastiği patladığından bir günlük verimini kaybedebilir. Bu riskin sonucu, bir günlük iş kaybıdır. Bu sonuç sinir bozucu olsa da, riskin olasılığının düşük  (belirli bir yılda 10 araçta 1 oranında) olduğunu hatırlayalım. Bu da, genel risk değerini düşük olarak değerlendirebiliriz demektir.
 
 
@@ -1049,7 +1049,7 @@ Düşman, bir bilgi sistemini ihlal etmek isteyen bir tarafı tanımlamak için 
 Güvenlik açıkları, bir sistem içindeki o sistemi tehlikeye atmak üzere yararlanılabilecek olası zayıf noktalardır. Kullanıcıların kimliklerini uygun şekilde doğrulamayan bir web sitesi, güvenlik açığına bir örnek olabilir.
 
 
-Bir örnek verelim;
+***Bir örnek verelim;***
 Bu ikinci denkleme dair ikinci bir örnek ise şöyle olabilir. Bir bankanın, kullanıcıların bankacılık sistemine giriş ayrıntılarını ve parolalarını çalmak isteyen bir suç çetesi tarafından hedef alındığını varsayalım.
 
 + Düşmanın kabiliyeti  orta seviye olarak değerlendirilebilir, çünkü suçlular geniş bir araç yelpazesi kullanabilir ve gerekli durumlarda kendi araçlarını geliştirebilirler.
@@ -1068,7 +1068,7 @@ Bir kuruluş tüm risklerini değerlendirdiğinde, odak noktası risk yönetimin
 |Kuruluş, riski olduğu gibi kabul eder. Bu, kuruluş içerisinde "risk sahibi" denilen üst düzey bir kişi tarafından alınacak bir karardır.|Kuruluş, bir riskin kabul edilemeyecek kadar büyük olduğuna karar verebilir ve bu riski bir şekilde azaltmayı amaçlayabilir. Bu, olasılığı veya sonucu azaltma yoluyla gerçekleştirilebilir.|Kuruluş, kendisi yerine üçüncü bir tarafın riski veya riskin bir kısmını kabul etmesini isteyebilir. Bu, sigorta yoluyla yapılır.|Kuruluş, bir riskin çok büyük olduğuna karar verebilir ve riskten etkilenmeden geri çekilebilir. Bu yanıtın, sahaların kapatılması ya da piyasalardan çekilme gibi önemli iş etkileri olacaktır.|
 
 
-Bir örnek verelim;
+***Bir örnek verelim;***
 Bu dört risk yanıtı türünü örneklerle açıklayalım. Evden bir pastacılık işi yapmayı düşündüğünüzü varsayalım. Fırında pişirme süreci sırasında mutfağınızın zarar görme riski vardır. Bu riske vereceğiniz yanıtlardan bazıları şu şekilde olabilir.
 
 + Kabullenme: Riske bakabilir ve pişirme yeteneğinize güvenerek, bir şeylerin ters gitme olasılığının düşük olduğuna inanır ve riski göze alırsınız. Pişirme işi yolunda gitmezse, mutfağınızı onarabilirsiniz ve buna hazırlıklı olursunuz.
@@ -1135,7 +1135,7 @@ Bilgisayarların kötüye kullanımına ilişkin kanunlar konusunda dünya çap�
 + Bu kanunlar, kimlik doğrulaması gibi kırılan denetimlerin etrafından dolaşan kişileri yakalar.
 
 
-Bir örnek verelim;
+***Bir örnek verelim;***
 Bir dizi kullanıcı parolasını çalarak bunları birinin hesabına sızmak için kullanmak amacıyla sahte bir giriş ekranının yerleştirilmesi.
 
 
@@ -1145,7 +1145,7 @@ Bir dizi kullanıcı parolasını çalarak bunları birinin hesabına sızmak i�
 + Başkaları için hizmet kalitesini düşüren ya da tamamen engelleyen eylemler genellikle bu kanunların kapsamındadır.
 
 
-Bir örnek verelim;
+***Bir örnek verelim;***
 Bir sunucuya ya da ağ anahtarına işlenmek üzere çok fazla bilgi göndererek sunucu ya da ağ anahtarının aşırı yüklenmesine neden olmak.
 
 
@@ -1156,7 +1156,7 @@ Bir sunucuya ya da ağ anahtarına işlenmek üzere çok fazla bilgi göndererek
 + Bu kanunlar, suç çetelerini çökertmeye yardımcı olmak amacıyla kullanılmak üzere hazırlanmıştır.
 
 
-Bir örnek verelim;
+***Bir örnek verelim;***
 Makine sahibinin haberi olmadan bir makineye uzaktan erişmeye olanak tanıyan bir programın üretilmesi.
 
 
@@ -1324,7 +1324,7 @@ Siber saldırganların bir sisteme girip yetkisiz erişim elde edebilecekleri bi
 + DoS saldırısı gerçekleştirmenin yolları, bir sistemin çökmesine neden olmaktan anormal seviyede yönlendirilmiş ağ trafiği yüzünden sistemi erişilemez veya işe devam edemez kılmaya kadar uzanabilir.
 
 
-Bir örnek verelim;
+***Bir örnek verelim;***
 Bir saldırgan, bir sunucunun aşırı yüklenmesine yol açacak şekilde kötü niyetli biçimlendirilmiş bir dosya gönderebilir. Bir XML dosyasının kendisine referans verip hatırı sayılır seviyede büyük bir dosya haline geldiği [Billion Laughs](https://en.wikipedia.org/wiki/Billion_laughs_attack) saldırısı buna bir örnektir.
   
 
