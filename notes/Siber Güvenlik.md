@@ -1326,7 +1326,94 @@ Siber saldırganların bir sisteme girip yetkisiz erişim elde edebilecekleri bi
 
 ***Bir örnek verelim;***
 Bir saldırgan, bir sunucunun aşırı yüklenmesine yol açacak şekilde kötü niyetli biçimlendirilmiş bir dosya gönderebilir. Bir XML dosyasının kendisine referans verip hatırı sayılır seviyede büyük bir dosya haline geldiği [Billion Laughs](https://en.wikipedia.org/wiki/Billion_laughs_attack) saldırısı buna bir örnektir.
-  
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+2. Dağıtılmış Hizmet Engelleme (DDoS) saldırısı
++ DDoS saldırısı, aynı anda birden fazla kaynaktan gelen bir DoS saldırısıdır.
++ Bu tür saldırılarda kullanılan makineler toplu olarak “botnet” olarak bilinir ve bu makinelere saldırgan tarafından uzaktan kontrol edilmek üzere daha önceden kötü amaçlı yazılım bulaştırılmıştır.
++ Araştırmalara göre, dünya çapında on milyonlarca bilgisayara botnet programı bulaşmış olabilir.
+
+
+***Bir örnek verelim;***
+Bir saldırgan, bir web sunucusuna çok kısa sürede çok sayıda sayfa isteği göndererek aşırı yüklenmesine yol açabilir. Benzer bir etki, kullanıcı taleplerindeki ani artışın sistemleri aşırı yüklediği bilet satış web sitelerinde de görülebilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+3. Kimlik avı saldırısı
++ Kimlik avı saldırısı, kişisel bilgi elde etmek veya kullanıcıları bir şey yapma konusunda etkilemek amacıyla güvenilir kaynaklardan gelmiş gibi görünen mesajlar gönderilerek gerçekleştirilir.
++ Sosyal mühendislikle teknik düzenbazlığı birleştirir.
++ Şüphelenmeyen kullanıcılar e-postayı açıp korunan bilgileri sağlayabilir veya kötü amaçlı yazılımı karşıdan yükleyebilirler.
+
+
+***Bir örnek verelim;***
+Bir saldırgan, bir ek veya hedef bilgisayara kötü amaçlı yazılım yükleyen sahte bir web sitesi bağlantısını içeren bir e-posta gönderebilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+4. Hedefli kimlik avı saldırısı
++ Hedefli kimlik avı saldırıları, kurbanın net olarak belirli olduğu bir aktivitedir.
++ Saldırganlar, hedeflere yönelik araştırmaya vakit ayırırlar, kişisel ve ilgili olan, dolayısıyla daha etkili mesajlar hazırlarlar.
+
+
+***Bir örnek verelim;***
+Bir saldırgan, sosyal medyadan hedefteki kişinin detaylarını toplar ve bu kişiyi arayarak bir banka temsilcisi gibi davranır. Saldırgan, hesabın tehlikede olduğunu bildirir ve hedefteki kişiden parasını "güvenli" bir banka hesabına aktarmasını ister. Bu saldırı, saldırganın meşru gibi görünen bilgilerinden dolayı inandırıcıdır.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+5. Kötü Amaçlı Yazılım
++ Kötü amaçlı yazılım, amacı bu yönde olan tüm yazılımlar için kullanılan bir terimdir. Bunlar, hedef alınan bir kullanıcının bilgilendirilmiş onayı olmadan bu kullanıcıya zarar verecek bir şekilde işlev görmesi için tasarlanmış yazılımlardır.
++ Genellikle bir kullanıcı istemeden bir programı çalıştırdığında veya bir dosyayı karşıdan yüklediğinde tetiklenir.
++ Aktifleştiğinde, kötü amaçlı yazılım verilere ve programlara erişimi engelleyebilir, bilgi çalabilir ve sistemleri kullanılamaz hale getirilebilir.
+
+
+***Bir örnek verelim;***
+Tuş kaydediciler/keylogger (bir kurbanın tuş vuruşlarını kaydeder) veya fidye amaçlı yazılımlar (bir fidye ödemesi talebiyle kurbanın dosyalarını esir alır) gibi örneklerde olduğu gibi, çeşitli kötü amaçlı yazılım tiplerinde işlevleriyle ilişkin örnekler görebilirsiniz.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+6. Oradaki Adam/Aradaki adam saldırısı (MitM - Man in the Middle) saldırısı
++ MitM saldırısı, bilgisayar korsanlarının kendilerini bir istemci ve bir sunucu arasındaki iletişime yerleştirmesiyle gerçekleşir.
++ Bu, bilgisayar korsanlarının her iki tarafça gönderilip alınan bilgileri görmelerini sağlar.
+
+
+***Bir örnek verelim;***
+Bir saldırgan, halka açık, popüler bir noktada "ücretsiz" bir kablosuz ağ erişim noktası kurabilir. Bu kablosuz ağa bağlanan herkesin iletişim öğeleri saldırgan tarafından incelenebilir; ardından saldırgan, kurbanları sahte giriş ekranlarına yönlendirebilir veya web sitelerine reklamlar yerleştirebilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
