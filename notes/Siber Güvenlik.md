@@ -1317,7 +1317,9 @@ Burada, becerilerini dünya genelindeki kuruluşlara değerli ve genellikle yük
 
 ## Siber saldırı tipleri
 
-Siber saldırganların bir sisteme girip yetkisiz erişim elde edebilecekleri birçok farklı yöntem bulunur. Genellikle saldırılar hiç de teknik değildir; bunlar daha çok insanların sistem ile hatalı ve savunmasız bir şekilde etkileşim kurmalarından yararlanır. Bu ders için yaygın siber saldırı tiplerini seçtik. Bu; kapsamlı bir liste yerine, size birkaç açıklayıcı örnek sağlamaya yönelik temsili bir listedir. Şimdi bu örnekleri daha detaylı olarak inceleyelim.
+Siber saldırganların bir sisteme girip yetkisiz erişim elde edebilecekleri birçok farklı yöntem bulunur. Genellikle saldırılar hiç de teknik değildir; bunlar daha çok insanların sistem ile hatalı ve savunmasız bir şekilde etkileşim kurmalarından yararlanır. Bu ders için yaygın siber saldırı tiplerini seçtik. Bu; kapsamlı bir liste yerine, size birkaç açıklayıcı örnek sağlamaya yönelik temsili bir listedir. 
+
+Günümüzde kuruluşları ve kişileri etkileyen çok sayıda siber saldırıdan birkaçı bu şekildeydi. Kuruluşlara yapılan DoS saldırılarının yaygın olarak haber olduğunu, kimlik avı saldırılarının en etkili halinin kişisel boyutta olduğunu ve kötü amaçlı yazılım saldırılarının sayısının artıp sürekli geliştiğini göreceksiniz.Şimdi bu örnekleri daha detaylı olarak inceleyelim.
 
 1. Hizmet Engelleme (DoS) saldırısı
 + DoS saldırısı, sistemin tamamen veya kısmen kesintiye uğramasına yol açan bir saldırı tipidir.
@@ -1394,9 +1396,28 @@ Bir saldırgan, halka açık, popüler bir noktada "ücretsiz" bir kablosuz ağ 
 -------------------------------------------------------------------------------------------------------------
 
 
+7. Etki alanı ad sistemi (DNS) saldırısı
++ DNS, internette kullanılan temel protokollerden biridir.
++ Temelde, DNS protokolü bir bilgisayarın bir alan adını bir IP adresine çözmesine olanak tanıyarak ulaşmasını istek atmasını sağlar. Örneğin; bir kullanıcının BMW'nin web sitesine hatırlaması zor bir IP adresi(178.656.xxx.xxx) yazmak yerine direkt "bmw.com" yazarak ulaşmasını sağlar.
++ DNS neredeyse her yerde kullanılır. İnternetin temel protokollerinden biri olan DNS; DNS yanıltma paketi, etki alanı adı korsanlığı ve önbellek zehirleme gibi (birkaç örnek olarak) birçok saldırı vektörü tarafından hedef alınır.
+
+
+***Bir örnek verelim;***
+2016 yılında Dyn adlı bir şirket tarafından sağlanan DNS hizmetine saldırı düzenlendi. Bunun sonucunda ABD'de çok büyük kesintiler gerçekleşerek, milyonlarca Amerikalının internet hizmetlerine erişmesi veya bunları kullanması engellendi.
+
+
+-------------------------------------------------------------------------------------------------------------
 
 
 
+8. SQL (yapılandırılmış sorgu dili) enjeksiyonu
++ SQL, kullanıcıların veritabanlarını sorgulamalarına olanak tanır.
++ SQL enjeksiyonu, kötü amaçlı kodların genellikle bir web sayfası girişi yoluyla SQL kuyruklarına yerleştirilmesidir. Başarılı bir saldırı, yaygın komutların çalıştırılmasına olanak tanır. Bu komutlar arasında veritabanının silinmesi bile olabilir!
++ SQL enjeksiyonu, en yaygın web bilgisayar korsanlığı tekniklerinden biridir.
+
+
+***Bir örnek verelim;***
+Birleşik Krallık'ta iki genç, 2015 yılında TalkTalk'ın web sayfasını hedef alarak, uzaktan erişilebilir bir veritabanından binlerce müşteri kaydını çalmayı başardı.
 
 
 
