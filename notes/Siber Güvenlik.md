@@ -1409,7 +1409,6 @@ Bir saldırgan, halka açık, popüler bir noktada "ücretsiz" bir kablosuz ağ 
 -------------------------------------------------------------------------------------------------------------
 
 
-
 8. SQL (yapılandırılmış sorgu dili) enjeksiyonu
 + SQL, kullanıcıların veritabanlarını sorgulamalarına olanak tanır.
 + SQL enjeksiyonu, kötü amaçlı kodların genellikle bir web sayfası girişi yoluyla SQL kuyruklarına yerleştirilmesidir. Başarılı bir saldırı, yaygın komutların çalıştırılmasına olanak tanır. Bu komutlar arasında veritabanının silinmesi bile olabilir!
@@ -1427,34 +1426,74 @@ Birleşik Krallık'ta iki genç, 2015 yılında TalkTalk'ın web sayfasını hed
 
 Bilgisayar sistemleri değiştikçe, bu sistemlerin tehlikeye atılma yolları da değişir. Örneğin bir siber saldırı, bir bilgisayarda belirli bir kötü amaçlı yazılıma karşı savunmasız olan eski bir web tarayıcısı sürümünün çalışmasına bel bağlayabilir. Yazılım güncellendiğinde, söz konusu saldırı aynı şekilde tekrarlanamaz. Ancak bireysel teknikler zamanla değişse de, tipik bir siber saldırının genel yapısı incelenebilir. Bu derste, temel bir anlayışa sahip olabilmeniz için bunun yıllar içerisinde yapılma şekillerinden bazılarını inceleyeceğiz.
 
+1. Lockheed Martin Cyber Kill Chain® çerçevesi tanıtımı
+
+Lockheed Martin Corporation, Amerikalı bir küresel hava-uzay, savunma, güvenlik ve gelişmiş teknoloji şirketidir. Lockheed Martin'deki araştırmacılar, tipik bir ABD askerlik kavramı olan "öldürme zinciri" ile dijital ağlardaki kesintiler arasında paralellikler olduğunu tespit ettiler. Burada "zincir" kelimesi, her adımın önceki adımın tamamlanmasına bağlı olduğu, sırayla tamamlanması gereken bir dizi adımı belirtmek için kullanılır. Tipik bir siber saldırı sırasını anlayabilmeniz için, Cyber Kill Chain çerçevesindeki yedi adıma bir göz atalım.
+![Lockheed Martin Cyber Kill Chain® çerçevesi tanıtımı](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/photo/cyber/THE-CYBER-KILL-CHAIN-body.png.pc-adaptive.1280.medium.png)
+
+[Kaynak: Lockheed Martin, Cyber Kill Chain® çerçevesi](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
+
+***Adım 1: Keşif "Reconnaissance"***, Bu aşamada saldırgan, hedef hakkında bilgi toplar. Bu dijital sunucuları yoklamak, hedefe yakın kişilerle konuşmak ya da sadece haberleri okumak yoluyla gerçekleştirilebilir.
+
+***Adım 2: Silah haline getirme "Weaponization"***, Belirli bir güvenlik açığı tespit edildiğinde, bundan yararlanmak için kötü amaçlı bir yazılım tasarlanır. Bu süreç, bir veritabanı örneğinin karşıdan yüklenmesini, üçüncü bir taraftan bir aracın satın alınmasını veya özel bir şeyler geliştirilmesini kapsayabilir.
+
+***Adım 3: İletme "Delivery"***, Seçilen kötü amaçlı yazılımın, bir şekilde hedefe gönderilmesi gerekir. Yıllar içerisinde gerçekleşen ilerlemelere rağmen en yaygın yöntem hala e-postadır. Web sayfası indirmeleri ve virüsten etkinlenmiş ya da değiştirilmiş USB cihazları gibi başka yöntemler de olabilir.
+
+***Adım 4: Yararlanma "Exploitation"***, Kötü amaçlı yazılım hedefe gönderilir gönderilmez etkinleşir ve bir dizi belirli adımı yerine getirir. Bunun nasıl gerçekleştiği oldukça değişkendir ve kullanılan programlara ve işletim sistemlerine dair ayrıntılara dayanır. Bu süreç, "güvenlik açığından yararlanma" olarak bilinir ve bunu yapmak için kullanılan yazılıma istismar kodu (exploit code) ya da yararlanma aracı denir.
+
+***Adım 5: Kurulum "Installation"***, Kötü amaçlı yazılım, hedef sistemde bir kalıcılık unsuru bulmaya çalışır. Bu, yeni hesapların oluşturulmasını, uzaktan erişim programlarının kurulumunu ya da sisteme yeni güvenlik açıklarının getirilmesini içerebilecek arka kapıların oluşturulmasıyla başarılabilir. Bu faktörler, asıl güvenlik açığı güncellense bile, saldırganın erişimi devam edeceğinden savunan için artık çok geç olduğu anlamına gelir.
+
+***Adım 6: Komuta ve Kontrol (C2) "Command & Control (C2)"***, Saldırganın, gizliliği ihlal edilmiş sistemlerle iletişim kurmasına yönelik bir yöntem oluşturulmalıdır. Bu, hedefe talimatların ve yükseltmelerin gönderilmesine ve verilerin saldırgana geri gönderilmesine olanak sağlar. Bu işlem web siteleri, direkt bağlantılar ve hatta Twitter kullanılarak bile yapılabilir.
+
+***Adım 7: Hedefe Yönelik Eyleme Geçme "Actions on Objectives"***, Önceki adımların tümü tamamlandığında, saldırgan artık ilk niyetini gerçekleştirmekte özgürdür. Bu niyet veri çalmak, verileri değiştirmek veya temel sistem unsurlarını yok etmek olabilir.
 
 
+-------------------------------------------------------------------------------------------------------------
 
 
+2. MITRE ATT&CK matrisi tanıtımı
+
+MITRE, daha güvenli bir dünya için sorunları çözmeye adanmış kar amacı gütmeyen bir Amerikan kuruluşudur. Siber tehdit paylaşımı ve siber direnç gibi bir dizi alanda yenilikçi fikirler ortaya koyar. MITRE, siber saldırganların kullandıkları taktikler, teknikler ve prosedürleri (TTP) bir araya getirerek ATT&CK'yi geliştirmiştir. Adversarial Tactics, Techniques, and Common Knowledge sözcüklerinin kısaltması olan bu terim "Attack" şeklinde telaffuz edilir. Bu toplanan bilgiler, kuruluşların siber saldırıları basitleştirilmiş bir şekilde incelemelerine yardımcı olmak için bir matris halinde sunulur. ATT&CK matrisi, tüm kişi ve kuruluşların ücretsiz olarak kullanımına açıktır.
+
+Aşağıdaki grafik, ATT&CK matrisinin bir parçasıdır. Oldukça kapsamlı olduğunu görebilirsiniz.
+
+![ATT&CK matrisinin bir parçası](https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/WWJYRGPDVYGYR496/CyberF_ATT%26CK_Matrix_Eng.jpg)
+
+Sütun başlıkları bir saldırgan taktiğini tanımlar. Her taktik bir saldırgan hedefi olarak görülebilir. Her sütunun altındaki listede, siber saldırganın taktiğe veya hedefe ulaşmak için kullanabileceği çok sayıdaki teknik belirtilir. Bunlar, ek bilgilere bağlanır.
+
+***Bir örnek verelim;***
+Bir siber saldırgan, bir sisteme kimlik bilgileriyle erişim elde etmek isteyebilir. Bu bir taktiktir. Bu senaryoda saldırgan, log kaydının zayıf olduğunu ve hesap kilidi kullanılmadığını belirlerse, Kaba Kuvvet tekniğini kullanabilir. Bu teknikte, başarılı bir kombinasyon belirlenene kadar milyonlarca kullanıcı ve parola kombinasyonunu deneyebilen bir program çalıştırılır. Seçilen teknik başarısız olursa, saldırgan başka bir yaklaşıma geçip denemeye devam edebilir.
 
 
+-------------------------------------------------------------------------------------------------------------
 
 
+3. Siber saldırıların önemini anlamak
+
+Bir siber saldırı sırasında, saldırganlar oldukça ısrarcı olabilir. Saldırılarının bir kez engellenmesi, onları nadiren vazgeçmeye sevk eder. Bunun yerine, siber saldırıları uzun bir operasyonun bir parçası olarak görmek oldukça yararlı olabilir. Çoğu saldırı, saldırganların etkilerini yayması ve savunanların bunları belirleyip durdurmaya çalışmasıyla aylar sürebilir. İyi savunmacılar, saldırganın sonraki adımını öngörmeye çalışırlar ve MITRE ATT&CK matrisi gibi araçlar bunu başarmalarına yardımcı olabilir.
 
 
+-------------------------------------------------------------------------------------------------------------
 
 
+## Siber suçun fonlanması ve karlılığı
+
+Bazı siber saldırganlar, aktivizm veya ulusal çıkarlarla motive olsalar da, siber suçların ana çıkış noktası karlılıktır. Bu konuda, siber suçluların para kazanma ve paralarını kullanma şekillerine ilişkin birkaç yöntemi inceleyeceğiz.
+
+1. Yeraltı ekosistemi
+
+Siber suç ekonomisi için hayati önem taşıyan ilk unsur; yüzlerce forum, platform ve sistemden oluşan ve sürekli gelişen uluslararası bir piyasadır. Bu piyasa ortamında, suçlular kar etmek amacıyla verileri, kimlikleri ve araçları alıp satarlar. Örneğin, kara para aklama yaygın bir ilgi alanıdır. Bir kurbandan para çaldıklarında siber suçlular, bu parayı kullanılabilir ve ideal olarak izlenemez kılmak için bir yönteme ihtiyaç duyarlar. Bunu, dış kaynak kullanımına benzer bir şekilde, üçüncü taraf bir uzman kullanarak yapabilirler.
+
+Geleneksel bir ekonomide olduğu gibi, uzmanlaşma verimliliği destekler ve suçluların en iyi yaptıkları işe odaklanmalarına olanak tanır.
 
 
+-------------------------------------------------------------------------------------------------------------
 
 
+2. İlk nakit enjeksiyonu
 
+Bir piyasa oluştuğunda suçlular nasıl para elde ederler? Bunu başarmak için kullandıkları üç genel yöntem şu şekildedir:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+|Kurbandan çalma|Kiralık Suçlular|Kurbandan şantaj yoluyla alma|
+|--|--|--|
+|En doğrudan yöntem, suçluların hedef aldıkları kurbandan para çalmaya çalışmalarıdır. Bu bankacılık sistemlerine veya hesaplara sızılarak yapılabilse de, en yaygın yöntem dolandırıcılık veya hiledir.Bu sahtekarlıklar genellikle, bir kurbanın suçluya banka bilgilerini veya kişisel bilgilerini vermek gibi mali fayda sunmasını sağlamaya yönelik "teknik destek dolandırıcılığı" ya da diğer benzer hileler şeklindedir.|Suçlular bazen, yasa dışı şeyler yapmak üzere normal insanlara ve kuruluşlara hizmet verirler. Bu, genellikle bir hizmetin önemli kısımlarına aşırı yükleme yapmaya çalışan bir hizmet engelleme saldırısı (DoS) kullanılarak yapılır. Örneğin bir suçlu, bir kuruluşa veya kişiye bir rakibini devre dışı bırakmayı teklif edebilir. Bu modelde suçlu, kurbandan para almaz. Bunun yerine, parası kuruluş veya kişi tarafından ödenir. Buna bir diğer örnek de paralı askerlik stiliyle bilgisayarın kötü kullanımıdır. Rakibinin önemli bir fikri mülkiyetini çalmak veya veritabanlarını yok etmek için bir suçluyla anlaşan birini düşünün.|Bu modelde suçlu, temel sistemleri devre dışı bırakarak ya da hassas verileri deşifre etmekle tehdit ederek bir kurbanı savunmasız bırakır. Fidye yazılımlarının son yıllardaki yükselişiyle, bu yöntem popüler hale gelmiştir. Bir fidye yazılımı saldırısında, kurbanın önemli sistemleri ve dosyaları, kullanılamaz hale gelecek şekilde şifrelenir. Bir şifre çözme anahtarıyla sistemlerin ve dosyaların geri yüklenmesi karşılığında, kurbandan suçluya fidye ödemesi istenir. Utanç verici yönetici e-postaları veya müşteri veritabanları gibi kuruluş ya da müşteri verilerini ifşa etme tehdidi de diğer şantaj temalı yaklaşımlar arasındadır.|
