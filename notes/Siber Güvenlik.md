@@ -1528,3 +1528,11 @@ https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/YZ
 ***Adım 4: Para kuryerleri parayı nakite çevirirler***, Suç çetesi kimlik bilgilerini kullanarak giriş yapmaya çalışabilir ve daha önceden birlikte çalıştıkları para kuryelerine transfer yapabilir. Bu senaryoda para kuryeleri genellikle, bir ödeme karşılığında hesaplarından para akışının geçmesini kabul etmiş olan saf ya da çaresiz kişilerdir.
 
 ***Adım 5: Kripto fonlar ülke dışına çıkarılır***, İşlemi tamamlamak için suç çetesi kuryeleri kripto para alıp bu parayı çetenin kontrolündeki hesaplara aktarmaya zorlayabilir. Bu gerçekleşir gerçekleşmez, operasyon tamamlanmış olur. Emniyet yetkilileri suçu soruşturduklarında iz genellikle sadece parayı taşıyan kuryeye ulaşır.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+## Sosyal mühendislik
+
+Bu derste, güvenli sistemler oluşturmada insanların önemini öğreniyorsunuz. Çalışanlar veya müşteriler olsun, insanlar genellikle güvenlik ortamlarında yanlış yönetilirler. Onlara kafa karıştırıcı ya da çelişen tavsiyeler verilebilir, iyi uygulamaları izlemeleri engellenebilir veya sadece yorgun düşebilirler. Bunların hepsi, insanları olası bir siber saldırganın yararlanabileceği savunmasız bir konuma sokar. Bu derste, sosyal mühendisliği ve saldırganların kullandıkları teknikleri vurgulayacağız. Bir sistemi hack'lemek yerine kişileri nasıl hack'lediklerine bir bakalım!
