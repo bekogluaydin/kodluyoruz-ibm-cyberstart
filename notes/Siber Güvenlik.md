@@ -1536,3 +1536,21 @@ https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/YZ
 ## Sosyal mühendislik
 
 Bu derste, güvenli sistemler oluşturmada insanların önemini öğreniyorsunuz. Çalışanlar veya müşteriler olsun, insanlar genellikle güvenlik ortamlarında yanlış yönetilirler. Onlara kafa karıştırıcı ya da çelişen tavsiyeler verilebilir, iyi uygulamaları izlemeleri engellenebilir veya sadece yorgun düşebilirler. Bunların hepsi, insanları olası bir siber saldırganın yararlanabileceği savunmasız bir konuma sokar. Bu derste, sosyal mühendisliği ve saldırganların kullandıkları teknikleri vurgulayacağız. Bir sistemi hack'lemek yerine kişileri nasıl hack'lediklerine bir bakalım!
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+1. Sosyal mühendislik nedir?
+
+Sosyal mühendislik, birine istediklerinizi yaptırma sanatıdır. Psikoloji, biyoloji ve hatta matematik gibi akademik alanlarla yoğun bir şekilde örtüşür!  
+
+Siber güvenlik bağlamında sosyal mühendislik, hile yoluyla manipüle edilerek kişilerin dolandırıcılık amacıyla kullanılabilecek gizli veya kişisel bilgileri ifşa etmeye yönlendirilmesidir. Temel olarak, bir kişi diğer bir kişiyi özel olan bir şeyden vazgeçmesi için nasıl kandırabilir? Sosyal mühendislik saldırıları, birini bir güvenlik hatası yapacak şekilde kandırmaya yönelik olarak sosyal etkileşimlerin kullanıldığı bir karanlık sanattır.
+
+Sosyal mühendislik taktikleri; yüz yüze, telefon üzerinden veya web siteleri, e-posta ya da sosyal medya üzerinden uygulanabilir.
+
+Bir saldırgan birine belirli bir şeyi yaptırdığında, hassas sistemlere erişim sağlayabilir, varlıkları çalabilir ya da daha karmaşık bir saldırı düzenleyebilir. İnsanları ikna etmeye veya kandırmaya odaklanan bu kavram güvenilmez gelebilir. Ancak sosyal mühendisliğin saldırganlar için ne kadar güçlü bir teknik olduğunu gösteren birçok vaka çalışması mevcuttur.
+
+
+***Bir örnek verelim;***
+Etkili sosyal mühendislik taktikleri, savunmasız kişilerin birikimlerinin dolandırıcılık ve güven kazanma hileleriyle ellerinden alınmasıyla sonuçlanabilir. Fiziksel binaları olan kuruluşlar için sosyal mühendislik, güvenli alanlara erişim elde etmek için kişileri yakın markaja almayı ya da yakından takip etmeyi de kapsar.
