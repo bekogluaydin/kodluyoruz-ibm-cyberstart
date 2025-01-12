@@ -1554,3 +1554,40 @@ Bir saldırgan birine belirli bir şeyi yaptırdığında, hassas sistemlere eri
 
 ***Bir örnek verelim;***
 Etkili sosyal mühendislik taktikleri, savunmasız kişilerin birikimlerinin dolandırıcılık ve güven kazanma hileleriyle ellerinden alınmasıyla sonuçlanabilir. Fiziksel binaları olan kuruluşlar için sosyal mühendislik, güvenli alanlara erişim elde etmek için kişileri yakın markaja almayı ya da yakından takip etmeyi de kapsar.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+2. Sosyal mühendislik neden işe yarıyor?
+
+Sosyal mühendislik işe yarar, çünkü insanlar mükemmel değildir. Buna ilişkin iki önemli unsur söz konusudur: Kararlarımız mantıksızdır ve karar verme mekanizmamız hatalıdır. Bunların her birine daha detaylı bakalım.
+
+2_A. Mantıksız davranış
+
+Hepimiz, uzun vadeli çıkarlarımıza katkı sağlamayan kararlar almak suretiyle mantıksız davranışlar gösterebiliriz. Herkes dikkatli ve mantıklı olsaydı hepimiz kusursuz olurduk. Örneğin kimse piyango bileti almazdı ve hepimiz her zaman sağlıklı beslenirdik. Gerçek ise bundan oldukça uzak.
+
+Sosyal mühendislikte, bir hedefi manipüle etmek için kısa süreli tatmin veya açgözlülüğe yönelik tetikleyiciler  kullanılabilir. Bu hedefler, kendilerini riske atarlar ve sıklıkla bilmeden suç işlerler.
+
+
+***Bir örnek verelim;***
+Bunun en iyi örneği, suçluların genç yetişkinleri çeteler için kara para aklayıcılar olarak hareket etmeye ikna etmeleridir. Ayrıca internet ortamında birçok farklı hızlı zengin olma projesi de mevcuttur. Bu durumda kurbanlar, yalan vaatlerle ***tuzağa düşürülürler.***
+
+Ayrıca aylaklığın sosyal mühendislik için mükemmel bir nitelik olduğu vakalar da mevcuttur. Kestirmeden gitme ve kurallardan kaçınma eğilimleri, bir hedef üzerinde sosyal mühendislik taktiği olarak kullanmak açısından oldukça etkilidir.
+
+
+***Bir örnek verelim;***
+Belirli kuruluşlarda çalışanlar, arayanların kimliklerini doğrulamak veya erişim hakları vermek için doğru seviyede onay almak gibi uzun iş süreçlerini atlayabilirler.
+
+
+2_B. Hatalı karar verme mekanizması
+
+İnsanların karar verme mekanizması, gün içerisinde fazlasıyla değişiklik gösterir ve değişen koşullara bağlıdır. Örneğin, bir odada görünen renkler, başka insanların varlığı, gürültü miktarı ve sıcaklık gibi etmenlerin tamamının insanlar üzerinde ölçülebilir, biyolojik etkileri söz konusudur ve bu etmenler karar alma süreçlerini değiştirir. Saldırganlar, sonuca ulaşmak için hedefin kararının etkilenmesinden yararlanırlar.
+
+
+***Bir örnek verelim;***
+Saldırganlar, bir aciliyet hissi yaratmak için zaman kısıtlamaları kullanırlar. Buna ek olarak, güvenilen bir otorite figürünün kimliğine bürünerek, hatta hoşlanılan bir kişi gibi davranarak bir hedefin kafasını karıştırabilirler. Saldırgan bir hedefle etkileşime girmek için yalandan bir neden oluşturduğunda bu taktiğe bahane üretmek denilebilir.
+
+
+Tüm bu etmenler, hedefin doğru karar alabilme, hatta manipüle edildiğinde en baştan fark edebilme yeteneğini etkiler.
+
