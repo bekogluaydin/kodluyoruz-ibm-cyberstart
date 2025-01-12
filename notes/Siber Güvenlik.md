@@ -1509,3 +1509,22 @@ Son birkaç yılda, kripto para birimi adı verilen kriptografik olarak kontrol 
 Devlet kontrolünün dışında anonim bir büyük defter kullanıldığında, ödemeler denetim altına alınması veya engellenmesi neredeyse imkansız olacak şekilde tasarlanır. Bu, kripto paraları kara para aklama veya diğer suç pazarı faaliyetleri için inanılmaz derece kullanışlı hale getirir.
 
 Kripto paraların yarattığı kayda değer bir sonuç da fidye yazılımlarındaki hızlı büyümedir. Bu iş modelinde kurban, saldırgana ödeme yapmak zorundadır. Bunun hediye kartları gibi para yerine geçen öğelerle yapıldığı ilk zamanlarda, süreç yavaştı ve güvenilir değildi. Kripto paraların kullanımıyla, artık kurbanların gizli ödemeler yapmaları kolaylaştı.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+4. Ekosistem iş üzerinde
+
+Tüm parasal unsurları bir araya getiren varsayımsal bir vaka çalışmasına bakalım. Bu senaryoda, yaşam döngüsü boyunca bir saldırı operasyonunu inceleyeceğiz. Paranın izini sürün!
+https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/YZMQPVKRZPZNWN3E/CyberF_Economy_tkTK.png
+
+***Adım 1: Kötü Amaçlı yazılımlar tasalanır***, Yolculuğun ilk aşaması bir suç çetesinin tuş vuruşlarını ve ekran resimlerini kaydeden bir kötü amaçlı yazılım üretmesini kapsıyor.
+
+***Adım 2: Birden fazla kurban hesabı çalınır***, Kötü amaçlı yazılımı üretenler başka bir taraftan bilinen e-posta adreslerinden oluşan bir liste satın alıyor ve kötü amaçlı yazılımı e-posta eki olarak gönderiyorlar. Burada amaç kötü amaçlı yazılımın kurbanların makinelerinde çalışması böylece bankacılık detayları ve diğer parolaların çalınabilmesi ve bilgilerin kötü amaçlı yazılımı üretenlere gönderilebilmesidir. Bu noktada onların işi bitmiştir. Parola ve banka giriş bilgilerinden oluşan bir liste, ellerine geçmiştir.
+
+***Adım 3: Para hesaplardan alınır***, Şimdi kötü amaçlı yazılımın üreticisi, "paraya çevirme" işini kendisi deneyebilir/yapabilir ya da çaldığı kişilerinin bilgilerini işlemi tamamlaması için başka bir çeteye satabilir.
+
+***Adım 4: Para kuryerleri parayı nakite çevirirler***, Suç çetesi kimlik bilgilerini kullanarak giriş yapmaya çalışabilir ve daha önceden birlikte çalıştıkları para kuryelerine transfer yapabilir. Bu senaryoda para kuryeleri genellikle, bir ödeme karşılığında hesaplarından para akışının geçmesini kabul etmiş olan saf ya da çaresiz kişilerdir.
+
+***Adım 5: Kripto fonlar ülke dışına çıkarılır***, İşlemi tamamlamak için suç çetesi kuryeleri kripto para alıp bu parayı çetenin kontrolündeki hesaplara aktarmaya zorlayabilir. Bu gerçekleşir gerçekleşmez, operasyon tamamlanmış olur. Emniyet yetkilileri suçu soruşturduklarında iz genellikle sadece parayı taşıyan kuryeye ulaşır.
