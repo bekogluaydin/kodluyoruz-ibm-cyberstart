@@ -1497,3 +1497,15 @@ Bir piyasa oluştuğunda suçlular nasıl para elde ederler? Bunu başarmak içi
 |Kurbandan çalma|Kiralık Suçlular|Kurbandan şantaj yoluyla alma|
 |--|--|--|
 |En doğrudan yöntem, suçluların hedef aldıkları kurbandan para çalmaya çalışmalarıdır. Bu bankacılık sistemlerine veya hesaplara sızılarak yapılabilse de, en yaygın yöntem dolandırıcılık veya hiledir.Bu sahtekarlıklar genellikle, bir kurbanın suçluya banka bilgilerini veya kişisel bilgilerini vermek gibi mali fayda sunmasını sağlamaya yönelik "teknik destek dolandırıcılığı" ya da diğer benzer hileler şeklindedir.|Suçlular bazen, yasa dışı şeyler yapmak üzere normal insanlara ve kuruluşlara hizmet verirler. Bu, genellikle bir hizmetin önemli kısımlarına aşırı yükleme yapmaya çalışan bir hizmet engelleme saldırısı (DoS) kullanılarak yapılır. Örneğin bir suçlu, bir kuruluşa veya kişiye bir rakibini devre dışı bırakmayı teklif edebilir. Bu modelde suçlu, kurbandan para almaz. Bunun yerine, parası kuruluş veya kişi tarafından ödenir. Buna bir diğer örnek de paralı askerlik stiliyle bilgisayarın kötü kullanımıdır. Rakibinin önemli bir fikri mülkiyetini çalmak veya veritabanlarını yok etmek için bir suçluyla anlaşan birini düşünün.|Bu modelde suçlu, temel sistemleri devre dışı bırakarak ya da hassas verileri deşifre etmekle tehdit ederek bir kurbanı savunmasız bırakır. Fidye yazılımlarının son yıllardaki yükselişiyle, bu yöntem popüler hale gelmiştir. Bir fidye yazılımı saldırısında, kurbanın önemli sistemleri ve dosyaları, kullanılamaz hale gelecek şekilde şifrelenir. Bir şifre çözme anahtarıyla sistemlerin ve dosyaların geri yüklenmesi karşılığında, kurbandan suçluya fidye ödemesi istenir. Utanç verici yönetici e-postaları veya müşteri veritabanları gibi kuruluş ya da müşteri verilerini ifşa etme tehdidi de diğer şantaj temalı yaklaşımlar arasındadır.|
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+3. Kripto para
+
+Son birkaç yılda, kripto para birimi adı verilen kriptografik olarak kontrol edilen para birimlerinde hızlı bir artış yaşandı. İlk kripto para olan Bitcoin, Blockchain adı verilen paylaşılan bir büyük deftere dayalı para alışverişi için yeni bir yöntemi ortaya koydu. Son yıllarda oluşturulan yeni para birimleri bu kavram üzerine inşa edildi.
+
+Devlet kontrolünün dışında anonim bir büyük defter kullanıldığında, ödemeler denetim altına alınması veya engellenmesi neredeyse imkansız olacak şekilde tasarlanır. Bu, kripto paraları kara para aklama veya diğer suç pazarı faaliyetleri için inanılmaz derece kullanışlı hale getirir.
+
+Kripto paraların yarattığı kayda değer bir sonuç da fidye yazılımlarındaki hızlı büyümedir. Bu iş modelinde kurban, saldırgana ödeme yapmak zorundadır. Bunun hediye kartları gibi para yerine geçen öğelerle yapıldığı ilk zamanlarda, süreç yavaştı ve güvenilir değildi. Kripto paraların kullanımıyla, artık kurbanların gizli ödemeler yapmaları kolaylaştı.
