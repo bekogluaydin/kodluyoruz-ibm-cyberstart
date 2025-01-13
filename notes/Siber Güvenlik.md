@@ -1591,3 +1591,14 @@ Saldırganlar, bir aciliyet hissi yaratmak için zaman kısıtlamaları kullanı
 
 Tüm bu etmenler, hedefin doğru karar alabilme, hatta manipüle edildiğinde en baştan fark edebilme yeteneğini etkiler.
 
+
+-------------------------------------------------------------------------------------------------------------
+
+
+3. İyi bir sosyal mühendislik saldırısı nasıl olur?
+
+İyi bir sosyal mühendislik saldırısında genellikle birkaç ortak öğe bulunur.
+
++ **İyi araştırılmış olur.** Bir sosyal mühendislik saldırısı, bir şirket üyesinin kimliğine bürünme girişiminde bulunuyorsa, bu durumda saldırganlar güvenilir görünmek adına şirket antetini, jargonunu veya biçimini kullanırlar. Tüm yöntemler herkes üzerinde eşit oranda etkili değildir. Siber saldırganlar en iyi tetikleyiciyi belirlemeye yönelik araştırma yaparlar.
++ **Kendinden emin bir şekilde sunulur.** Birebir iletişimdeyken iyi sosyal mühendisler hazırlıklıdır, kendilerinden emindir ve hedeflere güven verirler. Saldırının ne zaman yapılacağı ve hedefle nasıl dostane bir ilişki kurulacağı önemlidir. Genellikle yüksek değere sahip bir sosyal mühendislik saldırısı, güvenilirlik yaratan bir dizi konuşma ve her konuşmada kısıtlamaların azaltılması üzerine kurulur. Bu noktada hızlı davranmak geri tepebilir ve siber saldırganların çaresizlik yüzünden açığa çıkmalarına neden olabilir.
++ **Saldırı, mümkün ve gerçekçi görünür.** En iyi sosyal mühendislik saldırıları, genellikle kurbanın kandırıldığının farkında bile olmadığı saldırılardır.
