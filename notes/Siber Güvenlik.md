@@ -1633,3 +1633,24 @@ Oldukça yaygın olan kimlik avı e-posta saldırılarına özellikle değinmek 
 Kimlik avı içerdiğini düşündüğünüz bir e-posta alırsanız, hiçbir şekilde yanıtlamayın, hiçbir bağlantıya tıklamayın ya da hiçbir eki açmayın. Çoğu e-posta hizmetinde, bir e-postayı istenmeyen e-posta olarak bildirmeniz için bir yöntemi bulunur.
 
 Şüpheniz varsa, göndericiyle daha önceden kaydedilmiş bir telefon numarası gibi güvenilir bir kanal yoluyla iletişime geçebilir ya da kayıtlarınızdan hizmet web adresine erişebilirsiniz.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+5. Aktivite
+
+Basit bir aktivite yapalım. Dedektif şapkanızı takın ve Facebook'tan bu e-postayı aldığınızı varsayın. E-postayı okumak ve incelemek için biraz zaman ayırın. Bunun bir kimlik avı e-postası olduğuna dair ne tür işaretler görüyorsunuz?
+
+![image](https://github.com/user-attachments/assets/618baa2f-d725-42ed-9efd-33ae77eac51e)
+
+
+5_A. Hazır olduğunuzda bu e-postadaki göstergeleri ortaya çıkarmak için buraya tıklayın.
+
+Bunun sizden bilgi almaya çalışan bir kimlik avı e-postası olduğunu gösteren üç işaret var.
+
++ Kişisel hesap adınızı kullanmıyor.
++ Olağan dışı bir talepte bulunuyor.
++ Sağlanan bağlantı tamamen yanlış. "Facebook" kelimesinin nasıl yanlış yazıldığına dikkat edin; facebo0k.com bilinen ve rapor edilmiş bir kimlik avı URL'sidir.
+
+![image](https://github.com/user-attachments/assets/3433f40a-ea4d-44f1-bcdc-14c3fdf42cb4)
