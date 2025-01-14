@@ -1654,3 +1654,9 @@ Bunun sizden bilgi almaya çalışan bir kimlik avı e-postası olduğunu göste
 + Sağlanan bağlantı tamamen yanlış. "Facebook" kelimesinin nasıl yanlış yazıldığına dikkat edin; facebo0k.com bilinen ve rapor edilmiş bir kimlik avı URL'sidir.
 
 ![image](https://github.com/user-attachments/assets/3433f40a-ea4d-44f1-bcdc-14c3fdf42cb4)
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+## Açık kaynak istihbaratı
