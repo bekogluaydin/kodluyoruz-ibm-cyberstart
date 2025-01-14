@@ -1602,3 +1602,34 @@ Tüm bu etmenler, hedefin doğru karar alabilme, hatta manipüle edildiğinde en
 + **İyi araştırılmış olur.** Bir sosyal mühendislik saldırısı, bir şirket üyesinin kimliğine bürünme girişiminde bulunuyorsa, bu durumda saldırganlar güvenilir görünmek adına şirket antetini, jargonunu veya biçimini kullanırlar. Tüm yöntemler herkes üzerinde eşit oranda etkili değildir. Siber saldırganlar en iyi tetikleyiciyi belirlemeye yönelik araştırma yaparlar.
 + **Kendinden emin bir şekilde sunulur.** Birebir iletişimdeyken iyi sosyal mühendisler hazırlıklıdır, kendilerinden emindir ve hedeflere güven verirler. Saldırının ne zaman yapılacağı ve hedefle nasıl dostane bir ilişki kurulacağı önemlidir. Genellikle yüksek değere sahip bir sosyal mühendislik saldırısı, güvenilirlik yaratan bir dizi konuşma ve her konuşmada kısıtlamaların azaltılması üzerine kurulur. Bu noktada hızlı davranmak geri tepebilir ve siber saldırganların çaresizlik yüzünden açığa çıkmalarına neden olabilir.
 + **Saldırı, mümkün ve gerçekçi görünür.** En iyi sosyal mühendislik saldırıları, genellikle kurbanın kandırıldığının farkında bile olmadığı saldırılardır.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+4. Sosyal mühendislikten nasıl korunabilirsiniz?
+
+Bu yaygın sosyal mühendislik saldırılarının farkında olmak ve bunlara karşı korunmak, hem kişiler hem de çalışanlar için önemlidir.
+
+Kimseye güvenmemenin dışında, sizin gibi kişileri kandırmak için tasarlanmış sosyal mühendislik saldırılarından korunmanın basit bir kuralı vardır. Özetle, altın kural şudur: Bir şey gerçek olmayacak kadar iyi görünüyorsa muhtemelen değildir. Bu nedenle, hiç beklenmedik bir şekilde başınıza talih kuşu konduysa, bir iş teklifi aldıysanız ya da girmediğiniz bir yarışmadan ödül kazandıysanız dikkatli olun, sorular sorun ve sunulan avantajın gözünüzü karartmasına izin vermeyin.
+
+Ayrıca, olağan dışı taleplerde bulunan ve birden ortaya çıkan kişilere meydan okumaktan korkmayın. İyi tanımadığınız bir iş arkadaşınız garip bir talepte bulunursa ve birilerinin kısıtlı bir alanda gezindiğini görürseniz ayrıntı sorabilir veya uygun şekilde şüphelerinizi rapor edebilirsiniz. Birisi sırf merkez ofisteki bir üst yönetici tarafından gönderildiğini ve acelesi olduğunu, sizi geçip binaya girmesi gerektiğini söylediğinde kontrol etme konusunda tereddüt yaşayabilirsiniz. Genellikle doğrulamanın maliyeti, bir dolandırıcının ofisinize girmesine izin vermekten çok daha düşüktür!
+
+
+4_A. Kimlik avına karşı dikkatli olun
+
+Oldukça yaygın olan kimlik avı e-posta saldırılarına özellikle değinmek gerekir; burada kişisel ya da işle alakalı kimlik avı e-postalarını saptamanıza yardımcı olacak birkaç ipucu bulabilirsiniz.
+
++ E-postayı bekleyip beklemediğinizi düşünün. Bu göndericinin sizinle iletişim kurmayı seçmesi mantıklı geliyor mu? Doğru olamayacak kadar iyi mi ya da size hızlı hareket etmeniz konusunda baskı yapıyor mu?
++ Gönderenin e-postasını her zaman kontrol edin. Tanıdığınız birinden veya bir şirketten mi geliyor?
++ Selamlama kısmına bakın. Adınız yerine size "Sevgili üyemiz" şeklinde genel bir selamlama ile mi hitap ediyor?
++ E-postadaki dilbilgisi veya yazım hatalarına bakın. Kötü bir dilbilgisiyle mi yazılmış ya da birçok yazım hatası var mı?
++ E-postada ne istendiğini belirleyin. Sahte veya "düzmece" bir web sitesini ziyaret etmenizi mi istiyor? Sahte bir müşteri hizmetleri numarasını aramanızı mı? İstemediğiniz ekleri açmanızı mı?
++ Genellikle kimlik avı e-postalarının bir parçası olan sahte bir istekle ilgili tehlike işaretlerine (örn. banka bilgilerinizin veya parolanızın istenmesi) bakın. İkinci olarak, işaret ettiği URL'yi doğrulamadan bir bağlantıya tıklamayın.
+   + URL gizli olmayan bir bağlantı içeriyor mu? Güvenli bir bağlantı olup olmadığını anlamak için URL'nin "https" ile başlayıp başlamadığını kontrol edin.
+   + URL sizi tamamen farklı bir web sitesine mi yönlendiriyor? Bazı URL'ler gerçek olanlar gibi görünmeye çalışır; örneğin şu sahte PayPal URL'sinde olduğu gibi: www.paypall.accountlogin.com/signin. "PayPal" kelimesinin yanlış yazıldığına dikkat edin.
+
+**Önemli Not!** 
+Kimlik avı içerdiğini düşündüğünüz bir e-posta alırsanız, hiçbir şekilde yanıtlamayın, hiçbir bağlantıya tıklamayın ya da hiçbir eki açmayın. Çoğu e-posta hizmetinde, bir e-postayı istenmeyen e-posta olarak bildirmeniz için bir yöntemi bulunur.
+
+Şüpheniz varsa, göndericiyle daha önceden kaydedilmiş bir telefon numarası gibi güvenilir bir kanal yoluyla iletişime geçebilir ya da kayıtlarınızdan hizmet web adresine erişebilirsiniz.
