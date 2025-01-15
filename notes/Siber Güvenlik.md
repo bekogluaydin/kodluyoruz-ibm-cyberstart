@@ -1746,3 +1746,20 @@ Açık bilgi kullanarak bir araştırma yapıyorsanız şu basit yönergeleri iz
 + ***Unutmayın:*** Eğitimli araştırmacılardan oluşan ekiplerin yaptığı başarılı araştırmaların tamamlanması haftalar sürebilir.
 
 **Dipnot:** Bir araştırma sırasında açık bilginin elde edilemediği birçok durum olacaktır. Örneğin iyi bir operasyonel güvenlikten dolayı, bazı kuruluş ya da kişilerin diğerlerine kıyasla çok fazla kamuya açık bilgisi olmayabilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+4. Açık kaynak istihbaratı neden herkes için bir ilgi alanıdır?
+
+Sık sık fazla bilgi paylaşımı gerçekleşen, son derece bağlantılı bir dünyada yaşıyoruz. Herkesin, internette paylaştığı bir şeyin fiilen kalıcı olduğunu anlaması gerekir.,
+
+Önemsiz bilgi parçaları bile dışarıdan birilerinin ilgisini çekecek şekilde birleştirilebilir. Bu işleme **bilgi birleştirme (information aggregation)** adı verilir. Bir kişinin iş yeri, gidiş geliş bilgileri ve genel akşam planları tek başına tehlikesiz olsa da, bir araya geldiğinde birinin hayatı hakkında detaylı bilgi edinmek üzere kullanılabilir.
+
+
+***Bir örnek verelim;***
+Bu, örneğin 100 çalışanın her birinin %1'lik hassas bilgi parçasını açıklayabileceği bir kuruluşta sorun yaratacaktır. Bu açıklamalar dışarıdan bir kişi tarafından birleştirilirse önemli atılımlar veya ek keşiflere ulaşılabilir.
+
+
+Siber saldırganların kullandığı OSINT teknikleri, kuruluşlar açısından bilgi yönetimi politikalarını tasarlama aşamasında önemlidir. Burada ana fikir, bilgi sızıntısının kuruluşlar açısından kötü olmasıdır. Kuruluşların, istenmeden ifşa edilip toplanmaya açık hale gelen bilginin mümkün olduğunca az olması için gerekli önlemleri almaları gerekir. Bilgilerin kamuya açık kılınması genelde zorunlu olduğundan, paylaşılan bilginin kapsamı kaydedilip anlaşılmalıdır.
