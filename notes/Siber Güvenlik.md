@@ -1660,3 +1660,25 @@ Bunun sizden bilgi almaya çalışan bir kimlik avı e-postası olduğunu göste
 
 
 ## Açık kaynak istihbaratı
+
+OSINT (Open Source Intelligence) olarak da kısaltılan Açık Kaynak İstihbaratı, son on yılda hem devlet faaliyetlerinde hem de özel sektörde büyük bir ilgi alanı haline geldi. "Açık" ifadesi; açık ağ, bloglar ve web siteleri gibi kamuya açık bilgileri kullanılan istihbarat operasyonlarını ifade eder. OSINT; bilgisayar korsanlığı, dinleme cihazları vb. gibi aktif veri toplama yöntemleri olmadan kolayca toplanan bilgilerden oluşur. Bu derste, OSINT'in avantajlarını, kaynakları, kuruluşlar ve kişiler için bazı endişe konularını inceleyeceğiz. Saldırganların hedeflenen bir kuruluş ya da kişi hakkında nasıl bilgi topladıklarını daha iyi anlayacaksınız.
+
+Açık kaynaklı araştırmalar; gazeteciler, araştırmacılar ve kötü niyetli saldırganlar tarafından yürütülebilir. Bu noktada biz, keşif aşamasından sonra daha büyük bir saldırının bir parçası olarak bu yaklaşımları kullanan saldırganlara odaklanacağız.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+1. OSINT'in alternatif seçeneklerle karşılaştırılması
+
+Telefonları dinlemek, uydu görüntüleri ve işaret istihbarat dinlemeleri gibi geleneksel bilgi toplama şekilleri fazlasıyla pahalı, karmaşık ve genellikle yasa dışı olmaya meyillidir. Buna kıyasla açık bilgilerin kullanımı **esas itibarıyla ücretsiz** ve **edinilmesi oldukça kolay** olabilir.
+
+
+***Bir örnek verelim;***
+Bir gazeteci, bir siyasi parti üyesinin belirli bir zamanda nerede olduğunu öğrenmek isterse ne yapar? Bir taraftan, kişinin cep telefonuna kötü amaçlı yazılım yerleştirerek GPS koordinatlarını yasa dışı olarak almaya çalışabilir. Öte yandan, kişinin Twitter hesabını takibe almak çok daha kolay bir yol olabilir. Politikacının yardımcılarının yer etiketli bir mesaj ya da tanınan bir kent simgesinin olduğu bir fotoğraf paylaşması yeterli olacaktır; böylece gazeteci istediği yanıtı almış olur. Bu örnek basit görünse de, ordu birlikleri tarafından yabancı ülkelerdeki karşı birlikleri izlemek için aynı teknikler kullanılmıştır.
+
+
+Açık kaynak istihbaratının bir başka avantajı, büyük bir kısmının hedef tarafından tespit edilemez olmasıdır. 
+
+***Bir örnek verelim;***
+Bir saldırgan, bir güç istasyonundaki kontrol sistemleri hakkında bilgi edinmek isterse ne yapar? Santralin dış ağını taramaya çalışırsa saldırgan tespit edilebilir ve altyapısının gizliliği tehlikeye girebilir. Buna alternatif olarak saldırgan, hassas planları internet ortamında tartışan bir sistem mühendisi bulursa blog platformunun erişim kayıtları olsa bile, şirketin kaydı olmayacaktır.
