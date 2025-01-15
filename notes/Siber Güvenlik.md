@@ -1717,4 +1717,32 @@ Bir kuruluş ya da kişi hakkında temel bilgi avına çıkmak üzere olan bir s
 + Dünyadaki çoğu ülke, hem vatandaşlara hem de şirketlere ilişkin detaylı kayıtlar tutar. Bu bilgi kaynakları, siber saldırganlar için oldukça değerli olabilir.
   + Örneğin hastane kayıtları, bir kişinin doğum tarihini ve yerini belirtirken, seçmen kağıdı birinin adresini belirtebilir. Bu tür bilgilerin erişilebilirliği, bu bilgilerin neden başka güvenlik önlemi olmadan bir güvenlik sürecinin parçasını oluşturmaması gerektiğine dair soruların net cevabıdır.
 + Şirketler için, hisse senedi alışverişlerinde belirli bir miktarda mali bilginin kullanılabilir kılınması gerekir.
-  + Örneğin, Birleşik Krallık'taki şirketlerin faaliyet gösterebilmeleri için [Şirket Kayıt Ofisine](https://www.gov.uk/government/organisations/companies-house) bilgi vermeleri gerekir. Tüm bu bilgiler bir siber saldırganın ilgisini çekebilir.  
+  + Örneğin, Birleşik Krallık'taki şirketlerin faaliyet gösterebilmeleri için [Şirket Kayıt Ofisine](https://www.gov.uk/government/organisations/companies-house) bilgi vermeleri gerekir. Tüm bu bilgiler bir siber saldırganın ilgisini çekebilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+3. Açık bilgi toplamaya yönelik iyi kurallar
+
+Açık bilgi kullanarak bir araştırma yapıyorsanız şu basit yönergeleri izleyebilirsiniz. Daha da deneyim kazandıkça, ek ipuçları ve numaralar öğreneceksiniz; ancak bunlar şimdilik iyi bir başlangıç noktası olacaktır.
+
+
+3_A. ***Bol bol bilgi toplayın:*** Miktar değerlidir
++ Ne kadar çok bilgi, o kadar iyi.
++ Veri kümeleri arasındaki bağlantıları arayan analist araçları, daha fazla bilgiyle daha iyi çalışır.
++ ***Unutmayın:*** Anahtar bilginin ne olacağını asla bilemezsiniz, bu nedenle ayrıştırmadan önce en başta her şeyi kaydedin.
+
+
+3_B. ***Bir aralık belirleyin:*** Farklı perspektiflerden bir resim oluşturun
++ Tek bir kaynağa bel bağlamayın.
++ İnternetteki her şey doğru değildir! Genellikle tek bir kaynak (örn. birçok etkileyici fotoğrafın olduğu bir sosyal medya profili) üzerinde değişiklik yapmak kolaydır, ancak birden fazla kaynağın değiştirilmesini yönetmek çok daha zordur.
++ ***Unutmayın:*** Bir hedefin bilgi sildiğini veya gizlemeye çalıştığını fark ederseniz, bu ilgi çekici bir durum olabilir.
+
+
+3_C. ***Takılıp kalmayın:*** Başarısız olmaya hazır olun ve hüsrana uğramayın 
++ Açık kaynak istihbaratı çok güçlü olsa da birçok çıkmaz sokak bulunur ve bir hedefin paylaşmayı seçtiği şeyler konusunda şans da bir faktördür.
++ Farklı bir yaklaşıma geçmeniz veya yeni bir alanı keşfetmeniz gerekebilir.
++ ***Unutmayın:*** Eğitimli araştırmacılardan oluşan ekiplerin yaptığı başarılı araştırmaların tamamlanması haftalar sürebilir.
+
+**Dipnot:** Bir araştırma sırasında açık bilginin elde edilemediği birçok durum olacaktır. Örneğin iyi bir operasyonel güvenlikten dolayı, bazı kuruluş ya da kişilerin diğerlerine kıyasla çok fazla kamuya açık bilgisi olmayabilir.
