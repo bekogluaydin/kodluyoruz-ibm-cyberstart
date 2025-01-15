@@ -1682,3 +1682,39 @@ Açık kaynak istihbaratının bir başka avantajı, büyük bir kısmının hed
 
 ***Bir örnek verelim;***
 Bir saldırgan, bir güç istasyonundaki kontrol sistemleri hakkında bilgi edinmek isterse ne yapar? Santralin dış ağını taramaya çalışırsa saldırgan tespit edilebilir ve altyapısının gizliliği tehlikeye girebilir. Buna alternatif olarak saldırgan, hassas planları internet ortamında tartışan bir sistem mühendisi bulursa blog platformunun erişim kayıtları olsa bile, şirketin kaydı olmayacaktır.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+2. Açık bilgi kaynakları
+
+Bir kuruluş ya da kişi hakkında temel bilgi avına çıkmak üzere olan bir saldırgan işe nereden başlar? İşte size açıklayıcı örnekler sağlayacak birkaç yaygın kaynak. Çok daha fazla olası kaynak var ve her an yeni kaynaklar keşfediliyor.
+
+
+2_A. Şirket web sitesi
++ Çok bariz gibi gözükse de, bir şirketin web sitesi, kamunun kullanımına sunmayı seçtiği bilgiler açısından açıklayıcı olabilir.
++ İletişim sorumluları, harici sosyal medya profilleri, bina adresleri vb. gibi yararlı bilgileri ortaya koyabilir.
++ Şirketler, kamuya sundukları bilgiler konusunda hata yapabilirler, bu da kamuya açık alana şirketin istediğinden daha detaylı bilgilerin yerleştirilebileceği anlamına gelir.
++ Daha ileri düzey bilgileri ve istenmeden ortaya çıkarılmış dosyaları bulmak amacıyla genellikle "[Google korsanlığı](https://www.linkedin.com/posts/bekogluaydin_google-dork-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r-activity-7192761963825795072-Ugp-/?originalSubdomain=tr)" adı verilen gelişmiş arama özellikleriyle aramalar zenginleştirilebilir.
++ Bir şirketin eski web sitesini almaya yönelik, örneğin Wayback Machine kullanımı gibi bazı seçenekler de vardır. Bu, saldırganların belli zamanlarda bir web sitesinin ne amaçla kullanıldığını saptayabilmelerine yönelik güçlü bir araç olabilir.
+
+
+2_B. Medya ve haberler
++ Birisi işin zor kısmını çoktan yaptıysa neden yeniden çaba harcayasınız? Açık bilgiyi işleme konusunda bir hayli becerikli gazeteciler vardır.
++ Saldırganların aradıklarını tam anlamıyla bulmaları pek muhtemel olmasa da, bazı makaleler ek araştırmalar için yardımcı olabilir.
++ Sektör analistleri, derecelendirme kuruluşları ve diğer değerlendirme kurumları, önceden işlenmiş veya temel bilgi kaynaklarından bazılarıdır.
+
+
+2_C. Sosyal medya
++ Sosyal medya çağında insanlar, bilgi paylaşmaktan ve geniş ölçüde kullanıma açmaktan mutlu oluyorlar.
++ Sosyal medya bilgileri, kişilerin özel ve iş hayatları hakkında doğru bir perspektif elde etmek için oldukça etkili bir şekilde bir araya getirilebilir. Örneğin, çalışanların kimlik kartlarını, ağ şemalarını, hatta parolaların yazılı olduğu not kağıtlarını paylaştıkları bilinmektedir.
++ Siber saldırganlar için çok küçük bilgiler bile bir sosyal mühendislik saldırısına güvenilirlik katabilir.
+  + Örneğin bir saldırgan, hedefin yakın zamanda bir konferansa katıldığını öğrenirse, katılımcı listesinde bulduğu bir ismi kullanarak hedefli kimlik avı saldırısı başlatıp "görüşmeye devam etmeyi" isteyebilir.
+
+
+2_D. Resmi ya da kamuya açık kayıtlar
++ Dünyadaki çoğu ülke, hem vatandaşlara hem de şirketlere ilişkin detaylı kayıtlar tutar. Bu bilgi kaynakları, siber saldırganlar için oldukça değerli olabilir.
+  + Örneğin hastane kayıtları, bir kişinin doğum tarihini ve yerini belirtirken, seçmen kağıdı birinin adresini belirtebilir. Bu tür bilgilerin erişilebilirliği, bu bilgilerin neden başka güvenlik önlemi olmadan bir güvenlik sürecinin parçasını oluşturmaması gerektiğine dair soruların net cevabıdır.
++ Şirketler için, hisse senedi alışverişlerinde belirli bir miktarda mali bilginin kullanılabilir kılınması gerekir.
+  + Örneğin, Birleşik Krallık'taki şirketlerin faaliyet gösterebilmeleri için [Şirket Kayıt Ofisine](https://www.gov.uk/government/organisations/companies-house) bilgi vermeleri gerekir. Tüm bu bilgiler bir siber saldırganın ilgisini çekebilir.  
