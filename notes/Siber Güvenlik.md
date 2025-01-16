@@ -1823,6 +1823,7 @@ Ping testi, saldırganlara ve savunanlara makinenin yanıt verip vermediğini ve
 İki bilgisayar arasındaki iz yolu (traceroute), artan veya azalan "yaşam süresine" (TTL) sahip paketler gönderilerek hesaplanabilir. Bir paket hareket halindeyse ve "yaşam süresi" sıfıra indiyse, paketi işleyen makine, kaynak noktasına hedefe ulaşılamadığını belirten bir hata mesajı gönderir.
 
 Bu grafikte, kendisi ile hedef adres arasındaki bağlantıyı ayrıntılarıyla gösteren bir cihaz yer alır. Fiziksel olarak bu süreç, her seferinde sayısı artacak şekilde bir gölde taş kaydırmaya benzer.
+
 ![image](https://github.com/user-attachments/assets/fa2c1e15-f40f-48bd-a278-2a3898ad84bb)
 
 1_A. Ne tür bilgiler sağlar?
