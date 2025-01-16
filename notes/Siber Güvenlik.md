@@ -1763,3 +1763,18 @@ Bu, örneğin 100 çalışanın her birinin %1'lik hassas bilgi parçasını aç
 
 
 Siber saldırganların kullandığı OSINT teknikleri, kuruluşlar açısından bilgi yönetimi politikalarını tasarlama aşamasında önemlidir. Burada ana fikir, bilgi sızıntısının kuruluşlar açısından kötü olmasıdır. Kuruluşların, istenmeden ifşa edilip toplanmaya açık hale gelen bilginin mümkün olduğunca az olması için gerekli önlemleri almaları gerekir. Bilgilerin kamuya açık kılınması genelde zorunlu olduğundan, paylaşılan bilginin kapsamı kaydedilip anlaşılmalıdır.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+5. Aktivite
+
+Açık kaynak istihbaratına başlangıç yapmanın en iyi yollarından biri deneme yanılmadır. İnternette kendiniz hakkında araştırma yapmayı deneyin! Hakkınızda birileri ne tür açık kaynak istihbaratı bulabilir?
+
++ Birkaç dakikanızı ayırarak Google, sosyal medya siteleri ve benzeri sayfalara erişmek için yeni tarayıcı pencereleri açıp adınızı aratın.
+  +  Daha önceki aktivitelerinize dayalı olarak aynı sitelere yönlendirilmemek için, mümkünse çerez veya geçmiş bilgileri olmayan yeni bir web tarayıcısı kullanın. Bunu yeni, özel veya gizli moddaki internet tarayıcısı pencerelerini kullanılarak yapabilirsiniz.
++ Birisi adresinizi, iş yerinizi veya başka kişisel bilgilerinizi bulabilir mi? Sosyal medya hesaplarınız ne kadar gizli?
++ Bunu yaptıktan sonra, bir arkadaşınızdan veya aile üyesinden süreci tekrarlamasını isteyerek, sizin bulamadığınız neleri bulduklarını ve ne tür yaklaşımlar kullandıklarını görebilirsiniz.
+
+Çıkardığınız sonuç ne olabilir? Fazla bilgi paylaşmaya gerek yok. Bunun farkında olmanız önemli.
