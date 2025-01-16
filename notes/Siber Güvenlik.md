@@ -1813,3 +1813,22 @@ Bir paketin yaşam süresi 120 ise ve paket hedef ulaştığında kalan yaşam s
 
 
 Ping testi, saldırganlara ve savunanlara makinenin yanıt verip vermediğini ve bir süpürme (sweep) işleminde tekrarlandığında, ağda kaç cihaz olduğunu söyler.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+2. İz yolu nedir, ne işe yarar, nasıl kullanılır?
+
+İki bilgisayar arasındaki iz yolu (traceroute), artan veya azalan "yaşam süresine" (TTL) sahip paketler gönderilerek hesaplanabilir. Bir paket hareket halindeyse ve "yaşam süresi" sıfıra indiyse, paketi işleyen makine, kaynak noktasına hedefe ulaşılamadığını belirten bir hata mesajı gönderir.
+
+Bu grafikte, kendisi ile hedef adres arasındaki bağlantıyı ayrıntılarıyla gösteren bir cihaz yer alır. Fiziksel olarak bu süreç, her seferinde sayısı artacak şekilde bir gölde taş kaydırmaya benzer.
+![image](https://github.com/user-attachments/assets/fa2c1e15-f40f-48bd-a278-2a3898ad84bb)
+
+1_A. Ne tür bilgiler sağlar?
+
+Bu davranış, bir ağı ayrıntılarıyla göstermek ve sizinle varış yeriniz arasında kaç anahtar ve yönlendirici olduğunu belirlemek için kullanılabilir.
+
+
+***Bir örnek verelim;***
+Bir hedefin 12 atlama ileride olduğunu hayal edin. "Yaşam süresi" 11 olan bir paket hedefe doğru gönderilirse son yönlendirme aşamasında başarısız olacaktır. Tarayıcıya bir hata mesajı paketi gönderilecek, ancak bu mesaj, 11 adım uzaktaki yönlendiricinin IP adresini ortaya çıkaracaktır. "Yaşam süresi" birkaç yeni test sonrasında bire düşürüldüğünde, tarayıcı ile hedef arasındaki ağ düğümlerinin tam bir listesi oluşturulabilir. Windows cihazlarında 'tracert target_name’ komutunu kullanarak bir iz yolu başlatılabilir.
