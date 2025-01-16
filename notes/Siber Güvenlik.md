@@ -1778,3 +1778,38 @@ Açık kaynak istihbaratına başlangıç yapmanın en iyi yollarından biri den
 + Bunu yaptıktan sonra, bir arkadaşınızdan veya aile üyesinden süreci tekrarlamasını isteyerek, sizin bulamadığınız neleri bulduklarını ve ne tür yaklaşımlar kullandıklarını görebilirsiniz.
 
 Çıkardığınız sonuç ne olabilir? Fazla bilgi paylaşmaya gerek yok. Bunun farkında olmanız önemli.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+## Teknik tarama
+
+Teknik tarama yöntemleri, kuruluşlarda ağ yönetimi ve analizinin vazgeçilmez bir parçasıdır. Burada dikkatimizi, saldırganların bilgisayarlar ve ağlar hakkında nasıl bilgi topladıklarına çevireceğiz. Bir ağdaki hedef alınan bir makineyi araştırırken, bir saldırgan teknik yapılandırma hakkında daha fazla bilgi edinmek isteyebilir. Buna şu tür detaylar dahil olabilir:
++ Makinede hangi hizmetler çalışıyor?
++ Hangi işletim sistemi kullanılıyor?
++ Hizmetlerden herhangi biri bilinen yetkisiz erişim yöntemlerine karşı savunmasız mı?
+
+Bu derste, teknik tarama yöntemleriyle tanışacak ve saldırganların bunları ne için kullandıklarını öğreneceksiniz. Taramanın, bir saldırının keşif aşamasında dışarıdan kötü niyetli bir kişi tarafından nasıl kullanılabileceğine odaklanacağız.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+1. Ping testi nedir, nasıl kullanılır?
+
+Ping testinde, bir tarama makinesi, hedef makinenin IP (İnternet Protokolü) adresine bir ICMP (İnternet Denetimi Mesajı Protokolü) paketi gönderir. Bu dışarıdan gelen pakete, yankı isteği paketi denir. Paket, bir kartpostalın dijital versiyonuna benzer şekilde, küçük bir miktarda biçimlendirilmiş veriden oluşur. Hedef makine bir yankı yanıtı paketi ile yanıt verirse, tarayan makine hedef makinenin büyük ihtimalle etkin ve açık olduğunu bilir.
+
+Bu grafikte, bir telefonun yerel ağındaki iki IP adresine "ping" komutu göndermesi ve yanıt beklemesi gösterilir.
+https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/VQGMRKXYPRMXP7D4/CyberF_PingTest_tkTK.png
+
+1_A. Ne tür bilgiler sağlar?
+
+Bu basit bir testtir. Genelde kuruluşlar tarafından ağ sorunlarında hata ayıklamak için kullanılır. Bir makinenin durumunu tespit eder. Ayrıca bir paketin "yaşam süresi" (TTL) olarak bilinen özelliği kullanarak, makinenin ağın ne kadar "uzağında" olduğuna ilişkin bir gösterge sağlar. Paketi ileriye taşıyan her yönlendirici, yaşama süresini bir azaltır.
+
+
+***Bir örnek verelim;***
+Bir paketin yaşam süresi 120 ise ve paket hedef ulaştığında kalan yaşam süresi 108 olursa 12 aşamadan geçmiş demektir. Bu özellik, bir sonraki taramada kullanılabilir. Bir ping testi, Windows makinelerinde ‘ping hedef_adı’ komutu kullanılarak başlatılabilir.
+
+
+Ping testi, saldırganlara ve savunanlara makinenin yanıt verip vermediğini ve bir süpürme (sweep) işleminde tekrarlandığında, ağda kaç cihaz olduğunu söyler.
