@@ -1857,3 +1857,38 @@ Bir hedef cihaz üzerindeki "bilinen" bağlantı noktalarının listesi üzerind
 
 ***Bir örnek verelim;***
 TCP bağlantı noktası 80, genellikle http uygulamaları ya da web sunucuları için ayrılır. Bu bağlantı noktasının bir hedef makinede "açık" olması, bir araştırmacının ilgisini çekebilir, çünkü bu, web tabanlı bir uygulamanın kullanımda olabileceğini gösterir.
+
+
+
+3_B.  Network Mapper (Nmap)
+
+Tarama konusunu araştırmak ve üzerinde daha fazla zaman geçirmek isterseniz, [Network Mapper (Nmap)](https://nmap.org/) adındaki popüler bir bağlantı noktası tarama sitesini keşfedebilirsiniz. Site, ücretsiz ve açık kaynaklı bir ağ tarayıcısıdır. Giriş, Referans Kılavuz bölümlerini ya da diğer çevrimiçi materyalleri keşfetmeye başlayabilirsiniz.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+4. Ağ güvenlik açığı taraması
+
+Güvenlik açığı taraması, bir başka test biçimidir. İki ana yöntem vardır:
++ Güvenlik açığından yararlanmak, hedef sistemde var olup olmadığını belirlemek için belirli eylemler gerçekleştirilir. Bu gerçek zamanlı olarak yapıldığında genellikle dinamik tarama olarak bilinir.
++ Bir yazılımın sürüm numaraları (örn. bir Apache veya MySQL sürümü), bilinen uygulama güvenlik açığı bilgilerini içeren bir veritabanıyla karşılaştırılır.
+
+**Önemli Dipnot:** Dinamik taramanın, bazı ülkelerde yasa dışı olan eylemleri otomatik olarak gerçekleştirebileceğini unutmayın. Yalnızca sahibinden izin aldığınız hedefleri taramanız gerekir. Bir ağda gerçekleştirilen güvenlik açığı taraması genellikle bir saldırının planlama aşaması olarak yorumlanır.
+
+
+4_A. Ne tür bilgiler sağlar?
+
+Ağ güvenlik açığı taraması, hem kuruluşların kendi ağlarındaki güvenlik açıklarını belirlemeleri hem de saldırganların potansiyel kurbanları bulmaları açısından güçlü bir araçtır. Bazı kuruluşlar, ortaya çıkan hataları belirleyip gidermek için bu tür taramaları düzenli olarak gerçekleştirirler.
+
+
+***Bir örnek verelim;***
+Bir tarayıcı, bir sunucuya bağlanma girişiminde bulunarak bir uygulamanın eski bir sürümünü kullanıp kullanmadığını kontrol edebilir. Uygulama güncel değilse ve bilinen bir güvenlik açığına sahipse tarayıcı, varlığını teyit etmek için güvenlik açığından yararlanma girişiminde bulunup bunu rapor edebilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+5. İnternet için arama motoru
+
+Teknik tarama için kullanılan diğer bir araç ise [Shodan arama motorudur](https://www.shodan.io/). Kendisini, internete bağlı cihazlar için dünyanın ilk arama motoru olarak tanımlar. Hem kötü amaçlı saldırganların hem de güvenlik araştırmacılarının ilgisini çeker. Milyonlarca kaydı kapsayan, toplanmış tarama sonuçlarından oluşan geniş bir katalog sunar. Bu saklanan kayıtlar, dünya çapında uygulamaları izlemek için kullanılabilir.
