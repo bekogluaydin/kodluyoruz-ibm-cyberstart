@@ -1826,10 +1826,34 @@ Bu grafikte, kendisi ile hedef adres arasındaki bağlantıyı ayrıntılarıyla
 
 ![image](https://github.com/user-attachments/assets/fa2c1e15-f40f-48bd-a278-2a3898ad84bb)
 
-1_A. Ne tür bilgiler sağlar?
+2_A. Ne tür bilgiler sağlar?
 
 Bu davranış, bir ağı ayrıntılarıyla göstermek ve sizinle varış yeriniz arasında kaç anahtar ve yönlendirici olduğunu belirlemek için kullanılabilir.
 
 
 ***Bir örnek verelim;***
 Bir hedefin 12 atlama ileride olduğunu hayal edin. "Yaşam süresi" 11 olan bir paket hedefe doğru gönderilirse son yönlendirme aşamasında başarısız olacaktır. Tarayıcıya bir hata mesajı paketi gönderilecek, ancak bu mesaj, 11 adım uzaktaki yönlendiricinin IP adresini ortaya çıkaracaktır. "Yaşam süresi" birkaç yeni test sonrasında bire düşürüldüğünde, tarayıcı ile hedef arasındaki ağ düğümlerinin tam bir listesi oluşturulabilir. Windows cihazlarında 'tracert target_name’ komutunu kullanarak bir iz yolu başlatılabilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+3. Bağlantı noktası taraması
+
+
+Ağ oluşturmada, uygulamalar, dijital bağlantı noktalarında hizmet reklamı yaparak kendilerini erişilir kılarlar. Bunu, bir binanın katları olarak hayal edebilirsiniz. IP adresi binayı, katların her biri de farklı bir bağlantı noktası numarasını gösterir.
+
+Çoğu bağlantı noktası tarama işlemi, hedef makine üzerindeki belirli sayıda bağlantı noktası ile bir bağlantı açma girişiminde bulunma fikrine dayalıdır. Bağlantı noktası bir bağlantıyı kabul etmeye başlarsa, bu bulgu tarayıcı cihaz tarafından not edilir ve bağlantı reddedilir. Bağlantıyı kabul eden bir bağlantı noktası, "açık" olarak tanımlanır.
+
+Bu grafikte, bir makinenin bağlantı noktalarının her birinde hizmetin kullanılabilir olup olmadığını görmek için sistematik bir şekilde bağlantı noktalarını test edişi gösterilir. Dört girişimden sonra, tarayıcı dört bağlantı noktasının bağlantıyı reddettiğini ve bunları "kapalı" olarak tanımlanacağını belirler.
+
+![image](https://github.com/user-attachments/assets/b52709bc-7c1a-4fbe-b8f8-7b88f729f53f)
+
+
+3_A. Ne tür bilgiler sağlar?
+
+Bir hedef cihaz üzerindeki "bilinen" bağlantı noktalarının listesi üzerinde çalışarak bir tarayıcı, makinenin ne için kullanıldığını anlayabilir. TCP (İletim Denetimi Protokolü) dahilinde, ilk 1.024'ü "bilinen" bağlantı noktaları olan toplamda 65.536 bağlantı noktası bulunur. "Bilinen" ya da "sistem" bağlantı noktası, uluslararası olarak kabul edilen ve kendisiyle ilişkilendirilmiş belirli bir uygulamaya sahiptir. Network Mapper (Nmap) gibi yaygın bir tarayıcı, tipik olarak belirli bir protokol için en yaygın 1.000 bağlantı noktasını tarar. Bu, "bilinen" bazı bağlantı noktalarını içerir; geriye kalanlar ise daha yüksek sayılı, kullanıcıyla ilgili bağlantı noktaları (1.024 - 49.151) olacaktır.
+
+
+***Bir örnek verelim;***
+TCP bağlantı noktası 80, genellikle http uygulamaları ya da web sunucuları için ayrılır. Bu bağlantı noktasının bir hedef makinede "açık" olması, bir araştırmacının ilgisini çekebilir, çünkü bu, web tabanlı bir uygulamanın kullanımda olabileceğini gösterir.
