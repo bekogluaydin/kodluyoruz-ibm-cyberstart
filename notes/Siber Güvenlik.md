@@ -1892,3 +1892,12 @@ Bir tarayıcı, bir sunucuya bağlanma girişiminde bulunarak bir uygulamanın e
 5. İnternet için arama motoru
 
 Teknik tarama için kullanılan diğer bir araç ise [Shodan arama motorudur](https://www.shodan.io/). Kendisini, internete bağlı cihazlar için dünyanın ilk arama motoru olarak tanımlar. Hem kötü amaçlı saldırganların hem de güvenlik araştırmacılarının ilgisini çeker. Milyonlarca kaydı kapsayan, toplanmış tarama sonuçlarından oluşan geniş bir katalog sunar. Bu saklanan kayıtlar, dünya çapında uygulamaları izlemek için kullanılabilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+## Vaka Çalışmaları
+
+
+Artık her gün haberlerde gördüğümüz siber saldırılar, ister kamudan ister özel sektörden  olsun, kişileri ve kuruluşları etkiliyor. Bu derste, neyin mümkün olduğunu ve dünyada nelerin yaşandığını anlayabilmeniz için üç yüksek profilli siber saldırı vaka çalışmasını inceleyeceğiz. Her vaka çalışması, farklı tipte bir tehdit aktörüne odaklanmaktadır. Bu üç vaka çalışması, uluslararası ortamda sürekli büyüyen bir güvenlik ihlali kataloğunun birer parçasıdır. Güvenlik toplumunun bir katılımcısı olarak, gelecekteki kararlarınıza yön vermek için örneklerden ders çıkarmak önemlidir.
