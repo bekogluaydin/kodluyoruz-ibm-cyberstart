@@ -20,7 +20,7 @@ Yanlış anlamayın. Veriler yine donanım üzerinde depolanır. Ancak bu donan�
 
 Genel, özel ve hibrit terimlerini hepimiz biliriz, ancak bulut hizmetlerine uygulandıklarında bunların her birinin özel anlamları vardır.
 
-https://bundles.yourlearning.ibm.com/skills/learn/assets/MKRXDYVNVPRW32R4/cloud_cloudDeploymentModel_TK.png
+![image](https://github.com/user-attachments/assets/5c8f8747-7d28-4f96-9c45-c5a36660c856)
 
 
 A. Genel bulutlar, depolama ve bilgi işlem alanını paylaşır
@@ -43,7 +43,7 @@ Hibrit bulutlar, genel ve özel kaynakları birleştirir. Her bulut iki türün�
 
 IBM, uzun zamandan beri, çoğu kuruluşun hibrit buluta ihtiyaç duyduğuna inanıyor. İster özel bulut ister genel bulut ister bunlar arasındaki çeşitli türlerde hibrit bağlantılar olsun, nereden başladıkları fark etmeksizin müşterilere bulut yolculuklarında yardımcı olma konusunda lider olduğumuzu gösterdik.
 
-https://bundles.yourlearning.ibm.com/skills/learn/assets/MKRXDYVNVPRW32K4/cloud_cloudDeploymentOptions_TK.png
+![image](https://github.com/user-attachments/assets/8295a44c-180c-4d54-b490-770b1517f0bd)
 
 
 ------------------------------------------------------------------------------------------------------------------
@@ -59,7 +59,7 @@ Herhangi bir geleneksel hizmet, bulut aracılığıyla sağlanabilir. Bu kavram,
 
 Şimdi, bulut bilişimin en popüler üç hizmet modelini karşılaştıralım: hizmet olarak sunulan yazılım (SaaS), hizmet olarak sunulan platform (PaaS), hizmet olarak sunulan altyapı (IaaS). İşte her modele uygun araç ve veri türlerini gösteren bir şema.
 
-https://bundles.yourlearning.ibm.com/skills/learn/assets/XVZDQWYQPKPN42RJ/cloud_cloudAsAService_TK.png
+![image](https://github.com/user-attachments/assets/3b5556ee-db76-47c4-9a05-810b7d7c2265)
 
 Her hizmet modelinin yaşama, iletişim kurma, alışveriş yapma ve çalışma biçimlerimizi nasıl değiştirdiğini ve firmalar için ne işe yaradığını öğrenmek için aşağıdan bakabilrisiniz.
 
@@ -150,7 +150,7 @@ Bazı bulut satıcı firmaları, bir hibrit çözüm sunar. Bu, şirketlerin ken
 
 IBM satıcıları, bu ortamlara yerel, özel olarak ayrılmış ve genel adını verir. Şimdi, bu kombinasyonları anlamak için biraz zaman ayırın.
 
-https://bundles.yourlearning.ibm.com/skills/learn/assets/YZREVWYVQMQN42QE/Cloud_cloud_environment_IaaS_PaaS_TK.png
+![image](https://github.com/user-attachments/assets/3c4d1fcb-fef2-4721-a4bc-6e7ab7baa75b)
 
 
 --------------------------------------------------------------------------------------------------------------------------
