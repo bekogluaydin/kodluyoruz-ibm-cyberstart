@@ -39,7 +39,7 @@ Kurumsal Tasarım Odaklı Düşünme, IBM'de müşterilerimize harika kullanıc�
 
 1. Sorundan çözüme
 
-https://bundles.yourlearning.ibm.com/skills/learn/assets/WWPVXXGRVNEZ524Q/designThinking_problemSolving%402x.png
+![image](https://github.com/user-attachments/assets/f50e11e6-da45-4442-9795-bced931a8040)
 
 Kurumsal Tasarım Odaklı Düşünme, bizim tasarım odaklı düşünmeyi modern bir kuruluşun hızına ve ölçeğine uygun biçimde uygulama yaklaşımımızdır. Kısacası, ekiplerimizin amacı (tasarım) oluşturmasına ve mümkün olan en iyi sonuçları sağlamasına yardımcı olur.
 
@@ -64,7 +64,7 @@ Bir sorunun ne olduğunu belirlemeye veya çözmeyi denemeye başlamadan önce, 
 
 Tasarım odaklı düşünme, kullanıcı için bir "persona" ya da profil oluşturmak için kullanıcının veya kullanıcıların gerçekçi genel bir temsilini oluşturmak amacıyla Empati Haritasından yararlanır. Personalar, bir kullanıcının eğitimine, yaşam tarzına, ilgi alanlarına, değerlerine, hedeflerine, ihtiyaçlarına, düşüncelerine, arzularına, tutumlarına ve eylemlerine ilişkin ayrıntıları içerebilir.
 
-https://bundles.yourlearning.ibm.com/skills/learn/assets/NKVRWWZWPJDR374N/designThinking_allVisualEmpathyMap%402x.png
+![image](https://github.com/user-attachments/assets/16c17250-b5fa-4e05-b8e6-9188c467d0ea)
 
 
 -------------------------------------------------------------------------------------------------------------
