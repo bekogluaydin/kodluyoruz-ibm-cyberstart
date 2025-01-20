@@ -33,7 +33,8 @@ Sipariş, ödeme, hesap takibi gibi işlemler günün her saniyesinde gerçekle�
 
 Aşağıdaki görselde bir blockchain oluşturmanın adımlarını görebilirsiniz:
 
-https://bundles.yourlearning.ibm.com/skills/learn/assets/PZDQDPNWQJNQ332D/blockchain_building-a-blockchain-3.png
+![image](https://github.com/user-attachments/assets/2e972b1e-233b-4bcc-98a1-300de3d929dd)
+
 
 + Gerçekleşen her işlem bir blok içine yerleştirilir. 
 + Her blok önündeki ve arkasındaki bloğa bağlıdır. 
