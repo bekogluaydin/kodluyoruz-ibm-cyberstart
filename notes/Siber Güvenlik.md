@@ -853,7 +853,7 @@ Siber saldırı yöntemleri
 Bir siber saldırının pek çok nedeni olabilir. Bunlara uluslararası ya da askeri çatışmalarla bağlantılı siyasi, finansal veya kişisel gerekçeler, ticari sırların ele geçirilmesi, siber aktivizm ve hatta intikam ya da kötü şöhret dahil olabilir.
 "Beyaz Şapkalı" kuruluşların veya kişilerin ("iyi adamlar") yasal araştırmalar nedeniyle ya da "Siyah Şapkalı" siber suçluları yenmek amacıyla gerçekleştirdiği siber saldırılar da söz konusu olabilir. Ancak, siber saldırıların büyük kısmı, sistemlerdeki ve teknolojideki zayıflıkların belirlenmesini ve istismar edilmesini amaçlar.
 
-https://bundles.yourlearning.ibm.com/skills/learn/assets/DNDKVQZYXEGQ685B/cybersecurity_cyberattack%402x.png
+![image](https://github.com/user-attachments/assets/9f2acb38-44a6-4c98-926a-7a5cd5f89fed)
 
 Yaygın siber saldırı yöntemleri
 
@@ -885,7 +885,7 @@ Gerçek dünyada çoğu saldırı, genellikle bazı dijital öğelerin yanı sı
 
 Bilgi güvenliği  denilen yeni bir kavramı ele alalım. Bilgi güvenliği, nasıl koruduğumuzdan ziyade korumaya çalıştığımız bilginin değerine odaklanır. Aşağıdaki grafik, fiziksel öğelerin ve dijital öğelerin bilgi güvenliğinin kapsamında olduğunu gösterir.
 
-https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/VQGMRKRXDJRVZDGZ/CyberF_InformationSecurity_Eng.png
+![image](https://github.com/user-attachments/assets/2ba1ef29-111e-44c0-9aa4-50a38838173f)
 
 1. Fiziksel güvenlik; binalar, güvenlik kameraları, ekipman ve mülk gibi varlıkların hırsızlık, vandallık, yangın ve doğal afetler gibi fiziksel tehditlerden fiziksel olarak korunmasıdır.
 
@@ -913,7 +913,7 @@ Bu nedenle bilgi güvenliğinin hedefleri genellikle iyi bir başlangıç noktas
 
 CIA üçlüsü, bir kuruluşta bilgi güvenliğine yönelik politikaların yönlendirilmesine yardımcı olmak üzere kullanılan bir modeldir.
 
-https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/YZMQPVPXYNPN4DAM/CyberF_ClAtriad_Eng.png
+![image](https://github.com/user-attachments/assets/3536c8ba-7944-4b5b-b4a6-c59ae7cc59ad)
 
 Farklı kuruluşlar ve senaryolar, bir hedefin diğerlerinden önce geldiğini savunabilir.
 
@@ -969,7 +969,8 @@ Korumanız gereken pahalı bir tablonuz olduğunu varsayalım. Seçeneklerden bi
 
 Siber güvenliğe dair düşünülmesi gereken üç temel unsur mevcuttur:
 
-https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/DNZRJVJRJPKYZKK5/CyberF_PeopleProcessTech_tkTK.png
+![image](https://github.com/user-attachments/assets/59d68305-c3b6-42a5-9737-7db9c6305417)
+
 Bunlar, bir saldırganın saldırabileceği ve kuruluşların siber güvenlik çabalarında odaklanması gereken alanlardır. Bu derste bunları derinlemesine inceleyelim.
 
 
@@ -1172,7 +1173,7 @@ Tıpkı kanunlar gibi, etik kurallar da tüm dünyada farklıdır. Siber güvenl
 
 Etik ikilemlerin olduğunu ve bu ikilemlerin sektörün ortaya çıkışından bu yana sürdüğünü görebilirsiniz. Bu tartışmalar, sağlıklı bir sektörün olgunluğa ulaştığını ve katılımcılarının bu önemli konuları düşünerek doğruluktan yana olduklarını gösteren iyi yönde işaretlerdir.
 
-Siber güvenliğe ilişkin kanunların ve etik kuralların karmaşıklığını göstermek amacıyla bu grafik, yasaların ve etik kuralların birbirleriyle nasıl örtüştüğünü ortaya koymaktadır. https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/EKWVDXDXDPQJ6W2R/CyberF_LawsEthics_tkTK.png
+Siber güvenliğe ilişkin kanunların ve etik kuralların karmaşıklığını göstermek amacıyla bu grafik, yasaların ve etik kuralların birbirleriyle nasıl örtüştüğünü ortaya koymaktadır. ![image](https://github.com/user-attachments/assets/f3a74ab2-6b87-496c-96f3-bb0eed82e7da)
 
 
 -------------------------------------------------------------------------------------------------------------
@@ -1197,7 +1198,8 @@ Aşağıdaki konular hakkında bilgi edineceksiniz:
 1. Tehdit aktörü grupları
 
 Siber güvenlik çalışanları, farklı tehdit aktörü gruplarından veya siber saldırgan gruplarından haberdar olmalıdırlar. Çeşitli gruplar vardır ve bu gruplar sebepler, kaynaklar ve teknikler açısından önemli farklılıklar gösterirler. Beş ana siber saldırgan grubunu inceleyip karşılaştıralım.
-https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/GYDEZGKKMRNXY8DY/CyberF_AttackerGroups_tkTK.png
+![image](https://github.com/user-attachments/assets/247ceb0d-a76c-4a48-af53-e3c9b2388d2d)
+
 
 1_A. Grup 1: Script Kiddie
 
@@ -1457,7 +1459,8 @@ MITRE, daha güvenli bir dünya için sorunları çözmeye adanmış kar amacı 
 
 Aşağıdaki grafik, ATT&CK matrisinin bir parçasıdır. Oldukça kapsamlı olduğunu görebilirsiniz.
 
-![ATT&CK matrisinin bir parçası](https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/WWJYRGPDVYGYR496/CyberF_ATT%26CK_Matrix_Eng.jpg)
+![ATT&CK matrisinin bir parçası](https://github.com/user-attachments/assets/7f5d5e59-4ecc-45bc-b932-450c89caa387)
+
 
 Sütun başlıkları bir saldırgan taktiğini tanımlar. Her taktik bir saldırgan hedefi olarak görülebilir. Her sütunun altındaki listede, siber saldırganın taktiğe veya hedefe ulaşmak için kullanabileceği çok sayıdaki teknik belirtilir. Bunlar, ek bilgilere bağlanır.
 
@@ -1517,7 +1520,7 @@ Kripto paraların yarattığı kayda değer bir sonuç da fidye yazılımlarınd
 4. Ekosistem iş üzerinde
 
 Tüm parasal unsurları bir araya getiren varsayımsal bir vaka çalışmasına bakalım. Bu senaryoda, yaşam döngüsü boyunca bir saldırı operasyonunu inceleyeceğiz. Paranın izini sürün!
-https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/YZMQPVKRZPZNWN3E/CyberF_Economy_tkTK.png
+![image](https://github.com/user-attachments/assets/64cd5439-00c9-4ab1-b0c5-ba23a0315a05)
 
 ***Adım 1: Kötü Amaçlı yazılımlar tasalanır***, Yolculuğun ilk aşaması bir suç çetesinin tuş vuruşlarını ve ekran resimlerini kaydeden bir kötü amaçlı yazılım üretmesini kapsıyor.
 
@@ -1801,7 +1804,8 @@ Bu derste, teknik tarama yöntemleriyle tanışacak ve saldırganların bunları
 Ping testinde, bir tarama makinesi, hedef makinenin IP (İnternet Protokolü) adresine bir ICMP (İnternet Denetimi Mesajı Protokolü) paketi gönderir. Bu dışarıdan gelen pakete, yankı isteği paketi denir. Paket, bir kartpostalın dijital versiyonuna benzer şekilde, küçük bir miktarda biçimlendirilmiş veriden oluşur. Hedef makine bir yankı yanıtı paketi ile yanıt verirse, tarayan makine hedef makinenin büyük ihtimalle etkin ve açık olduğunu bilir.
 
 Bu grafikte, bir telefonun yerel ağındaki iki IP adresine "ping" komutu göndermesi ve yanıt beklemesi gösterilir.
-https://bundles.yourlearning.ibm.com/skills/cybersecurity-fundamentals/assets/VQGMRKXYPRMXP7D4/CyberF_PingTest_tkTK.png
+![image](https://github.com/user-attachments/assets/09e0ae3b-a2fd-4a81-bd3a-8fad347c148b)
+
 
 1_A. Ne tür bilgiler sağlar?
 
