@@ -49,7 +49,7 @@ BİLGİSAYAR İÇİNDEKİ TERAPİST: ELIZA => https://robocognition.net/bilgisay
 
 Aşağıdaki grafik; yapay zeka, makine öğrenimi ve derin öğrenme arasındaki ilişkiye dair iyi bir özet sunar.
 
-https://bundles.yourlearning.ibm.com/skills/learn/assets/ZKVGDMNZKDRQ7DKJ/ai_AI_ML_DL_Diagram_TK.png
+![image](https://github.com/user-attachments/assets/9fc71eb1-9bc6-44ce-8bb0-f1d4e1e2a7ae)
 
 
 1. Yapay Zeka
