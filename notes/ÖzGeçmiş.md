@@ -63,7 +63,8 @@ Farklı Özgeçmiş 3: https://bundles.yourlearning.ibm.com/skills/learn/assets/
 
 Yüksekokul veya yüksek lisans özgeçmişi turuna hoş geldiniz! / Bir yazılım şirketine iş başvurusunda bulunduğunuzu hayal edin
 
-Örnek iş ilanı görseli => https://bundles.yourlearning.ibm.com/skills/learn/assets/DNDZXYNRVPMYY5K6/College1.PNG
+Örnek iş ilanı görseli => ![Örnek iş ilanı görseli](https://github.com/user-attachments/assets/4b8bc82f-b1dd-4ca9-ba91-78031b00f15b)
+
 
 Bu hayali iş ilanına gönderdiğinizde özgeçmişiniz nasıl görünebilir?
 
