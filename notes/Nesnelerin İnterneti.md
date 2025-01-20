@@ -19,7 +19,7 @@ Nasıl çalışır?
 
 Bir IoT sistemi, bir bağlantı ile bulutla "konuşan" aygıtlardan ve sensörlerden oluşur. Daha sonra sistem, farklı aygıtlardan verileri entegre eder ve en değerli bilgileri birtakım ihtiyaçlara cevap vermek üzere oluşturulan uygulamalarla paylaşmak için analitiği uygulayabilir.
 
-https://bundles.yourlearning.ibm.com/skills/learn/assets/YZRERXEGGYJWK7B3/iot_howDoesIoTWork_TK.png
+![image](https://github.com/user-attachments/assets/bd35aa5d-8bb9-42f9-bd97-63321d443185)
 
 
 Nesnelerin İnterneti, araç kullanma şeklimizden alışveriş yapma, hatta evlerimiz için enerji edinme
