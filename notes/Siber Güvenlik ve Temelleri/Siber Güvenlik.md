@@ -1,4 +1,4 @@
-Siber Güvenlik
+# Siber Güvenlik
 
 Siber Güvenliğin Temelleri kursuna hoş geldiniz! Bu, giriş niteliğinde bir öğrenme deneyimidir. Dinamik ve sürekli değişen bu alanı anlama konusunda ilginizi çekmek üzere, size siber güvenliğe ilişkin genel bir bakış sağlamak için tasarlanmıştır. Bu dersin amacı, size şunları sağlamaktır:
 
@@ -20,198 +20,102 @@ Siber güvenlik, bireyler ve kuruluşlar olarak elektronik cihazlarımızda topl
 -------------------------------------------------------------------------------------------------------------
 
 
-İşte siber güvenlikle ilgili, üzerinde düşünülmesi gereken, ufuk açıcı beş kısa bilgi.
+## İşte siber güvenlikle ilgili, üzerinde düşünülmesi gereken, ufuk açıcı beş kısa bilgi
 
 1. Bir veri ihlalinin genel ortalama toplam maliyeti 4,35 milyon dolardır ve bu da şimdiye kadarki en yüksek seviyedir. / Veri İhlal Maliyeti Raporu 2021, IBM Security
 
-2. Siber suçun, 2023'te dünyaya maliyetinin 8 trilyon dolar olacağı öngörülmektedir. Bir ülke olarak ölçülseydi siber suç, ABD ve Çin'den sonra dünyanın üçüncü büyük ekonomisi olurdu. / Cybersecurity Ventures (https://cybersecurityventures.com/cybercrime-to-cost-the-world-8-trillion-annually-in-2023/)
+2. Siber suçun, 2023'te dünyaya maliyetinin 8 trilyon dolar olacağı öngörülmektedir. Bir ülke olarak ölçülseydi siber suç, ABD ve Çin'den sonra dünyanın üçüncü büyük ekonomisi olurdu. / Cybersecurity Ventures (<https://cybersecurityventures.com/cybercrime-to-cost-the-world-8-trillion-annually-in-2023/>)
 
-3. Bir işletmenin bir saldırıdan tamamen toparlanması için ortalama 287 gün gerekmektedir. / The State of Ransomware in the US: Report and Statistics 2021, Emsisoft(https://www.emsisoft.com/en/blog/40813/the-state-of-ransomware-in-the-us-report-and-statistics-2021/)
+3. Bir işletmenin bir saldırıdan tamamen toparlanması için ortalama 287 gün gerekmektedir. / The State of Ransomware in the US: Report and Statistics 2021, Emsisoft(<https://www.emsisoft.com/en/blog/40813/the-state-of-ransomware-in-the-us-report-and-statistics-2021/>)
 
-4. Filtrelemeden sonra bile bir kuruluşun aldığı her 3.000  e-posta mesajının 1 tanesinde kötü amaçlı yazılım bulunur. / The State of Email Security in 2020, Fortinet (https://www.fortinet.com/blog/business-and-technology/state-of-email-security-more-spam-malware-phishing-ransomware-ahead)
+4. Filtrelemeden sonra bile bir kuruluşun aldığı her 3.000  e-posta mesajının 1 tanesinde kötü amaçlı yazılım bulunur. / The State of Email Security in 2020, Fortinet (<https://www.fortinet.com/blog/business-and-technology/state-of-email-security-more-spam-malware-phishing-ransomware-ahead>)
 
-5. Siber güvenlik iş fırsatları 2021'den 2031'e kadar %35 artacaktır ve bu oran, tüm mesleklerin ortalama büyüme oranından çok daha hızlıdır. / US Bureau of Labor Statistics (https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
+5. Siber güvenlik iş fırsatları 2021'den 2031'e kadar %35 artacaktır ve bu oran, tüm mesleklerin ortalama büyüme oranından çok daha hızlıdır. / US Bureau of Labor Statistics (<https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm>)
 
 
 -------------------------------------------------------------------------------------------------------------
 
 
-Siber uzay nedir?
+## Siber uzay nedir?
 
 Siber uzay teriminin birbiriyle çelişen iki tanımını ele alarak sizi biraz düşünmeye teşvik edelim. Lütfen her bir tanımı okuyun.
 
-1. Tanım;
-İnternet, telekomünikasyon ağları, bilgisayar sistemleri, internete bağlı cihazlar ve ­yerleşik işlemciler ve denetleyicileri içeren, birbirine bağlı bilgi teknolojisi altyapıları ağı. Deneyimlenen bir olgu veya soyut bir kavram olarak sanal dünyayı veya etki alanını da ifade edebilir.
-
-2. Tanım;
-Her ulustan milyonlarca yasal kullanıcının, matematiksel kavramları öğrenen çocukların her gün yaşadığı, bilinç ve duyguyla ilerleyen istem dışı halüsinasyon… İnsan sistemindeki her bir bilgisayarın kayıtlarından yansıtılan verilerin grafiksel sunumu. Akıl almaz bir karmaşıklık. Zihnin uzaysızlığında, ışık çizgileri; öbekler ve takımyıldızlar şeklinde düzenlenen veriler.
-
+|Tanım no. 1|Tanım no. 2|
+|---|---|
+|İnternet, telekomünikasyon ağları, bilgisayar sistemleri, internete bağlı cihazlar ve ­yerleşik işlemciler ve denetleyicileri içeren, birbirine bağlı bilgi teknolojisi altyapıları ağı. Deneyimlenen bir olgu veya soyut bir kavram olarak sanal dünyayı veya etki alanını da ifade edebilir.|Her ulustan milyonlarca yasal kullanıcının, matematiksel kavramları öğrenen çocukların her gün yaşadığı, bilinç ve duyguyla ilerleyen istem dışı halüsinasyon… İnsan sistemindeki her bir bilgisayarın kayıtlarından yansıtılan verilerin grafiksel sunumu. Akıl almaz bir karmaşıklık. Zihnin uzaysızlığında, ışık çizgileri; öbekler ve takımyıldızlar şeklinde düzenlenen veriler.|
 
 Bu tanımları değerlendirelim;
 Bunları değerlendirelim. İlk tanım, bir ders kitabı tanımıdır. İkinci tanım ise Amerikalı-Kanadalı yazar William Gibson'ın Neuromancer adlı bilim kurgu romanından alınmıştır. Roman, Matrix film serisinin ilham kaynaklarından biriydi ve 1990'larda bilgisayar bilimcilerine ilham verdi.
 
 Siber uzayın 35 yıl önce tanımlanmış olması ve her zamankinden daha gerçekçi hale gelmesi hayranlık uyandırıcıdır. Modern teknolojiye ilişkin istatistikler olağanüstüdür. Bunlar tam olarak tahmin edildiği gibidir. Bugün, dünya çapında milyarlarca kullanıcı var, her cihaz birbirine bağlı, insan anlayışının ötesinde bir karmaşıklık ve hayal edilemez bir güzellik var.
 
-Dijital dünya, bilgisayar sistemlerinden oluşan bir ağdan çok daha fazlasıdır. İnsanların iş yaptığı, yaşadığı, sevdiği ve nihayetinde ölümsüzleştiği bir yerdir. 
+Dijital dünya, bilgisayar sistemlerinden oluşan bir ağdan çok daha fazlasıdır. İnsanların iş yaptığı, yaşadığı, sevdiği ve nihayetinde ölümsüzleştiği bir yerdir.
 
 Siber uzay, siber güvenlik profesyonellerinin çalıştığı çılgın bir dünyadır. Dünyayı ona zarar vermek isteyenlerden korumak için çabalarlar. Hedeflerini gerçekleştirme konusunda uyanık, odaklanmış ve tereddütsüzdürler.
 
 Riskler hiç bu kadar yüksek olmamıştır. Başarısız olmaları halinde, tutunduğumuz değerlerden hayatımızın her alanında güvendiğimiz altyapıya kadar tüm modern yaşam tarzımız tehdit altında olacaktır. Gördüğümüz kabuslar herkesin yeni gerçekliği haline gelecektir.
 
-Siber uzayın bu tanımlarını göz önünde bulundurmak, sizi internet hakkındaki görüşlerinizi gözden geçirmeye ve internetin geleceğiyle ilgilenmeye yönlendirdiğini umuyoruz. 
+Siber uzayın bu tanımlarını göz önünde bulundurmak, sizi internet hakkındaki görüşlerinizi gözden geçirmeye ve internetin geleceğiyle ilgilenmeye yönlendirdiğini umuyoruz.
 
 
 -------------------------------------------------------------------------------------------------------------
 
 
-Siber Güvenlik: Crash Course Bilgisayar Bilimi
+## Siber Güvenlik: Crash Course Bilgisayar Bilimi
 
 https://www.youtube.com/watch?v=bPVaOlJ6ln0
 
 Merhaba, ben Carrie Anne. Crash Course Bilgisayar Bilimi'ne hoş geldiniz!
 
-Son üç bölümde, bilgisayarların nasıl birbiriyle bağlantılı hale geldiğinden ve dünyanın herhangi bir
-yeriyle neredeyse anında iletişim kurmamıza nasıl olanak sağladığından bahsettik. Ancak bu ağları
-kullanan herkes oyunu kurallarına uygun olarak oynamaz veya bizim iyiliğimizi düşünmez.
+Son üç bölümde, bilgisayarların nasıl birbiriyle bağlantılı hale geldiğinden ve dünyanın herhangi bir yeriyle neredeyse anında iletişim kurmamıza nasıl olanak sağladığından bahsettik. Ancak bu ağları kullanan herkes oyunu kurallarına uygun olarak oynamaz veya bizim iyiliğimizi düşünmez.
 
-Tıpkı gerçek dünyada suçu en düşük seviyeye indirmek için sahip olduğumuz kilitlerin, çitlerin ve polis
-memurlarının sağladığı fiziksel güvenlik gibi, sanal dünyada da suçu ve zararı en düşük seviyeye
-indirmek için siber güvenliğe ihtiyacımız vardır. Bilgisayarların etik kuralları olmaz. Onlara usulüne uygun
-bir biçimde belirtilmiş bir problem verdiğinizde, yanıtı mutlu bir şekilde yıldırım hızıyla verirler.
+Tıpkı gerçek dünyada suçu en düşük seviyeye indirmek için sahip olduğumuz kilitlerin, çitlerin ve polismemurlarının sağladığı fiziksel güvenlik gibi, sanal dünyada da suçu ve zararı en düşük seviyeye indirmek için siber güvenliğe ihtiyacımız vardır. Bilgisayarların etik kuralları olmaz. Onlara usulüne uygun bir biçimde belirtilmiş bir problem verdiğinizde, yanıtı mutlu bir şekilde yıldırım hızıyla verirler.
 
-Bilgisayarlar için, istenen fidye ödeninceye kadar bir hastanenin bilgisayar sistemlerini devre dışı bırakan
-bir kodun çalıştırılması, bir hastanın kalbinin atmaya devam etmesini sağlayan bir koddan farksızdır.
-Tıpkı Güç gibi, bilgisayarlar da aydınlık tarafa ya da karanlık tarafa çekilebilir. Siber güvenlik, Yıldız
-Savaşları filmlerindeki Jedi Düzeni'ne benzer, siber evrene barışı ve adaleti getirmeye çalışır
+Bilgisayarlar için, istenen fidye ödeninceye kadar bir hastanenin bilgisayar sistemlerini devre dışı bırakan bir kodun çalıştırılması, bir hastanın kalbinin atmaya devam etmesini sağlayan bir koddan farksızdır. Tıpkı Güç gibi, bilgisayarlar da aydınlık tarafa ya da karanlık tarafa çekilebilir. Siber güvenlik, Yıldız Savaşları filmlerindeki Jedi Düzeni'ne benzer, siber evrene barışı ve adaleti getirmeye çalışır
 
-Siber güvenliğin kapsamı, tıpkı bilgi işlem yetenekleri gibi hızla gelişir, ancak bunu bilgisayar
-sistemlerinin ve verilerin gizliliğinin, bütünlüğünün ve kullanılabilirliğinin tehditlere karşı korunmasına
-yönelik bir dizi yöntem olarak düşünebiliriz. Şimdi bu üç hedefi derinlemesine inceleyelim:
+Siber güvenliğin kapsamı, tıpkı bilgi işlem yetenekleri gibi hızla gelişir, ancak bunu bilgisayar sistemlerinin ve verilerin gizliliğinin, bütünlüğünün ve kullanılabilirliğinin tehditlere karşı korunmasına yönelik bir dizi yöntem olarak düşünebiliriz. Şimdi bu üç hedefi derinlemesine inceleyelim:
 
-Gizlilik, yalnızca yetkili kişilerin belirli bilgisayar sistemlerine ve verilerine erişebileceği veya bunları
-okuyabileceği anlamına gelir. Bilgisayar korsanlarının insanların kredi kartı bilgilerini açığa çıkardığı veri
-ihlalleri, gizliliğe yapılan saldırılardır. Bütünlük, yalnızca yetkili kişilerin sistemleri ve verileri kullanma
-veya değiştirme yeteneğine sahip olması gerektiği anlamına gelir. Parolanızı öğrenen ve sizi taklit ederek
-e-postalar gönderen bilgisayar korsanları, bir bütünlük saldırısı gerçekleştirmiş olurlar. Kullanılabilirlik
-ise, yetkili kişilerin her zaman sistemlerine ve verilerine erişebilmeleri anlamına gelir. Bilgisayar
-korsanlarının, yavaşlaması ya da diğerlerinin erişememesi için bir web sitesini sahte taleplerle aşırı
-yüklediği Hizmet Engelleme Saldırılarını düşünün. Bu, hizmetin kullanılabilirliğine yapılan bir saldırıdır.
+Gizlilik, yalnızca yetkili kişilerin belirli bilgisayar sistemlerine ve verilerine erişebileceği veya bunları okuyabileceği anlamına gelir. Bilgisayar korsanlarının insanların kredi kartı bilgilerini açığa çıkardığı veri ihlalleri, gizliliğe yapılan saldırılardır. Bütünlük, yalnızca yetkili kişilerin sistemleri ve verileri kullanma veya değiştirme yeteneğine sahip olması gerektiği anlamına gelir. Parolanızı öğrenen ve sizi taklit ederek e-postalar gönderen bilgisayar korsanları, bir bütünlük saldırısı gerçekleştirmiş olurlar. Kullanılabilirlik ise, yetkili kişilerin her zaman sistemlerine ve verilerine erişebilmeleri anlamına gelir. Bilgisayar korsanlarının, yavaşlaması ya da diğerlerinin erişememesi için bir web sitesini sahte taleplerle aşırı yüklediği Hizmet Engelleme Saldırılarını düşünün. Bu, hizmetin kullanılabilirliğine yapılan bir saldırıdır.
 
-Güvenlik uzmanları, bu üç genel hedefe ulaşmak için, işe soyut bir düzeyde "düşmanınızın" kim olduğunu
-belirlemekle başlar ve buna tehdit modeli adı verilir. Bu, saldırganların profilini oluşturur: Yetenekleri,
-hedefleri ve olası saldırı araçları. Bunlara harika bir tanım olan saldırı vektörleri adı verilir. 
+Güvenlik uzmanları, bu üç genel hedefe ulaşmak için, işe soyut bir düzeyde "düşmanınızın" kim olduğunu belirlemekle başlar ve buna tehdit modeli adı verilir. Bu, saldırganların profilini oluşturur: Yetenekleri, hedefleri ve olası saldırı araçları. Bunlara harika bir tanım olan saldırı vektörleri adı verilir.
 
-Tehdit modelleri, bilgisayar korsanlarının sistemlerinize ve verilerinize ulaşmak için kullanabileceği tüm
-yöntemler karşısında ezilmek yerine belirli tehditlere karşı hazırlanmanıza imkan tanır. Ve çok sayıda
-yöntem bulunur, hem de çok. Diyelim ki, dizüstü bilgisayarınıza fiziksel erişimin "güvenliğini sağlamak"
-istiyorsunuz. Tehdit modeliniz de meraklı bir oda arkadaşı. Gizliliğini, bütünlüğünü ve kullanılabilirliğini
-korumak için dizüstü bilgisayarınızı kirli çamaşır sepetinizde saklayabilirsiniz. Ancak, tehdit modeliniz
-saklama yerlerinizi bilen kötü amaçlı bir küçük kardeşse, o zaman daha fazlasını yapmanız gerekir: Belki
-kasaya kilitleyebilirsiniz. Bir başka deyişle, bir sistemin güvenliğinin nasıl sağlandığı ağırlıklı bir biçimde
-güvenliğin kime karşı sağlandığıyla ilgilidir. 
+Tehdit modelleri, bilgisayar korsanlarının sistemlerinize ve verilerinize ulaşmak için kullanabileceği tüm yöntemler karşısında ezilmek yerine belirli tehditlere karşı hazırlanmanıza imkan tanır. Ve çok sayıda yöntem bulunur, hem de çok. Diyelim ki, dizüstü bilgisayarınıza fiziksel erişimin "güvenliğini sağlamak" istiyorsunuz. Tehdit modeliniz de meraklı bir oda arkadaşı. Gizliliğini, bütünlüğünü ve kullanılabilirliğini korumak için dizüstü bilgisayarınızı kirli çamaşır sepetinizde saklayabilirsiniz. Ancak, tehdit modeliniz saklama yerlerinizi bilen kötü amaçlı bir küçük kardeşse, o zaman daha fazlasını yapmanız gerekir: Belki kasaya kilitleyebilirsiniz. Bir başka deyişle, bir sistemin güvenliğinin nasıl sağlandığı ağırlıklı bir biçimde
+güvenliğin kime karşı sağlandığıyla ilgilidir.
 
-Tabii ki, tehdit modelleri tipik olarak "meraklı oda arkadaşı" ifadesinden biraz daha usule uygun biçimde
-tanımlanır. Genellikle, tehdit modellerinin teknik yetenekler bakımından belirlendiğini görürsünüz.
-Örneğin, "dizüstü bilgisayarınıza fiziksel erişimi ve sınırsız zamanı olan biri". Güvenlik mimarları, belirli bir tehdit modeliyle, kimsenin saldırgana parolasını açıklamaması gibi belirli varsayımların karşılanması
-kaydıyla, sistemi güvende tutacak bir çözüm belirlemeye gereksinim duyar. 
+Tabii ki, tehdit modelleri tipik olarak "meraklı oda arkadaşı" ifadesinden biraz daha usule uygun biçimde tanımlanır. Genellikle, tehdit modellerinin teknik yetenekler bakımından belirlendiğini görürsünüz. ***Örneğin***, "dizüstü bilgisayarınıza fiziksel erişimi ve sınırsız zamanı olan biri". Güvenlik mimarları, belirli bir tehdit modeliyle, kimsenin saldırgana parolasını açıklamaması gibi belirli varsayımların karşılanması kaydıyla, sistemi güvende tutacak bir çözüm belirlemeye gereksinim duyar.
 
-Bilgisayar sistemlerinin, ağların ve verilerin korunması için pek çok yöntem bulunur. Güvenlik, önemli
-ölçüde iki soruya dayanır: Kimsiniz ve neye erişmeniz gerekiyor? Açık bir biçimde, erişimin doğru kişilere
-verilmesi ve yanlış kişilerin erişmesinin engellenmesi gerekir. Tıpkı yeniden doldurmak için ATM'lere
-benim değil, banka çalışanlarının erişebilmesi gibi... çünkü hepsini... hem de hepsini alabilirim! Ah o
-seramik kedi koleksiyonu, kendi kendini satın almıyor! 
+Bilgisayar sistemlerinin, ağların ve verilerin korunması için pek çok yöntem bulunur. Güvenlik, önemli ölçüde iki soruya dayanır: Kimsiniz ve neye erişmeniz gerekiyor? Açık bir biçimde, erişimin doğru kişilere verilmesi ve yanlış kişilerin erişmesinin engellenmesi gerekir. Tıpkı yeniden doldurmak için ATM'lere benim değil, banka çalışanlarının erişebilmesi gibi... çünkü hepsini... hem de hepsini alabilirim! Ah o seramik kedi koleksiyonu, kendi kendini satın almıyor!
 
-Bu nedenle, doğru ve yanlış insanları birbirinden ayırmak için kimlik doğrulamasını kullanırız. Bu, bir
-bilgisayarın kiminle etkileşim kurduğunu anlamasını sağlayan bir süreçtir. Genel olarak, her biri kendi
-olumlu ve olumsuz yönlerine sahip olan üç türü bulunur:
-• Bildiğiniz bir şey.
-• Sahip olduğunuz bir şey.
-• Ve size ait olan bir şey
+Bu nedenle, doğru ve yanlış insanları birbirinden ayırmak için kimlik doğrulamasını kullanırız. Bu, bir bilgisayarın kiminle etkileşim kurduğunu anlamasını sağlayan bir süreçtir. Genel olarak, her biri kendi olumlu ve olumsuz yönlerine sahip olan üç türü bulunur:
 
-Bildiğiniz bir şeye dayalı kimlik doğrulaması, yalnızca gerçek kullanıcının ve bilgisayarın bilmesi gereken
-bir gizli bilginin bilinmesine dayanır. Örneğin, kullanıcı adı ve parola. Bu, uygulanması en kolay
-olduğundan günümüzde en yaygın olarak kullanılan yöntemdir. Ancak, bilgisayar korsanları gizli bilginizi
-tahmin edebilir veya öğrenebilirlerse, bilginiz risk altında kalabilir. 12356 veya q-w-e-r-t-y gibi bazı
-parolaları insanların tahmin etmesi kolaydır. Ancak, bilgisayarlar için kolay olanlar da bulunur. 2580 olan
-PIN kodunu düşünün. Tahmin edilmesi oldukça zor görünüyor ve bir insan için gerçekten tahmin
-edilmesi zor. Ancak, 4 haneli PIN kodları için yalnızca on bin olası kombinasyon bulunur. Bir bilgisayar,
-0000'ı girmeyi, ardından 0001'i ve ardından 0002 deneyebilir ve bir saniyeden kısa sürede 9999'a kadar
-çıkabilir.
++ Bildiğiniz bir şey.
++ Sahip olduğunuz bir şey.
++ Ve size ait olan bir şey
 
-Buna kaba kuvvet saldırısı adı verilir, çünkü her şeyi dener. Algoritma için zeki bir şey yoktur. Bazı
-bilgisayar sistemleri, örneğin üç hatalı denemenin ardından sizi engeller veya biraz bekletir. Bu yaygın ve
-makul bir stratejidir ve fazla sofistike olmayan saldırganlar için işleri zorlaştırır. Ancak, bilgisayar
-korsanları on binlerce bilgisayarı ele geçirdiğinde ve bir botnet oluşturduğunda neler olabileceğini
-düşünün. Tüm bu bilgisayarlar kullanılarak, aynı pin kodu (2580) on binlerce banka hesabında aynı anda
-denenebilir. Her hesap için tek denemeyle bile, bu PIN kodunu kullanan bir ya da daha fazla hesaba
-girebilirler. Aslında, muhtemelen şu anda bu videoyu izleyen birinin pin kodunu tahmin ettik!
+Bildiğiniz bir şeye dayalı kimlik doğrulaması, yalnızca gerçek kullanıcının ve bilgisayarın bilmesi gereken bir gizli bilginin bilinmesine dayanır. Örneğin, kullanıcı adı ve parola. Bu, uygulanması en kolay olduğundan günümüzde en yaygın olarak kullanılan yöntemdir. Ancak, bilgisayar korsanları gizli bilginizi tahmin edebilir veya öğrenebilirlerse, bilginiz risk altında kalabilir. 12356 veya q-w-e-r-t-y gibi bazı parolaları insanların tahmin etmesi kolaydır. Ancak, bilgisayarlar için kolay olanlar da bulunur. 2580 olan PIN kodunu düşünün. Tahmin edilmesi oldukça zor görünüyor ve bir insan için gerçekten tahmin edilmesi zor. Ancak, 4 haneli PIN kodları için yalnızca on bin olası kombinasyon bulunur. Bir bilgisayar, 0000'ı girmeyi, ardından 0001'i ve ardından 0002 deneyebilir ve bir saniyeden kısa sürede 9999'a kadar çıkabilir.
 
-PIN kodlarının ve parolaların uzunluğunun artırılması yardımcı olabilir, ancak 8 haneli PIN kodları bile
-oldukça kolay bir biçimde kırılabilir. İşte bu nedenle, pek çok web sitesi artık büyük ve küçük harflerin,
-özel simgelerin ve benzeri karakterlerin bir bileşimini kullanmanızı gerektirir; bunlar, olası parola
-kombinasyonlarının sayısını önemli ölçüde artırır. 8 haneli sayısal bir PIN kodu, yalnızca yüz milyon
-kombinasyona sahiptir; bilgisayarlar bunu kahvaltı niyetine yer! Ancak tüm bu garip şeylerin
-birleşiminden oluşan 8 karakterli bir parola, 600 trilyondan fazla kombinasyona sahiptir.
+Buna kaba kuvvet saldırısı adı verilir, çünkü her şeyi dener. Algoritma için zeki bir şey yoktur. Bazı bilgisayar sistemleri, örneğin üç hatalı denemenin ardından sizi engeller veya biraz bekletir. Bu yaygın ve makul bir stratejidir ve fazla sofistike olmayan saldırganlar için işleri zorlaştırır. Ancak, bilgisayar korsanları on binlerce bilgisayarı ele geçirdiğinde ve bir botnet oluşturduğunda neler olabileceğini düşünün.Tüm bu bilgisayarlar kullanılarak, aynı pin kodu (2580) on binlerce banka hesabında aynı anda denenebilir. Her hesap için tek denemeyle bile, bu PIN kodunu kullanan bir ya da daha fazla hesaba girebilirler.Aslında, muhtemelen şu anda bu videoyu izleyen birinin pin kodunu tahmin ettik!
 
-Tabii ki, bu parolaları hatırlamak bizim gibi sıradan insanlar için zordur, bu nedenle web siteleri için daha
-iyi bir yaklaşım, birleştirilmiş sözcükler gibi daha hatırlanabilir bir şey seçmemize izin verilmesidir: “green brothers rock” veya “pizza tasty yum”
+PIN kodlarının ve parolaların uzunluğunun artırılması yardımcı olabilir,ancak 8 haneli PIN kodları bile oldukça kolay bir biçimde kırılabilir.İşte bu nedenle, pek çok web sitesi artık büyük ve küçük harflerin, özel simgelerin ve benzeri karakterlerin bir bileşimini kullanmanızı gerektirir; bunlar, olası parola kombinasyonlarının sayısını önemli ölçüde artırır. 8 haneli sayısal bir PIN kodu, yalnızca yüz milyon kombinasyona sahiptir; bilgisayarlar bunu kahvaltı niyetine yer! Ancak tüm bu garip şeylerin birleşiminden oluşan 8 karakterli bir parola, 600 trilyondan fazla kombinasyona sahiptir.
 
-İngilizce'de yaklaşık 100.000 sözcük kullanılır, buna bağlı olarak üç sözcüğün bir araya getirilmesi size
-yaklaşık olarak 1 katrilyon olası parola verir. Bunu tahmin etmede iyi şanslar!
+Tabii ki, bu parolaları hatırlamak bizim gibi sıradan insanlar için zordur, bu nedenle web siteleri için daha iyi bir yaklaşım,birleştirilmiş sözcükler gibi daha hatırlanabilir bir şey seçmemize izin verilmesidir: “green brothers rock” veya “pizza tasty yum”
 
-Burada ayrıca sözlükte bulunmayan sözcüklerin daha sofistike saldırılara karşı daha da iyi olduğunu
-belirtmem gerekiyor, ancak bu konuya girmek için zamanımız yok. Computerphile'ın parola seçimine
-ilişkin harika bir videosu var; bağlantı dooblydoo'da. Öte yandan, sahip olduğunuz bir şeye dayalı kimlik
-doğrulaması, yalnızca gerçek kullanıcının sahip olduğu gizli bir belirtece sahip olmayı esas alır. Fiziksel
-anahtar ve kilit buna örnek gösterilebilir. Yalnızca anahtara sahipseniz kapının kilidini açabilirsiniz. Bu,
-"tahmin edilebilir" olma sorununu ortadan kaldırır. Ayrıca, bunlar fiziksel olarak hazır bulunmayı
-gerektirir ve uzaktaki saldırganların erişim elde etmesini önemli ölçüde zorlaştırır. Bir başka ülkede
-bulunan bir kişi, öncelikle Florida'ya gelmeden Florida'daki ön kapınıza erişemez. Ancak, bir saldırganın
-fiziksel olarak yakın olması durumunda, sahip olduğunuz bir şeye dayalı kimlik doğrulaması risk altında
-kalabilir. Anahtarlar kopyalanabilir, akıllı telefonlar çalınabilir ve kilitler maymuncukla açılabilir.
+İngilizce'de yaklaşık 100.000 sözcük kullanılır, buna bağlı olarak üç sözcüğün bir araya getirilmesi size yaklaşık olarak 1 katrilyon olası parola verir. Bunu tahmin etmede iyi şanslar!
 
-Son olarak, size ait olan bir şeye dayalı kimlik doğrulaması sizi esas alır! Kendinizi bilgisayara göstererek
-kimliğinizi doğrularsınız. Parmak izi okuyucular ve iris tarayıcılar gibi biyometrik kimlik doğrulaması
-araçları, klasik örneklerdir. Bunlar çok güvenli olabilir, ancak en iyi teknolojiler halen oldukça pahalıdır.
-Dahası, sensörlerden elde edilen veriler zaman içinde değişkenlik gösterir. Bildiğiniz ve sahip olduğunuz
-bir şeye dayalı kimlik doğrulamasının iyi yanı, belirleyici olmasıdır; ya doğrudur ya da yanlıştır. Gizli
-parolayı biliyorsanız veya anahtara sahipseniz, her zaman erişim elde edersiniz. Sahip değilseniz, hiçbir
-zaman erişim elde edemezsiniz
+Burada ayrıca sözlükte bulunmayan sözcüklerin daha sofistike saldırılara karşı daha da iyi olduğunu belirtmem gerekiyor, ancak bu konuya girmek için zamanımız yok. Computerphile'ın parola seçimine ilişkin harika bir videosu var; bağlantı dooblydoo'da. Öte yandan, sahip olduğunuz bir şeye dayalı kimlik doğrulaması, yalnızca gerçek kullanıcının sahip olduğu gizli bir belirtece sahip olmayı esas alır. Fiziksel anahtar ve kilit buna örnek gösterilebilir. Yalnızca anahtara sahipseniz kapının kilidini açabilirsiniz. Bu, "tahmin edilebilir" olma sorununu ortadan kaldırır.Ayrıca, bunlar fiziksel olarak hazır bulunmayı gerektirir ve uzaktaki saldırganların erişim elde etmesini önemli ölçüde zorlaştırır. Bir başka ülkede bulunan bir kişi, öncelikle Florida'ya gelmeden Florida'daki ön kapınıza erişemez. Ancak, bir saldırganın fiziksel olarak yakın olması durumunda, sahip olduğunuz bir şeye dayalı kimlik doğrulaması risk altında kalabilir. Anahtarlar kopyalanabilir, akıllı telefonlar çalınabilir ve kilitler maymuncukla açılabilir.
 
-Biyometrik kimlik doğrulaması ise olasılığa dayalıdır. Sistemin sizi tanımama olasılığı vardır...şapka
-takıyor olabilirsiniz veya aydınlatma kötü olabilir. Daha da kötüsü, sistemin yanlış kişiyi siz olarak
-tanıması olasılığı da bulunur; örneğin kötü niyetli ikiz kardeşinizi!
+Son olarak, size ait olan bir şeye dayalı kimlik doğrulaması sizi esas alır! Kendinizi bilgisayara göstererek kimliğinizi doğrularsınız. Parmak izi okuyucular ve iris tarayıcılar gibi biyometrik kimlik doğrulaması araçları, klasik örneklerdir. Bunlar çok güvenli olabilir, ancak en iyi teknolojiler halen oldukça pahalıdır. Dahası, sensörlerden elde edilen veriler zaman içinde değişkenlik gösterir. Bildiğiniz ve sahip olduğunuz bir şeye dayalı kimlik doğrulamasının iyi yanı, belirleyici olmasıdır; ya doğrudur ya da yanlıştır. Gizli parolayı biliyorsanız veya anahtara sahipseniz, her zaman erişim elde edersiniz. Sahip değilseniz, hiçbir zaman erişim elde edemezsiniz
+
+Biyometrik kimlik doğrulaması ise olasılığa dayalıdır. Sistemin sizi tanımama olasılığı vardır...şapka takıyor olabilirsiniz veya aydınlatma kötü olabilir. Daha da kötüsü, sistemin yanlış kişiyi siz olarak tanıması olasılığı da bulunur; örneğin kötü niyetli ikiz kardeşinizi!
 
 
-Tabii ki, üretim sistemlerinde bu olasılıklar düşüktür, ancak sıfır değildir. Biyometrik kimlik
-doğrulamasının bir başka sorunu, sıfırlanmasının mümkün olmamasıdır. Sınırlı sayıda parmağınız
-bulunur, peki bir saldırgan parmak izi verilerinizi ele geçirirse ne olur? Bu, hayatınız bakımından önemli
-bir sorun oluşturabilir. Ayrıca araştırmacılar, bundan kısa bir süre önce yalnızca bir fotoğrafınızın
-çekilmesiyle irisinizi taklit etmenin mümkün olduğunu gösterdi, yani bu da umut vermiyor
+Tabii ki, üretim sistemlerinde bu olasılıklar düşüktür, ancak sıfır değildir. Biyometrik kimlik doğrulamasının bir başka sorunu sıfırlanmasının mümkün olmamasıdır. Sınırlı sayıda parmağınız bulunur peki bir saldırgan parmak izi verilerinizi ele geçirirse ne olur? Bu,hayatınız bakımından önemli bir sorun oluşturabilir. Ayrıca araştırmacılar, bundan kısa bir süre önce yalnızca bir fotoğrafınızın çekilmesiyle irisinizi taklit etmenin mümkün olduğunu gösterdi, yani bu da umut vermiyor
 
-Temelde, tüm kimlik doğrulaması türlerinin güçlü ve zayıf yönleri bulunur ve hepsi de bir şekilde
-kırılabilir. Buna bağlı olarak, güvenlik uzmanları, önemli hesaplar için iki veya daha fazla kimlik
-doğrulaması türü kullanılmasını önerirler. Bu, iki faktörlü ya da çok faktörlü kimlik doğrulaması olarak
-anılır. Bir saldırgan, parolanızı tahmin edebilir veya telefonunuzu çalabilir, ancak her ikisini aynı anda
-yapması zordur.
+Temelde, tüm kimlik doğrulaması türlerinin güçlü ve zayıf yönleri bulunur ve hepsi de bir şekilde kırılabilir. Buna bağlı olarak, güvenlik uzmanları, önemli hesaplar için iki veya daha fazla kimlik doğrulaması türü kullanılmasını önerirler. Bu, iki faktörlü ya da çok faktörlü kimlik doğrulaması olarak anılır. Bir saldırgan, parolanızı tahmin edebilir veya telefonunuzu çalabilir, ancak her ikisini aynı anda yapması zordur.
 
-Kimlik doğrulamasının ardından Erişim Kontrolü gelir. Bir sistem kim olduğunuzu bildiğinde, neye
-erişebilmeniz gerektiğini bilmesi gerekir ve bunun için kimin neyi görebileceğine, değiştirebileceğine ve
-kullanabileceğine ilişkin bir spesifikasyon bulunur. Bu, her kullanıcının bir bilgisayardaki her dosya,
-klasör ve program için hangi erişim yetkisine sahip olduğunu açıklayan İzinler veya Erişim Denetim
-Listeleri (ACL) aracılığıyla yapılır. "Okuma" izni, kullanıcının bir dosyanın içeriğini görmesine, "yazma"
-izni, bir kullanıcının içeriği değiştirmesine ve "yürütme" izni, bir kullanıcının bir dosyayı, örneğin bir
-programı çalıştırmasına izin verir. Farklı erişim ayrıcalığı düzeylerinde kullanıcıları bulunan kuruluşlar,
-örneğin bir istihbarat teşkilatı için gizliliğin, bütünlüğün ve kullanılabilirliğin sağlanması amacıyla Erişim
-Denetim Listelerinin doğru şekilde yapılandırılması çok önemlidir.
+Kimlik doğrulamasının ardından Erişim Kontrolü gelir. Bir sistem kim olduğunuzu bildiğinde, neye erişebilmeniz gerektiğini bilmesi gerekir ve bunun için kimin neyi görebileceğine, değiştirebileceğine ve kullanabileceğine ilişkin bir spesifikasyon bulunur. Bu, her kullanıcının bir bilgisayardaki her dosya, klasör ve program için hangi erişim yetkisine sahip olduğunu açıklayan İzinler veya Erişim Denetim Listeleri (ACL) aracılığıyla yapılır. "Okuma" izni, kullanıcının bir dosyanın içeriğini görmesine, "yazma" izni, bir kullanıcının içeriği değiştirmesine ve "yürütme" izni, bir kullanıcının bir dosyayı, örneğin bir programı çalıştırmasına izin verir. Farklı erişim ayrıcalığı düzeylerinde kullanıcıları bulunan kuruluşlar, örneğin bir istihbarat teşkilatı için gizliliğin, bütünlüğün ve kullanılabilirliğin sağlanması amacıyla Erişim Denetim Listelerinin doğru şekilde yapılandırılması çok önemlidir.
 
-Üç erişim düzeyimiz olduğunu düşünelim: genel, gizli ve çok gizli. İlk genel kural, insanların "bir üst
-seviyeyi okuma" yeteneğine sahip olmamasıdır. Bir kullanıcı, yalnızca gizli dosyaları okuma yetkisine
-sahipse, çok gizli dosyaları okuyamamalı, yalnızca gizli ve genel olanlara erişebilmelidir. İkinci genel kural, insanların "bir alt seviyeye yazma" yeteneğine sahip olmamasıdır. Bir üye, çok gizli yetkilerine
-sahipse, yalnızca çok gizli dosyaları okuyabilmeli veya bunları değiştirebilmeli, ancak gizli ya da genel
-dosyalarda bu yetkiye sahip olmamalıdır. En yüksek yetki düzeyine sahipken daha az gizli dosyaları
-değiştirememeniz garip gelebilir. Ancak, çok gizli bilgilerin kazara gizli ya da genel dosyalara
-sızmamasını garanti eder
+Üç erişim düzeyimiz olduğunu düşünelim: genel, gizli ve çok gizli. İlk genel kural, insanların "bir üst seviyeyi okuma" yeteneğine sahip olmamasıdır. Bir kullanıcı, yalnızca gizli dosyaları okuma yetkisine sahipse, çok gizli dosyaları okuyamamalı, yalnızca gizli ve genel olanlara erişebilmelidir. İkinci genel kural, insanların "bir alt seviyeye yazma" yeteneğine sahip olmamasıdır. Bir üye, çok gizli yetkilerine sahipse, yalnızca çok gizli dosyaları okuyabilmeli veya bunları değiştirebilmeli, ancak gizli ya da genel dosyalarda bu yetkiye sahip olmamalıdır. En yüksek yetki düzeyine sahipken daha az gizli dosyaları değiştirememeniz garip gelebilir. Ancak, çok gizli bilgilerin kazara gizli ya da genel dosyalara sızmamasını garanti eder
 
 Bu "bir üst seviyeyi okuyamama, bir alt seviyeye yazamama" yaklaşımına Bell-LaPadula modeli adı
 verilir. ABD Savunma Bakanlığının Çok Katmanlı Güvenlik ilkesi için oluşturulmuştur. Erişim kontrolü için
@@ -267,28 +171,20 @@ etkinleştirin ve ASLA istemediğiniz e-postalardaki bağlantıları tıklamayı
 -------------------------------------------------------------------------------------------------------------
 
 
-Bilgisayar korsanları ve siber saldırılar: CrashCourse Bilgisayar Bilimi
+## Bilgisayar korsanları ve siber saldırılar: CrashCourse Bilgisayar Bilimi
 
-https://www.youtube.com/watch?v=_GzE99AmAQU
+<https://www.youtube.com/watch?v=_GzE99AmAQU>
 
 Merhaba, ben Carrie Anne. CrashCourse Bilgisayar Bilimi'ne hoş geldiniz!
 
 Geçen bölümde, bilgisayar güvenliğine ilişkin temel konulardan, bilgisayar sistemlerinin güvende
 tutulması için kullanılan ilkelerden ve yöntemlerden bahsetmiştik. Ancak, çok çaba harcamamıza karşın
 haberler, teknik bilgilerini kullanarak bilgisayar sistemlerine izinsiz giren insanlar olan bilgisayar
-korsanlarının siber saldırılarına uğrayan kişilerin, şirketlerin ve devletlerin öyküleriyle dolu. 
-
-Geçen bölümde, bilgisayar güvenliğine ilişkin temel konulardan, bilgisayar sistemlerinin güvende
-tutulması için kullanılan ilkelerden ve yöntemlerden bahsetmiştik. Ancak, çok çaba harcamamıza karşın
-haberler, teknik bilgilerini kullanarak bilgisayar sistemlerine izinsiz giren insanlar olan bilgisayar
 korsanlarının siber saldırılarına uğrayan kişilerin, şirketlerin ve devletlerin öyküleriyle dolu.
 
-Yine de her bilgisayar korsanı kötü değildir. Sistemleri daha güvenli ve dayanıklı hale getirmek amacıyla
-hataları arayan ve yazılımlardaki güvenlik açıklarını kapatmaya çalışan bilgisayar korsanları da vardır. Bu
-kişiler genellikle güvenlik değerlendirmeleri gerçekleştirmeleri için şirketler ve devletler tarafından işe
-alınırlar. Bu bilgisayar korsanlarına Beyaz Şapkalı adı verilir ve bunlar iyi adamlardır. Diğer yanda ise,
-bilgisayar güvenlik açıklarını ve verileri çalmak, istismar etmek ve satmak isteyen kötü amaçlı bilgisayar
-korsanları olan Siyah Şapkalılar bulunur.
+Geçen bölümde, bilgisayar güvenliğine ilişkin temel konulardan,bilgisayar sistemlerinin güvende tutulması için kullanılan ilkelerden ve yöntemlerden bahsetmiştik. Ancak, çok çaba harcamamıza karşın haberler,teknik bilgilerini kullanarak bilgisayar sistemlerine izinsiz giren,insanlar olan bilgisayar korsanlarının siber saldırılarına uğrayan kişilerin, şirketlerin ve devletlerin öyküleriyle dolu.
+
+Yine de her bilgisayar korsanı kötü değildir. Sistemleri daha güvenli ve dayanıklı hale getirmek amacıyla hataları arayan ve yazılımlardaki güvenlik açıklarını kapatmaya çalışan bilgisayar korsanları da vardır. Bu kişiler genellikle güvenlik değerlendirmeleri gerçekleştirmeleri için şirketler ve devletler tarafından işe alınırlar. Bu bilgisayar korsanlarına Beyaz Şapkalı adı verilir ve bunlar iyi adamlardır. Diğer yanda ise, bilgisayar güvenlik açıklarını ve verileri çalmak, istismar etmek ve satmak isteyen kötü amaçlı bilgisayar korsanları olan Siyah Şapkalılar bulunur.
 
 Bilgisayar korsanlarının gerekçeleri de önemli ölçüde farklılık gösterir. Bazıları eğlence ve merak
 nedeniyle bilgisayar korsanlığı yaparken, siber suçlular ise genellikle maddi kazanç için bilgisayar
@@ -372,7 +268,7 @@ olarak, bu arabelleklerin boyutunun on olarak belirlendiğini düşünelim. Bell
 
 Elbette, işletim sistemi yalnızca bir kullanıcı adından ve paroladan çok daha fazlasını takip eder, bu
 nedenle bellekte hem daha önce hem de daha sonra depolanmış veriler olacaktır. Bir kullanıcı, kullanıcı
-adı ve parolayı girdiğinde, değerler arabelleklere kopyalanır ve burada doğrulanabilir. 
+adı ve parolayı girdiğinde, değerler arabelleklere kopyalanır ve burada doğrulanabilir.
 
 Bir arabellek taşması saldırısı, tam olarak adından anlaşılan şeyi yapar: arabelleği taşırır. Bu örnekte, on
 karakterden uzun olan her parola, bellekteki bitişik verinin üzerine yazılır. Bazen, bu durum bir
@@ -480,11 +376,11 @@ bildirimini göz ardı etmeyi bırakmalısınız. Gelecek hafta görüşmek üze
 -------------------------------------------------------------------------------------------------------------
 
 
-Şifreleme: Crash Course Bilgisayar Bilimi
+## Şifreleme: Crash Course Bilgisayar Bilimi
 
 Bu son videoda, şifreleme adı verilen yaygın bilgisayar güvenliği biçimleri ve simetrik şifreleme, anahtar değişimi ve ortak anahtar şifrelemesi gibi modern şifrelemenin önemli bileşenleri hakkında bilgi edineceksiniz.
 
-https://www.youtube.com/watch?v=jhXCTbFnK8o
+<https://www.youtube.com/watch?v=jhXCTbFnK8o>
 
 Merhaba, ben Carrie Anne. Crash Course Bilgisayar Bilimi'ne hoş geldiniz!
 
@@ -693,7 +589,7 @@ videolarına göz atın, şifreleme her şeyi güvende ve gizli tutar. Teşekkü
 -------------------------------------------------------------------------------------------------------------
 
 
-Siber güvenlik alanında kariyer
+## Siber güvenlik alanında kariyer
 
 Siber güvenlik, tüm iş rollerini ve sektörleri kapsar ve tüm şirketlerin bir tür güvenlik çözümüne sahip olması gerekir. Güvenlik tehditleri ile mücadele etmek için hangi becerilere sahip olmanız gerektiğini ya da bu alandaki ilginç işlerin neler olduğunu merak ediyor olabilirsiniz. Bu soruların yanıtları ile diğer birkaç bilgi, aşağıdaki infografikte ve makalede yer alıyor.
 
@@ -712,48 +608,32 @@ PDF 2 => https://bundles.yourlearning.ibm.com/skills/learn/assets/XVPQVZGJWWQV54
 -------------------------------------------------------------------------------------------------------------
 
 
-Havyn Projesi: Siber Güvenliğe Bir Ses Vermek
+## Havyn Projesi: Siber Güvenliğe Bir Ses Vermek
 
 + Mike Spisak: Tony Stark'ın kim olduğunu biliyor musunuz? Iron Man'in kim olduğunu biliyor musunuz? Bilgisayarınızda Tony Stark benzeri bir deneyim yaşamak ilginizi çeker mi? Ben Mike Spisak, IBM usta mucidiyim.
-Evan gibi çocuklar, gereksinimlerle veya kısıtlamalarla kendilerini sınırlamıyorlar, bir tür yapabilirim
-yaklaşımına sahipler. Evan, bir gün her zaman yaptığı gibi ofisime geldi ve ne üzerinde çalıştığımı görmek
-için omzumun üzerinden bakıyordu. Ben de ona klavyeyi kullanarak Watson ile nasıl sohbet
-edebileceğini gösteriyordum ve bana şöyle dedi, "Baba, neden onunla sesli olarak konuşamıyorsun?"
-Bunun üzerine, biz de bunu nasıl yapabileceğimize ilişkin yollar araştırmaya başladık.
+Evan gibi çocuklar, gereksinimlerle veya kısıtlamalarla kendilerini sınırlamıyorlar, bir tür yapabilirim yaklaşımına sahipler. Evan, bir gün her zaman yaptığı gibi ofisime geldi ve ne üzerinde çalıştığımı görmek için omzumun üzerinden bakıyordu. Ben de ona klavyeyi kullanarak Watson ile nasıl sohbet edebileceğini gösteriyordum ve bana şöyle dedi, "Baba,neden onunla sesli olarak konuşamıyorsun?" Bunun üzerine, biz de bunu nasıl yapabileceğimize ilişkin yollar araştırmaya başladık.
 
 + Evan: Bir Raspberry Pi dokunmaya duyarlı ekranı sipariş etmeye karar verdik. Ve buradan onunla konuşabiliyorsunuz.
 
-+ Mike: Watson'u bağladık ve bir saat sonra onunla konuşmaya başlamıştık. Havyn ile konuşma deneyimi, diğer
-sesle etkinleştirilen teknolojilerle olan konuşma deneyimine çok benziyor.
++ Mike: Watson'u bağladık ve bir saat sonra onunla konuşmaya başlamıştık. Havyn ile konuşma deneyimi, diğer sesle etkinleştirilen teknolojilerle olan konuşma deneyimine çok benziyor.
 
 + Evan: Havyn, fidye yazılımlarını anlamama yardımcı ol.
 
-+ Mike: Havyn'e daha çok bir uzmanın bakış açısından bakmak istiyorum. Özellikle siber güvenlik olaylarını
-anlamanıza ve bunlar üzerinde çalışmanıza yardımcı oluyor.
++ Mike: Havyn'e daha çok bir uzmanın bakış açısından bakmak istiyorum.Özellikle siber güvenlik olaylarını anlamanıza ve bunlar üzerinde çalışmanıza yardımcı oluyor.
 
 + Analist: Havyn, bana bu tehditlerden bahset.
 
-+ Watson: En ciddi tehdit bir risk seviyesi 7.7 ve şu başlığı taşıyor: “From where AirWatch enrollment security
-bypass”. Ekrana getireyim mi?
++ Watson: En ciddi tehdit bir risk seviyesi 7.7 ve şu başlığı taşıyor“From where AirWatch enrollment security bypass”. Ekrana getireyim mi?
 
 + Analist: Hayır, teşekkür ederim.
 
-+ Mike: Bir şirket, günde iki yüz binden fazla güvenlik olayıyla karşılaşabilir. Özel olarak bu soruna kaç kişiyle
-odaklandığımız fark etmiyor; üretilen çok yüksek miktardaki verinin önüne geçmek için hiçbir zaman
-yeterli olmayacak. Kognitif teknolojiler, bu bilgileri daha hızlı ve büyük ölçekte işleyerek bu eğrinin önüne
-geçmemize olanak sağlayacak.
++ Mike: Bir şirket, günde iki yüz binden fazla güvenlik olayıyla karşılaşabilir. Özel olarak bu soruna kaç kişiyle odaklandığımız fark etmiyor; üretilen çok yüksek miktardaki verinin önüne geçmek için hiçbir zaman yeterli olmayacak. Kognitif teknolojiler, bu bilgileri daha hızlı ve büyük ölçekte işleyerek bu eğrinin önüne geçmemize olanak sağlayacak.
 
-Saldırıları ve güvenlik açıklarını ele almak için her zaman Watson'u ve kognitif bilişimi kullanmanın yeni
-yollarını düşünmeye çalışıyoruz. Havyn'in en iyi yönlerinin henüz keşfedilmediğini düşünüyorum.
-Watson'un en iyi özelliklerinin halen birileri tarafından icat edilmeyi beklediğini düşünüyorum. Belki bu
-Evan olur.
+Saldırıları ve güvenlik açıklarını ele almak için her zaman Watson'u ve kognitif bilişimi kullanmanın yeni yollarını düşünmeye çalışıyoruz Havyn'in en iyi yönlerinin henüz keşfedilmediğini düşünüyorum. Watson'un en iyi özelliklerinin halen birileri tarafından icat edilmeyi beklediğini düşünüyorum. Belki bu Evan olur.
 
-+ Evan:İnsanların yaşama biçimleri üzerinde böyle büyük bir etki yaratmak gerçekten harika olurdu. Halen yeni
-şeyler eklemeye devam ediyoruz ve işimizin bittiğini düşünmüyorum.
++ Evan:İnsanların yaşama biçimleri üzerinde böyle büyük bir etki yaratmak gerçekten harika olurdu. Halen yeni şeyler eklemeye devam ediyoruz ve işimizin bittiğini düşünmüyorum.
 
-+ Mike: Bu deneyimleri onunla paylaşabildiğim için gerçekten gurur duyuyorum. Biliyorsunuz, bir Baba olarak,
-daha ne isteyebilirsiniz? Teknolojiye olan tutkunuzu, bu konuda aynı ölçüde tutkulu olan oğlunuzla
-paylaşabilmek gerçekten çok özel.
++ Mike: Bu deneyimleri onunla paylaşabildiğim için gerçekten gurur duyuyorum. Biliyorsunuz, bir Baba olarak, daha ne isteyebilirsiniz?Teknolojiye olan tutkunuzu, bu konuda aynı ölçüde tutkulu olan oğlunuzla paylaşabilmek gerçekten çok özel.
 
 
 Havyn, gücünü Watson'dan alan ve temel soruları yanıtlayarak siber güvenlik tehditleri ile mücadele etmek üzere tasarlanan konuşmayı metne dönüştürme (STT), metni konuşmaya dönüştürme (TTS) ve sohbet teknolojileriyle yapılan bir deney olarak başladı.
@@ -764,57 +644,7 @@ Siber güvenlik analistleri, çeşitli sistem ve veritabanları arasında gezini
 -------------------------------------------------------------------------------------------------------------
 
 
-Raspberry Pi nedir?
-
-Raspberry Pi, neredeyse her şeye eklenmesi mümkün olan çok yönlü bir bilgisayardır!
-
-Bir bilgisayar monitörüne veya televizyona bağlanabilen, düşük maliyetli, kredi kartı boyutunda bir bilgisayardır. Her yaştan insanın bilişimi keşfetmesine ve Scratch ile Python gibi dillerde nasıl programlama yapacağını öğrenmesine yardımcı olur. Linux işletim sisteminin Raspbian adı verilen hafif bir sürümünü içerir.
-
-Kablosuz hoparlör sistemi, televizyonunuz için bir medya merkezi ve hatta bir kişisel web sunucusu yaratmak gibi eğlenceli projelerle bilgisayar programcılığı hakkında daha fazla bilgi edinmenin harika bir yoludur!
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-IBM X-Force Command Center
-
-IBM X-Force Command Center'lar, IBM Security'nin temel yeteneklerindeki büyük bir atılımı temsil ediyor. Merkezler, en yeni kognitif güvenlik çözümleri ve sektörün en yetenekli uzmanları temel alınarak kuruldu. Lider teknolojiyi, sektörde kanıtlanmış süreçleri ve becerikli güvenlik uzmanlarının girdilerini bir araya getiren IBM X-Force Command Center'lar, şirketlerin en gelişmiş tehditlerin bile bir adım önünde kalmasına yardımcı oluyor.
-
-Katılımcılar gerçek araçları kullanır, aktif bulaşmaları soruşturur ve hem dahili hem de harici siber güvenlik olaylarına müdahale ederler. En gelişmiş kognitif teknoloji ile IBM siber savunma uzmanlarının, gelişmiş güvenlik tehditlerini belirlemelerinde ve bunlarla mücadele etmelerinde kuruluşlara yardımcı olmak için güçlerini birleştirdiği bir IBM X-Force Command Center'da eğitim almanın nasıl olduğunu görün.
-
-Bir IBM X-Force Command Center, katılımcıların canlı bir kötü amaçlı yazılımın, dağıtılmış hizmet engelleme (DDoS) ve diğer geleneksel ve gelişmiş saldırıların etkilerini tecrübe edebilecekleri güvenli bir "canlı ateş hattı" ortamında siber güvenlikle ilgili kritik kriz liderliği becerileri sunar.
-
-IBM X-Force Command Center, mevcut ve potansiyel müşterilerin bir Güvenlik Operasyonları Merkezi (SOC) simülasyonunda yer almasına olanak sağlayan, son teknoloji ürünü bir tesistir. Taktikleri ve protokolleri, mevcut ve gelecekteki siber tehditleri öngörmek ve bunlardan korunmak üzere tasarlanmıştır.
-
-+ James: Evet efendim, sizi tam olarak anlıyorum efendim, teşekkür ederim. Az önce telefonda FBI ile konuştum. Bir durum var.
-
-+ Kadın: Selam çocuklar, güvenlik duvarında bunu görüyor musunuz?
-
-+ Baş Analist: Evet takım, az önce doğrulanan bir tehditle karşı karşıyayız. Bu güvenlik duvarına C sınıfı bir blok koyabiliyor musunuz? Test etmek istediğimiz bir şey var. Evet, ben de görüyorum. İşaret veren kaç makine var?
-
-+ Kadın: Bekleyin, IP adresini ayrıştırıyoruz.
-
-+ Baş Analist: Bu nereden geliyor?
-
-+ Televizyon Yorumcusu: Söylediğimiz gibi Amy, çok sofistike bir siber suç örgütü tarafından gerçekleştirilen önemli bir veri ihlalinin kurbanı olmuşlar gibi görünüyor. Bilgisayar korsanların halen ağda olup olmadığını söylemek zor. Şu an itibariyle, saldırının nereden geldiğini ya da arkasında kimin olduğunu bilmiyoruz. Bu nedenle, şu anda finans sektörüne ve Wall Street'e olan etkilerinden bahsediyoruz.
-
-+ Baş Analist: Tamam millet, haydi yapalım şunu. Yapalım şunu. Orada bir yerde. Bunu kalıcı bir blok haline getirmemiz gerekiyor. Bu yüzden, yapalım şunu. Yapalım şunu.
-
-+ James: Bazı yanıtlara ihtiyacım var. Hemen!
-
-+ Stüdyodaki kadın: Haydi James. Haydi, haydi, haydi, altmış saniyemiz var. Yapmaya hazır mısın?
-
-+ Konuşmalar: gerçekten çocuklar, bundan daha kötü olamaz. Ayrıca, görebildiğimiz kadarıyla, değişiklikler yapmışlar.
-
-+ James: Çok fazla belirsizlikle karşı karşıyayız. Şu an için size şunu söyleyebilirim, ortaya çıkan herhangi bir
-sorunu çözmek için yirmi dört saat çalışan harika bir ekibimiz var. Herhangi bir bilgi elde eder etmez size
-bunu gerçek zamanlı olarak aktarmaktan mutluluk duyacağım.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-NOVA Siber Güvenlik Laboratuvarı
+## NOVA Siber Güvenlik Laboratuvarı
 
 Bu laboratuvarda, giderek daha sofistike hale gelen siber saldırılara hedef olan bir şirketi koruyacaksınız. Göreviniz, siber savunma önlemlerinizi güçlendirmek ve bir dizi siber güvenlik görevini tamamlayarak saldırganları püskürtmek. Parolaları kıracak, kod oluşturacak ve kötü amaçlı bilgisayar korsanlarını yeneceksiniz.
 
@@ -824,31 +654,15 @@ Bunu, size temel kodlama yetenekleri kazandıracak, gizli bilgilerinizi vermeniz
 
 Not: NOVA tarafından sunulan aşağıdaki içerik, yalnızca İngilizce dilinde mevcuttur.
 
-http://www.khanacademy.org.tr/muzeler-ve-%C4%B0cerik-ortaklarimiz/nova-laboratuvarlari/nova-laboratuvarlari/550
+<http://www.khanacademy.org.tr/muzeler-ve-%C4%B0cerik-ortaklarimiz/nova-laboratuvarlari/nova-laboratuvarlari/550>
 
-https://www.pbs.org/wgbh/nova/labs/lab/cyber/
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-Siber güvenlik terminolojisi el kitabı
-
-+ Gelişmiş Sürekli Tehdit (APT) =>  çok sayıda aşamadan oluşan, uzun süreli bir ağ saldırısıdır ve bu saldırı türünde, yetkisiz kullanıcılar değerli kurumsal verilere erişir ve bunları toplar. 2010 yılında yayılan Stuxnet Solucanı, bir APT örneğidir.
-+ Botnet => Botnet, dünyanın herhangi bir yerinde bulunan, bir kötü amaçlı yazılım parçasının bulaşmış olduğu bir grup bilgisayar sistemidir. Yazılım, bu bilgisayarların bir bilgisayar korsanı tarafından bir ağ haline getirilmesine olanak sağlar. Bilgisayar korsanı, ağ üzerindeki tüm botların tam kontrolünü elde eder ve kötü amaçlı görevleri yerine getirebilir. Bir botnet örneği, 2017 yılında yayılan “Star Wars” Twitter Botnetidir.
-+ İhlal => yetkisiz bir kullanıcının ya da yetkisiz erişen bir kişinin (bilgisayar korsanı) bir bilgisayardaki ya da aygıttaki bir güvenlik açığını başarıyla istismar ettiği ve dosyaları ile ağına erişim elde ettiği andır. Eylül 2016'da gerçekleşen ve 3 milyar kullanıcı hesabının ele geçirildiği Yahoo! veri ihlali, buna örnek gösterilebilir.
-+ İstismar => Bir bilgisayarın istismar edilmesi, bir bilgisayarın güvenlik açığından yararlanmak amacıyla bir kötü amaçlı uygulamanın veya komut dosyasının kullanılmasını kapsar. Eylül 2017'de gerçekleşen ve şirketin web uygulaması altyapısındaki bir güvenlik açığından kaynaklanan Equifax veri ihlali, bilgisayar istismarına örnek gösterilebilir.
-+ Ortadaki Adam (MitM) => MitM (Man-in the-Middle) saldırısında, saldırgan, işlemleri gözlemek ve kaydetmek amacıyla bir kullanıcı ile web sitesi arasındaki mesajları yakalar.Haziran 2015'te e-posta ödeme taleplerinin yakalanması eylemini gerçekleştirdiklerinden şüphe edilen, farklı ülkelerden 49 Avrupa vatandaşının tutuklanması, bir MitM saldırısına yapılan müdahaleye örnek gösterilebilir.
-+ Kimlik Avı Dolandırıcılığı => bilgisayar korsanları tarafından parolalar, banka hesapları veya kredi kartı verileri gibi hassas bilgilerin ele geçirilmesi için kullanılan bir yöntemdir. Çoğunlukla, yasal bir kaynaktan geliyormuş gibi görünen beklenmedik bir e-posta ile başlar. Genellikle iki şekilde gerçekleşir. Alıcının banka bilgileri gibi ele geçirilmeye çalışılan bilgilerle yanıt vermesi için kandırılması veya alıcının kötü amaçlı bir bağlantıya tıklaması veya bir eki çalıştırması için kandırılması. Kimlik avı dolandırıcılığına (phishing) ilişkin bir örnek, beklenmedik şekilde alınan ve bir metin bağlantısına tıklanarak hassas kişisel bilgilerin verilmesi, bir parolanın ya da kredi kartı hesabının güncellenmesi vs. için "acil eylem" talep edilmesi şeklinde gerçekleşir.
-+ Sıfır Gün Saldırısı => Sıfır gün saldırısı, genellikle bir kötü amaçlı yazılımdan oluşan belirli bir yazılım istismarı türüdür. Bir sıfır gün istismarı, özgündür ve halk ya da yazılım satıcı firması tarafından önceden bilinmez. Güvenlik açığından yalnızca az sayıda insanın haberi olduğundan, kurbanlar kendilerini bunun kullanımından korumak için "sıfır güne" sahiptir. 2014 yılında Sony Pictures Entertainment firmasına karşı gerçekleştirilen ve kurumsal ağlarının ele geçirilmesine ve hassas kurumsal verilerinin açıklanmasına neden olan sıfır gün saldırısı, buna örnek gösterilebilir.
-
-Aşağıdaki sözlük, eğitiminize devam ederken başvurabileceğiniz çeşitli siber güvenlik terimlerini içerir. PDF İndir: https://bundles.yourlearning.ibm.com/skills/learn/assets/NKVRGWVWNPRR77AZ/Cybersecurity3_Cybersecurity%20GLOSSARY_tr-TR-US.pdf
+<https://www.pbs.org/wgbh/nova/labs/lab/cyber/>
 
 
 -------------------------------------------------------------------------------------------------------------
 
 
-Siber saldırı yöntemleri
+## Siber saldırı yöntemleri
 
 Bir siber saldırının pek çok nedeni olabilir. Bunlara uluslararası ya da askeri çatışmalarla bağlantılı siyasi, finansal veya kişisel gerekçeler, ticari sırların ele geçirilmesi, siber aktivizm ve hatta intikam ya da kötü şöhret dahil olabilir.
 "Beyaz Şapkalı" kuruluşların veya kişilerin ("iyi adamlar") yasal araştırmalar nedeniyle ya da "Siyah Şapkalı" siber suçluları yenmek amacıyla gerçekleştirdiği siber saldırılar da söz konusu olabilir. Ancak, siber saldırıların büyük kısmı, sistemlerdeki ve teknolojideki zayıflıkların belirlenmesini ve istismar edilmesini amaçlar.
@@ -865,1095 +679,3 @@ MitM saldırıları, kimlik avı dolandırıcılığı (phishing) ve site trafi�
 + Sistem erişimi kimlik bilgilerinin çalınması ve istismar edilmesi => Yetkisiz bir kullanıcı, yasal sistem yöneticisi kimlik bilgilerini çalarak, bir veya daha fazla sisteme erişim elde edebilir. Bu senaryoda, bir saldırgan, A Sistemi için sistem yöneticisi kimlik bilgilerini çalar ve bunları Sistem B'ye erişmek için "akışın aşağısında" kullanır. Sonuçta saldırgan, iki sistem arasındaki "güven ilişkisini" istismar edebilir.
 + Hizmetin Engellenmesi (DoS) saldırıları => Bir saldırgan, anasistemin yasal kullanıcılara hizmet sunmasını önlemek için çok yüksek miktarda ağ trafiğini bir ağ anasistemine yönlendirebilir. Saldırganlar anasistemlerde başarıyla aşırı yüklenme yarattığında, potansiyel olarak sistem erişimini kısıtlayabilir ve diğer kullanıcılara hizmet sağlanmasını engeller. Buna Hizmetin Engellenmesi (DoS) veya Dağıtılmış Hizmetin Engellenmesi (DDoS) adı verilir.
 + Gelişmiş Sürekli Tehditler (APT'ler) => Gelişmiş Sürekli Tehditler (APT'ler)
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-# Siber Güvenliğe Genel Bakış
-
-CIA üçlüsünü kullanarak, bilgi güvenliğinin amaçları
-
-## Bilgi güvenliği
-
-Siber güvenliğin ne olduğunu ve neyi başarmaya çalıştığımızı düşünerek başlayalım. Siber güvenlik tanımlarının çoğu, teknolojiye odaklanma eğilimindedir, dolayısıyla tipik bir tanım "dijital sistemlerin güvenliğini" ya da "iletişim güvenliğini" kapsayabilir. Bu tanımlar oldukça hızlı bir şekilde bulanıklaşabilir. Örneğin:
-
-+ Bir dolandırıcı, bir kişiye bankasından olduğunu iddia eden ve kişisel kimlik numarasını  isteyen bir e-posta gönderirse ne olur? Bu bir siber güvenlik endişesi midir?
-+ Peki ya bir özel dedektif bir şirket çalışanını arayıp ondan bazı gizli bilgileri yazdırmasını ve kağıtları alabilmesi için bunları posta odasına bırakmasını isterse? Bu bir siber güvenlik endişesi midir?
-
-Gerçek dünyada çoğu saldırı, genellikle bazı dijital öğelerin yanı sıra bazı insan faktörlerini, bazen de bir  fiziksel öğeyi içerir. Lütfen bunu unutmayın. Sadece dijital öğelere odaklanmamalıyız, çünkü bu düşünme sürecimizi sınırlar ve potansiyel saldırganlara esneklik tanır.
-
-Bilgi güvenliği  denilen yeni bir kavramı ele alalım. Bilgi güvenliği, nasıl koruduğumuzdan ziyade korumaya çalıştığımız bilginin değerine odaklanır. Aşağıdaki grafik, fiziksel öğelerin ve dijital öğelerin bilgi güvenliğinin kapsamında olduğunu gösterir.
-
-![image](https://github.com/user-attachments/assets/2ba1ef29-111e-44c0-9aa4-50a38838173f)
-
-1. Fiziksel güvenlik; binalar, güvenlik kameraları, ekipman ve mülk gibi varlıkların hırsızlık, vandallık, yangın ve doğal afetler gibi fiziksel tehditlerden fiziksel olarak korunmasıdır.
-
-2. Siber güvenlik ise ağların, cihazların ve programların her türden kötü niyetli siber saldırıdan korunmasıdır.
-
-İyi bir güvenlikte biri olmadan diğeri olamaz ve her ikisi de aynı hedeflere yönelik hareket etmelidir.
-
-örneğin;
-
-Bunu bir müşterinin perspektifinden düşünelim. Bir seyahat şirketine gittiğinizi ve bir yurtdışı seyahati rezervasyonu için pasaport detaylarınızı paylaştığınızı varsayın. Ya şirketin çalışanlarından biri kazara pasaport detaylarınızı yanlış adrese gönderirse ya da pasaport detaylarınızı içeren basılı kağıtları bir trende çantasından düşürürse? Sonuç aynıdır. Özel bilgileriniz tehlikeye girmiş olur. Bilgi güvenliğinde  odak noktası sonuçtur, yöntemin tam olarak nasıl olduğu değil.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-Siber güvenlik uzmanları neyi başarmaya çalışıyorlar?
-
-Ulusal Standartlar ve Teknoloji Enstitüsü'ne (NIST) göre, bilgi güvenliği: "Bilgi ve bilgi sistemlerinin gizlilik, bütünlük ve kullanılabilirlik sağlamak adına yetkisiz erişim, kullanım, açıklama, kesinti, değiştirme veya imhadan korunmasıdır."
-
-Bu nedenle bilgi güvenliğinin hedefleri genellikle iyi bir başlangıç noktası olarak CIA üçlüsü kullanılarak tanımlanır. CIA, üç hedefe dair bir hatırlatıcıdır: Gizlilik, Bütünlük ve Kullanılabilirlik.
-
-+ Gizlilik/Bilgi özeldir: Bilgilerin onlara erişim yetkisi olmayan kişilerin eline geçmesinin önlenmesini ifade eder.
-+ Bütünlük/Bilgi değişikliğe uğramamıştır: Bilginin doğru ve tutarlı kaldığından emin olmak ve yetkisiz kişilerin bilgilerde değişiklik yapamamasını sağlamaktır.
-+ Kullanılabilirlik/Bilgi, gerektiğinde erişilebilir olmalıdır: Gerektiğinde bilgilere zamanında ve güvenilir erişim ve kullanımı ifade eder.
-
-CIA üçlüsü, bir kuruluşta bilgi güvenliğine yönelik politikaların yönlendirilmesine yardımcı olmak üzere kullanılan bir modeldir.
-
-![image](https://github.com/user-attachments/assets/3536c8ba-7944-4b5b-b4a6-c59ae7cc59ad)
-
-Farklı kuruluşlar ve senaryolar, bir hedefin diğerlerinden önce geldiğini savunabilir.
-
-Örnek; Bilgi güvenliği hedeflerine sizin için bağlam kazandırmak adına bazı örneklere bakalım. 
-
-1. Gizlilik
-devlet istihbarat teşkilatları için en önemli hedef olabilir. Ismarlama şifreleme, hatta kurşun gömlekli, suya atılınca batan çantaları kullanmak gibi, bilgiyi gizli tutmak için ne kadar ileri gidebildiklerini bir düşünün.
-
-2. Bütünlük
-bankalar için en önemli hedef olabilir. Bir pizzaya 10 dolar harcadığınızı düşünün. Bu işlemin gizli olması konusuyla özel olarak ilgilenmezsiniz. Ancak işlemin üzerinde oynanırsa ve bunun yerine 10.000 dolar harcamış olursanız, kendinizi ciddi bir mali sorunun içinde bulabilirsiniz. Bu durum bankanızda geniş ölçekte gerçekleşirse, bankanız güven kaybından dolayı faaliyetlerini durdurabilir.
-
-3. Kullanılabilirlik
-bir web sitesi için en önemli hedef olabilir. Bir bloğunuz olduğunu düşünün. Gizli olup olmadığı veya bir editörün yazım hatalarının düzeltilmesine yardım edip etmediği konusuyla özel olarak ilgilenmezsiniz. Orada olmasını ve güncelleyip yayımlamak istediğiniz anda erişilebilir olmasını istersiniz.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-Siber güvenlikte varlık, sahibi için değeri olan bir şey olarak tanımlanır. Varlıklar bir program gibi dijital ya da bir sunucu gibi fiziksel olabilir. Veritabanları, araştırmalar veya kayıtlar gibi özel nitelikli bilgiler aynı zamanda bilgi varlıkları olarak adlandırılabilmektedir.
-
-Kişisel banka hesabınızı, fotoğraf kitaplığınızı, sosyal medya hesabınızı ve cep telefonunuzu düşünün. Her bir varlık için Gizlilik, Bütünlük ve Kullanılabilirlik kaybı sizi nasıl etkilerdi? 1-5 arasındaki ölçeği kullanarak derecelendirmenizi sağlanan alanlara yazın.
-
-1) Düşük seviye sonuç: Günlük hayatta fark edebileceğiniz bir etki olmazdı.
-
-3) Orta seviye sonuç: Birkaç saatlik kayıp zamanla sonuçlanan, fazla önemli olmayan bir etki olurdu.
-
-5) Yüksek seviye sonuç: Hayatınızı değiştirebilecek, aylar veya yıllar sürebilecek bir etki olurdu.
-
-
-ÖRNEK;
-Sizin için burada hazır bir örnek var: Çevrimiçi bir münazara sunumu. Bu örnekte:
-
-1. Gizlilik kaybı sinir bozucu olarak görülür, ancak önemsiz bir etkisi olacaktır ve 2 olarak derecelendirilmiştir.
-
-2.Başka birinin sunumu düzenlemesinden kaynaklanan Bütünlük kaybı, bir tartışmaya yol açabilir, bu da güncellemelerle zaman kaybedilmesine neden olabilir. Dolayısıyla Bütünlük 3 olarak derecelendirilmiştir.
-
-3. Son olarak, çevrimiçi yorum tamamen kaybolur ya da ulaşılamaz hale gelirse, bunun hiçbir etkisi olmaz, bu yüzden Kullanılabilirlik kaybı 1 olarak derecelendirilmiştir.
-
-
-Güvenlik perspektifinden bakıldığında, varlıklara yönelik koruma önlemlerinizi sizin için en önemli olanlara göre önceliklendirmek mantıklıdır. Örneğin, parola yöneticinizin parolası 20'den fazla karakter uzunluğunda olup gizli tutulurken, evdeki bir kablosuz ağ parolası ara sıra arkadaşlarla ve aileyle paylaşılabilir! Siber güvenlikte kuruluşlar her zaman bu tür kararlar verirler.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-Siber güvenliğin temel öğeleri
-
-Bilgi varlıklarını güvence altına almanın birçok yolu vardır ve en iyi yaklaşıma karar vermek, siber güvenlikte önemli bir husustur.
-
-Örnek;
-Korumanız gereken pahalı bir tablonuz olduğunu varsayalım. Seçeneklerden biri, tabloyu sürekli olarak izleyecek birkaç güvenlik görevlisini işe almak olurdu. Bir diğer seçenek ise, tablonuzu görecek olası tüm ziyaretçilerden bir depozito vermelerini talep etmek veya sigorta teyidi istemek olabilirdi. Son olarak, tanınmayan kişileri tespit etmek üzere lazer tuzaklarını, güvenlik kameralarını ve hareket sensörlerini seçebilirdiniz. Bu seçeneklerin her birinin çeşitli avantajları ve dezavantajları vardır. Tüm harika hırsız filmlerinde olduğu gibi, tek bir seçeneğe bağlı kalmak yeterli olmayabilir.
-
-
-Siber güvenliğe dair düşünülmesi gereken üç temel unsur mevcuttur:
-
-![image](https://github.com/user-attachments/assets/59d68305-c3b6-42a5-9737-7db9c6305417)
-
-Bunlar, bir saldırganın saldırabileceği ve kuruluşların siber güvenlik çabalarında odaklanması gereken alanlardır. Bu derste bunları derinlemesine inceleyelim.
-
-
-1. İnsanlar
-Oldukça dijital bir sektör için, genel kanının aksine, insanlar siber güvenliğin en önemli parçasıdır. Birincisi, insanlar dijital sistemin son kullanıcılarıdır; ikincisi, insanlar genellikle dijital sistemlerin tasarımı ve bakımından sorumludurlar. İnsan eylemi, açık ara siber güvenlik olaylarının ana sebebidir. Kuruluşlar güvenli bir sistem tasarladıklarında, bunu insanları düşünerek yapmalıdırlar.
-
-Alarm yorgunluğu, bunun aksadığı hallere dair yaygın bir örnektir. İnsanlar çok fazla bildirim veya alarm aldıklarında, nihayetinde bunlara duyarsız hale geleceklerdir. İyi sistemler, insan davranışını öngörecek ve hesaba katacak şekilde tasarlanır.
-
-
-2. Süreç
-İş dünyasında çoğu faaliyet, net bir şekilde belirlenmiş bir dizi adımı takip eder. Bu süreçler, her adımda güvenliği dikkate alarak siber güvenliğe yardımcı olabilir ya da son kullanıcı için sinir bozucu olarak siber güvenliğe engel olur.
-
-Bir kullanıcının, şüpheli aktiviteyi bildirmek için 20 soruluk bir anketi doldurmasının istendiği bir süreci düşünün. Faydalı bilgi verebilecek çoğu kullanıcı sıkılıp süreçten vazgeçebilir.
-
-İyi süreçler şu niteliklere sahiptir:
-
-+ Olabildiğince net ve kolaydırlar. Süreç sırasında, her aşamada ne yapılacağı açık olmalıdır. Süreçler gereksiz jargon içermemeli ya da belirsiz bir şekilde yazılmamalıdır.
-+ Erişilebilir ya da herkesçe bilinirler. Süreci herhangi bir aşamada izleyebilecek olan tüm kullanıcılar, bu sürece nasıl erişeceklerini bilmelidirler. Binalardaki yangın tahliyeleri, genellikle bir yürütülen bir süreç örneğidir. Çoğu kişi, uygun işaretler sayesinde en yakın tahliye noktasının yerini bilir.
-+ Tutarlıdırlar. Süreçler mümkün olduğunda birbirleriyle çelişmemelidir. Bir süreçte çok fazla istisna veya sapma varsa, bu karmaşıklığı artırır. Sonraki bölümlerde, siber saldırganların saldırıları sırasında bunu nasıl kötüye kullandıklarını öğreneceksiniz.
-
-
-3. Teknoloji
-Teknoloji, arka plandaki altyapının tamamıdır.
-
-Siber güvenlik dahilinde bu genellikle cihaz şifrelemesi, ağ çevresi savunmaları ve kötü amaçlı yazılıma karşı koruma teknolojileri gibi unsurları kapsar.
-
-İş dünyasında teknolojinin iyi kullanımıyla, sorunlar kullanıcıları için yeni sorunlar yaratmadan çözülür.
-
-Yazılım yama durumlarını izleyebilen ve güncellemeleri uygulayan cihaz yönetimi yazılımları, iyi teknoloji güvenliğine dair bir örnektir. Bu genellikle büyük kuruluşlar için gereklidir. Doğru bir şekilde yapılıyorsa, bu, teknolojinin kesintisiz olduğu ve kullanıcı güvenliğinin pasif bir şekilde sağlandığı anlamına gelir. Yetersiz bir şekilde yapılıyorsa, bu durumda kullanıcılar yazılımı tamamen devre dışı bırakma girişiminde bulunabilirler. Cihaz kullanıcıları olarak siz de bu durumla karşılaşırsınız.
-
-Aşağıdaki tablo; güvenliğe ilişkin bazı teknolojik atılımları, bu atılımların algılanan dezavantajlarını ve kullanıcı yönetimi perspektifinden, devreye alınmalarının olumsuz yanlarını göstermektedir.
-
-|Teknolojik atılım|Teknolojik atılım|Algılanan olumsuz yan|İstenmeyen kullanıcı tepkileri|
-|---|---|---|---|
-|Otomatikleştirilmiş yama yönetimi|Tüm yazılımların güncel olması|Cihaz kullanımında kesintiler|Kullanıcının cihazları kapatmaması|
-|Yüksek karmaşıklıkta zorunlu parolalar|Saldırganların parolaları tahmin etmesinin zor olması|Kullanımın yorucu olması|P@r0l@!|
-|Zorunlu parolaların sürelerinin 30 günden sonra dolması|Parolaların uzun süreler boyunca tehlikeye girmemesi|Tahmin edilebilir şekilde kendini tekrar etmesi|OcakParola, ardından ŞubatParola|
-|Şifrelenmiş e-postalar|Saldırganların iletilen e-postaları okuyamaması|Ek yapılandırma ve karmaşıklık|Şifreleme özelliğinin devre dışı bırakılması|
-
-Kuruluşların, teknolojinin tam olarak neden getirildiği ve algılanan olumsuz yanların neden gerekli olabileceği konusunda kullanıcılara eğitim vermelerinin önemli olduğunu görebilirsiniz.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-Risk yönetimi
-
-
-Riskler günlük yaşamın bir parçasıdır ve içgüdüsel olarak aşina olduğumuz bir olgudur. Risk, olumsuz sonucu olacak bir şeyin yaşanma olasılığıdır. Risk yönetimi, çoğu işletmenin kalbi ve sigortacılık sektörü gibi çoğu sektörün de merkezidir. İyi işletmeler, kendilerine rekabetçi avantaj sağlamaları adına riskleri etkili bir şekilde anlayıp yönetirler.
-
-Aşağıda riske ilişkin bazı temel kavramları ve bu kavramların siber güvenlik için nasıl geçerli olduğunu keşfedeceğiz.
-
-1. Risk değerlemesi
-
-Tüm riskler eşit öneme sahip değildir. Belirli riskler acil dikkat gerektirirken, bazıları görmezden gelinebilir. Daha önemli olan riskler, yüksek riskler olarak bilinir. Bir riskin değerini hesaplamak için temel bir denklem şu şekildedir: ***Risk değeri = Sonuç x Olasılık***
-
-+ Sonuç, etki ve ilişkili zararlardır.
-+ Olasılık, riskin etkisinin ne sıklıkta gerçekleştiğidir.
-
-İdeal olarak matematiksel nedenlerden dolayı, her risk için istatistik bilgilere sahip olsak elbette iyi olur. Örneğin belirli bir yılda 10 araçtan birinin lastiğinin patlayacağını bilsek, ilgili riskle kolayca başa çıkılabilir.
-
-
-***Bir örnek verelim;***
-Önceki patlak lastik senaryosuna risk değer denklemi, örnek olarak şu şekilde uygulanabilir. Bir kişi, işe giderken lastiği patladığından bir günlük verimini kaybedebilir. Bu riskin sonucu, bir günlük iş kaybıdır. Bu sonuç sinir bozucu olsa da, riskin olasılığının düşük  (belirli bir yılda 10 araçta 1 oranında) olduğunu hatırlayalım. Bu da, genel risk değerini düşük olarak değerlendirebiliriz demektir.
-
-
-Teknolojinin sürekli gelişmesi ve dışarıdan saldırganların dahil olması nedeniyle, siber güvenlikte olasılığı ölçmek bir hayli zordur. Temel bir kural olarak, bir kuruluşun saldırıya uğrama ihtimali, kısmen şu üç özelliğe bağlıdır: Olasılık = Düşmanın kabiliyeti x Düşmanın motivasyonu x Güvenlik açığının önem düzeyi
-
-
-1_A . Düşman
-
-Düşman, bir bilgi sistemini ihlal etmek isteyen bir tarafı tanımlamak için kullanılan genel bir terimdir. Düşmanlar farklı şekillerde sınıflandırılabilir. Bu da, onların yeteneklerine ve motivasyonlarına değer biçmenize yardımcı olacak.
-
-
-1_B. Güvenlik Açıkları
-
-Güvenlik açıkları, bir sistem içindeki o sistemi tehlikeye atmak üzere yararlanılabilecek olası zayıf noktalardır. Kullanıcıların kimliklerini uygun şekilde doğrulamayan bir web sitesi, güvenlik açığına bir örnek olabilir.
-
-
-***Bir örnek verelim;***
-Bu ikinci denkleme dair ikinci bir örnek ise şöyle olabilir. Bir bankanın, kullanıcıların bankacılık sistemine giriş ayrıntılarını ve parolalarını çalmak isteyen bir suç çetesi tarafından hedef alındığını varsayalım.
-
-+ Düşmanın kabiliyeti  orta seviye olarak değerlendirilebilir, çünkü suçlular geniş bir araç yelpazesi kullanabilir ve gerekli durumlarda kendi araçlarını geliştirebilirler.
-+ Motivasyonları ise yüksek seviye olarak değerlendirilir, çünkü belirli bir süre içerisinde birden fazla saldırı girişiminde bulunabilirler.
-+ Tespit edilen bir güvenlik açığı, yüksek seviye olarak değerlendirilir, çünkü yararlanılması oldukça kolaydır. Örneğin belirli güvenlik açıklarına ilişkin olarak, saldırganların saldırıları kolayca kopyalamalarını sağlayacak çevrimiçi açıklamalar yayınlanmıştır.
-
-Not: "Düşük", "orta" ve "yüksek" derecelendirme terimlerinin kullanımı, riskin nitel analizine bir örnektir. İdeal bir dünyada kesin sayılar ve yüzdeler kullanmamız gerekirdi; ancak bunları bulmak zor olduğundan, elimizde genellikle sadece tahminler olur.
-
-
-2. Riske yanıt verme
-
-Bir kuruluş tüm risklerini değerlendirdiğinde, odak noktası risk yönetimine ya da yanıt vermeye çevrilir. Genel anlamda, bir kuruluşun seçebileceği dört tür risk yanıtı mevcuttur. Bu yanıtlar aşağıdaki tabloda açıklanmıştır.
-
-|Kabul etmek|Azaltmak|Aktarmak|Reddetmek|
-|---|---|---|---|
-|Kuruluş, riski olduğu gibi kabul eder. Bu, kuruluş içerisinde "risk sahibi" denilen üst düzey bir kişi tarafından alınacak bir karardır.|Kuruluş, bir riskin kabul edilemeyecek kadar büyük olduğuna karar verebilir ve bu riski bir şekilde azaltmayı amaçlayabilir. Bu, olasılığı veya sonucu azaltma yoluyla gerçekleştirilebilir.|Kuruluş, kendisi yerine üçüncü bir tarafın riski veya riskin bir kısmını kabul etmesini isteyebilir. Bu, sigorta yoluyla yapılır.|Kuruluş, bir riskin çok büyük olduğuna karar verebilir ve riskten etkilenmeden geri çekilebilir. Bu yanıtın, sahaların kapatılması ya da piyasalardan çekilme gibi önemli iş etkileri olacaktır.|
-
-
-***Bir örnek verelim;***
-Bu dört risk yanıtı türünü örneklerle açıklayalım. Evden bir pastacılık işi yapmayı düşündüğünüzü varsayalım. Fırında pişirme süreci sırasında mutfağınızın zarar görme riski vardır. Bu riske vereceğiniz yanıtlardan bazıları şu şekilde olabilir.
-
-+ Kabullenme: Riske bakabilir ve pişirme yeteneğinize güvenerek, bir şeylerin ters gitme olasılığının düşük olduğuna inanır ve riski göze alırsınız. Pişirme işi yolunda gitmezse, mutfağınızı onarabilirsiniz ve buna hazırlıklı olursunuz.
-+ Azaltma: Mutfağınızın ve fırınınızın yüksek risk altında olmamasını tercih eder ve riski azaltmaya karar verirsiniz. Erken uyarı vermesi amacıyla bir duman dedektörü kurarak yangınla alakalı olayların ortaya çıkma olasılığını azaltabilirsiniz. Yangın söndürme sistemi kurdurarak, yangının sonuçlarını azaltabilirsiniz. Her iki seçeneğin küçük bir maliyeti olacaktır, ancak buna değeceğini düşünürsünüz.
-+ Aktarma: Sigorta şirketinize gider ve sigortanızı, evde pişirmeyle ilgili yangınları da kapsayacak şekilde yükseltirsiniz. Şirket, riske dair kendi değerlendirmesini yapar. Birlikte, riskin kapsama alınması için ödenecek maliyet konusunda bir karara varırsınız. Fırınınız yanarsa masrafları onlar karşılar. Bu düzenlemede ilk başta bir maliyet söz konusudur, ancak sorumluluğunuz sınırlanmış olur.
-+ Reddetme: Fırınla ilgili yangın riskinin çok yüksek olduğuna karar verirsiniz. Tarifleri, pastalarınızı fırın kullanmadan yapacak şekilde değiştirir ya da işe başlamaktan vazgeçersiniz.
-
-Bu örnekte gördüğünüz üzere, basit bir durumda bile düşünülmesi gereken çok şey vardır. Hızla değişen BT teknolojilerine sahip işletmeler, çok sayıda sürekli değişen riskle yüz yüze kalırlar. Risk yönetimi, çoğu şirkette tam zamanlı bir iştir ve birçok stratejik ve taktiksel karar alma durumunu yönlendirir.
-
-
-3. Risk iştahı
-
-Risk iştahı, bir kuruluşun kabul etmeye gönüllü olduğu risk düzeyidir.
-
-+ Yüksek seviyede bir riski kabul etmeye gönüllü bir kuruluşun risk iştahı yüksek olarak ifade edilir.
-+ Risk kabul etmekten hoşlanmayan bir kuruluşun ise risk iştahı düşük olarak ifade edilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-Yaygın yanlış fikirler
-
-Bugün dünyada siber güvenliğe ilişkin birçok yanlış fikir bulunur. Bu yanlış fikirler bir bilgisayar sistemine saldırmayı konu alan gerçek dışı Hollywood klişelerinden sektörde çalışan demode insan stereotiplerine kadar uzanır. Bazı yaygın yanlış fikirleri inceleyip bunları sizin için netleştirelim.
-
-
-1. Siber güvenlik alanında çalışan herkesin bir BT geçmişi vardır.
-Siber güvenlikteki rollerin çoğu kısmen veya tamamen BT'ye dayalı olsa da, rollerin hepsi kesin olarak bu tür bir geçmişe sahip değildir. Çoktan fark etmiş olabileceğiniz üzere, siber güvenliğin kapsamı çok geniş olduğundan, çok sayıda alanda yetenek talebi söz konusudur. Beceriler insan yönetiminden iletişime, matematikten veri bilimine kadar uzanır. Farklı deneyim ve becerilere sahip olmak, ekiplerin sorunlara yeni yollarla yaklaşmalarına da yardımcı olur ve bu çok değerlidir.
-
-
-2. Tüm bilgisayar korsanları suçlulardan oluşur.
-Bilgisayar korsanı terimi, geçmişten bu yana bir şeyleri uyarlamayı ve nasıl çalıştıklarını keşfetmeyi seven kişileri ifade eder. Bu tanım, işlemlerini ele geçirmek niyetiyle yasa dışı olarak bilgisayar sistemlerine erişim sağlamaya çalışan kişilerle karıştırılır. Günümüzde çeşitli BT görevlerinde istihdam edilen ve birçok işin parçası olarak yasal bir şekilde BT sistemlerinin anlaşılmasına katkıda bulunan binlerce bilgisayar korsanı vardır. Bu kişilerin merakları ve azimleri, BT sistemlerinin güvenli bir şekilde inşa edilmesini sağlama açısından çok değerlidir.
-
-
-3. Siber güvenlik benim yapamayacağım bir şey.
-Siber güvenliğin sürekli değişen alanları ve geniş kapsamından dolayı, herkes için bir rol vardır. Rollerin çeşitliliği, becerilerde de büyük bir çeşitlilik gerektirir. Bu beceriler; stratejik analiz ve BT işletmelerinin değişen ortamını öngörmekten sistem izleme rollerinde tetikte ve sabırlı olmaya kadar uzanabilir. Çok fazla eğitim ve öğrenim olanağının olduğunu unutmayın.
-
-
-4. Bu sektörde çalışmak için çok yaşlıyım veya gencim.
-Bir ekibin yapısı dahilinde kaç farklı on yıl olduğuna bakmak ekibin çeşitliliğine yönelik iyi bir turnusol testidir. İyi bir ekip, geniş bir deneyim ve hayat görüşü yelpazesine sahip olmalıdır. Siber güvenliğin, sorunlara hem yeni bir gözle hem de deneyimli bir bakış açısıyla bakması gerekir. Yaklaşımların ister harika ister kötü olduğunu düşünüyor olun, muhtemelen çözümün yarısına ve diyaloğa ekleyeceğiniz harika bir fikre sahipsinizdir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-Kanunlar ve etik kurallar
-
-Siber suç, yalnızca 30 yıl içinde oluşmuş, oldukça yeni bir kavramdır. Öncesinde, bilgisayarları kötü niyetli olarak kullanan kişiler, hırsızlık ve telgraf kanunlarının çok da uygulanabilir olmayan bir kombinasyonu kullanılarak yargılanıyordu.
-
-Günümüzde ise programlama teknolojilerinin kullanımını yönetmek ve bunların eşlik ettiği bilgileri korumaya yönelik geniş kapsamlı bir dizi uluslararası kanun oluşturulmuş durumda. Bu kanunlar herkesi ilgilendiriyor ve tüm siber güvenlik uzmanlarının bu kanunlara dair temel bir anlayışa sahip olmaları önem taşıyor.
-
-Aşağıda; yaygın kanun türleri ile birlikte etik kuralların göz önünde bulundurulmasının önemine dair kısa genel bir bakış sağlanacak.
-
-**Öneml Not:** Kanunlar tüm dünyada aynı değildir. Ülkelere göre önemli ölçüde değişiklik gösterebilirler. Yaşadığınız ya da seyahat ettiğiniz ülkenin kanunlarını kontrol etmeniz ve bunlara uymanız gerekir. Bazı devletler, kanunlarını diğerlerinden daha kısıtlayıcı şekilde oluşturmuştur, bu yüzden bir ülkede yasal olan bir şey başka ülkede yasa dışı olabilir. Emin olmadığınız durumlarda yasal tavsiye alın.
-
-
-1. Bilgisayarın kötüye kullanımına ilişkin yaygın kanun türleri
-Bilgisayarların kötüye kullanımına ilişkin kanunlar konusunda dünya çapında kabul gören bazı yaygın özellik veya kavramları inceleyelim.
-
-1_A. Bir bilgisayarın izinsiz kullanımı veya kontrolü
-
-+ Çoğu kanun, bir bilgisayara yetkisiz ya da izinsiz olarak erişilmesini ve kullanılmasını yasaklar.
-+ Bu genel kısıtlama, teknik malzemeler ya da bir kişinin hesabına zorla erişme yoluyla bilgisayarları ele geçirmenin yasak olduğu anlamına gelir.
-+ Bu kanunlar, kimlik doğrulaması gibi kırılan denetimlerin etrafından dolaşan kişileri yakalar.
-
-
-***Bir örnek verelim;***
-Bir dizi kullanıcı parolasını çalarak bunları birinin hesabına sızmak için kullanmak amacıyla sahte bir giriş ekranının yerleştirilmesi.
-
-
-1_B. Başkalarının meşru kullanımına engel olma
-
-+ Bu kanunlar, ağ yetenekleri gibi bilgisayar kaynaklarının kullanılabilirliğine yönelik saldırıları kapsar.
-+ Başkaları için hizmet kalitesini düşüren ya da tamamen engelleyen eylemler genellikle bu kanunların kapsamındadır.
-
-
-***Bir örnek verelim;***
-Bir sunucuya ya da ağ anahtarına işlenmek üzere çok fazla bilgi göndererek sunucu ya da ağ anahtarının aşırı yüklenmesine neden olmak.
-
-
-1_C. Başka suçlulara yardım etme ya da kötü amaçlı yazılım geliştirme
-
-+ Bu kanunlar, örneğin yataklık yapmak gibi, başkalarının bilgisayarların kötüye kullanımına yönelik suçlar işlemelerine yardımcı olmayı ifade eder.
-+ Kötü amaçlı yazılım olarak bilinen zararlı yazılımların üretilmesi, bu şekilde başkalarına yardım etmeye dair bir örnek teşkil edebilir.
-+ Bu kanunlar, suç çetelerini çökertmeye yardımcı olmak amacıyla kullanılmak üzere hazırlanmıştır.
-
-
-***Bir örnek verelim;***
-Makine sahibinin haberi olmadan bir makineye uzaktan erişmeye olanak tanıyan bir programın üretilmesi.
-
-
-
-Bilgisayarların kötüye kullanımına ilişkin kanunlara ek olarak, bazı siber suçların veri koruma kanunları ve geleneksel mülkiyet kanunlarıyla örtüştüğünü göreceksiniz. Bir siber suçun fikri mülkiyetin çalınmasıyla sonuçlanması halinde, bu suç bir hırsızlık vakası olarak incelenebilir.
-
-BT güvenliğinde bir şey yapmadan önce uyulması gereken altın kural, bir cihaz üzerinde çalışmaya başlamadan önce sahibinden doğru izinlerin alınmasıdır. Ayrıca, istenmeyen yan etkilerden kaçınmak adına ne yaptığınızı tam olarak bilmek de önemlidir.
-
-
-2. Etikle ilgili tartışmalar
-
-Tıpkı kanunlar gibi, etik kurallar da tüm dünyada farklıdır. Siber güvenlik kapsamında etik kuralların farklı yönleri hakkında hararetli bir tartışma yaşanmaktadır. Örneğin, kuruluşların bir saldırganın tetiklemesi için altyapıları içine bubi tuzaklı dosyalar bırakmalarına izin verilmeli mi? Çoğu kişi bu durumun etik açıdan makul olduğunu düşünebilir, ancak yasal çerçeveden bakıldığında, tuzaklı dosyalar kötü amaçlı yazılım olarak görülebileceğinden bu eylemin yasa dışı olduğu ileri sürülebilir. Öte yandan, güvenlik sektöründeki tekniklerin suçluları hedef almak için kullanımı hakkında etik ikilemler de söz konusudur.  Misilleme mazur görülebilir mi ya da savunulabilir mi? Peki ya askeri eylemler ve devletlere ilişkin kurallar ne olacak?
-
-Etik ikilemlerin olduğunu ve bu ikilemlerin sektörün ortaya çıkışından bu yana sürdüğünü görebilirsiniz. Bu tartışmalar, sağlıklı bir sektörün olgunluğa ulaştığını ve katılımcılarının bu önemli konuları düşünerek doğruluktan yana olduklarını gösteren iyi yönde işaretlerdir.
-
-Siber güvenliğe ilişkin kanunların ve etik kuralların karmaşıklığını göstermek amacıyla bu grafik, yasaların ve etik kuralların birbirleriyle nasıl örtüştüğünü ortaya koymaktadır. ![image](https://github.com/user-attachments/assets/f3a74ab2-6b87-496c-96f3-bb0eed82e7da)
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-# Siber Güvenlik: Saldırı Tarafı
-
-## Tehdit aktörü grupları
-
-Aşağıdaki konular hakkında bilgi edineceksiniz:
-+ Siber saldırgan grubu türleri
-+ Siber saldırı türleri
-+ Lockheed Martin Cyber Kill Chain çerçevesini kullanarak, tipik bir siber saldırı sırasındaki adımlar
-+ MITRE ATT&CK matrisini kullanarak, saldırgan taktikler ve teknikleri
-+ Siber suç ekonomisi nasıl çalışır?
-+ Sosyal mühendislik ve yaygın sosyal mühendislik saldırıları
-+ Açık kaynaklı istihbarat (OSINT) ve siber saldırganların kullandığı yaygın kaynaklar
-+ Teknik tarama yöntemleri
-+ Dünyada nelerin mümkün olduğunu ve yaşandığını anlamak için siber saldırılarla ilgili yüksek profilli vaka çalışmaları
-
-
-1. Tehdit aktörü grupları
-
-Siber güvenlik çalışanları, farklı tehdit aktörü gruplarından veya siber saldırgan gruplarından haberdar olmalıdırlar. Çeşitli gruplar vardır ve bu gruplar sebepler, kaynaklar ve teknikler açısından önemli farklılıklar gösterirler. Beş ana siber saldırgan grubunu inceleyip karşılaştıralım.
-![image](https://github.com/user-attachments/assets/247ceb0d-a76c-4a48-af53-e3c9b2388d2d)
-
-
-1_A. Grup 1: Script Kiddie
-
-İlk grup en az gelişmiş olan Script Kiddie'lerden oluşur. "Script Kiddie" ifadesi, genellikle temel bilgisayar korsanlığı araçları şeklindeki programları, arka planda ne olduğunu anlamadan kullanan kişiler için kullanılır. Ağ oluşturma ve programlamaya dair temel bir anlayışa sahip olsalar da teknik becerilerin yanı sıra sabır veya stratejik niyetten yoksundurlar.
-
-Script Kiddie'ler (ya da "script çocuğu"), genellikle siber saldırılar veya hack girişimleri gerçekleştiren, ancak teknik bilgi düzeyleri düşük olan bireylerdir. Çoğunlukla kendi yazdıkları kodlar yerine başkalarının geliştirdiği hazır araçları ve scriptleri kullanırlar. Amaçları genellikle dikkat çekmek, eğlenmek veya basit bir sistemi istismar etmektir.
-
-Özet;
-+ Pratikte bu demografi, genellikle forumlar, videolar veya deneyler yoluyla kendi kendini eğitmiş gençlerden veya genç yetişkinlerden oluşur.
-+ Çoğu kişi için bilgisayar korsanlığı çabalarının ana motivasyon kaynakları; bilgisayar korsanlığı topluluğunun gözünde ün ve statü kazanmak, eğlence veya intikamdır.
-+ Kaynak açısından Script Kiddie'ler, kullanıma hazır sızma testi araçlarına ve herkese açık yetkisiz erişim programlarına bel bağlarlar.
-+ Çoğu durumda mali olarak yeterince desteğe sahip değildirler. Genellikle yalnızca temel yetkili sunuculara erişim sağlama veya geçici/kullan-at hesaplar oluşturma gibi basit yöntemlerle sınırlı kalmaz; bazen aracı rolü üstlenerek daha karmaşık bilgi ve becerilere sahipmiş gibi davranmaya, hatta simsarlık yapmaya çalışabilirler.
-+ Savunma açısından kuruluşların, yama uygulama programlarının etkin olarak izlendiğinde emin olmaları gerekir. Kolay bir istismar açığı oluşursa, bir noktada bunun devreye alınması oldukça muhtemeldir. Savunmalar, başka bir hedefin daha kolay görünmesini sağlayacak şekilde olmalıdır, bu da yeterli bir caydırıcı olacaktır.
-
-Bir Scrip Kiddie'nin profili;
-|Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
-|---|---|---|---|
-|Kendi kendini eğitmiş kişiler, genelde gençler	|İtibar artırmak isterler veya eğlence için saldırırlar|Çok az finans desteğine sahiptirler, teknik uzmanlık veya yardımları azdır ya da hiç yoktur, başkalarının yazdığı ücretsiz araçları kullanabilirler|Yama uygulama programının etkin ve temel savunmaların güncel olmasını sağlayın|
- 
-
-1_B. Grup 2: Hacktivistler
-
-İkinci gruplar, hacktivistlerdir. Hacktivist, "hacker" ve "aktivist" kelimelerini birleştiren bir terimdir. Hacktivistler, siyasi veya ekonomik bir değişim arayışındadırlar ve buna ulaşmak için bilgisayar korsanlığını kullanırlar.
-
-Özet;
-+ Hacktivistlerin temel ayırt edici özelliği, ideolojik hedeflerle hareket etmeleridir.
-+ Hacktivist gruplarını oluşturan insanlar geniş bir yelpazeden gelirler. Script Kiddie grubunda olduğu gibi bu gruplar da kolay etkilenen amatörlerle doludur; ancak amaçlar oldukça tartışmalı bir konu üzerinde birleştiğinde, güvenlik topluluğundaki daha deneyimli üyeler de bunlara katılır.
-+ Hacktivist grupların motivasyonlarını, fazlasıyla değişen amaçları belirler. Genel olarak bu motivasyonlar, insanların inandıkları bir amacı desteklemeyi kapsar. Bu, Orta Doğu çatışmasında, siyasi faaliyetlerde vb. taraf olmak olabilir.
-+ Anonymous adlı bilgisayar korsanlığı topluluğu, bu gruba ilişkin en ünlü örnektir. Anonymous; çeşitli devletler, devlet kurumları ve makamları ile kuruluşlara yönelik siber saldırılarıyla bilinen uluslararası bir hacktivist grubudur.
-+ Hacktivistler, uygun ölçekte gerçekleştirildiğinde oldukça etkili olabilen bir dizi araç kullanırlar. Hizmet Engelleme (DoS) programları bu alandaki kayda değer bir örnektir.
-+ Tek bir Script Kiddie fazla tehdit oluşturmasa da, paralel saldırılar düzenleyen birkaç yüz tanesiyle ilgilenmek çok daha zor olabilir.
-+ Kuruluş olarak dirayetli olmak çok önemlidir. Bir kuruluş hassas bir alanda (örn. hayvanlar üzerinde test, siyasi amaçlar) faaliyet gösteriyorsa, bir noktada hacktivistlerden gelen uzun süreli bir saldırıya maruz kalması mümkündür. İyi savunmalara sahip olmak tüm saldırıları savuşturmaya yetmez, bu yüzden kuruluşlar uzun süreli bir saldırıya dayanmak için yöntemler geliştirmelidirler.
-
-Bir hacktivistin profili;
-|Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
-|---|---|---|---|
-|Gevşek koalisyonlar oluşturan azimli idealistler|Bir değişiklik yaratmak isterler|Çeşitli araçlarla uygun ölçekte hareket ederler ve en büyük özellikleri boyuttur|Savunma sistemlerinizin uzun süreli aksatıcı bir saldırıya dayanabileceğinden emin olun| 
-
-
-1_C. Grup 3: Suç çetesi
-
-Kolay para kazanmak mümkün olduğu sürece, suçlular toplum için her zaman bir sorun olacaktır. İnternetin icadı, suçlular için kurbanları eşi görülmemiş bir ölçek, uzaklık ve kolaylık dahilinde avlamaya yönelik yeni bir yöntemi beraberinde getirdi. Kendilerini tehlikeye atmak yerine, hevesli suçlular dünyanın öbür yanından virüslü e-postalar gönderebilir, bir kurbandan fidye alabilir ve geleneksel polislik yöntemlerinden kaçmak için paralarını kripto paraya çevirebilirler. Bu suçluları yakalamak son derece zordur ve uluslararası yasalardan dolayı, bir davayı kazanmak neredeyse imkansızdır. Ne yazık ki çoğu suçlu da bunların farkındadır. 
-
-Özet;
-+ Bu en hızlı büyüyen, dolayısıyla en geniş gruptur.
-+ Bu grup çeşitli faaliyetleri içerir. Çeteler; fidye yazılım saldırıları (kurban, kaynaklarına erişimini geri almak için ödeme yapmaya zorlanır), şantaj (büyük bir saldırı tehdidi sonucunda koruma parası alınabilir), geleneksel müşteri verilerini veya fikri mülkiyeti çalma gibi faaliyetlerde bulunabilirler.
-+ Siber tabanlı bir suçlu olmak, tam zamanlı ve potansiyel anlamda oldukça karlı bir tekliftir. Çeteler, birkaç kişiden yüzlerce üyesi olan çok uluslu gruplara kadar uzanabilir. Her çetede genelde uzmanlar vardır ve karanlık ağ üzerinden bilgi alışverişi yapabilirler. Dolayısıyla, suç çeteleri oldukça gelişmiştir ve iyi organize olurlar.
-+ Kaynak açısından, suç çeteleri genelde kendi kötü amaçlı yazılımlarını geliştirip devreye alırlar. Hatta bazı durumlarda, daha az teknik bilgiye sahip diğerlerine erişim kiralarlar. Tıpkı tüm yazılım satışlarında olduğu gibi, reklam yaparlar, değerlendirmeleri barındırırlar ve hatta teknik destekleri bile vardır. Suç çetelerinin, sunucular ve etki alanları gibi hatırı sayılır miktarda altyapı öğesine erişimleri vardır.
-+ Bir suç çetesinden korunmak için, kritik varlıklara yönelik etkili savunmalar olmalıdır. Bir çalışanın dizüstü bilgisayarında fidye yazılımının bulunması şirket için sıkıntılı bir durumken, bir üretim sunucusunda fidye yazılımı bulmak yıkıcı olabilir.
-+ Mali açıdan suçlular, en hızlı ve en kolay yoldan zengin olma oyununu benimserler.
-
-Bir suç çetesinin profili;
-|Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
-|---|---|---|---|
-|Ulusal ve uluslararası ekiplerden kişilerin bulunduğu gruplar|Mali motivasyonlarla hareket ederler|Karanlık web'den satın alınmış geniş araç ve ekipman yelpazesi|Kritik varlıklar ve yedekler etrafında koruma uygulamalarıyla birlikte tamamen eğitimli bir iş gücüne sahip olunması gerekir| 
-
-
-1_D. Grup 4: Ulus devlet bilgisayar korsanı ya da gelişmiş kalıcı tehdit (APT)
-
-Sonraki ve belki de haksız yere medyanın en çok dikkatini çeken grup, ulus devlet saldırganlarıdır. Dünya çapındaki çoğu askeri organizasyon, artık siber uzayı deniz, kara, hava ve uzayın yanında beşinci bir çatışma alanı olarak görmektedir. Çoğu ulus, sınırlarının ötesine büyük ve kapsamlı sonuçlar yaratacak şekilde güç yansıtabilme yetisini göstermiştir. 
-
-ÖZET;
-+ Ulus devlet bilgisayar korsanlarının rolü, ülkelerine stratejik bir avantaj kazandırmaktır. Bu, keşiften bilgi toplamaya (örn. geleneksel casusluk/sinyal istihbaratı), bilgi tahribinden manipülasyonuna kadar uzanabilir.
-+ Bu organizasyonların üyeleri iyi eğitimlidir ve çeşitli altyapılara sahiptirler. Tam zamanlı olarak ve genellikle alanlarında en üst düzeyde çalışırlar.
-+ Motivasyonları, genellikle siyasi ve stratejik hedeflerle büyük paralellik gösterir. Buna ilişkin yakın zamanda gerçekleşen bir örnek, 2016 ABD başkanlık seçimlerine yönelik Rus faaliyetleriydi. Amaç, seçime müdahale etmenin yanı sıra siyasi ve sosyal anlaşmazlıkları artırmaktı.
-+ Kaynak açısından, ulus devlet bilgisayar korsanları gelişmiş araştırmaya, özel altyapı ekiplerine ve devasa siyasi desteğe sahiptirler.
-+ Belirli ulus devlet bilgisayar korsanlarından korunma, kuruluşlar için çok büyük bir zorluktur. Bunu başarmak için, tamamen yetkin ve koordine güvenlik savunmaları gerekir.
-
-Bir ulus devlet bilgisayar korsanının profili;
-|Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
-|---|---|---|---|
-|Yüksek eğitimli uzmanlardır|Geniş çeşitlilikteki sorunlara ilişkin birden fazla yıla yayılan stratejik planları izlerler|Çok geniş bütçelere, son teknolojili araçlara ve gelişmiş araştırma olanaklarına sahiptirler|İnanılmaz derecede zordur; kuruluşun her yönüne ilişkin tamamen koordine savunmalar gerekir|
-
-
-1_E. Grup 5: Kötü niyetli köstebek 
-
-Muhtemelen en çok kaygı verici grup, kötü niyetli köstebeklerin oluşturduğu gruptur. Burada köstebek, kasten veya farklı bir şekilde kuruluş aleyhine hareket eden, kuruluşun içinden bir üyeyi ifade eder.
-
-ÖZET;
-+ Kötü niyetli köstebekler, bir kuruluşta olumsuz bir zihniyetle işe başlayabilir ya da bir süre sonra kinlenmiş hale gelebilirler.
-+ Motivasyonları fazlasıyla değişkendir ve en yaygın olarak mali çıkarlardan öfkeye kadar neredeyse her konuyu kapsayabilir. Bir diğer deyişle, kötü ün veya şöhret, tetikleyici etkenler olabilir.
-+ Köstebeğe dair yaygın bir örnek, başka birine sahip olduğu kurumsal hesaplara erişim vermesi için kendisine şantaj yapılan bir çalışan olabilir. Bir diğer yaygın örnek ise, kovulmadan önce kurumsal sırları çalan hoşnutsuz bir çalışandır. Belki de en ünlü köstebek saldırısı, ABD'den çok sayıda Ulusal Güvenlik Ajansı (NSA) dosyasını çalıp bunları WikiLeaks'e veren Edward Snowden olayıydı.
-+ Köstebekler saldırılarını gerçekleştirmek için genelde teknik becerilere bel bağlamazlar. Bazıları başkalarının erişimini elde etmek için sinsice gözetlese de veya sosyal mühendislik kullansa da, genelde kendi kurumsal erişimlerini ve izinlerini kullanırlar.
-+ Köstebeklere karşı savunmanın en iyi yolu; çalışanları güvenlik incelemesinden geçirme, etkin yönetim ve ardından teknik kontrollerden geçer. Teknik kontrollere başvurmak, çoğu şirket için sık sık bir "hapisten çıkış kartı" olarak görülür ve genellikle başarısız olur, çünkü ne de olsa sisteme fazlasıyla aşina kullanıcıları durdurmaya çalışıyorsunuzdur. Çoğu durumda, biri bir köstebek saldırısı gerçekleştirmeden önce birçok uyarı işareti söz konusudur. Örneğin bu uyarılar; yalnız çalışmak, küskünlük göstermek, iş kalitesi konusunda başarısız olmak veya açıklanmayan faaliyetlerde bulunmak şeklinde olabilir. Bu işaretleri yakalamak çok önemlidir.
-
-Kötü niyetli bir köstebeğin profili;
-|Kimdirler?|Amaçları Nedir?|Ne tür kaynaklara sahiptirler?	|Onlardan nasıl korunursunuz?|
-|---|---|---|---|
-|Kasten veya kazara kuruluşun kendi çıkarları aleyhine çalışan personel üyeleri|İntikam isterler ya da mali nedenleri vardır|Bütçe veya kaynağa gerek yoktur; kendilerine verilen erişim yetkilerini kullanırlar|Personeli dikkatle izleyin ve kuruluşunuzun kültürünün, sorunları önleme konusunda etkili olmasını sağlayın|
-
-
-***Dipnot:*** Bu siber saldırgan tipi tanımları her durumda açık ve net olmayabilir. Operasyonlarda hacktivistler Script Kiddie'leri, ulus devlet bilgisayar korsanları ise suç çetelerini işe alabilir. Ayrıca bazı siber saldırganlar, çalışmalarına olduğundan daha az gelişmiş görüntüsü verirler. Bu tür durumlar, tehditleri doğru tarafla ilişkilendirmeyi zorlaştırabilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-2. Saldırgan güvenlik araştırmacısı
-
-Kişisel amaçları olan veya genellikle yasa dışı motivasyonlarla tehdit edici amaç taşıyan beş siber saldırgan türü hakkında bilgi edindiniz.Ama aynı zamanda  saldırgan güvenlik araştırmacısı olarak değerlendirilen kişiler de var. Saldırgan bir güvenlik araştırmacısı suçlu veya kötüye kullanma amaçlı işlemden ziyade becerilerini iyi amaçlarla kullanmayı ve paraya dönüştürmeyi tercih eder. Adlarından sıklıkla "etik bilgisayar korsanları" olarak bahsedilir ve saldırıda bulunma yöntemleri bakımından gerçek bir bilgisayar korsanının yaklaşımını benimserler fakat müşterilerin ve tüketicilerin gerçek tehditlere daha iyi korunmaları için sistemleri test etme ve güçlendirme amacını taşırlar. 
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-3. Günümüzde siber güvenlik alanında çalışmak
-
-Burada, becerilerini dünya genelindeki kuruluşlara değerli ve genellikle yüksek ücretli tavsiye ve bilgiler sunmak için kullanan başlıca iki siber güvenlik uzmanından bahsettik.
-
-|Brian Krebs|Georgia Wiedman|
-|---|---|
-|Brian, siber suçları araştıran ünlü bir gazeteci. Kariyerine, 1995-2009 yılları arasında Security Fix bloğu için yazılar yazdığı ve siber güvenlik haberciliğinin sınırlarını zorladığı The Washington Post'ta muhabir olarak başladı. Bugün ise kendisi oldukça popüler bir blog olan Krebs on Security'nin sahibi ve CISO MAG tarafından 2019’un “Yılın Siber Güvenlik Kişisi” seçildi. ***İlginç bilgi:*** Brian'ın siber güvenliğe yönelik ilgisi, ev ağının tamamı Çinli bir bilgisayar korsanı grubu tarafından esir alınınca başladı.|Siber güvenlik alanında bir seri girişimci olan Georgia, sızma testi görevlisi, güvenlik araştırmacısı, konuşmacı, eğitmen ve yazar olarak çalıştı. Shevirah şirketinin kurucusu ve CTO'su olarak, akıllı telefonlarda yetkisiz erişim kazanmaya ve mobil cihaz güvenliğine yönelik çalışmalarıyla geniş bir takipçi kitlesi topladı. ***İlginç bilgi:*** Georgia aynı zamanda bir melek yatırımcı ve dünya çapında NSA, West Point ve Black Hat gibi yerlerde konuşmalar yaparak izleyicileri eğitti.|
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-## Siber saldırı tipleri
-
-Siber saldırganların bir sisteme girip yetkisiz erişim elde edebilecekleri birçok farklı yöntem bulunur. Genellikle saldırılar hiç de teknik değildir; bunlar daha çok insanların sistem ile hatalı ve savunmasız bir şekilde etkileşim kurmalarından yararlanır. Bu ders için yaygın siber saldırı tiplerini seçtik. Bu; kapsamlı bir liste yerine, size birkaç açıklayıcı örnek sağlamaya yönelik temsili bir listedir. 
-
-Günümüzde kuruluşları ve kişileri etkileyen çok sayıda siber saldırıdan birkaçı bu şekildeydi. Kuruluşlara yapılan DoS saldırılarının yaygın olarak haber olduğunu, kimlik avı saldırılarının en etkili halinin kişisel boyutta olduğunu ve kötü amaçlı yazılım saldırılarının sayısının artıp sürekli geliştiğini göreceksiniz.Şimdi bu örnekleri daha detaylı olarak inceleyelim.
-
-1. Hizmet Engelleme (DoS) saldırısı
-+ DoS saldırısı, sistemin tamamen veya kısmen kesintiye uğramasına yol açan bir saldırı tipidir.
-+ DoS saldırısı gerçekleştirmenin yolları, bir sistemin çökmesine neden olmaktan anormal seviyede yönlendirilmiş ağ trafiği yüzünden sistemi erişilemez veya işe devam edemez kılmaya kadar uzanabilir.
-
-
-***Bir örnek verelim;***
-Bir saldırgan, bir sunucunun aşırı yüklenmesine yol açacak şekilde kötü niyetli biçimlendirilmiş bir dosya gönderebilir. Bir XML dosyasının kendisine referans verip hatırı sayılır seviyede büyük bir dosya haline geldiği [Billion Laughs](https://en.wikipedia.org/wiki/Billion_laughs_attack) saldırısı buna bir örnektir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-2. Dağıtılmış Hizmet Engelleme (DDoS) saldırısı
-+ DDoS saldırısı, aynı anda birden fazla kaynaktan gelen bir DoS saldırısıdır.
-+ Bu tür saldırılarda kullanılan makineler toplu olarak “botnet” olarak bilinir ve bu makinelere saldırgan tarafından uzaktan kontrol edilmek üzere daha önceden kötü amaçlı yazılım bulaştırılmıştır.
-+ Araştırmalara göre, dünya çapında on milyonlarca bilgisayara botnet programı bulaşmış olabilir.
-
-
-***Bir örnek verelim;***
-Bir saldırgan, bir web sunucusuna çok kısa sürede çok sayıda sayfa isteği göndererek aşırı yüklenmesine yol açabilir. Benzer bir etki, kullanıcı taleplerindeki ani artışın sistemleri aşırı yüklediği bilet satış web sitelerinde de görülebilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-3. Kimlik avı saldırısı
-+ Kimlik avı saldırısı, kişisel bilgi elde etmek veya kullanıcıları bir şey yapma konusunda etkilemek amacıyla güvenilir kaynaklardan gelmiş gibi görünen mesajlar gönderilerek gerçekleştirilir.
-+ Sosyal mühendislikle teknik düzenbazlığı birleştirir.
-+ Şüphelenmeyen kullanıcılar e-postayı açıp korunan bilgileri sağlayabilir veya kötü amaçlı yazılımı karşıdan yükleyebilirler.
-
-
-***Bir örnek verelim;***
-Bir saldırgan, bir ek veya hedef bilgisayara kötü amaçlı yazılım yükleyen sahte bir web sitesi bağlantısını içeren bir e-posta gönderebilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-4. Hedefli kimlik avı saldırısı
-+ Hedefli kimlik avı saldırıları, kurbanın net olarak belirli olduğu bir aktivitedir.
-+ Saldırganlar, hedeflere yönelik araştırmaya vakit ayırırlar, kişisel ve ilgili olan, dolayısıyla daha etkili mesajlar hazırlarlar.
-
-
-***Bir örnek verelim;***
-Bir saldırgan, sosyal medyadan hedefteki kişinin detaylarını toplar ve bu kişiyi arayarak bir banka temsilcisi gibi davranır. Saldırgan, hesabın tehlikede olduğunu bildirir ve hedefteki kişiden parasını "güvenli" bir banka hesabına aktarmasını ister. Bu saldırı, saldırganın meşru gibi görünen bilgilerinden dolayı inandırıcıdır.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-5. Kötü Amaçlı Yazılım
-+ Kötü amaçlı yazılım, amacı bu yönde olan tüm yazılımlar için kullanılan bir terimdir. Bunlar, hedef alınan bir kullanıcının bilgilendirilmiş onayı olmadan bu kullanıcıya zarar verecek bir şekilde işlev görmesi için tasarlanmış yazılımlardır.
-+ Genellikle bir kullanıcı istemeden bir programı çalıştırdığında veya bir dosyayı karşıdan yüklediğinde tetiklenir.
-+ Aktifleştiğinde, kötü amaçlı yazılım verilere ve programlara erişimi engelleyebilir, bilgi çalabilir ve sistemleri kullanılamaz hale getirilebilir.
-
-
-***Bir örnek verelim;***
-Tuş kaydediciler/keylogger (bir kurbanın tuş vuruşlarını kaydeder) veya fidye amaçlı yazılımlar (bir fidye ödemesi talebiyle kurbanın dosyalarını esir alır) gibi örneklerde olduğu gibi, çeşitli kötü amaçlı yazılım tiplerinde işlevleriyle ilişkin örnekler görebilirsiniz.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-6. Oradaki Adam/Aradaki adam saldırısı (MitM - Man in the Middle) saldırısı
-+ MitM saldırısı, bilgisayar korsanlarının kendilerini bir istemci ve bir sunucu arasındaki iletişime yerleştirmesiyle gerçekleşir.
-+ Bu, bilgisayar korsanlarının her iki tarafça gönderilip alınan bilgileri görmelerini sağlar.
-
-
-***Bir örnek verelim;***
-Bir saldırgan, halka açık, popüler bir noktada "ücretsiz" bir kablosuz ağ erişim noktası kurabilir. Bu kablosuz ağa bağlanan herkesin iletişim öğeleri saldırgan tarafından incelenebilir; ardından saldırgan, kurbanları sahte giriş ekranlarına yönlendirebilir veya web sitelerine reklamlar yerleştirebilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-7. Etki alanı ad sistemi (DNS) saldırısı
-+ DNS, internette kullanılan temel protokollerden biridir.
-+ Temelde, DNS protokolü bir bilgisayarın bir alan adını bir IP adresine çözmesine olanak tanıyarak ulaşmasını istek atmasını sağlar. Örneğin; bir kullanıcının BMW'nin web sitesine hatırlaması zor bir IP adresi(178.656.xxx.xxx) yazmak yerine direkt "bmw.com" yazarak ulaşmasını sağlar.
-+ DNS neredeyse her yerde kullanılır. İnternetin temel protokollerinden biri olan DNS; DNS yanıltma paketi, etki alanı adı korsanlığı ve önbellek zehirleme gibi (birkaç örnek olarak) birçok saldırı vektörü tarafından hedef alınır.
-
-
-***Bir örnek verelim;***
-2016 yılında Dyn adlı bir şirket tarafından sağlanan DNS hizmetine saldırı düzenlendi. Bunun sonucunda ABD'de çok büyük kesintiler gerçekleşerek, milyonlarca Amerikalının internet hizmetlerine erişmesi veya bunları kullanması engellendi.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-8. SQL (yapılandırılmış sorgu dili) enjeksiyonu
-+ SQL, kullanıcıların veritabanlarını sorgulamalarına olanak tanır.
-+ SQL enjeksiyonu, kötü amaçlı kodların genellikle bir web sayfası girişi yoluyla SQL kuyruklarına yerleştirilmesidir. Başarılı bir saldırı, yaygın komutların çalıştırılmasına olanak tanır. Bu komutlar arasında veritabanının silinmesi bile olabilir!
-+ SQL enjeksiyonu, en yaygın web bilgisayar korsanlığı tekniklerinden biridir.
-
-
-***Bir örnek verelim;***
-Birleşik Krallık'ta iki genç, 2015 yılında TalkTalk'ın web sayfasını hedef alarak, uzaktan erişilebilir bir veritabanından binlerce müşteri kaydını çalmayı başardı.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-## Bir siber saldırının yapısı
-
-Bilgisayar sistemleri değiştikçe, bu sistemlerin tehlikeye atılma yolları da değişir. Örneğin bir siber saldırı, bir bilgisayarda belirli bir kötü amaçlı yazılıma karşı savunmasız olan eski bir web tarayıcısı sürümünün çalışmasına bel bağlayabilir. Yazılım güncellendiğinde, söz konusu saldırı aynı şekilde tekrarlanamaz. Ancak bireysel teknikler zamanla değişse de, tipik bir siber saldırının genel yapısı incelenebilir. Bu derste, temel bir anlayışa sahip olabilmeniz için bunun yıllar içerisinde yapılma şekillerinden bazılarını inceleyeceğiz.
-
-1. Lockheed Martin Cyber Kill Chain® çerçevesi tanıtımı
-
-Lockheed Martin Corporation, Amerikalı bir küresel hava-uzay, savunma, güvenlik ve gelişmiş teknoloji şirketidir. Lockheed Martin'deki araştırmacılar, tipik bir ABD askerlik kavramı olan "öldürme zinciri" ile dijital ağlardaki kesintiler arasında paralellikler olduğunu tespit ettiler. Burada "zincir" kelimesi, her adımın önceki adımın tamamlanmasına bağlı olduğu, sırayla tamamlanması gereken bir dizi adımı belirtmek için kullanılır. Tipik bir siber saldırı sırasını anlayabilmeniz için, Cyber Kill Chain çerçevesindeki yedi adıma bir göz atalım.
-![Lockheed Martin Cyber Kill Chain® çerçevesi tanıtımı](https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/photo/cyber/THE-CYBER-KILL-CHAIN-body.png.pc-adaptive.1280.medium.png)
-
-[Kaynak: Lockheed Martin, Cyber Kill Chain® çerçevesi](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
-
-***Adım 1: Keşif "Reconnaissance"***, Bu aşamada saldırgan, hedef hakkında bilgi toplar. Bu dijital sunucuları yoklamak, hedefe yakın kişilerle konuşmak ya da sadece haberleri okumak yoluyla gerçekleştirilebilir.
-
-***Adım 2: Silah haline getirme "Weaponization"***, Belirli bir güvenlik açığı tespit edildiğinde, bundan yararlanmak için kötü amaçlı bir yazılım tasarlanır. Bu süreç, bir veritabanı örneğinin karşıdan yüklenmesini, üçüncü bir taraftan bir aracın satın alınmasını veya özel bir şeyler geliştirilmesini kapsayabilir.
-
-***Adım 3: İletme "Delivery"***, Seçilen kötü amaçlı yazılımın, bir şekilde hedefe gönderilmesi gerekir. Yıllar içerisinde gerçekleşen ilerlemelere rağmen en yaygın yöntem hala e-postadır. Web sayfası indirmeleri ve virüsten etkinlenmiş ya da değiştirilmiş USB cihazları gibi başka yöntemler de olabilir.
-
-***Adım 4: Yararlanma "Exploitation"***, Kötü amaçlı yazılım hedefe gönderilir gönderilmez etkinleşir ve bir dizi belirli adımı yerine getirir. Bunun nasıl gerçekleştiği oldukça değişkendir ve kullanılan programlara ve işletim sistemlerine dair ayrıntılara dayanır. Bu süreç, "güvenlik açığından yararlanma" olarak bilinir ve bunu yapmak için kullanılan yazılıma istismar kodu (exploit code) ya da yararlanma aracı denir.
-
-***Adım 5: Kurulum "Installation"***, Kötü amaçlı yazılım, hedef sistemde bir kalıcılık unsuru bulmaya çalışır. Bu, yeni hesapların oluşturulmasını, uzaktan erişim programlarının kurulumunu ya da sisteme yeni güvenlik açıklarının getirilmesini içerebilecek arka kapıların oluşturulmasıyla başarılabilir. Bu faktörler, asıl güvenlik açığı güncellense bile, saldırganın erişimi devam edeceğinden savunan için artık çok geç olduğu anlamına gelir.
-
-***Adım 6: Komuta ve Kontrol (C2) "Command & Control (C2)"***, Saldırganın, gizliliği ihlal edilmiş sistemlerle iletişim kurmasına yönelik bir yöntem oluşturulmalıdır. Bu, hedefe talimatların ve yükseltmelerin gönderilmesine ve verilerin saldırgana geri gönderilmesine olanak sağlar. Bu işlem web siteleri, direkt bağlantılar ve hatta Twitter kullanılarak bile yapılabilir.
-
-***Adım 7: Hedefe Yönelik Eyleme Geçme "Actions on Objectives"***, Önceki adımların tümü tamamlandığında, saldırgan artık ilk niyetini gerçekleştirmekte özgürdür. Bu niyet veri çalmak, verileri değiştirmek veya temel sistem unsurlarını yok etmek olabilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-2. MITRE ATT&CK matrisi tanıtımı
-
-MITRE, daha güvenli bir dünya için sorunları çözmeye adanmış kar amacı gütmeyen bir Amerikan kuruluşudur. Siber tehdit paylaşımı ve siber direnç gibi bir dizi alanda yenilikçi fikirler ortaya koyar. MITRE, siber saldırganların kullandıkları taktikler, teknikler ve prosedürleri (TTP) bir araya getirerek ATT&CK'yi geliştirmiştir. Adversarial Tactics, Techniques, and Common Knowledge sözcüklerinin kısaltması olan bu terim "Attack" şeklinde telaffuz edilir. Bu toplanan bilgiler, kuruluşların siber saldırıları basitleştirilmiş bir şekilde incelemelerine yardımcı olmak için bir matris halinde sunulur. ATT&CK matrisi, tüm kişi ve kuruluşların ücretsiz olarak kullanımına açıktır.
-
-Aşağıdaki grafik, ATT&CK matrisinin bir parçasıdır. Oldukça kapsamlı olduğunu görebilirsiniz.
-
-![ATT&CK matrisinin bir parçası](https://github.com/user-attachments/assets/7f5d5e59-4ecc-45bc-b932-450c89caa387)
-
-
-Sütun başlıkları bir saldırgan taktiğini tanımlar. Her taktik bir saldırgan hedefi olarak görülebilir. Her sütunun altındaki listede, siber saldırganın taktiğe veya hedefe ulaşmak için kullanabileceği çok sayıdaki teknik belirtilir. Bunlar, ek bilgilere bağlanır.
-
-***Bir örnek verelim;***
-Bir siber saldırgan, bir sisteme kimlik bilgileriyle erişim elde etmek isteyebilir. Bu bir taktiktir. Bu senaryoda saldırgan, log kaydının zayıf olduğunu ve hesap kilidi kullanılmadığını belirlerse, Kaba Kuvvet tekniğini kullanabilir. Bu teknikte, başarılı bir kombinasyon belirlenene kadar milyonlarca kullanıcı ve parola kombinasyonunu deneyebilen bir program çalıştırılır. Seçilen teknik başarısız olursa, saldırgan başka bir yaklaşıma geçip denemeye devam edebilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-3. Siber saldırıların önemini anlamak
-
-Bir siber saldırı sırasında, saldırganlar oldukça ısrarcı olabilir. Saldırılarının bir kez engellenmesi, onları nadiren vazgeçmeye sevk eder. Bunun yerine, siber saldırıları uzun bir operasyonun bir parçası olarak görmek oldukça yararlı olabilir. Çoğu saldırı, saldırganların etkilerini yayması ve savunanların bunları belirleyip durdurmaya çalışmasıyla aylar sürebilir. İyi savunmacılar, saldırganın sonraki adımını öngörmeye çalışırlar ve MITRE ATT&CK matrisi gibi araçlar bunu başarmalarına yardımcı olabilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-## Siber suçun fonlanması ve karlılığı
-
-Bazı siber saldırganlar, aktivizm veya ulusal çıkarlarla motive olsalar da, siber suçların ana çıkış noktası karlılıktır. Bu konuda, siber suçluların para kazanma ve paralarını kullanma şekillerine ilişkin birkaç yöntemi inceleyeceğiz.
-
-1. Yeraltı ekosistemi
-
-Siber suç ekonomisi için hayati önem taşıyan ilk unsur; yüzlerce forum, platform ve sistemden oluşan ve sürekli gelişen uluslararası bir piyasadır. Bu piyasa ortamında, suçlular kar etmek amacıyla verileri, kimlikleri ve araçları alıp satarlar. Örneğin, kara para aklama yaygın bir ilgi alanıdır. Bir kurbandan para çaldıklarında siber suçlular, bu parayı kullanılabilir ve ideal olarak izlenemez kılmak için bir yönteme ihtiyaç duyarlar. Bunu, dış kaynak kullanımına benzer bir şekilde, üçüncü taraf bir uzman kullanarak yapabilirler.
-
-Geleneksel bir ekonomide olduğu gibi, uzmanlaşma verimliliği destekler ve suçluların en iyi yaptıkları işe odaklanmalarına olanak tanır.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-2. İlk nakit enjeksiyonu
-
-Bir piyasa oluştuğunda suçlular nasıl para elde ederler? Bunu başarmak için kullandıkları üç genel yöntem şu şekildedir:
-
-|Kurbandan çalma|Kiralık Suçlular|Kurbandan şantaj yoluyla alma|
-|--|--|--|
-|En doğrudan yöntem, suçluların hedef aldıkları kurbandan para çalmaya çalışmalarıdır. Bu bankacılık sistemlerine veya hesaplara sızılarak yapılabilse de, en yaygın yöntem dolandırıcılık veya hiledir.Bu sahtekarlıklar genellikle, bir kurbanın suçluya banka bilgilerini veya kişisel bilgilerini vermek gibi mali fayda sunmasını sağlamaya yönelik "teknik destek dolandırıcılığı" ya da diğer benzer hileler şeklindedir.|Suçlular bazen, yasa dışı şeyler yapmak üzere normal insanlara ve kuruluşlara hizmet verirler. Bu, genellikle bir hizmetin önemli kısımlarına aşırı yükleme yapmaya çalışan bir hizmet engelleme saldırısı (DoS) kullanılarak yapılır. Örneğin bir suçlu, bir kuruluşa veya kişiye bir rakibini devre dışı bırakmayı teklif edebilir. Bu modelde suçlu, kurbandan para almaz. Bunun yerine, parası kuruluş veya kişi tarafından ödenir. Buna bir diğer örnek de paralı askerlik stiliyle bilgisayarın kötü kullanımıdır. Rakibinin önemli bir fikri mülkiyetini çalmak veya veritabanlarını yok etmek için bir suçluyla anlaşan birini düşünün.|Bu modelde suçlu, temel sistemleri devre dışı bırakarak ya da hassas verileri deşifre etmekle tehdit ederek bir kurbanı savunmasız bırakır. Fidye yazılımlarının son yıllardaki yükselişiyle, bu yöntem popüler hale gelmiştir. Bir fidye yazılımı saldırısında, kurbanın önemli sistemleri ve dosyaları, kullanılamaz hale gelecek şekilde şifrelenir. Bir şifre çözme anahtarıyla sistemlerin ve dosyaların geri yüklenmesi karşılığında, kurbandan suçluya fidye ödemesi istenir. Utanç verici yönetici e-postaları veya müşteri veritabanları gibi kuruluş ya da müşteri verilerini ifşa etme tehdidi de diğer şantaj temalı yaklaşımlar arasındadır.|
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-3. Kripto para
-
-Son birkaç yılda, kripto para birimi adı verilen kriptografik olarak kontrol edilen para birimlerinde hızlı bir artış yaşandı. İlk kripto para olan Bitcoin, Blockchain adı verilen paylaşılan bir büyük deftere dayalı para alışverişi için yeni bir yöntemi ortaya koydu. Son yıllarda oluşturulan yeni para birimleri bu kavram üzerine inşa edildi.
-
-Devlet kontrolünün dışında anonim bir büyük defter kullanıldığında, ödemeler denetim altına alınması veya engellenmesi neredeyse imkansız olacak şekilde tasarlanır. Bu, kripto paraları kara para aklama veya diğer suç pazarı faaliyetleri için inanılmaz derece kullanışlı hale getirir.
-
-Kripto paraların yarattığı kayda değer bir sonuç da fidye yazılımlarındaki hızlı büyümedir. Bu iş modelinde kurban, saldırgana ödeme yapmak zorundadır. Bunun hediye kartları gibi para yerine geçen öğelerle yapıldığı ilk zamanlarda, süreç yavaştı ve güvenilir değildi. Kripto paraların kullanımıyla, artık kurbanların gizli ödemeler yapmaları kolaylaştı.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-4. Ekosistem iş üzerinde
-
-Tüm parasal unsurları bir araya getiren varsayımsal bir vaka çalışmasına bakalım. Bu senaryoda, yaşam döngüsü boyunca bir saldırı operasyonunu inceleyeceğiz. Paranın izini sürün!
-![image](https://github.com/user-attachments/assets/64cd5439-00c9-4ab1-b0c5-ba23a0315a05)
-
-***Adım 1: Kötü Amaçlı yazılımlar tasalanır***, Yolculuğun ilk aşaması bir suç çetesinin tuş vuruşlarını ve ekran resimlerini kaydeden bir kötü amaçlı yazılım üretmesini kapsıyor.
-
-***Adım 2: Birden fazla kurban hesabı çalınır***, Kötü amaçlı yazılımı üretenler başka bir taraftan bilinen e-posta adreslerinden oluşan bir liste satın alıyor ve kötü amaçlı yazılımı e-posta eki olarak gönderiyorlar. Burada amaç kötü amaçlı yazılımın kurbanların makinelerinde çalışması böylece bankacılık detayları ve diğer parolaların çalınabilmesi ve bilgilerin kötü amaçlı yazılımı üretenlere gönderilebilmesidir. Bu noktada onların işi bitmiştir. Parola ve banka giriş bilgilerinden oluşan bir liste, ellerine geçmiştir.
-
-***Adım 3: Para hesaplardan alınır***, Şimdi kötü amaçlı yazılımın üreticisi, "paraya çevirme" işini kendisi deneyebilir/yapabilir ya da çaldığı kişilerinin bilgilerini işlemi tamamlaması için başka bir çeteye satabilir.
-
-***Adım 4: Para kuryerleri parayı nakite çevirirler***, Suç çetesi kimlik bilgilerini kullanarak giriş yapmaya çalışabilir ve daha önceden birlikte çalıştıkları para kuryelerine transfer yapabilir. Bu senaryoda para kuryeleri genellikle, bir ödeme karşılığında hesaplarından para akışının geçmesini kabul etmiş olan saf ya da çaresiz kişilerdir.
-
-***Adım 5: Kripto fonlar ülke dışına çıkarılır***, İşlemi tamamlamak için suç çetesi kuryeleri kripto para alıp bu parayı çetenin kontrolündeki hesaplara aktarmaya zorlayabilir. Bu gerçekleşir gerçekleşmez, operasyon tamamlanmış olur. Emniyet yetkilileri suçu soruşturduklarında iz genellikle sadece parayı taşıyan kuryeye ulaşır.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-## Sosyal mühendislik
-
-Bu derste, güvenli sistemler oluşturmada insanların önemini öğreniyorsunuz. Çalışanlar veya müşteriler olsun, insanlar genellikle güvenlik ortamlarında yanlış yönetilirler. Onlara kafa karıştırıcı ya da çelişen tavsiyeler verilebilir, iyi uygulamaları izlemeleri engellenebilir veya sadece yorgun düşebilirler. Bunların hepsi, insanları olası bir siber saldırganın yararlanabileceği savunmasız bir konuma sokar. Bu derste, sosyal mühendisliği ve saldırganların kullandıkları teknikleri vurgulayacağız. Bir sistemi hack'lemek yerine kişileri nasıl hack'lediklerine bir bakalım!
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-1. Sosyal mühendislik nedir?
-
-Sosyal mühendislik, birine istediklerinizi yaptırma sanatıdır. Psikoloji, biyoloji ve hatta matematik gibi akademik alanlarla yoğun bir şekilde örtüşür!  
-
-Siber güvenlik bağlamında sosyal mühendislik, hile yoluyla manipüle edilerek kişilerin dolandırıcılık amacıyla kullanılabilecek gizli veya kişisel bilgileri ifşa etmeye yönlendirilmesidir. Temel olarak, bir kişi diğer bir kişiyi özel olan bir şeyden vazgeçmesi için nasıl kandırabilir? Sosyal mühendislik saldırıları, birini bir güvenlik hatası yapacak şekilde kandırmaya yönelik olarak sosyal etkileşimlerin kullanıldığı bir karanlık sanattır.
-
-Sosyal mühendislik taktikleri; yüz yüze, telefon üzerinden veya web siteleri, e-posta ya da sosyal medya üzerinden uygulanabilir.
-
-Bir saldırgan birine belirli bir şeyi yaptırdığında, hassas sistemlere erişim sağlayabilir, varlıkları çalabilir ya da daha karmaşık bir saldırı düzenleyebilir. İnsanları ikna etmeye veya kandırmaya odaklanan bu kavram güvenilmez gelebilir. Ancak sosyal mühendisliğin saldırganlar için ne kadar güçlü bir teknik olduğunu gösteren birçok vaka çalışması mevcuttur.
-
-
-***Bir örnek verelim;***
-Etkili sosyal mühendislik taktikleri, savunmasız kişilerin birikimlerinin dolandırıcılık ve güven kazanma hileleriyle ellerinden alınmasıyla sonuçlanabilir. Fiziksel binaları olan kuruluşlar için sosyal mühendislik, güvenli alanlara erişim elde etmek için kişileri yakın markaja almayı ya da yakından takip etmeyi de kapsar.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-2. Sosyal mühendislik neden işe yarıyor?
-
-Sosyal mühendislik işe yarar, çünkü insanlar mükemmel değildir. Buna ilişkin iki önemli unsur söz konusudur: Kararlarımız mantıksızdır ve karar verme mekanizmamız hatalıdır. Bunların her birine daha detaylı bakalım.
-
-2_A. Mantıksız davranış
-
-Hepimiz, uzun vadeli çıkarlarımıza katkı sağlamayan kararlar almak suretiyle mantıksız davranışlar gösterebiliriz. Herkes dikkatli ve mantıklı olsaydı hepimiz kusursuz olurduk. Örneğin kimse piyango bileti almazdı ve hepimiz her zaman sağlıklı beslenirdik. Gerçek ise bundan oldukça uzak.
-
-Sosyal mühendislikte, bir hedefi manipüle etmek için kısa süreli tatmin veya açgözlülüğe yönelik tetikleyiciler  kullanılabilir. Bu hedefler, kendilerini riske atarlar ve sıklıkla bilmeden suç işlerler.
-
-
-***Bir örnek verelim;***
-Bunun en iyi örneği, suçluların genç yetişkinleri çeteler için kara para aklayıcılar olarak hareket etmeye ikna etmeleridir. Ayrıca internet ortamında birçok farklı hızlı zengin olma projesi de mevcuttur. Bu durumda kurbanlar, yalan vaatlerle ***tuzağa düşürülürler.***
-
-Ayrıca aylaklığın sosyal mühendislik için mükemmel bir nitelik olduğu vakalar da mevcuttur. Kestirmeden gitme ve kurallardan kaçınma eğilimleri, bir hedef üzerinde sosyal mühendislik taktiği olarak kullanmak açısından oldukça etkilidir.
-
-
-***Bir örnek verelim;***
-Belirli kuruluşlarda çalışanlar, arayanların kimliklerini doğrulamak veya erişim hakları vermek için doğru seviyede onay almak gibi uzun iş süreçlerini atlayabilirler.
-
-
-2_B. Hatalı karar verme mekanizması
-
-İnsanların karar verme mekanizması, gün içerisinde fazlasıyla değişiklik gösterir ve değişen koşullara bağlıdır. Örneğin, bir odada görünen renkler, başka insanların varlığı, gürültü miktarı ve sıcaklık gibi etmenlerin tamamının insanlar üzerinde ölçülebilir, biyolojik etkileri söz konusudur ve bu etmenler karar alma süreçlerini değiştirir. Saldırganlar, sonuca ulaşmak için hedefin kararının etkilenmesinden yararlanırlar.
-
-
-***Bir örnek verelim;***
-Saldırganlar, bir aciliyet hissi yaratmak için zaman kısıtlamaları kullanırlar. Buna ek olarak, güvenilen bir otorite figürünün kimliğine bürünerek, hatta hoşlanılan bir kişi gibi davranarak bir hedefin kafasını karıştırabilirler. Saldırgan bir hedefle etkileşime girmek için yalandan bir neden oluşturduğunda bu taktiğe bahane üretmek denilebilir.
-
-
-Tüm bu etmenler, hedefin doğru karar alabilme, hatta manipüle edildiğinde en baştan fark edebilme yeteneğini etkiler.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-3. İyi bir sosyal mühendislik saldırısı nasıl olur?
-
-İyi bir sosyal mühendislik saldırısında genellikle birkaç ortak öğe bulunur.
-
-+ **İyi araştırılmış olur.** Bir sosyal mühendislik saldırısı, bir şirket üyesinin kimliğine bürünme girişiminde bulunuyorsa, bu durumda saldırganlar güvenilir görünmek adına şirket antetini, jargonunu veya biçimini kullanırlar. Tüm yöntemler herkes üzerinde eşit oranda etkili değildir. Siber saldırganlar en iyi tetikleyiciyi belirlemeye yönelik araştırma yaparlar.
-+ **Kendinden emin bir şekilde sunulur.** Birebir iletişimdeyken iyi sosyal mühendisler hazırlıklıdır, kendilerinden emindir ve hedeflere güven verirler. Saldırının ne zaman yapılacağı ve hedefle nasıl dostane bir ilişki kurulacağı önemlidir. Genellikle yüksek değere sahip bir sosyal mühendislik saldırısı, güvenilirlik yaratan bir dizi konuşma ve her konuşmada kısıtlamaların azaltılması üzerine kurulur. Bu noktada hızlı davranmak geri tepebilir ve siber saldırganların çaresizlik yüzünden açığa çıkmalarına neden olabilir.
-+ **Saldırı, mümkün ve gerçekçi görünür.** En iyi sosyal mühendislik saldırıları, genellikle kurbanın kandırıldığının farkında bile olmadığı saldırılardır.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-4. Sosyal mühendislikten nasıl korunabilirsiniz?
-
-Bu yaygın sosyal mühendislik saldırılarının farkında olmak ve bunlara karşı korunmak, hem kişiler hem de çalışanlar için önemlidir.
-
-Kimseye güvenmemenin dışında, sizin gibi kişileri kandırmak için tasarlanmış sosyal mühendislik saldırılarından korunmanın basit bir kuralı vardır. Özetle, altın kural şudur: Bir şey gerçek olmayacak kadar iyi görünüyorsa muhtemelen değildir. Bu nedenle, hiç beklenmedik bir şekilde başınıza talih kuşu konduysa, bir iş teklifi aldıysanız ya da girmediğiniz bir yarışmadan ödül kazandıysanız dikkatli olun, sorular sorun ve sunulan avantajın gözünüzü karartmasına izin vermeyin.
-
-Ayrıca, olağan dışı taleplerde bulunan ve birden ortaya çıkan kişilere meydan okumaktan korkmayın. İyi tanımadığınız bir iş arkadaşınız garip bir talepte bulunursa ve birilerinin kısıtlı bir alanda gezindiğini görürseniz ayrıntı sorabilir veya uygun şekilde şüphelerinizi rapor edebilirsiniz. Birisi sırf merkez ofisteki bir üst yönetici tarafından gönderildiğini ve acelesi olduğunu, sizi geçip binaya girmesi gerektiğini söylediğinde kontrol etme konusunda tereddüt yaşayabilirsiniz. Genellikle doğrulamanın maliyeti, bir dolandırıcının ofisinize girmesine izin vermekten çok daha düşüktür!
-
-
-4_A. Kimlik avına karşı dikkatli olun
-
-Oldukça yaygın olan kimlik avı e-posta saldırılarına özellikle değinmek gerekir; burada kişisel ya da işle alakalı kimlik avı e-postalarını saptamanıza yardımcı olacak birkaç ipucu bulabilirsiniz.
-
-+ E-postayı bekleyip beklemediğinizi düşünün. Bu göndericinin sizinle iletişim kurmayı seçmesi mantıklı geliyor mu? Doğru olamayacak kadar iyi mi ya da size hızlı hareket etmeniz konusunda baskı yapıyor mu?
-+ Gönderenin e-postasını her zaman kontrol edin. Tanıdığınız birinden veya bir şirketten mi geliyor?
-+ Selamlama kısmına bakın. Adınız yerine size "Sevgili üyemiz" şeklinde genel bir selamlama ile mi hitap ediyor?
-+ E-postadaki dilbilgisi veya yazım hatalarına bakın. Kötü bir dilbilgisiyle mi yazılmış ya da birçok yazım hatası var mı?
-+ E-postada ne istendiğini belirleyin. Sahte veya "düzmece" bir web sitesini ziyaret etmenizi mi istiyor? Sahte bir müşteri hizmetleri numarasını aramanızı mı? İstemediğiniz ekleri açmanızı mı?
-+ Genellikle kimlik avı e-postalarının bir parçası olan sahte bir istekle ilgili tehlike işaretlerine (örn. banka bilgilerinizin veya parolanızın istenmesi) bakın. İkinci olarak, işaret ettiği URL'yi doğrulamadan bir bağlantıya tıklamayın.
-   + URL gizli olmayan bir bağlantı içeriyor mu? Güvenli bir bağlantı olup olmadığını anlamak için URL'nin "https" ile başlayıp başlamadığını kontrol edin.
-   + URL sizi tamamen farklı bir web sitesine mi yönlendiriyor? Bazı URL'ler gerçek olanlar gibi görünmeye çalışır; örneğin şu sahte PayPal URL'sinde olduğu gibi: www.paypall.accountlogin.com/signin. "PayPal" kelimesinin yanlış yazıldığına dikkat edin.
-
-**Önemli Not!** 
-Kimlik avı içerdiğini düşündüğünüz bir e-posta alırsanız, hiçbir şekilde yanıtlamayın, hiçbir bağlantıya tıklamayın ya da hiçbir eki açmayın. Çoğu e-posta hizmetinde, bir e-postayı istenmeyen e-posta olarak bildirmeniz için bir yöntemi bulunur.
-
-Şüpheniz varsa, göndericiyle daha önceden kaydedilmiş bir telefon numarası gibi güvenilir bir kanal yoluyla iletişime geçebilir ya da kayıtlarınızdan hizmet web adresine erişebilirsiniz.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-5. Aktivite
-
-Basit bir aktivite yapalım. Dedektif şapkanızı takın ve Facebook'tan bu e-postayı aldığınızı varsayın. E-postayı okumak ve incelemek için biraz zaman ayırın. Bunun bir kimlik avı e-postası olduğuna dair ne tür işaretler görüyorsunuz?
-
-![image](https://github.com/user-attachments/assets/618baa2f-d725-42ed-9efd-33ae77eac51e)
-
-
-5_A. Hazır olduğunuzda bu e-postadaki göstergeleri ortaya çıkarmak için buraya tıklayın.
-
-Bunun sizden bilgi almaya çalışan bir kimlik avı e-postası olduğunu gösteren üç işaret var.
-
-+ Kişisel hesap adınızı kullanmıyor.
-+ Olağan dışı bir talepte bulunuyor.
-+ Sağlanan bağlantı tamamen yanlış. "Facebook" kelimesinin nasıl yanlış yazıldığına dikkat edin; facebo0k.com bilinen ve rapor edilmiş bir kimlik avı URL'sidir.
-
-![image](https://github.com/user-attachments/assets/3433f40a-ea4d-44f1-bcdc-14c3fdf42cb4)
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-## Açık kaynak istihbaratı
-
-OSINT (Open Source Intelligence) olarak da kısaltılan Açık Kaynak İstihbaratı, son on yılda hem devlet faaliyetlerinde hem de özel sektörde büyük bir ilgi alanı haline geldi. "Açık" ifadesi; açık ağ, bloglar ve web siteleri gibi kamuya açık bilgileri kullanılan istihbarat operasyonlarını ifade eder. OSINT; bilgisayar korsanlığı, dinleme cihazları vb. gibi aktif veri toplama yöntemleri olmadan kolayca toplanan bilgilerden oluşur. Bu derste, OSINT'in avantajlarını, kaynakları, kuruluşlar ve kişiler için bazı endişe konularını inceleyeceğiz. Saldırganların hedeflenen bir kuruluş ya da kişi hakkında nasıl bilgi topladıklarını daha iyi anlayacaksınız.
-
-Açık kaynaklı araştırmalar; gazeteciler, araştırmacılar ve kötü niyetli saldırganlar tarafından yürütülebilir. Bu noktada biz, keşif aşamasından sonra daha büyük bir saldırının bir parçası olarak bu yaklaşımları kullanan saldırganlara odaklanacağız.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-1. OSINT'in alternatif seçeneklerle karşılaştırılması
-
-Telefonları dinlemek, uydu görüntüleri ve işaret istihbarat dinlemeleri gibi geleneksel bilgi toplama şekilleri fazlasıyla pahalı, karmaşık ve genellikle yasa dışı olmaya meyillidir. Buna kıyasla açık bilgilerin kullanımı **esas itibarıyla ücretsiz** ve **edinilmesi oldukça kolay** olabilir.
-
-
-***Bir örnek verelim;***
-Bir gazeteci, bir siyasi parti üyesinin belirli bir zamanda nerede olduğunu öğrenmek isterse ne yapar? Bir taraftan, kişinin cep telefonuna kötü amaçlı yazılım yerleştirerek GPS koordinatlarını yasa dışı olarak almaya çalışabilir. Öte yandan, kişinin Twitter hesabını takibe almak çok daha kolay bir yol olabilir. Politikacının yardımcılarının yer etiketli bir mesaj ya da tanınan bir kent simgesinin olduğu bir fotoğraf paylaşması yeterli olacaktır; böylece gazeteci istediği yanıtı almış olur. Bu örnek basit görünse de, ordu birlikleri tarafından yabancı ülkelerdeki karşı birlikleri izlemek için aynı teknikler kullanılmıştır.
-
-
-Açık kaynak istihbaratının bir başka avantajı, büyük bir kısmının hedef tarafından tespit edilemez olmasıdır. 
-
-***Bir örnek verelim;***
-Bir saldırgan, bir güç istasyonundaki kontrol sistemleri hakkında bilgi edinmek isterse ne yapar? Santralin dış ağını taramaya çalışırsa saldırgan tespit edilebilir ve altyapısının gizliliği tehlikeye girebilir. Buna alternatif olarak saldırgan, hassas planları internet ortamında tartışan bir sistem mühendisi bulursa blog platformunun erişim kayıtları olsa bile, şirketin kaydı olmayacaktır.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-2. Açık bilgi kaynakları
-
-Bir kuruluş ya da kişi hakkında temel bilgi avına çıkmak üzere olan bir saldırgan işe nereden başlar? İşte size açıklayıcı örnekler sağlayacak birkaç yaygın kaynak. Çok daha fazla olası kaynak var ve her an yeni kaynaklar keşfediliyor.
-
-
-2_A. Şirket web sitesi
-+ Çok bariz gibi gözükse de, bir şirketin web sitesi, kamunun kullanımına sunmayı seçtiği bilgiler açısından açıklayıcı olabilir.
-+ İletişim sorumluları, harici sosyal medya profilleri, bina adresleri vb. gibi yararlı bilgileri ortaya koyabilir.
-+ Şirketler, kamuya sundukları bilgiler konusunda hata yapabilirler, bu da kamuya açık alana şirketin istediğinden daha detaylı bilgilerin yerleştirilebileceği anlamına gelir.
-+ Daha ileri düzey bilgileri ve istenmeden ortaya çıkarılmış dosyaları bulmak amacıyla genellikle "[Google korsanlığı](https://www.linkedin.com/posts/bekogluaydin_google-dork-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r-activity-7192761963825795072-Ugp-/?originalSubdomain=tr)" adı verilen gelişmiş arama özellikleriyle aramalar zenginleştirilebilir.
-+ Bir şirketin eski web sitesini almaya yönelik, örneğin Wayback Machine kullanımı gibi bazı seçenekler de vardır. Bu, saldırganların belli zamanlarda bir web sitesinin ne amaçla kullanıldığını saptayabilmelerine yönelik güçlü bir araç olabilir.
-
-
-2_B. Medya ve haberler
-+ Birisi işin zor kısmını çoktan yaptıysa neden yeniden çaba harcayasınız? Açık bilgiyi işleme konusunda bir hayli becerikli gazeteciler vardır.
-+ Saldırganların aradıklarını tam anlamıyla bulmaları pek muhtemel olmasa da, bazı makaleler ek araştırmalar için yardımcı olabilir.
-+ Sektör analistleri, derecelendirme kuruluşları ve diğer değerlendirme kurumları, önceden işlenmiş veya temel bilgi kaynaklarından bazılarıdır.
-
-
-2_C. Sosyal medya
-+ Sosyal medya çağında insanlar, bilgi paylaşmaktan ve geniş ölçüde kullanıma açmaktan mutlu oluyorlar.
-+ Sosyal medya bilgileri, kişilerin özel ve iş hayatları hakkında doğru bir perspektif elde etmek için oldukça etkili bir şekilde bir araya getirilebilir. Örneğin, çalışanların kimlik kartlarını, ağ şemalarını, hatta parolaların yazılı olduğu not kağıtlarını paylaştıkları bilinmektedir.
-+ Siber saldırganlar için çok küçük bilgiler bile bir sosyal mühendislik saldırısına güvenilirlik katabilir.
-  + Örneğin bir saldırgan, hedefin yakın zamanda bir konferansa katıldığını öğrenirse, katılımcı listesinde bulduğu bir ismi kullanarak hedefli kimlik avı saldırısı başlatıp "görüşmeye devam etmeyi" isteyebilir.
-
-
-2_D. Resmi ya da kamuya açık kayıtlar
-+ Dünyadaki çoğu ülke, hem vatandaşlara hem de şirketlere ilişkin detaylı kayıtlar tutar. Bu bilgi kaynakları, siber saldırganlar için oldukça değerli olabilir.
-  + Örneğin hastane kayıtları, bir kişinin doğum tarihini ve yerini belirtirken, seçmen kağıdı birinin adresini belirtebilir. Bu tür bilgilerin erişilebilirliği, bu bilgilerin neden başka güvenlik önlemi olmadan bir güvenlik sürecinin parçasını oluşturmaması gerektiğine dair soruların net cevabıdır.
-+ Şirketler için, hisse senedi alışverişlerinde belirli bir miktarda mali bilginin kullanılabilir kılınması gerekir.
-  + Örneğin, Birleşik Krallık'taki şirketlerin faaliyet gösterebilmeleri için [Şirket Kayıt Ofisine](https://www.gov.uk/government/organisations/companies-house) bilgi vermeleri gerekir. Tüm bu bilgiler bir siber saldırganın ilgisini çekebilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-3. Açık bilgi toplamaya yönelik iyi kurallar
-
-Açık bilgi kullanarak bir araştırma yapıyorsanız şu basit yönergeleri izleyebilirsiniz. Daha da deneyim kazandıkça, ek ipuçları ve numaralar öğreneceksiniz; ancak bunlar şimdilik iyi bir başlangıç noktası olacaktır.
-
-
-3_A. ***Bol bol bilgi toplayın:*** Miktar değerlidir
-+ Ne kadar çok bilgi, o kadar iyi.
-+ Veri kümeleri arasındaki bağlantıları arayan analist araçları, daha fazla bilgiyle daha iyi çalışır.
-+ ***Unutmayın:*** Anahtar bilginin ne olacağını asla bilemezsiniz, bu nedenle ayrıştırmadan önce en başta her şeyi kaydedin.
-
-
-3_B. ***Bir aralık belirleyin:*** Farklı perspektiflerden bir resim oluşturun
-+ Tek bir kaynağa bel bağlamayın.
-+ İnternetteki her şey doğru değildir! Genellikle tek bir kaynak (örn. birçok etkileyici fotoğrafın olduğu bir sosyal medya profili) üzerinde değişiklik yapmak kolaydır, ancak birden fazla kaynağın değiştirilmesini yönetmek çok daha zordur.
-+ ***Unutmayın:*** Bir hedefin bilgi sildiğini veya gizlemeye çalıştığını fark ederseniz, bu ilgi çekici bir durum olabilir.
-
-
-3_C. ***Takılıp kalmayın:*** Başarısız olmaya hazır olun ve hüsrana uğramayın 
-+ Açık kaynak istihbaratı çok güçlü olsa da birçok çıkmaz sokak bulunur ve bir hedefin paylaşmayı seçtiği şeyler konusunda şans da bir faktördür.
-+ Farklı bir yaklaşıma geçmeniz veya yeni bir alanı keşfetmeniz gerekebilir.
-+ ***Unutmayın:*** Eğitimli araştırmacılardan oluşan ekiplerin yaptığı başarılı araştırmaların tamamlanması haftalar sürebilir.
-
-**Dipnot:** Bir araştırma sırasında açık bilginin elde edilemediği birçok durum olacaktır. Örneğin iyi bir operasyonel güvenlikten dolayı, bazı kuruluş ya da kişilerin diğerlerine kıyasla çok fazla kamuya açık bilgisi olmayabilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-4. Açık kaynak istihbaratı neden herkes için bir ilgi alanıdır?
-
-Sık sık fazla bilgi paylaşımı gerçekleşen, son derece bağlantılı bir dünyada yaşıyoruz. Herkesin, internette paylaştığı bir şeyin fiilen kalıcı olduğunu anlaması gerekir.,
-
-Önemsiz bilgi parçaları bile dışarıdan birilerinin ilgisini çekecek şekilde birleştirilebilir. Bu işleme **bilgi birleştirme (information aggregation)** adı verilir. Bir kişinin iş yeri, gidiş geliş bilgileri ve genel akşam planları tek başına tehlikesiz olsa da, bir araya geldiğinde birinin hayatı hakkında detaylı bilgi edinmek üzere kullanılabilir.
-
-
-***Bir örnek verelim;***
-Bu, örneğin 100 çalışanın her birinin %1'lik hassas bilgi parçasını açıklayabileceği bir kuruluşta sorun yaratacaktır. Bu açıklamalar dışarıdan bir kişi tarafından birleştirilirse önemli atılımlar veya ek keşiflere ulaşılabilir.
-
-
-Siber saldırganların kullandığı OSINT teknikleri, kuruluşlar açısından bilgi yönetimi politikalarını tasarlama aşamasında önemlidir. Burada ana fikir, bilgi sızıntısının kuruluşlar açısından kötü olmasıdır. Kuruluşların, istenmeden ifşa edilip toplanmaya açık hale gelen bilginin mümkün olduğunca az olması için gerekli önlemleri almaları gerekir. Bilgilerin kamuya açık kılınması genelde zorunlu olduğundan, paylaşılan bilginin kapsamı kaydedilip anlaşılmalıdır.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-5. Aktivite
-
-Açık kaynak istihbaratına başlangıç yapmanın en iyi yollarından biri deneme yanılmadır. İnternette kendiniz hakkında araştırma yapmayı deneyin! Hakkınızda birileri ne tür açık kaynak istihbaratı bulabilir?
-
-+ Birkaç dakikanızı ayırarak Google, sosyal medya siteleri ve benzeri sayfalara erişmek için yeni tarayıcı pencereleri açıp adınızı aratın.
-  +  Daha önceki aktivitelerinize dayalı olarak aynı sitelere yönlendirilmemek için, mümkünse çerez veya geçmiş bilgileri olmayan yeni bir web tarayıcısı kullanın. Bunu yeni, özel veya gizli moddaki internet tarayıcısı pencerelerini kullanılarak yapabilirsiniz.
-+ Birisi adresinizi, iş yerinizi veya başka kişisel bilgilerinizi bulabilir mi? Sosyal medya hesaplarınız ne kadar gizli?
-+ Bunu yaptıktan sonra, bir arkadaşınızdan veya aile üyesinden süreci tekrarlamasını isteyerek, sizin bulamadığınız neleri bulduklarını ve ne tür yaklaşımlar kullandıklarını görebilirsiniz.
-
-Çıkardığınız sonuç ne olabilir? Fazla bilgi paylaşmaya gerek yok. Bunun farkında olmanız önemli.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-## Teknik tarama
-
-Teknik tarama yöntemleri, kuruluşlarda ağ yönetimi ve analizinin vazgeçilmez bir parçasıdır. Burada dikkatimizi, saldırganların bilgisayarlar ve ağlar hakkında nasıl bilgi topladıklarına çevireceğiz. Bir ağdaki hedef alınan bir makineyi araştırırken, bir saldırgan teknik yapılandırma hakkında daha fazla bilgi edinmek isteyebilir. Buna şu tür detaylar dahil olabilir:
-+ Makinede hangi hizmetler çalışıyor?
-+ Hangi işletim sistemi kullanılıyor?
-+ Hizmetlerden herhangi biri bilinen yetkisiz erişim yöntemlerine karşı savunmasız mı?
-
-Bu derste, teknik tarama yöntemleriyle tanışacak ve saldırganların bunları ne için kullandıklarını öğreneceksiniz. Taramanın, bir saldırının keşif aşamasında dışarıdan kötü niyetli bir kişi tarafından nasıl kullanılabileceğine odaklanacağız.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-1. Ping testi nedir, nasıl kullanılır?
-
-Ping testinde, bir tarama makinesi, hedef makinenin IP (İnternet Protokolü) adresine bir ICMP (İnternet Denetimi Mesajı Protokolü) paketi gönderir. Bu dışarıdan gelen pakete, yankı isteği paketi denir. Paket, bir kartpostalın dijital versiyonuna benzer şekilde, küçük bir miktarda biçimlendirilmiş veriden oluşur. Hedef makine bir yankı yanıtı paketi ile yanıt verirse, tarayan makine hedef makinenin büyük ihtimalle etkin ve açık olduğunu bilir.
-
-Bu grafikte, bir telefonun yerel ağındaki iki IP adresine "ping" komutu göndermesi ve yanıt beklemesi gösterilir.
-![image](https://github.com/user-attachments/assets/09e0ae3b-a2fd-4a81-bd3a-8fad347c148b)
-
-
-1_A. Ne tür bilgiler sağlar?
-
-Bu basit bir testtir. Genelde kuruluşlar tarafından ağ sorunlarında hata ayıklamak için kullanılır. Bir makinenin durumunu tespit eder. Ayrıca bir paketin "yaşam süresi" (TTL) olarak bilinen özelliği kullanarak, makinenin ağın ne kadar "uzağında" olduğuna ilişkin bir gösterge sağlar. Paketi ileriye taşıyan her yönlendirici, yaşama süresini bir azaltır.
-
-
-***Bir örnek verelim;***
-Bir paketin yaşam süresi 120 ise ve paket hedef ulaştığında kalan yaşam süresi 108 olursa 12 aşamadan geçmiş demektir. Bu özellik, bir sonraki taramada kullanılabilir. Bir ping testi, Windows makinelerinde ‘ping hedef_adı’ komutu kullanılarak başlatılabilir.
-
-
-Ping testi, saldırganlara ve savunanlara makinenin yanıt verip vermediğini ve bir süpürme (sweep) işleminde tekrarlandığında, ağda kaç cihaz olduğunu söyler.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-2. İz yolu nedir, ne işe yarar, nasıl kullanılır?
-
-İki bilgisayar arasındaki iz yolu (traceroute), artan veya azalan "yaşam süresine" (TTL) sahip paketler gönderilerek hesaplanabilir. Bir paket hareket halindeyse ve "yaşam süresi" sıfıra indiyse, paketi işleyen makine, kaynak noktasına hedefe ulaşılamadığını belirten bir hata mesajı gönderir.
-
-Bu grafikte, kendisi ile hedef adres arasındaki bağlantıyı ayrıntılarıyla gösteren bir cihaz yer alır. Fiziksel olarak bu süreç, her seferinde sayısı artacak şekilde bir gölde taş kaydırmaya benzer.
-
-![image](https://github.com/user-attachments/assets/fa2c1e15-f40f-48bd-a278-2a3898ad84bb)
-
-2_A. Ne tür bilgiler sağlar?
-
-Bu davranış, bir ağı ayrıntılarıyla göstermek ve sizinle varış yeriniz arasında kaç anahtar ve yönlendirici olduğunu belirlemek için kullanılabilir.
-
-
-***Bir örnek verelim;***
-Bir hedefin 12 atlama ileride olduğunu hayal edin. "Yaşam süresi" 11 olan bir paket hedefe doğru gönderilirse son yönlendirme aşamasında başarısız olacaktır. Tarayıcıya bir hata mesajı paketi gönderilecek, ancak bu mesaj, 11 adım uzaktaki yönlendiricinin IP adresini ortaya çıkaracaktır. "Yaşam süresi" birkaç yeni test sonrasında bire düşürüldüğünde, tarayıcı ile hedef arasındaki ağ düğümlerinin tam bir listesi oluşturulabilir. Windows cihazlarında 'tracert target_name’ komutunu kullanarak bir iz yolu başlatılabilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-3. Bağlantı noktası taraması
-
-
-Ağ oluşturmada, uygulamalar, dijital bağlantı noktalarında hizmet reklamı yaparak kendilerini erişilir kılarlar. Bunu, bir binanın katları olarak hayal edebilirsiniz. IP adresi binayı, katların her biri de farklı bir bağlantı noktası numarasını gösterir.
-
-Çoğu bağlantı noktası tarama işlemi, hedef makine üzerindeki belirli sayıda bağlantı noktası ile bir bağlantı açma girişiminde bulunma fikrine dayalıdır. Bağlantı noktası bir bağlantıyı kabul etmeye başlarsa, bu bulgu tarayıcı cihaz tarafından not edilir ve bağlantı reddedilir. Bağlantıyı kabul eden bir bağlantı noktası, "açık" olarak tanımlanır.
-
-Bu grafikte, bir makinenin bağlantı noktalarının her birinde hizmetin kullanılabilir olup olmadığını görmek için sistematik bir şekilde bağlantı noktalarını test edişi gösterilir. Dört girişimden sonra, tarayıcı dört bağlantı noktasının bağlantıyı reddettiğini ve bunları "kapalı" olarak tanımlanacağını belirler.
-
-![image](https://github.com/user-attachments/assets/b52709bc-7c1a-4fbe-b8f8-7b88f729f53f)
-
-
-3_A. Ne tür bilgiler sağlar?
-
-Bir hedef cihaz üzerindeki "bilinen" bağlantı noktalarının listesi üzerinde çalışarak bir tarayıcı, makinenin ne için kullanıldığını anlayabilir. TCP (İletim Denetimi Protokolü) dahilinde, ilk 1.024'ü "bilinen" bağlantı noktaları olan toplamda 65.536 bağlantı noktası bulunur. "Bilinen" ya da "sistem" bağlantı noktası, uluslararası olarak kabul edilen ve kendisiyle ilişkilendirilmiş belirli bir uygulamaya sahiptir. Network Mapper (Nmap) gibi yaygın bir tarayıcı, tipik olarak belirli bir protokol için en yaygın 1.000 bağlantı noktasını tarar. Bu, "bilinen" bazı bağlantı noktalarını içerir; geriye kalanlar ise daha yüksek sayılı, kullanıcıyla ilgili bağlantı noktaları (1.024 - 49.151) olacaktır.
-
-
-***Bir örnek verelim;***
-TCP bağlantı noktası 80, genellikle http uygulamaları ya da web sunucuları için ayrılır. Bu bağlantı noktasının bir hedef makinede "açık" olması, bir araştırmacının ilgisini çekebilir, çünkü bu, web tabanlı bir uygulamanın kullanımda olabileceğini gösterir.
-
-
-
-3_B.  Network Mapper (Nmap)
-
-Tarama konusunu araştırmak ve üzerinde daha fazla zaman geçirmek isterseniz, [Network Mapper (Nmap)](https://nmap.org/) adındaki popüler bir bağlantı noktası tarama sitesini keşfedebilirsiniz. Site, ücretsiz ve açık kaynaklı bir ağ tarayıcısıdır. Giriş, Referans Kılavuz bölümlerini ya da diğer çevrimiçi materyalleri keşfetmeye başlayabilirsiniz.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-4. Ağ güvenlik açığı taraması
-
-Güvenlik açığı taraması, bir başka test biçimidir. İki ana yöntem vardır:
-+ Güvenlik açığından yararlanmak, hedef sistemde var olup olmadığını belirlemek için belirli eylemler gerçekleştirilir. Bu gerçek zamanlı olarak yapıldığında genellikle dinamik tarama olarak bilinir.
-+ Bir yazılımın sürüm numaraları (örn. bir Apache veya MySQL sürümü), bilinen uygulama güvenlik açığı bilgilerini içeren bir veritabanıyla karşılaştırılır.
-
-**Önemli Dipnot:** Dinamik taramanın, bazı ülkelerde yasa dışı olan eylemleri otomatik olarak gerçekleştirebileceğini unutmayın. Yalnızca sahibinden izin aldığınız hedefleri taramanız gerekir. Bir ağda gerçekleştirilen güvenlik açığı taraması genellikle bir saldırının planlama aşaması olarak yorumlanır.
-
-
-4_A. Ne tür bilgiler sağlar?
-
-Ağ güvenlik açığı taraması, hem kuruluşların kendi ağlarındaki güvenlik açıklarını belirlemeleri hem de saldırganların potansiyel kurbanları bulmaları açısından güçlü bir araçtır. Bazı kuruluşlar, ortaya çıkan hataları belirleyip gidermek için bu tür taramaları düzenli olarak gerçekleştirirler.
-
-
-***Bir örnek verelim;***
-Bir tarayıcı, bir sunucuya bağlanma girişiminde bulunarak bir uygulamanın eski bir sürümünü kullanıp kullanmadığını kontrol edebilir. Uygulama güncel değilse ve bilinen bir güvenlik açığına sahipse tarayıcı, varlığını teyit etmek için güvenlik açığından yararlanma girişiminde bulunup bunu rapor edebilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-5. İnternet için arama motoru
-
-Teknik tarama için kullanılan diğer bir araç ise [Shodan arama motorudur](https://www.shodan.io/). Kendisini, internete bağlı cihazlar için dünyanın ilk arama motoru olarak tanımlar. Hem kötü amaçlı saldırganların hem de güvenlik araştırmacılarının ilgisini çeker. Milyonlarca kaydı kapsayan, toplanmış tarama sonuçlarından oluşan geniş bir katalog sunar. Bu saklanan kayıtlar, dünya çapında uygulamaları izlemek için kullanılabilir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-## Vaka Çalışmaları
-
-
-Artık her gün haberlerde gördüğümüz siber saldırılar, ister kamudan ister özel sektörden  olsun, kişileri ve kuruluşları etkiliyor. Bu derste, neyin mümkün olduğunu ve dünyada nelerin yaşandığını anlayabilmeniz için üç yüksek profilli siber saldırı vaka çalışmasını inceleyeceğiz. Her vaka çalışması, farklı tipte bir tehdit aktörüne odaklanmaktadır. Bu üç vaka çalışması, uluslararası ortamda sürekli büyüyen bir güvenlik ihlali kataloğunun birer parçasıdır. Güvenlik toplumunun bir katılımcısı olarak, gelecekteki kararlarınıza yön vermek için örneklerden ders çıkarmak önemlidir.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-1. Stuxnet (Siber silahların tanıtımı)
-
-
-Stuxnet 2010 yılında tespit edildiğinde, güvenlik topluluğu dahilinde gözlemlenmiş en gelişmiş ve hedefi belli kötü amaçlı yazılım derlemelerinden biriydi. Stuxnet, belirli bir sektör kontrol sistemini hedeflemek ve temel alanlarını değiştirmek üzere tasarlanmıştı. Genel kanı, bu kötü amaçlı yazılımın, nükleer bomba üretiminin öncüsü olan İran uranyum işleme sektöründe kullanılan santrifüjleri hedeflemek üzere tasarlandığı yönündedir.
-
-![image](https://github.com/user-attachments/assets/7edb1a9c-7778-44d4-a48e-39fd4a91b2a8)
-
-Bu saldırıyla ilgili taraflar, Bu saldırıyı özellikle ilginç kılan birkaç nokta şu şekildedir;
-+ Stuxnet, daha önce tespit edilmemiş dört güvenlik açığını, ihlal edilmiş birkaç dijital sertifikayı kullandı ve kendisini programlama sistemlerinde çok düşük bir seviyede gizledi. Teknik anlamda, bu saldırı daha önce yapılmış tüm kötü amaçlı yazılımlardan daha gelişmişti.
-+ Kötü amaçlı yazılım, virüs bulaşmış USB sürücüleri yoluyla yayıldı. Siber güvenlikte yapılan yaygın hatalardan biri, bir sistemin daha geniş internete(WAN) bağlı olmaması durumunda düşmanın yazılımı yerel ağa sokamayacağını varsaymaktır.
-+ Kötü amaçlı yazılımın yazarları ısrarcıydı. Kullandıkları araçlarda yaptıkları sürekli düzenlemeler ve güncellemeler sayesinde operasyon aylarca devam etti.
-
-Çoğu anlamda Stuxnet, somut bir askeri ve siyasi hedefe ulaşmak için bir siber silahın devreye alınmasına ilişkin çok net bir örnekti. Stuxnet, gelecekteki siber silahlar için uluslararası beklentileri belirledi.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-2. Equifax (Önlenebilir geniş ölçekli veri ihlali, yüz milyonlarca kişiyi ifşa etti)
-
-2017'de ABD kredi derecelendirme kurumu Equifax, bilgisayar korsanlarının saldırısına uğradı. Kuruluşun bir veritabanına güvenlik yaması uygulamamasının ardından, bir grup bilgisayar korsanı Equifax'ın ağına erişim sağlamayı başardı. Ağda, şifreleme ya da temel erişim kontrolleri olmadan depolanan bir dizi yönetici kimlik bilgisi bulunmaktaydı. Saldırganlar yönetici kimlik bilgilerini ele geçirdiklerinde artık sistemlerin çoğunu kontrol edebiliyorlardı ve bunu aylar boyunca fark edilmeden yaptılar. ABD Federal Ticaret Komisyonu'na göre, saldırganlar en az 147 milyon ad/soyad ve doğum tarihini, 145.5 milyon Sosyal Güvenlik numarasını ve 209 bin ödeme kartı numarasını ve son kullanma tarihini çaldılar.
-
-Bu vaka çalışması, veri ihlalinin hem etkisi ve boyutu hem de bu ihlali mümkün kılan, kuruluşun yaptığı basit hatalar nedeniyle yankı uyandırdı. İhlalin boyutundan dolayı, veri ihlali fikrinin ABD'nin dikkatini çekmesini sağladı.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-3. Ulusal Güvenlik Ajansı (Bir köstebek tarafından oldukça hassas, zarar verici bilgiler sızdırıldı)
-
-2013 yılında Ulusal Güvenlik Ajansı'nın (NSA) alt yüklenicilerinden biri olan  Edward Snowden, önemli miktarda gizli bilgiyi açığa çıkardı. İş rolü ve birkaç teknik araç ve teknik sayesinde bilgilere erişebilmişti.
-
-Dosyalar kamuya açıklandığında, ABD ve uluslararası müttefikleri üzerindeki etkisi kayda değer seviyedeydi. Sızdırılan dosyalar arasında teknik kapasite incelemeleri, operasyon kılavuzları ve başka oldukça hassas materyaller vardı. NSA ve ABD şirketleri arasındaki çeşitli iş anlaşmaları, bu durumun bir sonucu olarak yüksek seviyede bir inceleme altına alındı.
-
-Bu, oldukça bilinen bir kötü niyetli köstebek örneğidir. Zararın maliyetine ilişkin olarak kamuya bir rakam açıklanmamış olsa da, genel kanıya göre bu veri ihlali, ABD'nin yaşadığı en yüksek zararı veren veri sızdırma olaylarından biriydi.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
-4. SolarWinds (Büyük ölçekli bir tedarik zincir saldırısı binlerce kuruluşu etkiler)
-
-SolarWinds, bilişim teknolojisi sistemlerini yönetmek için kullanılan Orion adındaki bir ürünü içeren bir yazılım geliştirdi. 2020'de SolarWinds'ın güvenliğinin ihlal edildiği ve kötü amaçlı yazılımın SolarWinds'ın binlerce müşterisine yayıldığı öğrenildi. Saldırganlar SolarWinds'ın güvenliğini tehlikeye attı ve bu nedenle müşteriler Orion'u güncelleştirdiklerinde kötü amaçlı yazılımı da cihazlarına yüklemiş oldular.
-
-Bu saldırı, tedarik zincirlerindeki güvenilir ilişkilerin saldırganlar tarafından nasıl kullanılabileceğinin gösteren dikkat çekici bir örnektir. Saldırgan SolarWinds'in güvenliğini tehlikeye atarak diğer binlerce kuruluşa erişim sağlamayı başardı.
-
-SolarWinds, sonrasında büyük ölçekli tedarik zinciri saldırılarına neyse ki çok nadir maruz kaldı. Bu örnekteki gibi tedarikçi güvenlik açıklarına rağmen yama uygulaması, hâlâ rutin bir adım olarak öneriliyor.
