@@ -6,3 +6,4 @@
     + <https://gelecegiyazanlar.turkcell.com.tr/blog/simetrik-ve-asimetrik-sifreleme-algoritmalari>
     + <https://www.youtube.com/watch?v=pNAVqpGfeNg>
 5. NIST'nin Bilgi Güvenliği Desteğine İlişkin Program İncelemesi'nde (PRISMA) sunulan ve tanımlanan beş güvenlik olgunluğu seviyesi
+6. EMOTET araştır
