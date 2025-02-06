@@ -31,4 +31,4 @@ Kuruluşlar, şu kapsamlı alanlar genelinde tehdit istihbaratından yararlanabi
 
 |Uyarı sağlama|İhlal göstergeleri sağlama|Bağlam sağlama|Emsallerden öğrenme|
 |---|---|---|---|
-|Tehdit istihbaratının getirdiği önemli bir avantaj, kuruluşların saldırılara karşı hazırlanmalarına olanak tanımasıdır.|Tehdit istihbaratı, ihlal göstergeleri sağlayarak saptama faaliyetlerine yardımcı olur.|Bir kuruluş bilinmeyen bir yer veya gruptan saldırıya uğradığını keşfederse saldırganı anlamak için istihbarat kaynaklarından yararlanabilir.|Bazı şeyler en iyi başkalarından öğrenilir.|
+| + Tehdit istihbaratının getirdiği önemli bir avantaj, kuruluşların saldırılara karşı hazırlanmalarına olanak tanımasıdır.|Tehdit istihbaratı, ihlal göstergeleri sağlayarak saptama faaliyetlerine yardımcı olur.|Bir kuruluş bilinmeyen bir yer veya gruptan saldırıya uğradığını keşfederse saldırganı anlamak için istihbarat kaynaklarından yararlanabilir.|Bazı şeyler en iyi başkalarından öğrenilir.|
