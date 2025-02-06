@@ -40,7 +40,6 @@ Simetrik şifrelemede, bilginin şifrelenmesine yönelik algoritma, şifre çöz
 ***Bir örnek verelim;***
 Karakterlerin alfabede sabit sayıda ileri veya geri yönde artırılıp azaltıldığı rotasyon tabanlı şifre buna basit bir örnektir. İleri veya geriye doğru yapılacak hareket sayısı anahtar işlevi görür. Gönderen +1'lik bir anahtar kullanıyorsa her bir karakteri alfabede kendinden 1 sonraki karakter ile değiştirir ve daha sonra alıcı, asıl mesajı almak için -1'lik rotasyon uygular. Bu şifrede, "TATİL" sözcüğü alfabede +1'lik bir kaydırma yoluyla şifrelenerek "UBUJM" olarak değiştirilir.
 
-
 ![image](https://github.com/user-attachments/assets/30e1e0c1-85af-420b-9f32-39faad7adbcb)
 
 Günümüzde kullanılan ve simetrik modelleri izleyen algoritmalar, Otomatik Şifreleme Standardının (AES) versiyonlarını içerir. Tarayıcınız da bu sayfayı güvenli olarak görüntülemek için muhtemelen bunu kullanıyor!
@@ -49,12 +48,16 @@ Günümüzde kullanılan ve simetrik modelleri izleyen algoritmalar, Otomatik Ş
 
 Asimetrik şifrelemede, bilgiyi şifreleme işlemi, bilginin şifresini çözmek için ***farklı bir anahtar*** kullanır. Bu anahtarlar, ***genel anahtarlar*** ve ***özel anahtarlar*** olarak bilinir. Aynı anda üretilirler. Bir genel anahtar üretildiğinde, bunu herkesle paylaşabilirsiniz. Genel anahtarın bir kopyasına sahip herkes mesajı şifreleyebilir, bu mesajın şifresi ise sadece özel anahtara sahip kişi tarafından çözülebilir.
 
+-------------------------------------------------------------------------------------------------------------
+
 ***Bir örnek verelim;***
 Bu grafikte Alice gönderici, Bob da alıcıdır. Grafik, iletim işlemini gösterir. Alice, mesajı Bob'un genel anahtarıyla şifreler. Mesaj şifrelendikten sonra ancak Bob'un özel anahtarı kullanılarak çözülebilir. Şifrelenen mesaj, Bob'a gönderilir. Ardından Bob kendi özel anahtarını kullanarak mesajın şifresini çözebilir. Bob'un özel anahtarını hiç kimseyle paylaşmaması gerekir, aksi takdirde gelen tüm mesajları okunabilir.
 
 ![image](https://github.com/user-attachments/assets/13200ec8-5e92-42ab-a5b1-a0a604ac2ddb)
 
 Asimetrik şifrelemenin sunduğu temel avantaj, kuruluşların daha önce bir "anahtar" alışverişinde bulunmadıkları bir kişi veya kurumla gizli olarak iletişim kurabilmeleridir. Ayrıca bu şifreleme türü, bir mesajın doğru kişiye gönderilmesini garanti edebilir.
+
+-------------------------------------------------------------------------------------------------------------
 
 ***Bir örnek verelim;***
 Asimetrik şifrelemenin avantajlarından biri, çevrimiçi alışveriş yoluyla açıklanabilir. Müşteriler, paylaşılan, benzersiz ve simetrik bir anahtar oluşturmak için bizzat mağazaya gitmeden alışveriş yapabilirler.
@@ -74,4 +77,3 @@ Buna kıyasla asimetrik şifreleme kullanmak daha kolaydır ve bizzat buluşmaya
 + Şimdi Amount alanındaki yukarı ve aşağı oklara tıklayarak, Output alanında mesajın nasıl değiştiğine bakın. Mesajın şifresini çözmek istiyorsunuz. Output  bölümündeki mesaj, İngilizce kısa bir cümle olarak anlam kazandığında durun.
 
 Şifresi çözülen mesaj ne? Cevap olarak neyi buldunuz? Cevabı kontrol etmek için bu [CyberChef web sayfasını](https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,true,14)&input=ZnR1ZSB1ZSBtIGZxZWYgZXF6ZnF6b3Eg) ziyaret edin. 
-
