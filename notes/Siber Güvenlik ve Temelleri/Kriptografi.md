@@ -63,3 +63,15 @@ Simetrik kriptografi tek seçenek olsaydı, müşteri ile mağaza arasında gele
 
 Buna kıyasla asimetrik şifreleme kullanmak daha kolaydır ve bizzat buluşmaya gerek olmadığından vakit kazandırır. Bu avantaj olmasaydı, çevrimiçi alışverişi güvenli bir şekilde kullanmak neredeyse imkansız olurdu.
 
+### 3. Kriptografi Aktivite 
+
+Şifrelemeyi öğrenmenin en kolay yolu, onu denemektir! CyberChef adlı araç, Birleşik Krallık Devlet İletişim Merkezi (GCHQ) tarafından, şifreleme gibi veri işleme operasyonlarına yardımcı olmak üzere yazılmış web tabanlı bir araçtır. CyberChef'te şifrelenmiş bir mesaj, bir tarifte bir dizi adım uygulanarak "pişirilecek" malzemeyi temsil eder. Şu adımları izleyin.
+
++ [CyberChef](https://gchq.github.io/CyberChef/)'e gidin.
++ Şu şifrelenmiş mesajı kopyalayıp Input  alanına yapıştırın: ftue ue m fqef eqzfqzoq 
++ Soldaki gezinme bölmesinde listelenen işlemlerde aşağıya doğru inerek Encryption / Encoding bölümünü bulun ve genişletin.
++ ROT13 öğesini seçip Recipe kutusundaki boş alana sürükleyin. Bu, aracın karakterleri alfabede 13 sıra ilerideki karakterlerle değiştireceği anlamına gelir. Auto Bake seçeneği varsayılan olarak etkindir, böylece Output alanının değiştiğini görürsünüz.
++ Şimdi Amount alanındaki yukarı ve aşağı oklara tıklayarak, Output alanında mesajın nasıl değiştiğine bakın. Mesajın şifresini çözmek istiyorsunuz. Output  bölümündeki mesaj, İngilizce kısa bir cümle olarak anlam kazandığında durun.
+
+Şifresi çözülen mesaj ne? Cevap olarak neyi buldunuz? Cevabı kontrol etmek için bu [CyberChef web sayfasını](https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,true,14)&input=ZnR1ZSB1ZSBtIGZxZWYgZXF6ZnF6b3Eg) ziyaret edin. 
+
