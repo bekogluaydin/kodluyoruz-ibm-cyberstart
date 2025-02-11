@@ -9,3 +9,4 @@
     + <https://www.youtube.com/watch?v=pNAVqpGfeNg>
 5. NIST'nin Bilgi Güvenliği Desteğine İlişkin Program İncelemesi'nde (PRISMA) sunulan ve tanımlanan beş güvenlik olgunluğu seviyesi
 6. EMOTET araştır
+7. derinlemesine savunma(did): Derinlemesine savunma, tek bir savunma biçimi kullanmayıp savunma biçimlerinin katmanlandırılmasını ifade eder. BT için bu, bir kuruluşun güvenlik duvarları gibi ağ savunma sistemleri ile kötü amaçlı yazılım tarayıcılar gibi cihaz savunma sistemleri uygulayabileceği ve şifreleme kullanarak önemli veriler etrafında kontroller yerleştirebileceği anlamına gelir. Başarılı bir saldırının gerçekleşmesi için, savunmanın tüm katmanlarının tehlikeye girmesi veya aşılması gerekir ki, bu da oldukça zordur.
