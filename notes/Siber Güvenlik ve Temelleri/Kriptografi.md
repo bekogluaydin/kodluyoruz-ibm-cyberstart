@@ -1,4 +1,4 @@
-# Kriptografiye giriş
+# Kriptografiye Giriş
 
 Kriptografi bir matematik alanınıdır, bu konuda kriptografiyi tanıtacağız. Kriptografi, bilgi güvenliği kapsamındaki hayati kavramların temelini oluşturur ve başarılı olmak isteyen tüm siber güvenlik uzmanlarınca anlaşılması gerekir.
 
@@ -9,7 +9,6 @@ bilgileri gizli tutmanın bilgi güvenliğinin temel amaçlarından biri olduğu
 ## 1. Güvenli iletişimlerin tanımlanması
 
 Alice, Bob ve Eve adlı üç katılımcının olduğu bir durum hayal edin. Bu üç karakter, kavramları örneklerle açıklamak amacıyla şifreleme alanında yıllardır kullanılıyor. Alice ve Bob gizli iletişim kurmak ister, Eve ise konuşmaya kulak misafiri olmak (eavesdrop) ister, "Eve" adı da buradan gelir.
-
 
 ![image](https://github.com/user-attachments/assets/fe5d7802-6b37-4c9f-a4d5-7060742faccd)
 
@@ -66,14 +65,31 @@ Simetrik kriptografi tek seçenek olsaydı, müşteri ile mağaza arasında gele
 
 Buna kıyasla asimetrik şifreleme kullanmak daha kolaydır ve bizzat buluşmaya gerek olmadığından vakit kazandırır. Bu avantaj olmasaydı, çevrimiçi alışverişi güvenli bir şekilde kullanmak neredeyse imkansız olurdu.
 
-## 3. Kriptografi Aktivite 
+## 3. Kuantum şifreleme
+
+Günümüz bilgisayarları, modern şifreleme teknolojilerini çözebilecek güce ve kararlılığa sahip değil. Ancak kuantum bilişim yakında bunu başarabilir.
+
+> Kuantum bilişim, klasik bilgisayarlar için fazla karmaşık olan sorunları çözmek amacıyla kuantum mekaniği yasalarından yararlanan, hızla gelişen bir teknolojidir.
+
+Kuantum bilişim, bilgiyi kuantum mekaniğini kullanarak işler. Sonuç olarak, karmaşık hesaplamaları geleneksel hesaplama yöntemlerinden çok daha hızlı gerçekleştirebilir.
+
+Peki kuantum bilişimin şifrelemeyle nasıl bir ilişkisi var? Bu, siber saldırganların kontrolünde olan bir tehdittir. Mevcut şifrelemenin temeli olan büyük asal sayıları çarpanlara ayırma becerisi, mevcut şifreleme yöntemlerini etkisiz hale getirebilir. Kuruluşlar, bu yeni tehdide karşı savunma yapmak için yeni stratejilere gereksinim duyarlar. Kuantum açısından güvenli şifrelemeye giriş yapalım.
+
+Kuantum açısından güvenli şifreleme, kuantum bilişim saldırılarına karşı dayanıklı güvenlik yöntemlerini ve protokollerini ifade eder. Uzmanlar, kuantum bilişim saldırılarına karşı korunmak için birçok kuantum sonrası şifreleme alternatifi önerdiler. Uzmanların kuantum bilişim saldırılarına etkili bir şekilde karşı koyacağını tahmin ettiği dört şifreleme türünü inceleyelim:
+
++ ***Kafes tabanlı şifreleme***, verileri şifrelemek için çok boyutlu geometrik yapılar kullanarak, kuantum bilgisayarların bile çözmesi zor olan bir bulmaca oluşturur.
++ ***Hash tabanlı şifreleme***, hash işlevini kullanarak verileri bir karakter dizesine dönüştürür. Sonuçta, kuantum bilgisayarlarda bile tersine mühendislik yapılması zor olan benzersiz bir çıktı elde edilir.
++ ***Çok değişkenli şifreleme***, aynı anda birkaç farklı matematik denklemini ve değişkenini kullanır. Bu yaklaşım, son derece karmaşıktır ve kuantum bilgisayarların çözmesi zordur.
++ ***Kod tabanlı şifreleme***, verileri kuantum bilgisayarlar için bile doğru algoritma olmadan çözülmesi zor olan kodlanmış mesajlara dönüştürür.
+
+## 4. Aktivite: Kriptografi
 
 Şifrelemeyi öğrenmenin en kolay yolu, onu denemektir! CyberChef adlı araç, Birleşik Krallık Devlet İletişim Merkezi (GCHQ) tarafından, şifreleme gibi veri işleme operasyonlarına yardımcı olmak üzere yazılmış web tabanlı bir araçtır. CyberChef'te şifrelenmiş bir mesaj, bir tarifte bir dizi adım uygulanarak "pişirilecek" malzemeyi temsil eder. Şu adımları izleyin.
 
 + [CyberChef](https://gchq.github.io/CyberChef/)'e gidin.
-+ Şu şifrelenmiş mesajı kopyalayıp Input  alanına yapıştırın: ftue ue m fqef eqzfqzoq 
++ Şu şifrelenmiş mesajı kopyalayıp Input  alanına yapıştırın: *ftue ue m fqef eqzfqzoq*
 + Soldaki gezinme bölmesinde listelenen işlemlerde aşağıya doğru inerek Encryption / Encoding bölümünü bulun ve genişletin.
 + ROT13 öğesini seçip Recipe kutusundaki boş alana sürükleyin. Bu, aracın karakterleri alfabede 13 sıra ilerideki karakterlerle değiştireceği anlamına gelir. Auto Bake seçeneği varsayılan olarak etkindir, böylece Output alanının değiştiğini görürsünüz.
 + Şimdi Amount alanındaki yukarı ve aşağı oklara tıklayarak, Output alanında mesajın nasıl değiştiğine bakın. Mesajın şifresini çözmek istiyorsunuz. Output  bölümündeki mesaj, İngilizce kısa bir cümle olarak anlam kazandığında durun.
 
-Şifresi çözülen mesaj ne? Cevap olarak neyi buldunuz? Cevabı kontrol etmek için bu [CyberChef web sayfasını](https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,true,14)&input=ZnR1ZSB1ZSBtIGZxZWYgZXF6ZnF6b3Eg) ziyaret edin. 
+Şifresi çözülen mesaj ne? Cevap olarak neyi buldunuz? Cevabı kontrol etmek için bu [CyberChef web sayfasını](https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,true,14)&input=ZnR1ZSB1ZSBtIGZxZWYgZXF6ZnF6b3Eg) ziyaret edin.
